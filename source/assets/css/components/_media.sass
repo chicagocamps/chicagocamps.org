@@ -1,0 +1,21 @@
+// Media
+// ========================================
+
+img
+  @extend %border-0
+
+figure
+  margin: 1em 40px
+
+// Embeds
+
+audio,
+canvas,
+progress,
+video
+  @extend %display-inline-block
+  vertical-align: baseline
+
+audio:not([controls])
+  @extend %display-none
+  height: 0

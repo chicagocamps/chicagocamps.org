@@ -1,0 +1,51 @@
+// Typography
+// ========================================
+
+html
+  @extend %color-gray
+  @extend %font-family-roboto
+  font-size: 112.5%
+  -ms-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%
+  line-height: $baseline-base
+  line-height: 1.875rem
+
+// Anchors
+
+a
+  background-color: transparent
+
+  &:active,
+  &:hover
+    outline: 0
+
+// Abbreviations
+
+abbr[title]
+  +rem(border-bottom, 1px dotted)
+
+// Bolds
+
+b,
+strong
+  @extend %font-weight-bold
+
+// Small
+
+small
+  font-size: 80%
+
+// Sub & sup
+
+sub,
+sup
+  font-size: 75%
+  line-height: 0
+  @extend %position-relative
+  vertical-align: baseline
+
+sup
+  top: -0.5em
+
+sub
+  bottom: -0.25em

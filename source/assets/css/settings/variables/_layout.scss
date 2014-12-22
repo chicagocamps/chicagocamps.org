@@ -1,0 +1,41 @@
+// Layout
+// ========================================
+
+// Gutters
+
+$gutter:        20px;
+$gutter-double: $gutter * 2;
+
+// Baselines
+
+$baseline-step:     6px;
+$baseline-small:    $baseline-step * 4; // 24px
+$baseline-base:     $baseline-step * 5; // 30px
+$baseline-large:    $baseline-step * 6; // 36px
+
+// Arrays
+// ========================================
+
+$displays:   block, inline-block, none;
+$floats:     left, right, none;
+$positions:  relative, absolute;
+$zeros:      border, margin, padding;
+
+// Maps
+// ========================================
+
+// Gutters map
+
+$gutters: (
+  base:   $gutter,
+  double: $gutter-double
+);
+
+// Baselines map
+
+$baselines: (
+  step:     $baseline-step,
+  small:    $baseline-small,
+  base:     $baseline-base,
+  large:    $baseline-large
+);

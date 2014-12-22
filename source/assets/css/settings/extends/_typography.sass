@@ -1,0 +1,28 @@
+// Typography
+// ========================================
+
+// Scale
+
+@each $size, $i in $font-sizes
+  .s-#{$size},
+  %s-#{$size}
+    +rem(font-size, $i)
+
+// Headings
+
+@each $heading, $i in $headings
+  .h-#{$i},
+  %h-#{$i}
+    @extend %s-#{$i}
+
+// Font families
+
+@each $family, $i in $font-families
+  %font-family-#{$family}
+    font-family: $i
+
+// Weights
+
+@each $weight, $i in $font-weights
+  %font-weight-#{$weight}
+    font-weight: $i

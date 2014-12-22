@@ -1,0 +1,64 @@
+// Typograpy
+// ========================================
+
+// Scale
+
+$font-size-base: 18px;
+
+$s-alpha:   36px;
+$s-bravo:   24px;
+$s-charlie: 21px;
+$s-delta:   $font-size-base;
+$s-echo:    16px;
+$s-foxtrot: 14px;
+$s-golf:    12px;
+$s-hotel:   11px;
+
+// Font families
+
+$font-family-lato:   "Lato", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-family-roboto: "Roboto Slab", Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+
+// Weights
+
+$font-weight-normal: 400;
+$font-weight-bold:   700;
+
+// Maps
+// ========================================
+
+// Scale map
+
+$font-sizes: (
+  alpha:   $s-alpha,
+  bravo:   $s-bravo,
+  charlie: $s-charlie,
+  delta:   $s-delta,
+  echo:    $s-echo,
+  foxtrot: $s-foxtrot,
+  golf:    $s-golf,
+  hotel:   $s-hotel
+);
+
+$headings: (
+  h1: alpha,
+  h2: bravo,
+  h3: charlie,
+  h4: delta,
+  h5: echo,
+  h6: foxtrot
+);
+
+// Font families map
+
+$font-families: (
+  lato:   $font-family-lato,
+  roboto: $font-family-roboto
+);
+
+// Weights map
+
+$font-weights: (
+  normal: $font-weight-normal,
+  bold:   $font-weight-bold
+);
