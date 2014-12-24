@@ -1,0 +1,46 @@
+- if environment == :development
+
+  .jquery-grid
+    .jquery-grid-container
+
+  :sass
+    .jquery-grid
+      bottom: 0
+      display: none
+      left: 0
+      position: absolute
+      right: 0
+      top: 0
+      z-index: 9999
+    .jquery-grid-container
+      height: 100%
+
+  :javascript
+
+    (function($){
+
+      var line_height = 6;
+
+      var line_height_offset = (line_height - 1) + 'px';
+      line_height = line_height + 'px';
+
+      var jQueryGridContainerCss = {
+        backgroundImage: 'linear-gradient(transparent ' + line_height_offset + ', rgba(255, 0, 0, .6) ' + line_height_offset + ', rgba(255, 0, 0, .6) ' + line_height + ')',
+        backgroundSize: line_height + ' ' + line_height
+      };
+
+      $(function(){
+
+        $('.jquery-grid-container').css(jQueryGridContainerCss);
+        var $jQueryGrid = $('.jquery-grid');
+
+        $(document).on('keydown', function(event) {
+          if (event.which === 27) {
+            event.preventDefault();
+            $jQueryGrid.toggle();
+          }
+        });
+
+      });
+
+    }).call(this, jQuery);

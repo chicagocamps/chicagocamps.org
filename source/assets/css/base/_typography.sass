@@ -3,17 +3,32 @@
 
 html
   @extend %color-gray
-  @extend %font-family-roboto
+  @extend %font-family-lato
   font-size: 112.5%
   -ms-text-size-adjust: 100%
   -webkit-text-size-adjust: 100%
   line-height: $baseline-base
   line-height: 1.875rem
 
+// Heading sizes
+
+@each $heading, $i in $headings
+  #{$heading}
+    @extend %h-#{$i}
+
+// Margins
+
+#{headings()},
+p
+  @extend %margin-0
+  @extend %margin-bottom
+
 // Anchors
 
 a
   background-color: transparent
+  @extend %text-decoration-none
+  @extend %transition-all
 
   &:active,
   &:hover
@@ -42,7 +57,7 @@ sup
   font-size: 75%
   line-height: 0
   @extend %position-relative
-  vertical-align: baseline
+  @extend %vertical-align-baseline
 
 sup
   top: -0.5em

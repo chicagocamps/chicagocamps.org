@@ -1,6 +1,20 @@
 // Forms
 // ========================================
 
+// Reset
+
+button::-moz-focus-inner,
+input::-moz-focus-inner
+  border: 0  // Vendor prefixes bust the extend
+  padding: 0 // Vendor prefixes bust the extend
+
+input[type="checkbox"],
+input[type="radio"]
+  box-sizing: border-box
+  @extend %padding-0
+
+// Defaults
+
 button,
 input,
 optgroup,
@@ -10,35 +24,61 @@ textarea
   font: inherit
   @extend %margin-0
 
+.form-group
+  @extend %margin-bottom
+  @extend %position-relative
+
+.form-label
+  @extend %display-inline-block
+  @extend %font-weight-bold
+  @extend %margin-bottom-step
+
+// Text inputs and textareas
+
+.form-control,
+.form-area
+  @extend %background-white
+  background-image: none
+  @extend %border-base
+  @extend %border-radius-base
+  @extend %color-gray
+  @extend %display-block
+  @extend %s-echo
+  +rem(padding, (($baseline-step / 2) - 1) ($gutter / 2))
+  // @extend %position-relative
+  @extend %grid-1-1
+  // transition: border .15s ease, background-image .15s ease
+
+  &:focus
+    border-color: $blue-dark
+    outline: 0
+
+.form-area
+  +rem(min-height, $baseline-large)
+
+
+.form-choice
+  +rem(padding-left, 20px)
+
+  input[type="radio"],
+  input[type="checkbox"]
+    @extend %pull-left
+    @extend %margin-top-step
+    +rem(margin-left, -20px)
+
+
+
+
 button
   overflow: visible
 
 button,
 select
-  text-transform: none
+  @extend %text-transform-none
 
-button,
-html input[type="button"],
-input[type="submit"]
-  -webkit-appearance: button
-  cursor: pointer
 
-button[disabled],
-html input[disabled]
-  cursor: default
 
-button::-moz-focus-inner,
-input::-moz-focus-inner
-  border: 0
-  padding: 0
 
-input
-  line-height: normal
-
-input[type="checkbox"],
-input[type="radio"]
-  box-sizing: border-box
-  @extend %padding-0
 
 textarea
-  overflow: auto
+  @extend %overflow-auto

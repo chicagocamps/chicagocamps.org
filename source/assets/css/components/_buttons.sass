@@ -1,0 +1,57 @@
+// Buttons
+// ========================================
+
+.btn
+  @extend %border-solid
+  @extend %border-radius-base
+  @extend %color-black
+  @extend %cursor-pointer
+  @extend %display-inline-block
+  @extend %font-family-lato
+  @extend %line-height-base
+  @extend %margin-0
+  outline: 0
+  @extend %text-center
+  @extend %text-decoration-none
+  @extend %transition-all
+  @extend %vertical-align-middle
+  @extend %white-space-nowrap
+
+// Kinds
+
+.btn-default,
+.btn-alt
+  @extend %border-0
+  border-color: transparent
+  @extend %s-echo
+  @extend %padding-gutters
+  @extend %padding-top-step
+  @extend %padding-bottom-step
+
+.btn-default
+  @extend %background-blue
+
+  &:focus,
+  &:hover
+    background-color: darken($blue, 6)
+
+.btn-alt
+  @extend %background-yellow
+
+  &:focus,
+  &:hover
+    background-color: darken($yellow, 6)
+
+.btn-outline
+  background-color: transparent
+  +rem(border-width, 2px)
+  border-color: rgba($black, .25)
+  +rem(font-size, 13px)
+  @extend %font-weight-bold
+  +rem(padding, ($baseline-step - 2) ($gutter - 2))
+  @extend %padding-bottom-step
+  @extend %text-transform-uppercase
+
+  &:focus,
+  &:hover
+    border-color: rgba($black, .32)

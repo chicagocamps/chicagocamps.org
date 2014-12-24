@@ -1,0 +1,24 @@
+%header.primary-header.group
+
+  %nav.primary-nav
+    %ul.primary-nav-content
+      %li
+        %a(href="/") Home
+      %li
+        %a(href="/updates/") Updates
+      %li
+        %a(href="/sponsorship/") Sponsorship
+      %li
+        %a(href="/about/") About
+      %li
+        %a(href="/contact/") Contact
+
+  %form.primary-newsletter.grid(action="//chicagocamps.us6.list-manage.com/subscribe/post?u=785f2733c9312c559087febe9&amp;id=492b931a09" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank")
+    .primary-newsletter-email.grid-col.grid-3-5
+      %input.form-control(type="email" name="EMAIL" placeholder="Enter your email address" required)
+      %input.primary-newsletter-spam(type="text" name="b_785f2733c9312c559087febe9_492b931a09" tabindex="-1")
+    .grid-col.grid-2-5
+      %input.btn.btn-default(type="submit" value="Join Our Mailing List" name="subscribe")
+
+  %h1.primary-logo
+    %a(href="/") Chicago Camps

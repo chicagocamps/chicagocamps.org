@@ -4,17 +4,21 @@
 $white:      #fff;
 $gray-light: #b3b3b3;
 $gray:       #515254;
+$black:      #000;
 $yellow:     #ffcd03;
 $red:        #f00;
-$blue:       #6aa9c9;
+$blue:       #b3ddf2;
+$blue-dark:  #67a8c8;
 
 // Map
 
 $palette: (
-  white: $white,
+  white:      $white,
   gray-light: $gray-light,
-  gray: $gray,
-  yellow: $yellow,
-  red: $red,
-  blue: $blue
+  gray:       $gray,
+  black:      $black,
+  yellow:     $yellow,
+  red:        $red,
+  blue:       $blue,
+  blue-dark:  $blue-dark
 );
