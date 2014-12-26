@@ -17,23 +17,24 @@
   @extend %position-relative
   @extend %text-transform-uppercase
   @extend %transition-all
-  +rem(width, 217px)
+  +rem(width, 144px)
 
   &:focus,
   &:hover
     border-right-color: transparent
 
   a
-    color: lighten($gray, 20)
+    @extend %color-gray-alt
     @extend %display-block
     +rem(padding-left, $gutter * 3)
-    +rem(padding-right, $gutter * 3)
+    @extend %padding-right-double
 
     &:focus,
     &:hover
       @extend %color-blue-dark
 
-  li:first-child
+  li:first-child a
+    @extend %padding-top-xx-small
     @extend %position-relative
 
     &:after
@@ -43,15 +44,7 @@
       @extend %opacity-70
       @extend %position-absolute
       +rem(top, $baseline-xx-small + 10px)
-      @extend %transition-all
 
-  &:focus li:first-child:after,
-  &:hover li:first-child:after
-    @extend %opacity-1
-  
-  li:first-child a
-    @extend %padding-top-xx-small
-  
   li:last-child a
     @extend %padding-bottom-xx-small
 
@@ -59,7 +52,6 @@
   @extend %pointer-events-none
   @extend %position-absolute
   @extend %transition-all
-  z-index: 1
 
   .primary-nav:focus &,
   .primary-nav:hover &
@@ -93,13 +85,58 @@
 
 .primary-newsletter
   @extend %pull-right
-  +rem(margin-top, $baseline-step * 1.5)
-  @extend %margin-right-double
-  +rem(width, 400px)
+  @extend %position-relative
 
-.primary-newsletter-email
-  +rem(padding-right, $gutter / 2)
+.newsletter-label,
+.primary-newsletter-form
+  @extend %padding-right-double
+  @extend %padding-left-double
+
+.newsletter-label
+  +rem(border-left, 1px solid rgba($black, .12))
+  @extend %color-gray-alt
+  @extend %cursor-pointer
+  @extend %display-block
+  @extend %s-foxtrot
+  @extend %padding-top-xx-small
+  @extend %padding-bottom-xx-small
+  @extend %text-transform-uppercase
+
+  // &:after
+  //   @extend %i-newsletter
+  //   @extend %content-empty
+  //   +rem(left, $gutter-double)
+  //   @extend %opacity-70
+  //   @extend %position-absolute
+  //   +rem(top, $baseline-xx-small + 10px)
+
+.primary-newsletter-form-container
+  +rem(height, $baseline-step * 9)
+  @extend %opacity-0
+  @extend %overflow-hidden
+  @extend %pointer-events-none
+  @extend %position-absolute
+  @extend %right-0
+  @extend %top-0
+  @extend %transition-all
+  +rem(width, 350px)
+
+  .primary-newsletter:focus &,
+  .primary-newsletter:hover &
+    @extend %opacity-1
+    @extend %pointer-events-auto
+
+.primary-newsletter-form
+  @extend %background-white
+  +rem(box-shadow, 0 0 3px rgba($black, .25))
+  @extend %pull-right
+  +rem(padding-top, $baseline-step * 1.5)
+  +rem(padding-bottom, $baseline-step * 1.5)
+  +rem(width, 340px)
+
+  .btn
+    +rem(padding-top, $baseline-step / 2)
+    +rem(padding-bottom, $baseline-step / 2)
 
 .primary-newsletter-spam
   @extend %display-none
-

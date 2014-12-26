@@ -45,17 +45,18 @@ textarea
   @extend %display-block
   @extend %s-echo
   +rem(padding, (($baseline-step / 2) - 1) ($gutter / 2))
-  // @extend %position-relative
+  @extend %position-relative
+  @extend %transition-all
   @extend %grid-1-1
-  // transition: border .15s ease, background-image .15s ease
 
   &:focus
     border-color: $blue-dark
     outline: 0
+    z-index: 2
 
 .form-area
   +rem(min-height, $baseline-large)
-
+  @extend %overflow-auto
 
 .form-choice
   +rem(padding-left, 20px)
@@ -64,21 +65,46 @@ textarea
   input[type="checkbox"]
     @extend %pull-left
     @extend %margin-top-step
-    +rem(margin-left, -20px)
+    +rem(margin-left, $gutter * -1)
 
+// Horizontal styles
 
+.form-row
+  @extend %display-table
+  border-collapse: separate
+  @extend %grid-1-1
 
+  .form-btn
+    @extend %position-relative
+    width: 1%
 
-button
-  overflow: visible
+  .form-control,
+  .form-area,
+  .form-btn
+    @extend %display-table-cell
+    @extend %vertical-align-top
 
-button,
-select
-  @extend %text-transform-none
+  > .form-control,
+  > .form-area,
 
+    &:first-child
+      border-bottom-right-radius: 0
+      border-top-right-radius: 0
 
+    &:last-child
+      border-bottom-left-radius: 0
+      border-top-left-radius: 0
 
+    &:not(:first-child):not(:last-child)
+      border-radius: 0
 
+  .form-btn:last-child
+    &:hover,
+    &:focus,
+    &:active
+      z-index: 2
 
-textarea
-  @extend %overflow-auto
+    .btn
+      border-bottom-left-radius: 0
+      border-top-left-radius: 0
+      +rem(margin-left, -1px)

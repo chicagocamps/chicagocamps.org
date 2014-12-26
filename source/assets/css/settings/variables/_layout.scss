@@ -24,7 +24,7 @@ $border-radius-base: 6px;
 // ========================================
 
 $alignments: baseline, bottom, middle, top;
-$displays:   block, inline-block, none;
+$displays:   block, inline-block, none, table, table-cell;
 $floats:     left, right, none;
 $overflows:  auto, hidden, visible;
 $positions:  relative, absolute;
