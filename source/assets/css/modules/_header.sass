@@ -66,21 +66,6 @@
     .primary-nav:hover &
       @extend %opacity-1
 
-// Logo
-
-.primary-logo
-  @extend %margin-auto
-  @extend %margin-top-xx-small
-  +rem(width, 185px)
-
-  a
-    @extend %ir
-    +background-svg("logos/logo-wordmark-gray", 176px 16px)
-    background-position: 50%
-    background-repeat: no-repeat
-    @extend %display-block
-    +rem(height, $baseline-base)
-
 // Newsletter
 
 .primary-newsletter
@@ -140,3 +125,18 @@
 
 .primary-newsletter-spam
   @extend %display-none
+
+// Logo
+
+.primary-logo
+  @extend %margin-auto
+  @extend %margin-top-xx-small
+  +rem(width, 185px)
+
+  a
+    @extend %ir
+    +background-svg("logos/logo-wordmark-gray", 176px 16px)
+    background-position: 50%
+    background-repeat: no-repeat
+    @extend %display-block
+    +rem(height, $baseline-base)
