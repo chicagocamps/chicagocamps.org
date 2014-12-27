@@ -15,6 +15,19 @@
   %h-#{$i}
     @extend %s-#{$i}
 
+%h-sm-caps
+  @extend %s-foxtrot
+  @extend %text-transform-uppercase
+
+.a-chevron-right,
+%a-chevron-right
+  @extend %h-sm-caps
+  +background-svg("icons/i-chevron-right", 7px 11px)
+  background-position: 100% 50%
+  background-repeat: no-repeat
+  @extend %display-inline-block
+  +rem(padding-right, $gutter * .75)
+
 // Font families
 
 @each $family, $i in $font-families
@@ -28,6 +41,7 @@
     font-weight: $i
 
 // Misc
+
 @each $alignment in $text-alignments
   %text-#{$alignment}
     text-align: #{$alignment}

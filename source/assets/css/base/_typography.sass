@@ -27,22 +27,22 @@ html
   span
     @extend %color-gray
     @extend %s-charlie
+    @extend %font-weight-normal
     @extend %position-relative
     +rem(top, 1px)
     @extend %vertical-align-top
 
+    +breakpoint-max($max: 600px)
+      display: block
+      +rem(line-height, $baseline-x-large)
+
 .h-link
-  +background-svg("icons/i-chevron-right", 7px 11px)
-  background-position: 96% 50%
-  background-repeat: no-repeat
+  @extend %a-chevron-right
   @extend %border-gray-light
   @extend %border-solid
   +rem(border-width, 0 0 0 1px)
-  @extend %display-inline-block
-  @extend %s-foxtrot
   @extend %margin-left
-  @extend %padding-gutters
-  @extend %text-transform-uppercase
+  @extend %padding-left
 
 // Paragraphs
 

@@ -1,0 +1,26 @@
+// Sponsors
+// ========================================
+
+.sponsors
+  @extend %text-center
+
+.sponsors-heading
+  @extend %margin-bottom-x-small
+
+.sponsors-list
+  @extend %margin-top
+  
+  li
+    @extend %display-inline-block
+    @extend %margin-bottom
+    @extend %padding-gutters
+    +rem(padding-top, 1px)
+    +rem(padding-bottom, 1px)
+    @extend %vertical-align-middle
+    
+    +breakpoint-max($max: 400px)
+      display: block
+
+    img
+      @extend %display-block
+      @extend %margin-auto

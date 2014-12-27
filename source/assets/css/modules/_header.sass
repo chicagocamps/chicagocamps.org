@@ -10,12 +10,11 @@
 // Navigation
 
 .primary-nav
+  @extend %h-sm-caps
   +rem(border-right, 1px solid rgba($black, .12))
   @extend %pull-left
-  @extend %s-foxtrot
   +rem(height, $baseline-step * 9)
   @extend %position-relative
-  @extend %text-transform-uppercase
   +rem(width, 144px)
 
   &:focus,
@@ -73,14 +72,13 @@
   @extend %padding-left-double
 
 .newsletter-label
+  @extend %h-sm-caps
   +rem(border-left, 1px solid rgba($black, .12))
   @extend %color-gray
   @extend %cursor-pointer
   @extend %display-block
-  @extend %s-foxtrot
   @extend %padding-top-xx-small
   @extend %padding-bottom-xx-small
-  @extend %text-transform-uppercase
 
   // &:after
   //   @extend %i-newsletter
