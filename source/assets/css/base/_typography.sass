@@ -2,7 +2,7 @@
 // ========================================
 
 html
-  @extend %color-gray
+  @extend %color-gray-dark
   @extend %font-family-lato
   font-size: 112.5%
   -ms-text-size-adjust: 100%
@@ -15,6 +15,40 @@ html
 @each $heading, $i in $headings
   #{$heading}
     @extend %h-#{$i}
+    @extend %font-weight-normal
+
+.h-section
+  @extend %s-alpha
+  @extend %font-weight-bold
+  +rem(letter-spacing, 5px)
+  @extend %text-center
+  @extend %text-transform-uppercase
+
+  span
+    @extend %color-gray
+    @extend %s-charlie
+    @extend %position-relative
+    +rem(top, 1px)
+    @extend %vertical-align-top
+
+.h-link
+  +background-svg("icons/i-chevron-right", 7px 11px)
+  background-position: 96% 50%
+  background-repeat: no-repeat
+  @extend %border-gray-light
+  @extend %border-solid
+  +rem(border-width, 0 0 0 1px)
+  @extend %display-inline-block
+  @extend %s-foxtrot
+  @extend %margin-left
+  @extend %padding-gutters
+  @extend %text-transform-uppercase
+
+// Paragraphs
+
+p
+  @extend %font-family-roboto
+  font-weight: 300
 
 // Margins
 
@@ -27,11 +61,13 @@ p
 
 a
   background-color: transparent
+  @extend %color-blue
   @extend %text-decoration-none
   @extend %transition-all
 
   &:active,
   &:hover
+    @extend %color-blue-dark
     outline: 0
 
 // Abbreviations

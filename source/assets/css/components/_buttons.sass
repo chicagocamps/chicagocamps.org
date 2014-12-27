@@ -17,6 +17,10 @@
   @extend %vertical-align-middle
   @extend %white-space-nowrap
 
+  &:focus,
+  &:hover
+    @extend %color-black
+    
 // Kinds
 
 .btn-default,
@@ -29,11 +33,11 @@
   @extend %padding-bottom-step
 
 .btn-default
-  @extend %background-blue
+  @extend %background-blue-light
 
   &:focus,
   &:hover
-    background-color: darken($blue, 6)
+    background-color: darken($blue-light, 6)
 
 .btn-alt
   @extend %background-yellow

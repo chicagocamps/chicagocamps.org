@@ -16,7 +16,6 @@
   +rem(height, $baseline-step * 9)
   @extend %position-relative
   @extend %text-transform-uppercase
-  @extend %transition-all
   +rem(width, 144px)
 
   &:focus,
@@ -24,14 +23,10 @@
     border-right-color: transparent
 
   a
-    @extend %color-gray-alt
+    @extend %color-gray
     @extend %display-block
     +rem(padding-left, $gutter * 3)
     @extend %padding-right-double
-
-    &:focus,
-    &:hover
-      @extend %color-blue-dark
 
   li:first-child a
     @extend %padding-top-xx-small
@@ -41,7 +36,6 @@
       @extend %i-menu
       @extend %content-empty
       +rem(left, $gutter-double)
-      @extend %opacity-70
       @extend %position-absolute
       +rem(top, $baseline-xx-small + 10px)
 
@@ -61,6 +55,7 @@
 
   li:not(:first-child)
     @extend %opacity-0
+    @extend %transition-all
 
     .primary-nav:focus &,
     .primary-nav:hover &
@@ -79,7 +74,7 @@
 
 .newsletter-label
   +rem(border-left, 1px solid rgba($black, .12))
-  @extend %color-gray-alt
+  @extend %color-gray
   @extend %cursor-pointer
   @extend %display-block
   @extend %s-foxtrot

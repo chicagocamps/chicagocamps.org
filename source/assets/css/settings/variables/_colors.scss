@@ -3,24 +3,26 @@
 
 $white:      #fff;
 $gray-light: #bfbfbf;
-$gray-alt:   #838588;
-$gray:       #515254;
+$gray:       #838588;
+$gray-dark:  #515254;
 $black:      #000;
 $yellow:     #ffcd03;
 $red:        #f00;
-$blue:       #b3ddf2;
-$blue-dark:  #67a8c8;
+$blue-light: #b3ddf2;
+$blue:       #67a8c8;
+$blue-dark:  darken($blue, 12);
 
 // Map
 
 $palette: (
   white:      $white,
   gray-light: $gray-light,
-  gray-alt:   $gray-alt,
   gray:       $gray,
+  gray-dark:  $gray-dark,
   black:      $black,
   yellow:     $yellow,
   red:        $red,
+  blue-light: $blue-light,
   blue:       $blue,
   blue-dark:  $blue-dark
 );

@@ -177,6 +177,12 @@
 // Grid system
 // ========================================
 
+.container,
+%container
+  @extend %margin-auto
+  +rem(max-width, 980px)
+  @extend %padding-gutters
+
 .grid,
 %grid
   list-style: none
