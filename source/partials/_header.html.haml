@@ -1,6 +1,11 @@
 %header.primary-header.group
 
-  %nav.primary-nav
+  %a.primary-nav-link(href="#" data-js="primary-nav-link" rel="nofollow") Menu
+
+  %h1.primary-logo
+    %a(href="/") Chicago Camps
+
+  %nav.primary-nav(data-js="primary-nav" role="navigation")
     %ul.primary-nav-content
       %li
         %a(href="/") Home
@@ -21,6 +26,3 @@
         %input.primary-newsletter-spam(type="text" name="b_785f2733c9312c559087febe9_492b931a09" tabindex="-1")
         .form-btn
           %input.btn.btn-default(type="submit" value="Join" name="subscribe")
-
-  %h1.primary-logo
-    %a(href="/") Chicago Camps

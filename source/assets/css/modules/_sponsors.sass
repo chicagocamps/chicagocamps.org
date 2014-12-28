@@ -11,16 +11,12 @@
   @extend %margin-top
   
   li
-    @extend %display-inline-block
+    line-height: 0
     @extend %margin-bottom
     @extend %padding-gutters
     +rem(padding-top, 1px)
     +rem(padding-bottom, 1px)
     @extend %vertical-align-middle
-    
-    +breakpoint-max($max: 400px)
-      display: block
 
-    img
-      @extend %display-block
-      @extend %margin-auto
+    +breakpoint-min($min: 450px)
+      display: inline-block

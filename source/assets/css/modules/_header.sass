@@ -11,54 +11,112 @@
 
 .primary-nav
   @extend %h-sm-caps
-  +rem(border-right, 1px solid rgba($black, .12))
-  @extend %pull-left
-  +rem(height, $baseline-step * 9)
   @extend %position-relative
-  +rem(width, 144px)
-
-  &:focus,
-  &:hover
-    border-right-color: transparent
-
+  
   a
-    @extend %color-gray
     @extend %display-block
-    +rem(padding-left, $gutter * 3)
-    @extend %padding-right-double
-
-  li:first-child a
-    @extend %padding-top-xx-small
-    @extend %position-relative
-
-    &:after
-      @extend %i-menu
-      @extend %content-empty
-      +rem(left, $gutter-double)
-      @extend %position-absolute
-      +rem(top, $baseline-xx-small + 10px)
-
-  li:last-child a
-    @extend %padding-bottom-xx-small
 
 .primary-nav-content
-  @extend %pointer-events-none
-  @extend %position-absolute
   @extend %transition-all
 
-  .primary-nav:focus &,
-  .primary-nav:hover &
-    @extend %background-white
-    +rem(box-shadow, 0 0 3px rgba($black, .25))
-    @extend %pointer-events-auto
-
   li:not(:first-child)
-    @extend %opacity-0
     @extend %transition-all
+
+// 740px and below
+
++breakpoint-max
+
+  .primary-nav-link
+    color: transparent
+    float: left
+    font: 0/0 a
+    +rem(line-height, $baseline-step * 9)
+    position: relative
+    text-shadow: none
+    +rem(width, ($gutter * 2) + 18)
+
+    &:after
+      +background-svg("icons/i-menu", 18px 15px)
+      content: ""
+      +rem(height, 15px)
+      +rem(left, $gutter)
+      position: absolute
+      +rem(top, 19px)
+      +rem(width, 18px)
+
+  .primary-nav
+    +rem(margin-top, $baseline-step * 9)
+
+    a
+      +rem(padding, $baseline-step $gutter)
+
+  .primary-nav-content
+    max-height: 0
+    overflow: hidden
+
+    .primary-nav-active &
+      +rem(max-height, 1000px)
+
+    li
+      +rem(border-top, 1px solid rgba($black, .12))
+
+// 741px and above
+
++breakpoint-min
+
+  .primary-nav-link
+    display: none
+
+  .primary-nav
+    +rem(border-right, 1px solid rgba($black, .12))
+    float: left
+    +rem(height, $baseline-step * 9)
+    +rem(width, 104px)
+
+    &:focus,
+    &:hover
+      border-right-color: transparent
+
+    a
+      color: $gray
+      +rem(padding, 0 $gutter-double)
+    
+      &:focus,
+      &:hover
+        color: $blue-dark
+
+    li:first-child a
+      +rem(padding-top, $baseline-xx-small)
+      position: relative
+
+      &:after
+        +background-svg("icons/i-menu", 12px 10px)
+        content: ""
+        +rem(height, 10px)
+        +rem(left, $gutter)
+        position: absolute
+        +rem(top, $baseline-xx-small + 10px)
+        +rem(width, 12px)
+
+    li:last-child a
+      +rem(padding-bottom, $baseline-xx-small)
+
+  .primary-nav-content
+    pointer-events: none
+    position: absolute
 
     .primary-nav:focus &,
     .primary-nav:hover &
-      @extend %opacity-1
+      background: white
+      +rem(box-shadow, 0 0 3px rgba($black, .25))
+      pointer-events: auto
+
+    li:not(:first-child)
+      opacity: 0
+
+      .primary-nav:focus &,
+      .primary-nav:hover &
+        opacity: 1
 
 // Newsletter
 
@@ -66,10 +124,13 @@
   @extend %pull-right
   @extend %position-relative
 
+  +breakpoint-max
+    display: none
+
 .newsletter-label,
 .primary-newsletter-form
-  @extend %padding-right-double
-  @extend %padding-left-double
+  @extend %padding-right
+  @extend %padding-left
 
 .newsletter-label
   @extend %h-sm-caps
@@ -79,14 +140,6 @@
   @extend %display-block
   @extend %padding-top-xx-small
   @extend %padding-bottom-xx-small
-
-  // &:after
-  //   @extend %i-newsletter
-  //   @extend %content-empty
-  //   +rem(left, $gutter-double)
-  //   @extend %opacity-70
-  //   @extend %position-absolute
-  //   +rem(top, $baseline-xx-small + 10px)
 
 .primary-newsletter-form-container
   +rem(height, $baseline-step * 9)
@@ -122,14 +175,18 @@
 // Logo
 
 .primary-logo
-  @extend %margin-auto
+  left: 50%
   @extend %margin-top-xx-small
-  +rem(width, 185px)
+  @extend %margin-bottom-xx-small
+  @extend %position-absolute
+  transform: translateX(-50%)
+  +rem(width, 200px)
 
   a
     @extend %ir
-    +background-svg("logos/logo-wordmark-gray", 176px 16px)
+    +background-svg("logos/logo-wordmark-gray", 182px 16px)
     background-position: 50%
     background-repeat: no-repeat
     @extend %display-block
     +rem(height, $baseline-base)
+
