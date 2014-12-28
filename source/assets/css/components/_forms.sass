@@ -30,6 +30,7 @@ textarea
 
 .form-label
   @extend %display-inline-block
+  @extend %s-echo
   @extend %font-weight-bold
   @extend %margin-bottom-step
 
@@ -44,7 +45,10 @@ textarea
   @extend %color-gray-dark
   @extend %display-block
   @extend %s-echo
-  +rem(padding, (($baseline-step / 2) - 1) ($gutter / 2))
+  +rem(padding-top, ($baseline-step / 2) - 1)
+  @extend %padding-right-half
+  +rem(padding-bottom, ($baseline-step / 2) - 1)
+  @extend %padding-left-half
   @extend %position-relative
   @extend %transition-all
   @extend %grid-1-1
@@ -108,3 +112,18 @@ textarea
       border-bottom-left-radius: 0
       border-top-left-radius: 0
       +rem(margin-left, -1px)
+
+// Column styles
+
+.form-col
+  @extend %grid-col
+  @extend %grid-1-1
+
+  +breakpoint-min
+    width: 50%
+
+    &:first-child
+      +rem(padding-right, $gutter-half)
+    
+    &:last-child
+      +rem(padding-left, $gutter-half)

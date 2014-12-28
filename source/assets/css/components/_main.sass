@@ -17,9 +17,11 @@
 
 .main-header-container
   @extend %display-table
-  +rem(min-height, $baseline-step * 40)
   @extend %padding-baselines
   @extend %grid-1-1
+
+  +breakpoint-min
+    +rem(min-height, $baseline-step * 40)
 
 .main-header-title
   @extend %color-white

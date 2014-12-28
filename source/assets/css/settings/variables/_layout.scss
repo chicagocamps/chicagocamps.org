@@ -4,6 +4,7 @@
 // Gutters
 
 $gutter:        20px;
+$gutter-half:   $gutter / 2;
 $gutter-double: $gutter * 2;
 
 // Baselines
@@ -38,6 +39,7 @@ $zeros:      bottom, border, left, margin, padding, right, top;
 
 $gutters: (
   base:   $gutter,
+  half:   $gutter-half,
   double: $gutter-double
 );
 

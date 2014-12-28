@@ -39,6 +39,8 @@ end
 
 page "/feed.xml", layout: false
 
+Sass::Script::Number.precision = 8
+
 ###
 # Compass
 ###
