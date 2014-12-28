@@ -2,56 +2,80 @@
 title: Style
 ---
 
-%a.btn.btn-default(href="#") Default Button
-%a.btn.btn-alt(href="#") Alternate Button
-%a.btn.btn-outline(href="#") Outline Button
+%section
 
-%button.btn.btn-default(type="submit") Default Button
-%button.btn.btn-alt(type="submit") Alternate Button
-%button.btn.btn-outline(type="submit") Outline Button
+  %header.main-header.main-header-default
+    .main-header-container.container
+      %h1.main-header-title Style Guide
+      %a.main-header-credit(href="#" rel="nofollow") Photo: Foo
 
-%input.btn.btn-default(type="submit" value="Default Button")
-%input.btn.btn-alt(type="submit" value="Alternate Button")
-%input.btn.btn-outline(type="submit" value="Outline Button")
+  .main-content.container
 
+    -# Headings
 
-%form.grid-1-3(role="form")
+    %h1.s-giga Heading Giga
+    %h1.s-mega Heading Mega
 
-  .form-group
-    %input.form-control(placeholder="Your name" type="text")
+    %h1 Heading One
+    %h2 Heading Two
+    %h3 Heading Three
+    %h4 Heading Four
+    %h5 Heading Five
+    %h6 Heading Six
 
-  .form-group
-    %label.form-label(for="sg-form-control") Email
-    %input#sg-form-control.form-control(placeholder="Enter email" type="email")
+    -# Buttons
 
-  .form-group
-    %input.form-control(placeholder="Password" type="password")
+    %a.btn.btn-default(href="#") Default Button
+    %a.btn.btn-alt(href="#") Alternate Button
+    %a.btn.btn-outline(href="#") Outline Button
 
-  .form-group
-    .form-choice
-      %label
-        %input(type="checkbox") Check me out
-    .form-choice
-      %label
-        %input(type="checkbox") Check me out too, I&#8217;m longer and will wrap onto multiple lines
+    %button.btn.btn-default(type="submit") Default Button
+    %button.btn.btn-alt(type="submit") Alternate Button
+    %button.btn.btn-outline(type="submit") Outline Button
 
-  .form-group
-    .form-label Radios
-    .form-choice
-      %label
-        %input(name="radio-choices" type="radio") Check me out
-    .form-choice
-      %label
-        %input(name="radio-choices" type="radio") Check me out too, I&#8217;m longer and will wrap onto multiple lines
+    %input.btn.btn-default(type="submit" value="Default Button")
+    %input.btn.btn-alt(type="submit" value="Alternate Button")
+    %input.btn.btn-outline(type="submit" value="Outline Button")
 
-  .form-group
-    .form-label More Checkboxes
-    .form-choice
-      %label
-        %input(type="checkbox") Check me out
+    -# Forms
 
-  .form-group
-    %textarea.form-area(placeholder="A textarea for longer formed input")
+    %form.grid-1-3(role="form")
 
-  .form-group
-    %button.btn.btn-default(type="submit") Submit
+      .form-group
+        %input.form-control(placeholder="Your name" type="text")
+
+      .form-group
+        %label.form-label(for="sg-form-control") Email
+        %input#sg-form-control.form-control(placeholder="Enter email" type="email")
+
+      .form-group
+        %input.form-control(placeholder="Password" type="password")
+
+      .form-group
+        .form-choice
+          %label
+            %input(type="checkbox") Check me out
+        .form-choice
+          %label
+            %input(type="checkbox") Check me out too, I&#8217;m longer and will wrap onto multiple lines
+
+      .form-group
+        .form-label Radios
+        .form-choice
+          %label
+            %input(name="radio-choices" type="radio") Check me out
+        .form-choice
+          %label
+            %input(name="radio-choices" type="radio") Check me out too, I&#8217;m longer and will wrap onto multiple lines
+
+      .form-group
+        .form-label More Checkboxes
+        .form-choice
+          %label
+            %input(type="checkbox") Check me out
+
+      .form-group
+        %textarea.form-area(placeholder="A textarea for longer formed input")
+
+      .form-group
+        %button.btn.btn-default(type="submit") Submit

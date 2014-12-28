@@ -21,9 +21,7 @@
     <%= partial "partials/header" %>
 
     <div class="main group" role="main">
-      <section>
-        <%= yield %>
-      </section>
+      <%= yield %>
       <%= partial "partials/sponsors" %>
       <%= partial "partials/code-of-conduct" unless current_page.data.title == "Code of Conduct" %>
     </div>

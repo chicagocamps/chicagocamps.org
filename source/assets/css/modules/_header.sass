@@ -175,11 +175,10 @@
 // Logo
 
 .primary-logo
-  left: 50%
+  @extend %center-x
   @extend %margin-top-xx-small
   @extend %margin-bottom-xx-small
   @extend %position-absolute
-  transform: translateX(-50%)
   +rem(width, 200px)
 
   a
@@ -189,4 +188,3 @@
     background-repeat: no-repeat
     @extend %display-block
     +rem(height, $baseline-base)
-

@@ -8,6 +8,22 @@
   %s-#{$size}
     +rem(font-size, $i)
 
+.s-giga,
+%s-giga
+  +rem(line-height, $baseline-step * 14)
+
+  +breakpoint-max
+    +rem(font-size, $s-mega)
+    +rem(line-height, $baseline-step * 9)
+
+.s-mega,
+%s-mega
+  +rem(line-height, $baseline-step * 9)
+
+.s-alpha,
+%s-alpha
+  @extend %line-height-x-large
+
 // Headings
 
 @each $heading, $i in $headings
