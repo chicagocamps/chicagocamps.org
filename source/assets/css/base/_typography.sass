@@ -36,13 +36,25 @@ html
       display: block
       +rem(line-height, $baseline-x-large)
 
-.h-link
-  @extend %a-chevron-right
+.h-divider
   @extend %border-gray-light
   @extend %border-solid
   +rem(border-width, 0 0 0 1px)
+  @extend %display-inline-block
   @extend %margin-left
   @extend %padding-left
+
+  > *
+    @extend %position-relative
+    +rem(top, 1px)
+    @extend %vertical-align-top
+    
+  span
+    @extend %color-gray-light
+    @extend %display-inline-block
+    @extend %s-golf
+    @extend %margin-left-half
+    @extend %margin-right-half
 
 // Paragraphs
 
