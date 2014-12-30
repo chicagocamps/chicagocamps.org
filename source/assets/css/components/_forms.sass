@@ -30,7 +30,7 @@ textarea
 
 .form-label
   @extend %display-inline-block
-  @extend %s-echo
+  @extend %s-foxtrot
   @extend %font-weight-bold
   @extend %margin-bottom-step
 
@@ -44,7 +44,7 @@ textarea
   @extend %border-radius-base
   @extend %color-gray-dark
   @extend %display-block
-  @extend %s-echo
+  @extend %s-foxtrot
   +rem(padding-top, ($baseline-step / 2) - 1)
   @extend %padding-right-half
   +rem(padding-bottom, ($baseline-step / 2) - 1)
@@ -63,13 +63,13 @@ textarea
   @extend %overflow-auto
 
 .form-choice
-  +rem(padding-left, 20px)
+  @extend %s-foxtrot
+  @extend %padding-left
 
   input[type="radio"],
   input[type="checkbox"]
     @extend %pull-left
-    @extend %margin-top-step
-    +rem(margin-left, $gutter * -1)
+    +rem(margin, 8px 0 0 $gutter * -1)
 
 // Horizontal styles
 
