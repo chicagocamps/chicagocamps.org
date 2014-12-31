@@ -59,7 +59,8 @@ textarea
     z-index: 2
 
 .form-area
-  +rem(min-height, $baseline-large)
+  @extend %line-height-small
+  +rem(min-height, $baseline-base * 3)
   @extend %overflow-auto
 
 .form-choice
@@ -122,8 +123,8 @@ textarea
   +breakpoint-min
     width: 50%
 
-    &:first-child
+    &:nth-child(odd)
       +rem(padding-right, $gutter-half)
     
-    &:last-child
+    &:nth-child(even)
       +rem(padding-left, $gutter-half)
