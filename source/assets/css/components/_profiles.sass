@@ -2,9 +2,22 @@
 // ========================================
 
 .profile
-  @extend %pull-left
-  @extend %margin-right
+  #{headings()}
+    @extend %text-left
+
+  &:first-of-type
+    @extend %margin-top-x-large
+
+  &:not(:last-of-type)
+    @extend %margin-bottom
+
+.profile-object
+  @extend %margin-right-double
   @extend %margin-bottom
+
+  +breakpoint-min($min: 480px)
+    float: left
+    width: 25%
 
   img
     @extend %background-white
@@ -12,3 +25,4 @@
     @extend %display-block
     +rem(padding, 5px)
     +rem(max-width, $baseline-step * 46)
+    @extend %grid-1-1

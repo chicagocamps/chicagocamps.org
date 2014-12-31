@@ -36,14 +36,24 @@
   @extend %s-golf
   @extend %text-transform-uppercase
 
+// Links
+
 .a-chevron-right,
 %a-chevron-right
   @extend %h-sm-caps
   +background-svg("icons/i-chevron-right", 7px 11px)
   background-position: 100% 50%
   background-repeat: no-repeat
-  @extend %display-inline-block
   +rem(padding-right, $gutter * .75)
+
+// Misc
+
+.lineup,
+%lineup
+  > *
+    @extend %position-relative
+    +rem(top, 1px)
+    @extend %vertical-align-top
 
 // Font families
 
