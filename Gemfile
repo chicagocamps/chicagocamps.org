@@ -8,5 +8,8 @@ gem "middleman-blog", "~> 3.5.3"
 # Autoprefixer
 gem "middleman-autoprefixer"
 
+# For blog summaries
+gem "nokogiri"
+
 # For feed.xml.builder
 gem "builder", "~> 3.0"

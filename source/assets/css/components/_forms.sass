@@ -61,6 +61,8 @@ textarea
 .form-area
   @extend %line-height-small
   +rem(min-height, $baseline-base * 3)
+  +rem(padding-top, $baseline-step - 1)
+  +rem(padding-bottom, $baseline-step - 1)
   @extend %overflow-auto
 
 .form-choice

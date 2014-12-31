@@ -1,7 +1,70 @@
 ---
 title: Updates
+pageable: true
+per_page: 10
 ---
 
-.container
+%section
 
-  %h1 Updates
+  %header.main-header.main-header-default
+    .main-header-container.container
+      %h1.main-header-title Updates
+
+  .main-content.container
+    - page_articles.each_with_index do |article, i|
+
+      %h2= link_to article.title, article
+      %span= article.date.strftime('%b %e')
+      
+      - if article.summary.present?
+        :preserve
+          #{article.summary} #{link_to "Continue&hellip;", article}
+      - else
+        :preserve
+          #{article.body}
+
+
+
+
+
+
+
+    / - if paginate && num_pages > 1
+    /   %p
+    /     Page
+    /     = page_number
+    /     of
+    /     = num_pages
+
+    /   - if prev_page
+    /     %p= link_to 'Previous page', prev_page
+
+
+
+
+    / - if paginate
+    /   -if next_page
+    /     %p= link_to 'Next page', next_page
+
+
+
+
+    -#
+      %h2 Recent Articles
+      %ol
+        - blog.articles[0...10].each do |article|
+          %li
+            = link_to article.title, article
+            = article.date.strftime('%b %e')
+
+      %h2 Tags
+      %ol
+        - blog.tags.each do |tag, articles|
+          %li
+            = link_to "#{tag} (#{articles.size})", tag_path(tag)
+
+      %h2 By Year
+      %ol
+        - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
+          %li
+            = link_to "#{year} (#{articles.size})", blog_year_path(year)

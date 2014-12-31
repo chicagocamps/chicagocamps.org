@@ -29,7 +29,7 @@ $alignments: baseline, bottom, middle, top;
 $displays:   block, inline-block, none, table, table-cell;
 $floats:     left, right, none;
 $overflows:  auto, hidden, visible;
-$positions:  relative, absolute;
+$positions:  absolute, fixed, relative;
 $zeros:      bottom, border, left, margin, padding, right, top;
 
 // Maps

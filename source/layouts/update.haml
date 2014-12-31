@@ -1,0 +1,16 @@
+= wrap_layout :layout do
+
+  %article(role="article" itemscope itemtype="http://schema.org/BlogPosting")
+
+    / %header.main-header.main-header-default
+    /   .main-header-container.container
+    /     %h1.main-header-title Updates
+
+    .main-content.container
+
+      %header
+        %h1(itemprop="name")= current_page.title
+        %time(itemprop="dateCreated" datetime="#{current_page.date.strftime('%Y-%m-%d')}")
+          = current_page.date.strftime("%B %e, %Y")
+
+      %div(itemprop="articleBody")= yield

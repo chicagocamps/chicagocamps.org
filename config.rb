@@ -8,12 +8,11 @@ activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   # blog.prefix = "blog"
 
-  blog.permalink = "{category}/{title}.html"
-  # Matcher for blog source files
-  # blog.sources = "{year}-{month}-{day}-{title}.html"
+  blog.permalink = "{category}/{year}/{title}.html"
+  blog.sources = "{category}/{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
-  # blog.layout = "layout"
-  # blog.summary_separator = /(READMORE)/
+  # blog.layout = "layouts/update"
+  blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = "{year}.html"
   # blog.month_link = "{year}/{month}.html"
@@ -55,6 +54,10 @@ Sass::Script::Number.precision = 8
 ###
 
 # Per-page layout changes:
+
+page "podcasts/*", layout: :update
+page "posts/*",    layout: :update
+
 #
 # With no layout
 # page "/path/to/file.html", layout: false
