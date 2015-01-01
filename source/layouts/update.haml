@@ -9,8 +9,23 @@
     .main-content.container
 
       %header
-        %h1(itemprop="name")= current_page.title
-        %time(itemprop="dateCreated" datetime="#{current_page.date.strftime('%Y-%m-%d')}")
-          = current_page.date.strftime("%B %e, %Y")
+        %h1(itemprop="name")
+          = current_page.title
+          .lineup
+            %time.h-sm-caps-gray(itemprop="dateCreated" datetime="#{current_page.date.strftime('%Y-%m-%d')}")
+              = current_page.date.strftime("%B %e, %Y")
 
       %div(itemprop="articleBody")= yield
+
+      = partial "partials/podcast-credits" if current_page.data.podcast_credit?
+
+    %nav.updates-nav
+      - prev_article = current_article.previous_article
+      - if prev_article
+        %a.updates-nav-prev(href="#{prev_article.url}" rel="prev")
+          =prev_article.title
+      %a.updates-nav-back(href="/updates/") Back to Updates
+      - next_article = current_article.next_article
+      - if next_article
+        %a.updates-nav-next(href="#{next_article.url}" rel="next")
+          =next_article.title

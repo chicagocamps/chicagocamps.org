@@ -1,0 +1,14 @@
+%h3 About this Podcast
+
+.media
+  %a.podcast-credit-object.media-object(href="https://simplecast.fm/" rel="nofollow")
+    = image_tag "sponsors/simplecast.png", alt: "Simplecast"
+  .media-body
+
+    -if current_page.data.podcast_credit == "In the Basteal"
+      %p <a href="https://soundcloud.com/clane01/in-the-basteal-instrumental" rel="nofollow">&#8220;In the Basteal&#8221;</a> music written, produced, and performed by <a href="https://twitter.com/christianlane01" rel="nofollow">Christian Lane</a>.
+
+    -if current_page.data.podcast_credit == "Gotta Go"
+      %p <a href="https://soundcloud.com/clane01/04-gotta-go" rel="nofollow">&#8220;Gotta Go&#8221;</a> music written, produced, and performed by <a href="https://twitter.com/christianlane01" rel="nofollow">Christian Lane</a> with Troy Luccketta on drums.
+
+    %p Publish your podcasts the easy way at <a href="https://simplecast.fm/" rel="nofollow">Simplecast.fm.</a>

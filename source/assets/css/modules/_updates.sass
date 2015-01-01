@@ -1,0 +1,44 @@
+// Updates
+// ========================================
+
+.updates-nav
+  @extend %h-sm-caps
+  border-color: rgba($black, .12)
+  @extend %border-solid
+  +rem(border-width, 1px 0)
+  @extend %display-table
+  @extend %line-height-x-small
+  @extend %grid-1-1
+
+  a
+    @extend %color-gray
+    @extend %display-table-cell
+    +rem(padding-top, $baseline-small - 1)
+    +rem(padding-bottom, $baseline-small - 1)
+    @extend %vertical-align-middle
+    @extend %grid-1-3
+
+    &:focus,
+    &:hover
+      color: $blue-dark
+
+.updates-nav-prev
+  +background-svg("icons/i-chevron-left", 7px 11px)
+  background-position: $gutter 50%
+  background-repeat: no-repeat
+  +rem(border-right, 1px solid rgba($black, .12))
+  @extend %padding-right
+  +rem(padding-left, $gutter * 1.75)
+
+.updates-nav-back
+  @extend %padding-gutters
+  @extend %text-center
+
+.updates-nav-next
+  +background-svg("icons/i-chevron-right", 7px 11px)
+  background-position: right $gutter top 50%
+  background-repeat: no-repeat
+  +rem(border-left, 1px solid rgba($black, .12))
+  +rem(padding-right, $gutter * 1.75)
+  @extend %padding-left
+  @extend %text-right

@@ -1,15 +1,6 @@
 // Sponsors
 // ========================================
 
-// Sponsorship
-
-.sponsorship-cost
-  @extend %color-blue
-  @extend %s-foxtrot
-  @extend %text-transform-uppercase
-
-// Partial
-
 .sponsors-all
   @extend %text-center
 
@@ -23,9 +14,27 @@
     line-height: 0
     @extend %margin-bottom
     @extend %padding-gutters
-    +rem(padding-top, 1px)
-    +rem(padding-bottom, 1px)
     @extend %vertical-align-middle
 
     +breakpoint-min($min: 450px)
       display: inline-block
+
+  img
+    filter: grayscale(1) opacity(.7)
+    @extend %transition-all
+
+    &:active,
+    &:hover
+      filter: grayscale(0) opacity(1)
+
+.sponsors-all-harrington img
+  +rem(max-width, 190px)
+
+.sponsors-all-rosenfeld img
+  +rem(max-width, 200px)
+
+.sponsors-all-simplecast img
+  +rem(max-width, 120px)
+
+.sponsors-all-uie img
+  +rem(max-width, 120px)

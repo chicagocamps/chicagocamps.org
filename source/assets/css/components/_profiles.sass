@@ -12,17 +12,10 @@
     @extend %margin-bottom
 
 .profile-object
-  @extend %margin-right-double
-  @extend %margin-bottom
-
   +breakpoint-min($min: 480px)
     float: left
     width: 25%
 
   img
-    @extend %background-white
-    @extend %border-base
-    @extend %display-block
-    +rem(padding, 5px)
     +rem(max-width, $baseline-step * 46)
     @extend %grid-1-1
