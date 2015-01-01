@@ -1,6 +1,7 @@
 ---
 title: Margot Bloomstein
 date: 2014-10-04
+tags: 2014, speaker-camp, boston
 podcast_credit: In the Basteal
 ---
 
