@@ -1,7 +1,7 @@
-// Updates
+// Pagination
 // ========================================
 
-.updates-nav
+.pagination
   @extend %h-sm-caps
   border-color: rgba($black, .12)
   @extend %border-solid
@@ -13,32 +13,47 @@
   a
     @extend %color-gray
     @extend %display-table-cell
-    +rem(padding-top, $baseline-small - 1)
-    +rem(padding-bottom, $baseline-small - 1)
+    +rem(padding-top, $baseline-x-small - 1)
+    +rem(padding-bottom, $baseline-x-small - 1)
     @extend %vertical-align-middle
-    @extend %grid-1-3
 
     &:focus,
     &:hover
       color: $blue-dark
 
-.updates-nav-prev
+// Next
+
+.pagination-prev
   +background-svg("icons/i-chevron-left", 7px 11px)
   background-position: $gutter 50%
   background-repeat: no-repeat
-  +rem(border-right, 1px solid rgba($black, .12))
   @extend %padding-right
   +rem(padding-left, $gutter * 1.75)
 
-.updates-nav-back
-  @extend %padding-gutters
-  @extend %text-center
+// Prev
 
-.updates-nav-next
+.pagination-next
   +background-svg("icons/i-chevron-right", 7px 11px)
   background-position: right $gutter top 50%
   background-repeat: no-repeat
-  +rem(border-left, 1px solid rgba($black, .12))
   +rem(padding-right, $gutter * 1.75)
   @extend %padding-left
   @extend %text-right
+
+// Dividers
+
+.pagination-back
+  @extend %padding-gutters
+  @extend %text-center
+
+.pagination-back-prev
+  +rem(border-left, 1px solid rgba($black, .12))
+
+.pagination-back-next
+  +rem(border-right, 1px solid rgba($black, .12))
+
+.pagination-divider
+  background: rgba($black, .12)
+  @extend %display-table-cell
+  height: 100%
+  +rem(width, 1px)

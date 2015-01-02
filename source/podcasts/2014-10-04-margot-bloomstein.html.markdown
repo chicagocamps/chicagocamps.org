@@ -5,6 +5,8 @@ tags: 2014, speaker-camp, boston
 podcast_credit: In the Basteal
 ---
 
+<iframe class="podcast-player" seamless src="https://simplecast.fm/e/4813?style=light"></iframe>
+
 Russ Unger of Chicago Camps interviews Margot Bloomstein, Principal at Appropriate, Inc. and author of Content Strategy at Work: Real-World Stories to Strengthen Every Interactive Engagement. Margot is also a Speaker Mentor at Speaker Camp Boston on October 11th, 2014. READMORE
 
 ## About Margot Bloomstein

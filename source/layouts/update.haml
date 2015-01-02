@@ -19,13 +19,12 @@
 
       = partial "partials/podcast-credits" if current_page.data.podcast_credit?
 
-    %nav.updates-nav
-      - prev_article = current_article.previous_article
+    %nav.pagination
+      - prev_article = current_article.blog_data.articles.find {|a| a.data.category != "event" && a.data.date < current_article.data.date }
+      - next_article = current_article.blog_data.articles.reverse.find {|a| a.data.category != "event" && a.data.date > current_article.data.date }
       - if prev_article
-        %a.updates-nav-prev(href="#{prev_article.url}" rel="prev")
-          =prev_article.title
-      %a.updates-nav-back(href="/updates/") Back to Updates
-      - next_article = current_article.next_article
+        = link_to prev_article.title, prev_article.url, class: "pagination-prev grid-1-3", rel: "prev"
+      %a.pagination-back.grid-1-3(class="#{'pagination-back-prev' if prev_article} #{'pagination-back-next' if next_article}" href="/updates/")
+        Back to Updates
       - if next_article
-        %a.updates-nav-next(href="#{next_article.url}" rel="next")
-          =next_article.title
+        = link_to next_article.title, next_article.url, class: "pagination-next grid-1-3", rel: "next"

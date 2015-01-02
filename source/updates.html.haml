@@ -1,7 +1,6 @@
 ---
 title: Updates
 pageable: true
-per_page: 10
 ---
 
 %section
@@ -23,48 +22,11 @@ per_page: 10
         :preserve
           #{article.body}
 
-
-
-
-
-
-
-    / - if paginate && num_pages > 1
-    /   %p
-    /     Page
-    /     = page_number
-    /     of
-    /     = num_pages
-
-    /   - if prev_page
-    /     %p= link_to 'Previous page', prev_page
-
-
-
-
-    / - if paginate
-    /   -if next_page
-    /     %p= link_to 'Next page', next_page
-
-
-
-
-    -#
-      %h2 Recent Articles
-      %ol
-        - blog.articles[0...10].each do |article|
-          %li
-            = link_to article.title, article
-            = article.date.strftime('%b %e')
-
-      %h2 Tags
-      %ol
-        - blog.tags.each do |tag, articles|
-          %li
-            = link_to "#{tag} (#{articles.size})", tag_path(tag)
-
-      %h2 By Year
-      %ol
-        - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
-          %li
-            = link_to "#{year} (#{articles.size})", blog_year_path(year)
+  - if paginate && (prev_page || next_page)
+    %nav.pagination
+      - if prev_page
+        = link_to "Previous", prev_page, class: "pagination-prev grid-1-2", rel: "prev"
+      - if prev_page && next_page
+        .pagination-divider
+      - if next_page
+        = link_to "Next", next_page, class: "pagination-next grid-1-2", rel: "next"
