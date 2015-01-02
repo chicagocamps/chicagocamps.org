@@ -1,6 +1,6 @@
 ---
 title: All Things Chicago Camps
-date: 2015-01-01
+date: 2015-01-01 01:00 CDT
 ---
 
 Howdy! The Chicago Camps team has been a pretty busy group lately. When we started in 2012, we were just throwing together a Prototype Camp event because we loved the idea, and we wanted to do something cool in the Chicago technology community. READMORE
