@@ -7,7 +7,6 @@
 // Header
 
 .main-header
-  @extend %background-blue-light
   background-position: 50%
   background-size: cover
   +rem(box-shadow, inset 0 0 150px 0 rgba($black, .2))
@@ -66,5 +65,5 @@
   @extend %padding-top-xx-large
   @extend %padding-bottom
 
-  &:nth-child(even)
+  &:nth-of-type(even)
     background: #f0eded

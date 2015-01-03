@@ -37,13 +37,17 @@ html
       +rem(line-height, $baseline-x-large)
 
 .h-divider
-  @extend %lineup
-  @extend %border-gray-light
   @extend %border-solid
-  +rem(border-width, 0 0 0 1px)
+  +rem(border-width, 0 1px 0 0)
   @extend %display-inline-block
-  @extend %margin-left
-  @extend %padding-left
+  @extend %margin-right
+  @extend %padding-right
+
+.h-dividerlight
+  @extend %border-gray-light
+
+.h-divider-opaque
+  border-color: rgba($gray-light, .5)
 
 .h-dot
   @extend %color-gray-light
