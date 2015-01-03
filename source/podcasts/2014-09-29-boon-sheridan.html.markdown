@@ -1,6 +1,7 @@
 ---
 title: Boon Sheridan
 date: 2014-09-29 01:00 CDT
+category: podcasts
 tags: 2014, speaker-camp, boston
 podcast_credit: In the Basteal
 ---

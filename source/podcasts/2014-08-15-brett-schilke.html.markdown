@@ -1,6 +1,7 @@
 ---
 title: Brett Schilke
 date: 2014-08-15 01:00 CDT
+category: podcasts
 tags: 2014, prototype-camp
 podcast_credit: Gotta Go
 ---

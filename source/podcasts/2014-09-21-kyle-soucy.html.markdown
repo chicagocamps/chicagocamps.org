@@ -1,6 +1,7 @@
 ---
 title: Kyle Soucy
 date: 2014-09-21 02:00 CDT
+category: podcasts
 tags: 2014, speaker-camp, boston
 podcast_credit: In the Basteal
 ---

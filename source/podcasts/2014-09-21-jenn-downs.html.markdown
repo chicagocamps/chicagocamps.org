@@ -1,6 +1,7 @@
 ---
 title: Jenn Downs
 date: 2014-09-21 01:00 CDT
+category: podcasts
 tags: 2014, speaker-camp, boston
 podcast_credit: In the Basteal
 ---

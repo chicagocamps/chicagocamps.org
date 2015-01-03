@@ -1,0 +1,24 @@
+// Updates
+// ========================================
+
+.update
+  @extend %margin-bottom
+
+  &:first-of-type
+    @extend %margin-top-xx-large
+
+.update-title
+  @extend %grid-col
+
+  +breakpoint-min
+    width: 40%
+
+.update-summary
+  @extend %grid-col
+
+  +breakpoint-min
+    +rem(padding-left, $gutter)
+    width: 60%
+
+.update-cta
+  @extend %margin-bottom

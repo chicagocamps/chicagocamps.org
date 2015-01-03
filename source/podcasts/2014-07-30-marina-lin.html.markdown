@@ -1,6 +1,7 @@
 ---
 title: Marina Lin
 date: 2014-07-30 01:00 CDT
+category: podcasts
 tags: 2014, prototype-camp
 podcast_credit: Gotta Go
 ---

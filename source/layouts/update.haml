@@ -24,7 +24,7 @@
       - next_article = current_article.blog_data.articles.reverse.find {|a| a.data.category != "event" && a.data.date > current_article.data.date }
       - if prev_article
         = link_to prev_article.title, prev_article.url, class: "pagination-prev grid-1-3", rel: "prev"
-      %a.pagination-back.grid-1-3(class="#{'pagination-back-prev' if prev_article} #{'pagination-back-next' if next_article}" href="/updates/")
+      %a.pagination-back.grid-1-3(class="#{'pagination-back-prev' if prev_article.present?} #{'pagination-back-next' if next_article.present?}" href="/updates/")
         Back to Updates
       - if next_article
         = link_to next_article.title, next_article.url, class: "pagination-next grid-1-3", rel: "next"
