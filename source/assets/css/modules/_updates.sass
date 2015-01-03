@@ -7,11 +7,32 @@
   &:first-of-type
     @extend %margin-top-xx-large
 
+// Image
+
+.update-img-container
+  @extend %display-block
+  height: 0
+  @extend %margin-bottom
+  padding-bottom: 25%
+  @extend %position-relative
+
+.update-img
+  background-size: cover
+  height: 100%
+  @extend %left-0
+  @extend %position-absolute
+  @extend %top-0
+  @extend %grid-1-1
+
+// Title
+
 .update-title
   @extend %grid-col
 
   +breakpoint-min
     width: 40%
+
+// Summary
 
 .update-summary
   @extend %grid-col

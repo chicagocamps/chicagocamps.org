@@ -4,7 +4,6 @@
 .btn
   @extend %border-solid
   @extend %border-radius-base
-  @extend %color-black
   @extend %cursor-pointer
   @extend %display-inline-block
   @extend %font-family-lato
@@ -27,6 +26,7 @@
 .btn-alt
   @extend %border-0
   border-color: transparent
+  @extend %color-black
   @extend %s-foxtrot
   @extend %padding-gutters
   @extend %padding-top-step
@@ -46,10 +46,13 @@
   &:hover
     background-color: darken($yellow, 6)
 
+// Outline
+
 .btn-outline
   background-color: transparent
   +rem(border-width, 2px)
-  border-color: rgba($black, .25)
+  border-color: rgba($blue, .25)
+  @extend %color-blue
   +rem(font-size, 13px)
   @extend %font-weight-bold
   +rem(padding, ($baseline-step - 2) ($gutter - 2))
@@ -58,4 +61,5 @@
 
   &:focus,
   &:hover
-    border-color: rgba($black, .32)
+    border-color: rgba($blue, .45)
+    @extend %color-blue-dark
