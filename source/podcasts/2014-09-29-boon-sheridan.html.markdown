@@ -3,10 +3,9 @@ title: Boon Sheridan
 date: 2014-09-29 01:00 CDT
 category: podcasts
 tags: 2014, speaker-camp, boston
+podcast_id: 4751
 podcast_credit: In the Basteal
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/4751?style=light"></iframe>
 
 Russ Unger of Chicago Camps interviews <a href="https://twitter.com/boonerang" rel="nofollow">Boon Sheridan</a>, Product Designer at NASDAQ OMX. Boon is a Speaker Mentor at Speaker Camp Boston on October 11th, 2014. READMORE
 

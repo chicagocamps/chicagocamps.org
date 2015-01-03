@@ -3,10 +3,9 @@ title: Jon Hadden
 date: 2014-07-24 01:00 CDT
 category: podcasts
 tags: 2014, prototype-camp
+podcast_id: 3623
 podcast_credit: Gotta Go
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/3623?style=light"></iframe>
 
 Russ Unger of Chicago Camps interviews <a href="https://twitter.com/niceux" rel="nofollow">Jon Hadden</a>, the founder of NiceUX, a user experience design and development consultancy in Minneapolis, Minnesota. Jon will be presenting at Prototype Camp on September 13th, 2014 about Communicating with Flexible Documentation. READMORE
 

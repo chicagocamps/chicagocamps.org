@@ -3,10 +3,9 @@ title: Ben Lister
 date: 2014-08-10 01:00 CDT
 category: podcasts
 tags: 2014, prototype-camp
+podcast_id: 4078
 podcast_credit: Gotta Go
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/4078?style=light"></iframe>
 
 Shay Howe of Chicago Camps interviews <a href="https://twitter.com/benclister" rel="nofollow">Ben Lister</a> of the design and front end development teams at Sprout Social. Brandon is presenting at Prototype Camp on September 13th, 2014 about how Sprout Social uses prototyping as part of their business. READMORE
 

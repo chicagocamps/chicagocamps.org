@@ -3,10 +3,9 @@ title: Kamaria Campbell
 date: 2014-08-23 01:00 CDT
 category: podcasts
 tags: 2014, prototype-camp
+podcast_id: 4311
 podcast_credit: Gotta Go
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/4311?style=light"></iframe>
 
 Russ Unger of Chicago Camps interviews <a href="https://twitter.com/kaccampbell" rel="nofollow">Kamaria Campbell</a>, Information Architect &amp; User Experience Design consultant at IBM in Chicago. Kamaria is presenting at Prototype Camp on September 13th, 2014 about how to manage all the many requests that can be made of a prototype and the prototyper. READMORE
 

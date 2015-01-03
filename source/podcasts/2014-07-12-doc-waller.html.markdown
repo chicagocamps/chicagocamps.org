@@ -3,10 +3,9 @@ title: Doc Waller
 date: 2014-07-12 01:00 CDT
 category: podcasts
 tags: 2014, prototype-camp
+podcast_id: 3053
 podcast_credit: Gotta Go
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/3053?style=light"></iframe>
 
 Russ Unger of Chicago Camps interviews <a href="https://twitter.com/docwaller" rel="nofollow">Doc Waller</a>, an award-winning stage performer turned creative entrepreneur&#8211;he&#8217;s performed with New York City&#8211;and regional theatres, national television, TEDx stages, and so much more! He also frequently helps others get on stage, as performers or presenters, and he&#8217;s talking to Chicago Camps about speaking at conferences. READMORE
 

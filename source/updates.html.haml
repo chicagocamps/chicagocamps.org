@@ -14,10 +14,9 @@ pageable: true
 
       .update.grid
 
-        - if article.data.summary_image.present?
-          - img_url = article.date.strftime("%Y-%m-%d") + "-" + article.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+        - if article.data.header_image
           = link_to article, class: "update-img-container" do
-            .update-img(style="background-image: url('/assets/img/events/#{img_url}/header.jpg');")
+            .update-img(style="#{header_image(article)}")
 
         %h2.update-title
           = link_to article.title, article
@@ -25,7 +24,7 @@ pageable: true
             %span.h-sm-caps-gray= article.date.strftime("%B %e, %Y")
       
         .update-summary
-          - if article.summary.present?
+          - if article.summary
             :preserve
               #{article.summary}
             

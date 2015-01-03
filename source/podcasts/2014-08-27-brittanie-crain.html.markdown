@@ -3,10 +3,9 @@ title: Brittanie Crain
 date: 2014-08-27 02:00 CDT
 category: podcasts
 tags: 2014, prototype-camp
+podcast_id: 4396
 podcast_credit: Gotta Go
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/4396?style=light"></iframe>
 
 Shay Howe of Chicago Camps interviews <a href="https://twitter.com/brittanielynn" rel="nofollow">Brittanie Crain</a>, Manager of Interaction Design at Manifest Digital in Chicago. Brittanie is presenting at Prototype Camp on September 13th, 2014 about how she uses Axure in all phases of the prototyping process with a variety of different partners. READMORE
 

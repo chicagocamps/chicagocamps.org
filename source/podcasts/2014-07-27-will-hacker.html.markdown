@@ -3,10 +3,9 @@ title: Will Hacker
 date: 2014-07-27 01:00 CDT
 category: podcasts
 tags: 2014, prototype-camp
+podcast_id: 3632
 podcast_credit: Gotta Go
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/3632?style=light"></iframe>
 
 Shay Howe of Chicago Camps interviews <a href="https://twitter.com/willhacker" rel="nofollow">Will Hacker</a>, Lead Interaction Designer at GE Capital Americas in Chicago, IL. Will is presenting at Prototype Camp on September 13th, 2014 about the pitfalls that can happen when you take your prototype out of the office and into the real world. READMORE
 

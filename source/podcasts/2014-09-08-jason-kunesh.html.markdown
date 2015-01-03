@@ -3,10 +3,9 @@ title: Jason Kunesh
 date: 2014-09-08 01:00 CDT
 category: podcasts
 tags: 2014, prototype-camp
+podcast_id: 4558
 podcast_credit: Gotta Go
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/4558?style=light"></iframe>
 
 Shay Howe of Chicago Camps interviews <a href="https://twitter.com/jdkunesh" rel="nofollow">Jason Kunesh</a>, CEO of Public Good Software. Jason is presenting a keynote at Prototype Camp on September 13th, 2014. READMORE
 

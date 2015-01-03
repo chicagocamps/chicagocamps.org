@@ -3,10 +3,9 @@ title: Nicole Maynard
 date: 2014-08-26 01:00 CDT
 category: podcasts
 tags: 2014, prototype-camp
+podcast_id: 4379
 podcast_credit: Gotta Go
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/4379?style=light"></iframe>
 
 Shay Howe of Chicago Camps interviews <a href="https://twitter.com/punkynixter" rel="nofollow">Nicole Maynard</a>, Lead Interaction Designer at GE Capital Americas in Chicago. Nicole is presenting at Prototype Camp on September 13th, 2014 about the remaining flexible while testing prototypes. READMORE
 

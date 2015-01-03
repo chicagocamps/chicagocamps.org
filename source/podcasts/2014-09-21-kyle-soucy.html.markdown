@@ -3,10 +3,9 @@ title: Kyle Soucy
 date: 2014-09-21 02:00 CDT
 category: podcasts
 tags: 2014, speaker-camp, boston
+podcast_id: 4664
 podcast_credit: In the Basteal
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/4664?style=light"></iframe>
 
 Russ Unger of Chicago Camps interviews <a href="https://twitter.com/kylesoucy" rel="nofollow">Kyle Soucy</a>, Founding Principal at Usable Interface. Kyle is a Speaker Mentor at Speaker Camp Boston on October 11th, 2014. READMORE
 

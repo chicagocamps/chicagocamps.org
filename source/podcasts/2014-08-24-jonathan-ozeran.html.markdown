@@ -3,10 +3,9 @@ title: Jonathan Ozeran
 date: 2014-08-24 01:00 CDT
 category: podcasts
 tags: 2014, prototype-camp
+podcast_id: 4320
 podcast_credit: Gotta Go
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/4320?style=light"></iframe>
 
 Russ Unger of Chicago Camps interviews <a href="https://twitter.com/jozeran" rel="nofollow">Jonathan Ozeran</a>, VP of Product at Zest Health in Chicago. Jonathan is presenting at Prototype Camp on September 13th, 2014 about how he's managed prototyping hardware and software for dog collars with a globally dispersed team. READMORE
 

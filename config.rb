@@ -24,7 +24,7 @@ activate :blog do |blog|
 
   # Enable pagination
   blog.paginate = true
-  blog.per_page = 10
+  blog.per_page = 5
   blog.page_link = "{num}"
 end
 
@@ -85,11 +85,11 @@ page "posts/*",    layout: :update
 activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def header_image(source)
+    "background-image: url('/assets/img/#{source.data.category}/#{source.date.strftime('%Y-%m-%d')}-#{source.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}/header.jpg');"
+  end
+end
 
 activate :directory_indexes
 

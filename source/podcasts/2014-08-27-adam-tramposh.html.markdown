@@ -3,10 +3,9 @@ title: Adam Tramposh
 date: 2014-08-27 01:00 CDT
 category: podcasts
 tags: 2014, prototype-camp
+podcast_id: 4395
 podcast_credit: Gotta Go
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/4395?style=light"></iframe>
 
 Russ Unger of Chicago Camps interviews <a href="https://twitter.com/formal_gs" rel="nofollow">Adam Tramposh</a>, Senior Manager of UX at Manifest Digital in Chicago. Adam is presenting at Prototype Camp on September 13th, 2014 about his process for creating an application for Google Glass. READMORE
 

@@ -3,10 +3,9 @@ title: Jenn Downs
 date: 2014-09-21 01:00 CDT
 category: podcasts
 tags: 2014, speaker-camp, boston
+podcast_id: 4661
 podcast_credit: In the Basteal
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/4661?style=light"></iframe>
 
 Russ Unger of Chicago Camps interviews <a href="https://twitter.com/beparticular" rel="nofollow">Jenn Downs</a>, UX Researcher at ShootProof. Jenn is a Speaker Mentor at Speaker Camp Boston on October 11th, 2014. READMORE
 

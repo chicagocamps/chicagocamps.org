@@ -3,10 +3,9 @@ title: Brett Schilke
 date: 2014-08-15 01:00 CDT
 category: podcasts
 tags: 2014, prototype-camp
+podcast_id: 4113
 podcast_credit: Gotta Go
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/4113?style=light"></iframe>
 
 Russ Unger of Chicago Camps interviews <a href="https://twitter.com/brettschilke" rel="nofollow">Brett Schilke</a>, the Chief Instigator for Chicago non-profit. Brett is presenting at Prototype Camp on September 13th, 2014 about how kids can use 3D printing and the design process to prototype change for the future. READMORE
 

@@ -2,9 +2,15 @@
 
   %article(role="article" itemscope itemtype="http://schema.org/BlogPosting")
 
-    / %header.main-header.main-header-default
-    /   .main-header-container.container
-    /     %h1.main-header-title Updates
+    - if current_page.data.header_image
+      %header.main-header(style="#{header_image(current_page)}")
+        - if current_page.data.header_title || (current_page.data.header_image_photographer && current_page.data.header_image_url)
+          .main-header-container.container
+            - if current_page.data.header_title
+              %h1.main-header-title= current_page.data.header_title
+            - if current_page.data.header_image_photographer && current_page.data.header_image_url
+              %a.main-header-credit(href="#{current_page.data.header_image_url}" rel="nofollow")
+                Photo: #{current_page.data.header_image_photographer}
 
     .main-content.container
 
@@ -15,7 +21,10 @@
             %time.h-sm-caps-gray(itemprop="dateCreated" datetime="#{current_page.date.strftime('%Y-%m-%d')}")
               = current_page.date.strftime("%B %e, %Y")
 
-      %div(itemprop="articleBody")= yield
+      %div(itemprop="articleBody")
+        - if current_page.data.podcast_id?
+          %iframe.podcast-player(seamless src="https://simplecast.fm/e/#{current_page.data.podcast_id}?style=light")
+        = yield
 
       = partial "partials/podcast-credits" if current_page.data.podcast_credit?
 
@@ -24,7 +33,7 @@
       - next_article = current_article.blog_data.articles.reverse.find {|a| a.data.category != "events" && a.data.date > current_article.data.date }
       - if prev_article
         = link_to prev_article.title, prev_article.url, class: "pagination-prev grid-1-3", rel: "prev"
-      %a.pagination-back.grid-1-3(class="#{'pagination-back-prev' if prev_article.present?} #{'pagination-back-next' if next_article.present?}" href="/updates/")
+      %a.pagination-back.grid-1-3(class="#{'pagination-back-prev' if prev_article} #{'pagination-back-next' if next_article}" href="/updates/")
         Back to Updates
       - if next_article
         = link_to next_article.title, next_article.url, class: "pagination-next grid-1-3", rel: "next"

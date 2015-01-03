@@ -3,10 +3,9 @@ title: Fred Beecher
 date: 2014-07-17 01:00 CDT
 category: podcasts
 tags: 2014, prototype-camp
+podcast_id: 3472
 podcast_credit: Gotta Go
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/3472?style=light"></iframe>
 
 Russ Unger of Chicago Camps interviews <a href="https://twitter.com/fred_beecher" rel="nofollow">Fred Beecher</a>, an Axure fanatic (and perhaps a bit of a legend), a grower of UX Designers through his UX apprenticeship program at The Nerdery in Minneapolis, and a regular contributor to the UX Design community through a variety of articles and presentations. Fred was the closing keynote for Prototype Camp 2013 and is talking to us about a whole bunch of things around prototyping and Prototype Camp. READMORE
 

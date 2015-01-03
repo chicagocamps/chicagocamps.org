@@ -3,10 +3,9 @@ title: Brandon Satrom
 date: 2014-08-06 01:00 CDT
 category: podcasts
 tags: 2014, prototype-camp
+podcast_id: 4054
 podcast_credit: Gotta Go
 ---
-
-<iframe class="podcast-player" seamless src="https://simplecast.fm/e/4054?style=light"></iframe>
 
 Russ Unger of Chicago Camps interviews <a href="https://twitter.com/brandonsatrom" rel="nofollow">Brandon Satrom</a>, Director of Product Management for Telerik in Austin, TX. Brandon is presenting at Prototype Camp on September 13th, 2014 about how proper prototyping can be used to eliminate design specs. READMORE
 
