@@ -61,12 +61,9 @@
   @extend %padding-bottom
 
 .feat-event
-  @extend %background-white
-  +rem(box-shadow, 0 1px 1px rgba($black, .15))
+  @extend %card
   @extend %display-table
   @extend %margin-bottom-xx-large
-  @extend %padding-top
-  @extend %padding-gutters
   @extend %grid-1-1
 
 .feat-event-logo,
@@ -91,3 +88,71 @@
 
 .feat-event-cta
   @extend %padding-bottom
+
+// Upcoming events
+
+.upcoming-events
+  @extend %margin-bottom-step
+  
+  +breakpoint-min($min: 500px)
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    margin-left: -2%
+    margin-right: -2%
+
+  +breakpoint-min($min: 700px)
+    margin-left: -1.428571429%
+    margin-right: -1.428571429%
+
+  +breakpoint-min($min: 900px)
+    margin-left: -1.111111111%
+    margin-right: -1.111111111%
+
+.upcoming-event
+  @extend %card
+  @extend %margin-bottom
+  @extend %padding-bottom
+  @extend %text-center
+
+  +breakpoint-min($min: 500px)
+    flex: 0 0 45.8158996%
+    margin-left: 2.092050209%
+    margin-right: 2.092050209%
+
+  +breakpoint-min($min: 700px)
+    flex: 0 0 30.3834808%
+    margin-left: 1.474926254%
+    margin-right: 1.474926254%
+
+  +breakpoint-min($min: 900px)
+    flex: 0 0 22.7272727%
+    margin-left: 1.136363636%
+    margin-right: 1.136363636%
+
+.upcoming-event-logo img
+  @extend %display-block
+  @extend %margin-auto
+  @extend %margin-bottom-x-small
+  max-width: 100%
+
+.upcoming-event-title
+  @extend %margin-bottom-x-small
+
+.events-archive
+  @extend %margin-bottom
+  @extend %text-center
+
+// Recommend an event
+
+.recommend-an-event
+  @extend %background-blue-light
+  @extend %padding-top-xx-large
+  @extend %padding-bottom-xx-large
+  @extend %text-center
+
+  .container
+    +rem(max-width, 900px)
+
+  .btn-outline
+    @extend %color-gray-dark

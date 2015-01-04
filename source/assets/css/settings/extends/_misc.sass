@@ -1,7 +1,7 @@
 // Misc
 // ========================================
 
-// Image frame
+// Image frame & card
 
 .frame,
 %frame
@@ -10,6 +10,13 @@
   @extend %display-block
   +rem(padding, 5px)
 
+.card,
+%card
+  @extend %background-white
+  +rem(box-shadow, 0 1px 1px rgba($black, .15))
+  @extend %padding-top
+  @extend %padding-gutters
+  
 // Lists
 
 .list-none,

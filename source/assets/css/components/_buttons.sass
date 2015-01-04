@@ -32,6 +32,9 @@
   @extend %padding-top-step
   @extend %padding-bottom-step
 
+  &.btn-large
+    +rem(padding, ($baseline-step * 1.5) ($gutter * 1.5))
+
 .btn-default
   @extend %background-blue-light
 
@@ -58,6 +61,9 @@
   +rem(padding, ($baseline-step - 2) ($gutter - 2))
   @extend %padding-bottom-step
   @extend %text-transform-uppercase
+
+  &.btn-large
+    +rem(padding, (($baseline-step * 1.5) - 2) (($gutter * 1.5) - 2))
 
   &:focus,
   &:hover
