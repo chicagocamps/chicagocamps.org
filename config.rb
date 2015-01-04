@@ -19,9 +19,6 @@ activate :blog do |blog|
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
 
-  # blog.tag_template = "tag.html"
-  # blog.calendar_template = "calendar.html"
-
   # Enable pagination
   blog.paginate = true
   blog.per_page = 5
@@ -55,9 +52,6 @@ Sass::Script::Number.precision = 8
 
 # Per-page layout changes:
 
-page "podcasts/*", layout: :update
-page "posts/*",    layout: :update
-
 #
 # With no layout
 # page "/path/to/file.html", layout: false
@@ -66,9 +60,12 @@ page "posts/*",    layout: :update
 # page "/path/to/file.html", layout: :otherlayout
 #
 # A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
+with_layout :update do
+  page "podcasts/*"
+  page "posts/*"
+end
+
+ignore "style.html.haml"
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
