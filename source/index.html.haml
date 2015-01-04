@@ -1,6 +1,5 @@
 ---
 title: Home
-pageable: true
 ---
 
 %header.main-header.home-header
@@ -23,12 +22,28 @@ pageable: true
       .h-divider.h-divider-opaque Latest News
       - blog.articles.select {|a| a.data.category != "events"}.each_with_index do |article, i|
         - break if i == 1
-        = link_to article.title, article.url
+        = link_to article.title, article
 
-%section.main-section
-  - page_articles.each_with_index do |article, i|
-    %h2
-      = link_to article.title, article
-      %span= article.date.strftime('%b %e')
+%section.home-events
+  .container
+    %h3.h-section Events
 
+    .feat-event
+      - blog.articles.select {|a| a.data.category == "events"}.each_with_index do |article, i|
+        - break if i == 1
+        
+        = link_to article, class: "feat-event-logo" do
+          %img(src="#{lorem.image('192x192')}" alt="#{article.title}")
+        
+        .feat-event-info
+          %h2
+            = link_to article.title, article
+            .lineup
+              %span.h-sm-caps-gray= article.date.strftime("%B %e, %Y")
+          = truncate(article.summary, length: 190)
+        
+        .feat-event-cta= link_to "Attend", article, class: "btn btn-outline"
 
+    %blockquote.testimonial
+      %p &#8220;Chicago Camps is one of the best valued conferences out there today, jam-packed with incredible information at a stunningly affordable price. You won&#8217;t be disappointed.&#8221;
+      %cite &#8212; Jared Spool, Author, Usability Expert &amp; Founder, User Interface Engineering

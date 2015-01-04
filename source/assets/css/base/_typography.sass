@@ -26,7 +26,7 @@ html
 
   span
     @extend %color-gray
-    @extend %s-delta
+    @extend %s-echo
     @extend %font-weight-normal
     @extend %position-relative
     +rem(top, 1px)
@@ -111,6 +111,13 @@ strong
 
 small
   font-size: 80%
+
+// Blockquote
+
+blockquote
+  margin-top: 0
+  @extend %margin-gutters
+  @extend %margin-bottom-xx-large
 
 // Sub & sup
 

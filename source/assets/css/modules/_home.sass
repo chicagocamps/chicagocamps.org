@@ -10,6 +10,8 @@
   @extend %padding-bottom-xx-large
   @extend %position-relative
 
+// Logo
+
 .home-header-logo
   @extend %ir
   +background-svg("logos/logo-full-white", 230px 179px)
@@ -19,6 +21,8 @@
   @extend %margin-auto
   @extend %margin-bottom
   +rem(width, 230px)
+
+// Text
 
 .home-header-tagline,
 .home-header-next
@@ -38,6 +42,8 @@
     &:hover
       @extend %color-blue-light
 
+// News
+
 .home-header-news
   background-color: rgba($black, .5)
   @extend %color-gray-light
@@ -46,3 +52,42 @@
   
   a
     @extend %color-blue-light
+
+// Featured event
+
+.home-events
+  background: #f9f9f9
+  @extend %padding-top-xx-large
+  @extend %padding-bottom
+
+.feat-event
+  @extend %background-white
+  +rem(box-shadow, 0 1px 1px rgba($black, .15))
+  @extend %display-table
+  @extend %margin-bottom-xx-large
+  @extend %padding-top
+  @extend %padding-gutters
+  @extend %grid-1-1
+
+.feat-event-logo,
+.feat-event-info,
+.feat-event-cta
+  @extend %vertical-align-middle
+
+  +breakpoint-min
+    display: table-cell
+
+.feat-event-logo img
+  @extend %display-block
+  @extend %margin-auto
+  @extend %margin-bottom
+
+.feat-event-info
+  +breakpoint-min
+    +rem(padding, 0 $gutter)
+  
+  .lineup
+    @extend %line-height-base
+
+.feat-event-cta
+  @extend %padding-bottom
