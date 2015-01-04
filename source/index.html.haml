@@ -24,28 +24,28 @@ title: Home
         - break if i == 1
         = link_to article.title, article
 
-%section.home-events
+%section.events.group
   .container
 
     -# Featured event
 
     %h3.h-section Events
 
-    .feat-event
+    .event-feat
       - blog.articles.select {|a| a.data.category == "events"}.each_with_index do |article, i|
         - break if i == 1
         
-        = link_to article, class: "feat-event-logo" do
+        = link_to article, class: "event-feat-logo" do
           %img(src="#{lorem.image('192x192')}" alt="#{article.title}")
         
-        .feat-event-info
+        .event-feat-info
           %h2
             = link_to article.title, article
             .lineup
               %span.h-sm-caps-gray= article.date.strftime("%B %e, %Y")
           = truncate_words(article.summary, length: 25)
         
-        .feat-event-cta= link_to "Attend", article, class: "btn btn-outline"
+        .event-feat-cta= link_to "Attend", article, class: "btn btn-outline"
 
     -# Testimonial
 
@@ -55,20 +55,20 @@ title: Home
 
     -# Upcoming events
 
-    %ul.upcoming-events
+    %ul.events-list
       - blog.articles.select {|a| a.data.category == "events"}.each_with_index do |article, i|
         - break if i == 4
         
-        %li.upcoming-event
-          = link_to article, class: "upcoming-event-logo" do
+        %li.event-item
+          = link_to article, class: "event-item-logo" do
             %img(src="#{lorem.image('174x174')}" alt="#{article.title}")
-          %h3.upcoming-event-title
+          %h3.event-item-title
             = link_to article.title, article
             .lineup
               %span.h-sm-caps-gray= article.date.strftime("%B %e, %Y")
           = link_to "Attend", article, class: "btn btn-outline"
 
-    .events-archive.lineup
+    .events-archive-link.lineup
       %a.a-chevron-right(href="/events-archive/") Events Archive
 
 -# Recommend an event
