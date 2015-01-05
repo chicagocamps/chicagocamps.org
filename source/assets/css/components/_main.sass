@@ -4,52 +4,6 @@
 .main
   @extend %background-white
 
-// Header
-
-.main-header
-  background-position: 50%
-  background-size: cover
-  +rem(box-shadow, inset 0 0 150px 0 rgba($black, .2))
-  @extend %position-relative
-  @extend %text-center
-
-.main-header-default
-  background-image: image-url("headers/default.jpg")
-
-.main-header-container
-  @extend %display-table
-  @extend %padding-baselines
-  @extend %grid-1-1
-
-  +breakpoint-min
-    +rem(min-height, $baseline-step * 40)
-
-// Title
-
-.main-header-title
-  @extend %color-white
-  @extend %display-table-cell
-  @extend %s-giga
-  @extend %margin-0
-  +rem(text-shadow, 0 0 30px rgba($black, .25))
-  @extend %vertical-align-middle
-
-// Image Credit
-
-.main-header-credit
-  +rem(bottom, $baseline-step)
-  @extend %color-white
-  +rem(font-size, 11px)
-  opacity: .5
-  @extend %position-absolute
-  @extend %text-transform-uppercase
-  +rem(right, $gutter)
-
-  &:active,
-  &:hover
-    @extend %color-white
-    @extend %opacity-1
-
 // Main content
 
 .main-content
@@ -65,5 +19,13 @@
   @extend %padding-top-xx-large
   @extend %padding-bottom
 
-  &:nth-of-type(even)
-    background: #f0eded
+// Backgrounds
+
+.main-bg-plain
+  @extend %background-white
+
+.main-bg-alt
+  background: #f0eded
+
+.main-bg-light
+  background: #f9f9f9

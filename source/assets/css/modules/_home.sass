@@ -1,50 +1,28 @@
 // Home
 // ========================================
 
-.home-header
+// Header
+
+.header-home
   background-image: image-url("home/header.jpg")
-  @extend %color-white
 
-.home-header-container
-  @extend %padding-top-xx-large
-  @extend %padding-bottom-xx-large
-  @extend %position-relative
-
-// Logo
-
-.home-header-logo
-  @extend %ir
+.header-logo-home
   +background-svg("logos/logo-full-white", 230px 179px)
-  background-position: 50%
-  background-repeat: no-repeat
   +rem(height, 180px)
-  @extend %margin-auto
-  @extend %margin-bottom
   +rem(width, 230px)
 
-// Header text
-
-.home-header-tagline,
-.home-header-next
-  +rem(text-shadow, 0 0 30px rgba($black, .25))
-
-.home-header-tagline
+.header-home-tagline
   @extend %s-alpha
   @extend %margin-bottom-large
+  
+// Header next
 
-.home-header-next
+.header-home-next
   @extend %margin-bottom-x-small
 
-  a
-    @extend %color-white
-  
-    &:active,
-    &:hover
-      @extend %color-blue-light
+// Header news
 
-// News
-
-.home-header-news
+.header-home-news
   background-color: rgba($black, .5)
   @extend %color-gray-light
   @extend %padding-top-x-small

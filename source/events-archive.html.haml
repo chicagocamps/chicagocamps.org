@@ -4,11 +4,11 @@ title: Events Archive
 
 %section
 
-  %header.main-header.main-header-default
-    .main-header-container.container
-      %h1.main-header-title Events Archive
+  %header.header.header-default
+    .header-container.container
+      %h1.header-title Events Archive
 
-  .events-content.group
+  .events-content.main-bg-light.group
     .container
       - blog.articles.select {|a| a.data.category == "events"}.group_by {|a| a.date.year }.each do |year, articles|
 

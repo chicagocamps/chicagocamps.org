@@ -2,29 +2,28 @@
 title: Home
 ---
 
-%header.main-header.home-header
-
-  .home-header-container
+%header.header.header-home
+  .header-container
     .container
 
-      %h1.home-header-logo Chicago Camps
-      %h2.home-header-tagline Low-cost, high-value events <br> serving the technology community.
+      %h1.header-logo.header-logo-home Chicago Camps
+      %h2.header-home-tagline.header-shadow Low-cost, high-value events <br> serving the technology community.
 
       .h-sm-caps Up Next:
-      %h2.home-header-next
+      %h2.header-home-next.header-shadow
         %a(href="/events/2015/workshop-workshop/") The Workshop Workshop
       %a.btn.btn-alt.btn-large(href="/events/2015/workshop-workshop/") View Details
 
-      %a.main-header-credit(href="https://flic.kr/p/amYWgx") Photo: Robert Lowe
+      %a.header-credit(href="https://flic.kr/p/amYWgx") Photo: Robert Lowe
 
-  .home-header-news
+  .header-home-news
     .container
       .h-divider.h-divider-opaque Latest News
       - blog.articles.select {|a| a.data.category != "events"}.each_with_index do |article, i|
         - break if i == 1
         = link_to article.title, article
 
-%section.events-content.group
+%section.events-content.main-bg-light.group
   .container
 
     -# Featured event
@@ -43,7 +42,7 @@ title: Home
             = link_to article.title, article
             .lineup
               %span.h-sm-caps-gray= article.date.strftime("%B %e, %Y")
-          = truncate_words(article.summary, length: 25)
+          %p= truncate_words(article.data.summary, length: 30)
         
         .event-feat-cta= link_to "Attend", article, class: "btn btn-outline"
 

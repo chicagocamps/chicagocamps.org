@@ -5,9 +5,9 @@ pageable: true
 
 %section
 
-  %header.main-header.main-header-default
-    .main-header-container.container
-      %h1.main-header-title Updates
+  %header.header.header-default
+    .header-container.container
+      %h1.header-title Updates
 
   .container
     - page_articles.each_with_index do |article, i|
@@ -24,22 +24,19 @@ pageable: true
             %span.h-sm-caps-gray= article.date.strftime("%B %e, %Y")
       
         .update-summary
-          - if article.summary
+          - if article.data.category == "events"
+            %p= article.data.summary
+            .update-cta= link_to "Attend", article, class: "btn btn-outline"
+          - else
             :preserve
               #{article.summary}
             
             .update-cta
               = link_to article, class: "btn btn-outline" do
-                - if article.data.category == "events"
-                  Attend
-                - elsif article.data.category == "podcasts"
+                - if article.data.category == "podcasts"
                   Listen
                 - else
                   Learn More
-
-          - else
-            :preserve
-              #{article.body}
 
   - if paginate && (prev_page || next_page)
     %nav.pagination

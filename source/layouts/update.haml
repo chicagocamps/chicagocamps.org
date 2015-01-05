@@ -3,13 +3,17 @@
   %article(role="article" itemscope itemtype="http://schema.org/BlogPosting")
 
     - if current_page.data.header_image
-      %header.main-header(style="#{header_image(current_page)}")
+      %header.header(style="#{header_image(current_page)}")
+        
         - if current_page.data.header_title || (current_page.data.header_image_photographer && current_page.data.header_image_url)
-          .main-header-container.container
+          .header-container
+          
             - if current_page.data.header_title
-              %h1.main-header-title= current_page.data.header_title
+              .container
+                %h1.header-title= current_page.data.header_title
+            
             - if current_page.data.header_image_photographer && current_page.data.header_image_url
-              %a.main-header-credit(href="#{current_page.data.header_image_url}" rel="nofollow")
+              %a.header-credit(href="#{current_page.data.header_image_url}" rel="nofollow")
                 Photo: #{current_page.data.header_image_photographer}
 
     .main-content.container

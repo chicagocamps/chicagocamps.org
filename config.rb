@@ -65,7 +65,6 @@ with_layout :update do
   page "posts/*"
 end
 
-ignore "style.html.haml"
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
@@ -96,6 +95,9 @@ set :images_dir, "assets/img"
 
 # Build-specific configuration
 configure :build do
+
+  ignore "style.html.haml"
+
   # For example, change the Compass output style for deployment
   activate :minify_css
 
@@ -110,4 +112,5 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
 end

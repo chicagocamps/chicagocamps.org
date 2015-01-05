@@ -3,9 +3,22 @@ title: Workshop Workshop
 date: 2015-02-07 01:00 CDT
 category: events
 header_image: true
+header_image_photographer: Matthias Rhomberg
+header_image_url: https://flic.kr/p/8szrqe
+summary: You have attended workshops, you have seen them masterfully commanded by other people, and you really want to get a handle on doing this workshop thing yourself. This workshop is the workshop that will help you create and facilitate a workshop of your very own, be it for your teams or your clients.
 ---
 
-%p You have attended workshops, you have seen them masterfully commanded by other people, and you really want to get a handle on doing this workshop thing yourself. This workshop is the workshop that will help you create and facilitate a workshop of your very own, be it for your teams or your clients. READMORE
+- if current_page.data.header_image
+  %header.header(style="#{header_image(current_page)}")
+    .header-container
+      .container
+    
+        %h1.header-title= current_page.data.title
+        %h2.header-event-date.header-shadow= current_page.date.strftime("%A, %B %e, %Y")
+      
+      - if current_page.data.header_image_photographer && current_page.data.header_image_url
+        %a.header-credit(href="#{current_page.data.header_image_url}" rel="nofollow")
+          Photo: #{current_page.data.header_image_photographer}
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -24,7 +37,7 @@ header_image: true
       %strong Only $125
 
 
-%section#details.main-section
+%section#details.main-content
   .container
 
     %h3.h-section Details
@@ -43,5 +56,6 @@ header_image: true
 
     %p Bring your most comfortable pair of shoes, your favorite writing utensil, and all the gumption you can muster. This will be a jam-packed day!
 
-    %a.btn.btn-alt(href="http://nvite.com/events/c2f/tickets" rel="nofollow")
-      Join Us for Only $125 &#8212; Limited Class Size
+    .event-cta
+      %a.btn.btn-alt(href="http://nvite.com/events/c2f/tickets" rel="nofollow")
+        Join Us for Only $125 &#8212; Limited Class Size
