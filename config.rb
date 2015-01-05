@@ -82,8 +82,11 @@ activate :livereload
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  def event_src(source)
+    "/assets/img/#{source.data.category}/#{source.date.strftime('%Y-%m-%d')}-#{source.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}"
+  end
   def header_image(source)
-    "background-image: url('/assets/img/#{source.data.category}/#{source.date.strftime('%Y-%m-%d')}-#{source.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}/header.jpg');"
+    "background-image: url('#{event_src(source)}/header.jpg');"
   end
 end
 

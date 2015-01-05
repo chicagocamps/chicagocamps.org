@@ -64,3 +64,38 @@
 .event-cta
   @extend %margin-bottom
   @extend %text-center
+
+// Location
+
+.event-location-venue,
+.event-location-area
+  @extend %grid-col
+
+  +breakpoint-min
+    width: 50%
+
+  #{headings()}
+    @extend %text-left
+
+.location-media
+  height: 0
+  @extend %margin-bottom
+  +rem(max-width, 276px)
+  padding-bottom: 67.5%
+  @extend %position-relative
+  @extend %grid-1-1
+
+  .frame
+    height: 100%
+    @extend %left-0
+    @extend %position-absolute
+    @extend %top-0
+    @extend %grid-1-1
+
++breakpoint-min
+
+  .event-location-venue
+    +rem(padding-right, $gutter-half)
+
+  .event-location-area
+    +rem(padding-left, $gutter-half)

@@ -61,6 +61,19 @@
     +rem(top, 1px)
     @extend %vertical-align-top
 
+.lineup-wrap,
+%lineup-wrap
+  +rem(margin-top, $baseline-step / 2)
+  +rem(margin-bottom, $baseline-step / 2)
+
+  h1 &,
+  h2 &
+    +rem(margin-top, $baseline-step * 1.5)
+    +rem(margin-bottom, $baseline-step * 1.5)
+
+  > *
+    @extend %line-height-small
+
 // Font families
 
 @each $family, $i in $font-families
