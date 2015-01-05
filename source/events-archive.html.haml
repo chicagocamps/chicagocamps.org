@@ -8,7 +8,7 @@ title: Events Archive
     .main-header-container.container
       %h1.main-header-title Events Archive
 
-  .events.group
+  .events-content.group
     .container
       - blog.articles.select {|a| a.data.category == "events"}.group_by {|a| a.date.year }.each do |year, articles|
 

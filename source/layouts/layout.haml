@@ -12,9 +12,11 @@
     %link(rel="stylesheet" href="/assets/css/styles.css")
     %link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:300,700")
 
+    %script(src="/assets/js/vendor/modernizr-2.8.3.min.js")
+
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
 
-  %body(class="#{page_classes}")
+  %body#top(class="#{page_classes}")
     
     = partial "partials/header"
 
@@ -28,6 +30,21 @@
     %script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
     :javascript
       window.jQuery || document.write('<script src="js/vendor/jquery-2.1.3.min.js"><\/script>')
+    
+    - if current_page.data.category == "events"
+      :javascript
+        $(document).ready(function() {
+          Modernizr.load({
+            test: Modernizr.mq('screen and (min-width: 741px)'),
+            yep: '/assets/js/vendor/jquery.sticky-kit.min.js',
+            complete: function () {
+              if (Modernizr.mq('screen and (min-width: 741px)')) {
+                $('[data-js="event-nav"]').stick_in_parent({offset_top: 54});
+              }
+            }
+          });
+        });
+
     %script(src="/assets/js/main.js")
     
     - unless :development == environment
