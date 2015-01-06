@@ -8,18 +8,6 @@ header_image_url: https://flic.kr/p/8szrqe
 summary: You have attended workshops, you have seen them masterfully commanded by other people, and you really want to get a handle on doing this workshop thing yourself. This workshop is the workshop that will help you create and facilitate a workshop of your very own, be it for your teams or your clients.
 ---
 
-- if current_page.data.header_image
-  %header.header(style="#{header_image(current_page)}")
-    .header-container
-      .container
-    
-        %h1.header-title= current_page.data.title
-        %h2.header-event-date.header-shadow= current_page.date.strftime("%A, %B %e, %Y")
-      
-      - if current_page.data.header_image_photographer && current_page.data.header_image_url
-        %a.header-credit(href="#{current_page.data.header_image_url}" rel="nofollow")
-          Photo: #{current_page.data.header_image_photographer}
-
 %nav.event-nav.group(data-js="event-nav")
   .container
     %ul.event-nav-content
@@ -65,7 +53,7 @@ summary: You have attended workshops, you have seen them masterfully commanded b
 
     %h3.h-section Instructors
 
-    .profile.media
+    .profile.profile-bump.profile-push.media
       .profile-object.media-object= image_tag "#{event_src(current_page)}/brad-nunnally.jpg", alt: "Brad Nunnally"
       .media-body
 
@@ -102,7 +90,8 @@ summary: You have attended workshops, you have seen them masterfully commanded b
     .grid
 
       .event-location-venue
-        %figure.location-media= image_tag "shared/location-harrington.jpg", class: "frame", alt: "Harrington College of Design"
+        .location-media
+          %figure= image_tag "shared/location-harrington.jpg", class: "frame", alt: "Harrington College of Design"
 
         %h3 About Harrington College of Design
 
@@ -111,8 +100,9 @@ summary: You have attended workshops, you have seen them masterfully commanded b
         %p Check out <a href="http://www.harrington.edu/" rel="nofollow">Harrington College of Design</a>.
 
       .event-location-area
-        %figure.location-media
-          %iframe.frame(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11881.984732812934!2d-87.634767!3d41.882185!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x47c37e9f0dde86e7!2sHarrington+College+of+Design!5e0!3m2!1sen!2sus!4v1420497358257")
+        .location-media
+          %figure
+            %iframe.frame(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11881.984732812934!2d-87.634767!3d41.882185!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x47c37e9f0dde86e7!2sHarrington+College+of+Design!5e0!3m2!1sen!2sus!4v1420497358257")
 
         %h3 Where to Park?
 

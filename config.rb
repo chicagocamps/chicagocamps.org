@@ -65,6 +65,7 @@ with_layout :update do
   page "posts/*"
 end
 
+page "events/*", layout: :event
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {

@@ -65,6 +65,49 @@
   @extend %margin-bottom
   @extend %text-center
 
+// Mentors
+
+.mentor-list
+  @extend %margin-top-x-large
+  +rem(margin-left, $gutter-half * -1)
+  +rem(margin-right, $gutter-half * -1)
+
+  li
+    @extend %grid-col
+    @extend %margin-bottom
+    @extend %padding-left-half
+    @extend %padding-right-half
+    @extend %text-center
+    width: 50%
+
+    +breakpoint-min($min: 480px)
+      width: 33.33333%
+
+    +breakpoint-min($min: 640px)
+      width: 25%
+
+  img
+    @extend %frame
+    @extend %margin-auto
+    +rem(max-width, $baseline-step * 32)
+    @extend %grid-1-1
+
+.mentor-name
+  @extend %display-inline-block
+  @extend %s-delta
+  @extend %margin-top-step
+  @extend %vertical-align-top
+
+.mentor-job
+  @extend %h-sm-caps-gray
+  @extend %color-gray
+  @extend %s-golf
+  @extend %line-height-x-small
+  @extend %margin-top-step
+
+.mentor-podcast-cta
+  white-space: nowrap
+  
 // Location
 
 .event-location-venue,
@@ -78,13 +121,17 @@
     @extend %text-left
 
 .location-media
-  height: 0
-  @extend %margin-bottom
-  +rem(max-width, 276px)
-  padding-bottom: 67.5%
-  @extend %position-relative
-  @extend %grid-1-1
+  +breakpoint-max
+    +rem(min-width, 276px)
+    width: 90%
 
+  figure
+    height: 0
+    @extend %margin-bottom
+    padding-bottom: 67.5%
+    @extend %position-relative
+    @extend %grid-1-1
+  
   .frame
     height: 100%
     @extend %left-0
