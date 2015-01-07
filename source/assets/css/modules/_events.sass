@@ -13,7 +13,11 @@
   @extend %background-blue-light
   @extend %padding-top-xx-small
   @extend %padding-bottom-xx-small
+  @extend %transition-all
   z-index: 1
+
+  &.is_stuck
+    +rem(box-shadow, 0 0 3px rgba($black, .25))
 
   +breakpoint-max
     text-align: center
@@ -65,6 +69,59 @@
   @extend %margin-bottom
   @extend %text-center
 
+// Schedule
+
+.event-schedule
+  border-collapse: separate
+  +rem(border-spacing, 1px)
+  @extend %margin-bottom
+  @extend %grid-1-1
+
+  tr:not(:last-child)
+    margin-bottom: 1px
+  
+  th,
+  td
+    +rem(margin-bottom, 1px)
+    @extend %padding-top-xx-small
+    @extend %padding-right-half
+    @extend %padding-bottom-xx-small
+    @extend %padding-left-half
+    @extend %text-center
+
+  tr:nth-child(odd) th,
+  tr:nth-child(odd) td
+    background-color: rgba($white, .50)
+
+  tr:nth-child(even) th,
+  tr:nth-child(even) td
+    background-color: rgba($white, .75)
+
+  tr:first-child
+    
+    th:first-child
+      +rem(border-top-left-radius, $border-radius-base)
+    
+    td:last-child
+      +rem(border-top-right-radius, $border-radius-base)
+
+  tr:last-child
+    
+    th:first-child
+      +rem(border-bottom-left-radius, $border-radius-base)
+    
+    td:last-child
+      +rem(border-bottom-right-radius, $border-radius-base)
+
+  th
+    @extend %h-sm-caps-gray
+    @extend %s-golf
+    @extend %line-height-x-small
+
+.event-schedule-offset
+  @extend %color-gray
+  @extend %s-foxtrot
+
 // Mentors
 
 .mentor-list
@@ -107,12 +164,15 @@
 
 .mentor-podcast-cta
   white-space: nowrap
-  
+
 // Location
 
 .event-location-venue,
 .event-location-area
   @extend %grid-col
+  
+  +breakpoint-max
+    width: 100%
 
   +breakpoint-min
     width: 50%
@@ -120,7 +180,7 @@
   #{headings()}
     @extend %text-left
 
-.location-media
+.event-location-media
   +breakpoint-max
     +rem(min-width, 276px)
     width: 90%
