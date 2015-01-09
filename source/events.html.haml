@@ -18,8 +18,11 @@ title: Events Archive
           - articles.each do |article|
             %li.event-item
 
-              = link_to article, class: "event-item-logo" do
-                %img(src="#{lorem.image('174x174')}" alt="#{article.title}")
+              - if article.data.logo
+                - if article.data.logo.end_with? "camp"
+                  .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo #{article.data.logo}-logo"
+                - else
+                  .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo", style: "#{event_logo(article)}"
               
               %h3.event-item-title
                 = link_to article.title, article

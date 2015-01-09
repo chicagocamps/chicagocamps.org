@@ -30,12 +30,16 @@ title: Home
 
     %h3.h-section Events
 
-    .event-feat
-      - blog.articles.select {|a| a.data.category == "events"}.each_with_index do |article, i|
-        - break if i == 1
+    - blog.articles.select {|a| a.data.category == "events"}.each_with_index do |article, i|
+      - break if i == 1
+
+      .event-feat
         
-        = link_to article, class: "event-feat-logo" do
-          %img(src="#{lorem.image('192x192')}" alt="#{article.title}")
+        - if article.data.logo
+          - if article.data.logo.end_with? "camp"
+            .event-feat-logo-container= link_to article.data.title, article, class: "event-feat-logo #{article.data.logo}-logo"
+          - else
+            .event-feat-logo-container= link_to article.data.title, article, class: "event-feat-logo", style: "#{event_logo(article)}"
         
         .event-feat-info
           %h2
@@ -57,8 +61,13 @@ title: Home
         - break if i == 4
         
         %li.event-item
-          = link_to article, class: "event-item-logo" do
-            %img(src="#{lorem.image('174x174')}" alt="#{article.title}")
+
+          - if article.data.logo
+            - if article.data.logo.end_with? "camp"
+              .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo #{article.data.logo}-logo"
+            - else
+              .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo", style: "#{event_logo(article)}"
+
           %h3.event-item-title
             = link_to article.title, article
             .lineup

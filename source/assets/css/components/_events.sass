@@ -12,7 +12,7 @@
   @extend %margin-bottom-xx-large
   @extend %grid-1-1
 
-.event-feat-logo,
+.event-feat-logo-container,
 .event-feat-info,
 .event-feat-cta
   @extend %vertical-align-middle
@@ -20,10 +20,16 @@
   +breakpoint-min
     display: table-cell
 
-.event-feat-logo img
+.event-feat-logo
+  @extend %ir
+  background-position: 50%
+  background-repeat: no-repeat
+  background-size: contain
   @extend %display-block
+  +rem(height, 192px)
   @extend %margin-auto
   @extend %margin-bottom
+  +rem(width, 192px)
 
 .event-feat-info
   +breakpoint-min
@@ -75,32 +81,24 @@
     margin-left: 1.136363636%
     margin-right: 1.136363636%
 
-.event-item-logo img
-  @extend %display-block
-  @extend %margin-auto
+.event-item-logo-container
+  height: 0
   @extend %margin-bottom-x-small
-  max-width: 100%
+  padding-bottom: 100%
+  @extend %position-relative
+  @extend %grid-1-1
+
+.event-item-logo
+  @extend %ir
+  background-position: 50%
+  background-repeat: no-repeat
+  background-size: contain
+  height: 100%
+  @extend %left-0
+  @extend %margin-bottom
+  @extend %top-0
+  @extend %position-absolute
+  @extend %grid-1-1
 
 .event-item-title
   @extend %margin-bottom-x-small
-
-// Archive link
-
-.events-archive-link
-  +rem(margin-top, $baseline-small * -1)
-  @extend %margin-bottom-xx-large
-  @extend %text-center
-
-// Recommend an event
-
-.recommend-an-event
-  @extend %background-blue-light
-  @extend %padding-top-xx-large
-  @extend %padding-bottom-xx-large
-  @extend %text-center
-
-  .container
-    +rem(max-width, 900px)
-
-  .btn-outline
-    @extend %color-gray-dark

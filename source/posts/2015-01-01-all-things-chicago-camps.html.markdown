@@ -3,7 +3,7 @@ title: All Things Chicago Camps
 date: 2015-01-01 01:00 CDT
 category: posts
 header_title: Happy New Year!
-header_image: true
+header_image: active
 header_image_photographer: Bhaskar Peddhapati
 header_image_url: https://flic.kr/p/oxnT9B
 ---

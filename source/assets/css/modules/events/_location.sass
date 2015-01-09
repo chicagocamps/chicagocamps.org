@@ -1,0 +1,42 @@
+// Events location
+// ========================================
+
+.event-location-venue,
+.event-location-area
+  @extend %grid-col
+  
+  +breakpoint-max
+    width: 100%
+
+  +breakpoint-min
+    width: 50%
+
+  #{headings()}
+    @extend %text-left
+
+.event-location-media
+  +breakpoint-max
+    +rem(min-width, 276px)
+    width: 90%
+
+  figure
+    height: 0
+    @extend %margin-bottom
+    padding-bottom: 67.5%
+    @extend %position-relative
+    @extend %grid-1-1
+  
+  .frame
+    height: 100%
+    @extend %left-0
+    @extend %position-absolute
+    @extend %top-0
+    @extend %grid-1-1
+
++breakpoint-min
+
+  .event-location-venue
+    +rem(padding-right, $gutter-half)
+
+  .event-location-area
+    +rem(padding-left, $gutter-half)

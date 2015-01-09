@@ -7,7 +7,7 @@
   background-image: image-url("home/header.jpg")
 
 .header-logo-home
-  +background-svg("logos/logo-full-white", 230px 179px)
+  +background-svg("logos/logo-full-white")
   +rem(height, 180px)
   +rem(width, 230px)
 
@@ -30,3 +30,24 @@
   
   a
     @extend %color-blue-light
+
+// Archive link
+
+.events-archive-link
+  +rem(margin-top, $baseline-small * -1)
+  @extend %margin-bottom-xx-large
+  @extend %text-center
+
+// Recommend an event
+
+.recommend-an-event
+  @extend %background-blue-light
+  @extend %padding-top-xx-large
+  @extend %padding-bottom-xx-large
+  @extend %text-center
+
+  .container
+    +rem(max-width, 900px)
+
+  .btn-outline
+    @extend %color-gray-dark

@@ -89,6 +89,9 @@ helpers do
   def header_image(source)
     "background-image: url('#{event_src(source)}/header.jpg');"
   end
+  def event_logo(source)
+    "background-image: url('#{event_src(source)}/logo.jpg'); background-image: url('#{event_src(source)}/logo.svg');"
+  end
 end
 
 activate :directory_indexes
