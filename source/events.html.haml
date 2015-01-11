@@ -1,0 +1,32 @@
+---
+title: Events Archive
+---
+
+%section
+
+  %header.header.header-default
+    .header-container.container
+      %h1.header-title Events Archive
+
+  .events-content.main-bg-light.group
+    .container
+      - blog.articles.select {|a| a.data.category == "events"}.group_by {|a| a.date.year }.each do |year, articles|
+
+        %h3.h-section= year
+
+        %ul.events-list
+          - articles.each do |article|
+            %li.event-item
+
+              - if article.data.logo
+                - if article.data.logo.end_with? "camp"
+                  .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo #{article.data.logo}-logo"
+                - else
+                  .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo", style: "#{event_logo(article)}"
+              
+              %h3.event-item-title
+                = link_to article.title, article
+                .lineup
+                  %span.h-sm-caps-gray= article.date.strftime("%B %e, %Y")
+              
+              = link_to "Learn More", article, class: "btn btn-outline"

@@ -1,0 +1,53 @@
+// Home
+// ========================================
+
+// Header
+
+.header-home
+  background-image: image-url("home/header.jpg")
+
+.header-logo-home
+  +background-svg("logos/logo-full-white")
+  +rem(height, 180px)
+  +rem(width, 230px)
+
+.header-home-tagline
+  @extend %s-alpha
+  @extend %margin-bottom-large
+  
+// Header next
+
+.header-home-next
+  @extend %margin-bottom-x-small
+
+// Header news
+
+.header-home-news
+  background-color: rgba($black, .5)
+  @extend %color-gray-light
+  @extend %padding-top-x-small
+  @extend %padding-bottom-x-small
+  
+  a
+    @extend %color-blue-light
+
+// Archive link
+
+.events-archive-link
+  +rem(margin-top, $baseline-small * -1)
+  @extend %margin-bottom-xx-large
+  @extend %text-center
+
+// Recommend an event
+
+.recommend-an-event
+  @extend %background-blue-light
+  @extend %padding-top-xx-large
+  @extend %padding-bottom-xx-large
+  @extend %text-center
+
+  .container
+    +rem(max-width, 900px)
+
+  .btn-outline
+    @extend %color-gray-dark

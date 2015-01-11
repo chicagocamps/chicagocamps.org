@@ -1,0 +1,41 @@
+// Footer
+// ========================================
+
+.primary-footer
+  @extend %padding-top-xx-large
+  @extend %padding-bottom-xx-large
+  @extend %text-center
+  @extend %text-transform-uppercase
+
+  a
+    @extend %color-gray-light
+
+    &:focus,
+    &:hover
+      @extend %color-white
+
+.secondary-logo
+  @extend %ir
+  +background-svg("logos/logo-wordmark-white", 216px 19px)
+  background-position: 50%
+  background-repeat: no-repeat
+  @extend %display-block
+  +rem(height, $baseline-base)
+  @extend %margin-auto
+  @extend %margin-bottom-xx-small
+  +rem(width, 216px)
+
+.secondary-nav
+  @extend %margin-bottom-small
+
+  li
+    @extend %h-sm-caps
+    @extend %display-inline-block
+    +rem(margin, 0 ($gutter / 4))
+
+    a
+      +rem(padding, 0 ($gutter / 4))
+
+.primary-footer-legal
+  @extend %color-gray-light
+  @extend %s-hotel

@@ -1,0 +1,21 @@
+// Profiles
+// ========================================
+
+.profile
+  #{headings()}
+    @extend %text-left
+
+.profile-bump
+  @extend %margin-top-x-large
+
+.profile-push
+  @extend %margin-bottom
+
+.profile-object
+  +breakpoint-min($min: 480px)
+    float: left
+    width: 25%
+
+  img
+    +rem(max-width, $baseline-step * 46)
+    @extend %grid-1-1

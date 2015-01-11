@@ -1,0 +1,85 @@
+---
+title: Home
+---
+
+%header.header.header-home
+  .header-container
+    .container
+
+      %h1.header-logo.header-logo-home Chicago Camps
+      %h2.header-home-tagline.header-shadow Low-cost, high-value events <br> serving the technology community.
+
+      .h-sm-caps Up Next:
+      %h2.header-home-next.header-shadow
+        %a(href="/events/2015/workshop-workshop/") The Workshop Workshop
+      %a.btn.btn-alt.btn-large(href="/events/2015/workshop-workshop/") View Details
+
+      %a.header-credit(href="https://flic.kr/p/amYWgx") Photo: Robert Lowe
+
+  .header-home-news
+    .container
+      .h-divider.h-divider-opaque Latest News
+      - blog.articles.select {|a| a.data.category != "events"}.each_with_index do |article, i|
+        - break if i == 1
+        = link_to article.title, article
+
+%section.events-content.main-bg-light.group
+  .container
+
+    -# Featured event
+
+    %h3.h-section Events
+
+    - blog.articles.select {|a| a.data.category == "events"}.each_with_index do |article, i|
+      - break if i == 1
+
+      .event-feat
+        
+        - if article.data.logo
+          - if article.data.logo.end_with? "camp"
+            .event-feat-logo-container= link_to article.data.title, article, class: "event-feat-logo #{article.data.logo}-logo"
+          - else
+            .event-feat-logo-container= link_to article.data.title, article, class: "event-feat-logo", style: "#{event_logo(article)}"
+        
+        .event-feat-info
+          %h2
+            = link_to article.title, article
+            .lineup
+              %span.h-sm-caps-gray= article.date.strftime("%B %e, %Y")
+          %p= truncate_words(article.data.summary, length: 30)
+        
+        .event-feat-cta= link_to "Attend", article, class: "btn btn-outline"
+
+    -# Testimonial
+
+    = partial "partials/testimonials/jared-spool"
+
+    -# Upcoming events
+
+    %ul.events-list
+      - blog.articles.select {|a| a.data.category == "events"}.each_with_index do |article, i|
+        - break if i == 4
+        
+        %li.event-item
+
+          - if article.data.logo
+            - if article.data.logo.end_with? "camp"
+              .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo #{article.data.logo}-logo"
+            - else
+              .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo", style: "#{event_logo(article)}"
+
+          %h3.event-item-title
+            = link_to article.title, article
+            .lineup
+              %span.h-sm-caps-gray= article.date.strftime("%B %e, %Y")
+          = link_to "Attend", article, class: "btn btn-outline"
+
+    .events-archive-link.lineup
+      %a.a-chevron-right(href="/events/") Events Archive
+
+-# Recommend an event
+
+%section.recommend-an-event
+  .container
+    %h2 Do you have a great idea for an event, or would you like to bring one of our events to your community?
+    %a.btn.btn-outline.btn-large(href="/contact/") Let Us Know

@@ -1,0 +1,48 @@
+---
+title: Updates
+pageable: true
+---
+
+%section
+
+  %header.header.header-default
+    .header-container.container
+      %h1.header-title Updates
+
+  .container
+    - page_articles.each_with_index do |article, i|
+
+      .update.grid
+
+        - if article.data.header_image
+          = link_to article, class: "update-img-container" do
+            .update-img(style="#{header_image(article)}")
+
+        %h2.update-title
+          = link_to article.title, article
+          .lineup
+            %span.h-sm-caps-gray= article.date.strftime("%B %e, %Y")
+      
+        .update-summary
+          - if article.data.category == "events"
+            %p= article.data.summary
+            .update-cta= link_to "Attend", article, class: "btn btn-outline"
+          - else
+            :preserve
+              #{article.summary}
+            
+            .update-cta
+              = link_to article, class: "btn btn-outline" do
+                - if article.data.category == "podcasts"
+                  Listen
+                - else
+                  Learn More
+
+  - if paginate && (prev_page || next_page)
+    %nav.pagination
+      - if prev_page
+        = link_to "Previous", prev_page, class: "pagination-prev grid-1-2", rel: "prev"
+      - if prev_page && next_page
+        .pagination-divider
+      - if next_page
+        = link_to "Next", next_page, class: "pagination-next grid-1-2", rel: "next"

@@ -1,0 +1,71 @@
+// Buttons
+// ========================================
+
+.btn
+  @extend %border-solid
+  @extend %border-radius-base
+  @extend %cursor-pointer
+  @extend %display-inline-block
+  @extend %font-family-lato
+  @extend %line-height-base
+  @extend %margin-0
+  outline: 0
+  @extend %text-center
+  @extend %text-decoration-none
+  @extend %transition-all
+  @extend %vertical-align-middle
+  @extend %white-space-nowrap
+
+  &:focus,
+  &:hover
+    @extend %color-black
+    
+// Kinds
+
+.btn-default,
+.btn-alt
+  @extend %border-0
+  border-color: transparent
+  @extend %color-black
+  @extend %s-foxtrot
+  @extend %padding-gutters
+  @extend %padding-top-step
+  @extend %padding-bottom-step
+
+  &.btn-large
+    +rem(padding, ($baseline-step * 1.5) ($gutter * 1.5))
+
+.btn-default
+  @extend %background-blue-light
+
+  &:focus,
+  &:hover
+    background-color: darken($blue-light, 6)
+
+.btn-alt
+  @extend %background-yellow
+
+  &:focus,
+  &:hover
+    background-color: darken($yellow, 6)
+
+// Outline
+
+.btn-outline
+  background-color: transparent
+  +rem(border-width, 2px)
+  border-color: rgba($blue, .25)
+  @extend %color-blue
+  +rem(font-size, 13px)
+  @extend %font-weight-bold
+  +rem(padding, ($baseline-step - 2) ($gutter - 2))
+  @extend %padding-bottom-step
+  @extend %text-transform-uppercase
+
+  &.btn-large
+    +rem(padding, (($baseline-step * 1.5) - 2) (($gutter * 1.5) - 2))
+
+  &:focus,
+  &:hover
+    border-color: rgba($blue, .45)
+    @extend %color-blue-dark

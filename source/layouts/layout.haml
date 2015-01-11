@@ -1,0 +1,60 @@
+!!!
+%html(lang="en")
+  
+  %head
+
+    %meta(charset="utf-8")
+    %meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    %meta(name="viewport" content="width=device-width, initial-scale=1")
+
+    %title= current_page.data.title + " - Chicago Camps" || "Chicago Camps"
+
+    %link(rel="stylesheet" href="/assets/css/styles.css")
+    %link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:300,700")
+
+    %script(src="/assets/js/vendor/modernizr-2.8.3.min.js")
+
+    = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
+
+  %body#top(class="#{page_classes}")
+    
+    = partial "partials/header"
+
+    .main.group(role="main")
+      = yield
+      = partial "partials/sponsors"
+      = partial "partials/code-of-conduct" unless current_page.data.title == "Code of Conduct"
+
+    = partial "partials/footer"
+    
+    %script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
+    :javascript
+      window.jQuery || document.write('<script src="js/vendor/jquery-2.1.3.min.js"><\/script>')
+    
+    - if current_page.data.category == "events"
+      :javascript
+        $(document).ready(function() {
+          Modernizr.load({
+            test: Modernizr.mq('screen and (min-width: 741px)'),
+            yep: '/assets/js/vendor/jquery.sticky-kit.min.js',
+            complete: function () {
+              if (Modernizr.mq('screen and (min-width: 741px)')) {
+                $('[data-js="event-nav"]').stick_in_parent({offset_top: 54});
+              }
+            }
+          });
+        });
+
+    %script(src="/assets/js/main.js")
+    
+    - unless :development == environment
+      :javascript
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-33176347-2', 'auto');
+        ga('send', 'pageview');
+
+    = partial "partials/utilities/grid-overlay"

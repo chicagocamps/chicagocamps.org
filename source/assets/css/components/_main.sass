@@ -1,0 +1,34 @@
+// Main
+// ========================================
+
+.main
+  @extend %background-white
+
+// Main content
+
+.main-content
+  @extend %padding-top-xx-large
+  @extend %padding-bottom
+
+  #{headings()}
+    @extend %text-center
+
+// Sectional content
+
+.main-section
+  @extend %padding-top-xx-large
+  @extend %padding-bottom
+
+// Backgrounds
+
+.main-bg-plain
+  @extend %background-white
+
+.main-bg-alt
+  background: #f0eded
+
+.main-bg-light
+  background: #f9f9f9
+
+.main-bg-highlight
+  @extend %background-blue-light

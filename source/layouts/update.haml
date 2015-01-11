@@ -1,0 +1,43 @@
+= wrap_layout :layout do
+
+  %article(role="article" itemscope itemtype="http://schema.org/BlogPosting")
+
+    - if current_page.data.header_image
+      %header.header(style="#{header_image(current_page)}")
+        
+        - if current_page.data.header_title || (current_page.data.header_image_photographer && current_page.data.header_image_url)
+          .header-container
+          
+            - if current_page.data.header_title
+              .container
+                %h1.header-title= current_page.data.header_title
+            
+            - if current_page.data.header_image_photographer && current_page.data.header_image_url
+              %a.header-credit(href="#{current_page.data.header_image_url}" rel="nofollow")
+                Photo: #{current_page.data.header_image_photographer}
+
+    .main-content.container
+
+      %header
+        %h1(itemprop="name")
+          = current_page.title
+          .lineup
+            %time.h-sm-caps-gray(itemprop="dateCreated" datetime="#{current_page.date.strftime('%Y-%m-%d')}")
+              = current_page.date.strftime("%B %e, %Y")
+
+      %div(itemprop="articleBody")
+        - if current_page.data.podcast_id?
+          %iframe.podcast-player(seamless src="https://simplecast.fm/e/#{current_page.data.podcast_id}?style=light")
+        = yield
+
+      = partial "partials/podcast-credits" if current_page.data.podcast_credit?
+
+    %nav.pagination
+      - prev_article = current_article.blog_data.articles.find {|a| a.data.category != "events" && a.data.date < current_article.data.date }
+      - next_article = current_article.blog_data.articles.reverse.find {|a| a.data.category != "events" && a.data.date > current_article.data.date }
+      - if prev_article
+        = link_to prev_article.title, prev_article.url, class: "pagination-prev grid-1-3", rel: "prev"
+      %a.pagination-back.grid-1-3(class="#{'pagination-back-prev' if prev_article} #{'pagination-back-next' if next_article}" href="/updates/")
+        Back to Updates
+      - if next_article
+        = link_to next_article.title, next_article.url, class: "pagination-next grid-1-3", rel: "next"

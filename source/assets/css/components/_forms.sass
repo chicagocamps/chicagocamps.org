@@ -1,0 +1,132 @@
+// Forms
+// ========================================
+
+// Reset
+
+button::-moz-focus-inner,
+input::-moz-focus-inner
+  border: 0  // Vendor prefixes bust the extend
+  padding: 0 // Vendor prefixes bust the extend
+
+input[type="checkbox"],
+input[type="radio"]
+  box-sizing: border-box
+  @extend %padding-0
+
+// Defaults
+
+button,
+input,
+optgroup,
+select,
+textarea
+  color: inherit
+  font: inherit
+  @extend %margin-0
+
+.form-group
+  @extend %margin-bottom
+  @extend %position-relative
+
+.form-label
+  @extend %display-inline-block
+  @extend %s-foxtrot
+  @extend %font-weight-bold
+  @extend %margin-bottom-step
+
+// Text inputs and textareas
+
+.form-control,
+.form-area
+  @extend %background-white
+  background-image: none
+  @extend %border-base
+  @extend %border-radius-base
+  @extend %color-gray-dark
+  @extend %display-block
+  @extend %s-foxtrot
+  +rem(padding-top, ($baseline-step / 2) - 1)
+  @extend %padding-right-half
+  +rem(padding-bottom, ($baseline-step / 2) - 1)
+  @extend %padding-left-half
+  @extend %position-relative
+  @extend %transition-all
+  @extend %grid-1-1
+
+  &:focus
+    border-color: $blue
+    outline: 0
+    z-index: 2
+
+.form-area
+  @extend %line-height-small
+  +rem(min-height, $baseline-base * 3)
+  +rem(padding-top, $baseline-step - 1)
+  +rem(padding-bottom, $baseline-step - 1)
+  @extend %overflow-auto
+
+.form-choice
+  @extend %s-foxtrot
+  @extend %padding-left
+
+  input[type="radio"],
+  input[type="checkbox"]
+    @extend %pull-left
+    +rem(margin, 8px 0 0 $gutter * -1)
+
+// Horizontal styles
+
+.form-row
+  @extend %display-table
+  border-collapse: separate
+  @extend %grid-1-1
+
+  .form-btn
+    @extend %position-relative
+    width: 1%
+
+  .form-control,
+  .form-area,
+  .form-btn
+    @extend %display-table-cell
+    @extend %vertical-align-top
+
+  > .form-control,
+  > .form-area,
+
+    &:first-child
+      border-bottom-right-radius: 0
+      border-top-right-radius: 0
+
+    &:last-child
+      border-bottom-left-radius: 0
+      border-top-left-radius: 0
+
+    &:not(:first-child):not(:last-child)
+      border-radius: 0
+
+  .form-btn:last-child
+    &:hover,
+    &:focus,
+    &:active
+      z-index: 2
+
+    .btn
+      border-bottom-left-radius: 0
+      border-top-left-radius: 0
+      +rem(margin-left, -1px)
+
+// Column styles
+
+.form-col
+  @extend %grid-col
+  @extend %grid-1-1
+
+  +breakpoint-min
+    width: 50%
+
+    &:nth-child(odd)
+      +rem(padding-right, $gutter-half)
+    
+    &:nth-child(even)
+      +rem(padding-left, $gutter-half)

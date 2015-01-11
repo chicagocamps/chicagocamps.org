@@ -1,0 +1,61 @@
+// Headers
+// ========================================
+
+.header
+  background-position: 50%
+  background-size: cover
+  +rem(box-shadow, inset 0 0 150px 0 rgba($black, .2))
+  @extend %color-white
+  @extend %text-center
+  
+  #{headings()}
+    a
+      @extend %color-white
+    
+      &:active,
+      &:hover
+        @extend %color-blue-light
+
+.header-default
+  background-image: image-url("headers/default.jpg")
+
+.header-container
+  @extend %padding-top-xx-large
+  @extend %padding-bottom-xx-large
+  @extend %position-relative
+
+// Logo
+
+.header-logo
+  @extend %ir
+  background-position: 50%
+  background-repeat: no-repeat
+  background-size: contain
+  @extend %margin-auto
+  @extend %margin-bottom
+
+// Title
+
+.header-shadow,
+.header-title
+  +rem(text-shadow, 0 0 30px rgba($black, .25))
+
+.header-title
+  @extend %s-giga
+  @extend %margin-0
+
+// Credit
+
+.header-credit
+  +rem(bottom, $baseline-step)
+  @extend %color-white
+  +rem(font-size, 11px)
+  opacity: .5
+  @extend %position-absolute
+  @extend %text-transform-uppercase
+  +rem(right, $gutter)
+
+  &:active,
+  &:hover
+    @extend %color-white
+    @extend %opacity-1

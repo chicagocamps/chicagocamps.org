@@ -1,0 +1,76 @@
+// Misc
+// ========================================
+
+// Image frame & card
+
+.frame,
+%frame
+  @extend %background-white
+  @extend %border-base
+  @extend %display-block
+  +rem(padding, 5px)
+
+.card,
+%card
+  @extend %background-white
+  +rem(box-shadow, 0 1px 1px rgba($black, .15))
+  @extend %padding-top
+  @extend %padding-gutters
+  
+// Lists
+
+.list-none,
+%list-none
+  list-style: none
+
+// Content
+
+%content-empty
+  content: ""
+
+// Opacities
+
+@each $opacity in $opacities
+  
+  // 0 & 1 are rounded our first
+  @if round($opacity) == $opacity
+    %opacity-#{$opacity}
+      opacity: $opacity
+  
+  @else
+    
+    // Convert numbers to strings
+    $opacity: inspect($opacity)
+    
+    // Cut out "0." for values over 3 characters
+    // Add "0 for values under 3 characters
+    @if str-length($opacity) > 3
+      %opacity-#{str-slice($opacity, 3)}
+        opacity: $opacity
+    
+    @else
+      %opacity-#{str-slice(str-insert($opacity, "0", 4), 3)}
+        opacity: $opacity
+
+// Transition
+
+%transition-duration
+  transition-duration: $transition-duration
+
+%transition-function
+  transition-timing-function: $transition-function
+
+%transition-all
+  transition-property: all
+  @extend %transition-duration
+  @extend %transition-function
+
+// Cursors
+
+@each $cursor in $cursors
+  %cursor-#{$cursor}
+    cursor: $cursor
+
+@each $pointer-event in $pointer-events
+  %pointer-events-#{$pointer-event}
+    pointer-events: $pointer-event
