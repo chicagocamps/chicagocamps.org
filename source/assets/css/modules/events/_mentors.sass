@@ -5,13 +5,13 @@
   @extend %margin-top-x-large
   +rem(margin-left, $gutter-half * -1)
   +rem(margin-right, $gutter-half * -1)
+  @extend %text-center
 
   li
     @extend %grid-col
     @extend %margin-bottom
     @extend %padding-left-half
     @extend %padding-right-half
-    @extend %text-center
     width: 50%
 
     +breakpoint-min($min: 480px)
