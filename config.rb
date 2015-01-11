@@ -33,8 +33,6 @@ activate :autoprefixer  do |config|
   config.browsers = ["last 3 versions", "Explorer >= 8"]
 end
 
-page "/feed.xml", layout: false
-
 Sass::Script::Number.precision = 8
 
 ###

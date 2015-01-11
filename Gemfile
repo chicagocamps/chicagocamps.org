@@ -16,6 +16,3 @@ gem "nokogiri"
 
 # GH pages
 gem "middleman-gh-pages", git: "git@github.com:bellycard/middleman-gh-pages.git"
-
-# For feed.xml.builder
-gem "builder", "~> 3.0"
