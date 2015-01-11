@@ -6,8 +6,9 @@
       Sponsors
       %span Camps
 
-    .lineup
-      %a.a-chevron-right(href="/sponsorship/") Become a Sponsor
+    - unless current_page.data.title == "Sponsorship"
+      .lineup
+        %a.a-chevron-right(href="/sponsorship/") Become a Sponsor
 
     %ul.sponsors-all-list
       %li.sponsors-all-harrington

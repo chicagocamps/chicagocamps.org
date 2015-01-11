@@ -58,6 +58,9 @@ textarea
     outline: 0
     z-index: 2
 
+.form-control
+  @extend %line-height-base
+
 .form-area
   @extend %line-height-small
   +rem(min-height, $baseline-base * 3)
@@ -89,7 +92,7 @@ textarea
   .form-area,
   .form-btn
     @extend %display-table-cell
-    @extend %vertical-align-top
+    @extend %vertical-align-middle
 
   > .form-control,
   > .form-area,
