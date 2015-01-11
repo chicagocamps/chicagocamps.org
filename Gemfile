@@ -15,4 +15,4 @@ gem "middleman-autoprefixer"
 gem "nokogiri"
 
 # GH pages
-gem "middleman-gh-pages", git: "git@github.com:bellycard/middleman-gh-pages.git"
+gem "middleman-gh-pages"
