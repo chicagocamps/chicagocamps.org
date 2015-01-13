@@ -1,7 +1,64 @@
 ---
-published: false
 title: Real World Responsive Design Workshop
 date: 2014-06-21 01:00 CDT
 category: events
+header_image: active
 summary: This one-day, hands-on workshop is for those that are ready to start building responsively or are having trouble integrating responsive techniques into their workflow. They&#8217;re convinced of the benefits of a fluid, device agnostic web and believe in mobile first as a best practice, but need a helping hand in breaking free of old build habits.
 ---
+
+%nav.event-nav.group(data-js="event-nav")
+  .container
+    %ul.event-nav-content
+      %li.event-nav-title
+        %a(href="#top" rel="nofollow") Real World Responsive Design
+      %li
+        %a(href="#details" rel="nofollow") Details
+      %li
+        %a(href="#instructor" rel="nofollow") Instructor
+      %li
+        %a(href="#location" rel="nofollow") Location
+
+%section#details.main-content
+  .container
+
+    %h3.h-section Details
+
+    %h2 Real World Responsive Design
+
+    %p This one-day, hands-on workshop is for those that are ready to start building responsively or are having trouble integrating responsive techniques into their workflow. They&#8217;re convinced of the benefits of a fluid, device agnostic web and believe in mobile first as a best practice, but need a helping hand in breaking free of old build habits.
+    
+    %p This workshop will make the connection between best practice and actual workflow through a mixture of tutorials, examples, exercises, discussion and pair programming that will be crafted to make the connection between responsive best practices and real-world projects. Together we&#8217;ll begin the day with a static site design and work through the day so you can take home HTML and CSS that translates the design into a device-agnostic responsive page that will load in whatever browser you desire. In the process we&#8217;ll explore the intersection of best practice and project compromise in a way that will make it easier for us all to make better decisions as we continue to build the responsive web.
+
+    %h3 Topics Covered
+    
+    %ul.list-ul
+      %li Planning a responsive build from a pre-existing design
+      %li Converting a static design to a fluid web page
+      %li Writing lightweight and modular CSS
+      %li Mobile first techniques (and how to apply them to non-mobile first projects
+      %li Crafting device agnostic breakpoints
+      %li Responsive design beyond browser width
+      %li Making better-informed compromises
+      %li Tools that make hand-crafting responsive sites easier
+
+    %h3 Required Preparation for Attendees
+    
+    %p You should bring a laptop that can open and work with PSD files and has a web text editor such as Coda or Sublime Text. You should have a working understanding of HTML and CSS and know the basics of writing media queries to adjust your page designs.
+
+%section#instructor.main-content.main-bg-alt
+  .container
+
+    %h3.h-section Instructor
+
+    .profile.profile-bump.media
+      .profile-object.media-object= image_tag "#{event_src(current_page)}/mike-gibson.jpg", alt: "Mike Gibson"
+      .media-body
+
+        %h2
+          Mike Gibson
+          .lineup.lineup-wrap
+            .h-sm-caps-gray Lead Designer, Table XI
+        
+        %p Mike is the lead designer at Table XI. He enjoys semantic markup, modular CSS and long-walks on a moonlit beach. If he&#8217;s not in front of his computer you can probably find him re-organizing his record collection or posting more photos of his dog Chupacabra to Instagram. He can be found on Twitter as <a href="https://twitter.com/lovehasnologic rel="nofollow">@lovehasnologic</a>.
+
+= partial "partials/event-location-harrington"
