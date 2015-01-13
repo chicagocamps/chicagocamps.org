@@ -1,0 +1,26 @@
+// Event sponsors
+// ========================================
+
+.event-sponsors
+  +rem(margin-left, $gutter-half * -1)
+  +rem(margin-right, $gutter-half * -1)
+  @extend %text-center
+
+  li
+    @extend %grid-col
+    @extend %margin-bottom
+    @extend %padding-left-half
+    @extend %padding-right-half
+    @extend %grid-1-3
+
+    +breakpoint-min($min: 480px)
+      width: 25%
+
+    +breakpoint-min($min: 640px)
+      width: 20%
+
+  img
+    @extend %frame
+    @extend %display-inline-block
+    @extend %margin-auto
+    @extend %grid-1-1

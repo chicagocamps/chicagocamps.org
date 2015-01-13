@@ -12,7 +12,7 @@
     @extend %margin-bottom
     @extend %padding-left-half
     @extend %padding-right-half
-    width: 50%
+    @extend %grid-1-2
 
     +breakpoint-min($min: 480px)
       width: 33.33333%
@@ -40,4 +40,4 @@
   @extend %margin-top-step
 
 .mentor-podcast-cta
-  white-space: nowrap
+  @extend %white-space-nowrap

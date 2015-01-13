@@ -6,9 +6,22 @@
 @import events/mentors
 @import events/nav
 @import events/schedule
+@import events/sponsors
 
 // Misc
 
 .event-cta
   @extend %margin-bottom
   @extend %text-center
+
+.event-podcast-player
+  @extend %border-gray-light
+  @extend %border-radius-base
+  @extend %border-solid
+  +rem(border-width, 3px)
+  @extend %display-block
+  +rem(height, $baseline-step * 7)
+  @extend %margin-auto
+  @extend %margin-bottom
+  @extend %opacity-70
+  @extend %grid-1-1
