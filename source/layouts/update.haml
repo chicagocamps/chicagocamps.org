@@ -27,7 +27,7 @@
 
       %div(itemprop="articleBody")
         - if current_page.data.podcast_id?
-          %iframe.podcast-player(seamless src="https://simplecast.fm/e/#{current_page.data.podcast_id}?style=light")
+          %iframe.podcast-player.update-podcast-player(seamless src="https://simplecast.fm/e/#{current_page.data.podcast_id}?style=light")
         = yield
 
       = partial "partials/podcast-credits" if current_page.data.podcast_credit?

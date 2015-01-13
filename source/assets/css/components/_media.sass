@@ -19,3 +19,14 @@ video
 audio:not([controls])
   @extend %display-none
   height: 0
+
+// Podcast player
+
+.podcast-player
+  @extend %border-gray-light
+  @extend %border-radius-base
+  @extend %border-solid
+  +rem(border-width, 3px)
+  @extend %display-block
+  +rem(height, $baseline-step * 7)
+  @extend %opacity-70
