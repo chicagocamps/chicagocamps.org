@@ -81,14 +81,14 @@ activate :livereload
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def event_src(source)
-    "/assets/img/#{source.data.category}/#{source.date.strftime('%Y-%m-%d')}-#{source.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}"
+  def post_header(source)
+    "background-image: url('/assets/img/posts/#{source.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}/header.jpg');"
   end
-  def header_image(source)
-    "background-image: url('#{event_src(source)}/header.jpg');"
+  def event_header(source)
+    "background-image: url('/assets/img/events/headers/#{source.data.alias}.jpg');"
   end
   def event_logo(source)
-    "background-image: url('#{event_src(source)}/logo.jpg'); background-image: url('#{event_src(source)}/logo.svg');"
+    "background-image: url('/assets/img/events/logos/#{source.data.alias}.jpg'); background-image: url('/assets/img/events/logos/#{source.data.alias}.svg');"
   end
 end
 

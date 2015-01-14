@@ -3,7 +3,7 @@
   %article(role="article" itemscope itemtype="http://schema.org/BlogPosting")
 
     - if current_page.data.header_image
-      %header.header(style="#{header_image(current_page)}")
+      %header.header(style="#{post_header(current_page)}")
         
         - if current_page.data.header_title || (current_page.data.header_image_photographer && current_page.data.header_image_url)
           .header-container
