@@ -16,7 +16,7 @@ pageable: true
 
         - if article.data.header_image
           = link_to article, class: "update-img-container" do
-            .update-img(style="#{post_header(article)}")
+            .update-img(style="#{header_image(article)}")
 
         %h2.update-title
           = link_to article.title, article

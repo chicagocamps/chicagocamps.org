@@ -18,9 +18,9 @@ title: Events Archive
           - articles.each do |article|
             %li.event-item
 
-              - if article.data.logo
-                - if article.data.logo.end_with? "camp"
-                  .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo #{article.data.logo}-logo"
+              - if article.data.alias
+                - if article.data.alias.end_with? "camp"
+                  .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo #{article.data.alias}-logo"
                 - else
                   .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo", style: "#{event_logo(article)}"
               

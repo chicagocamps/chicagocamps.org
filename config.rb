@@ -81,7 +81,7 @@ activate :livereload
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def post_header(source)
+  def header_image(source)
     "background-image: url('/assets/img/posts/#{source.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}/header.jpg');"
   end
   def event_header(source)
