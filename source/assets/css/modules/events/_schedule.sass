@@ -7,17 +7,19 @@
   @extend %margin-bottom
   @extend %grid-1-1
 
-  tr:not(:last-child)
-    margin-bottom: 1px
-  
   th,
   td
-    +rem(margin-bottom, 1px)
     @extend %padding-top-xx-small
     @extend %padding-right-half
     @extend %padding-bottom-xx-small
     @extend %padding-left-half
     @extend %text-center
+    
+    +breakpoint-max
+      display: block
+
+      &:not(:last-child)
+        padding-bottom: 0
 
   tr:nth-child(odd) th,
   tr:nth-child(odd) td
@@ -27,21 +29,31 @@
   tr:nth-child(even) td
     background-color: rgba($white, .75)
 
-  tr:first-child
-    
-    th:first-child
-      +rem(border-top-left-radius, $border-radius-base)
-    
-    td:last-child
-      +rem(border-top-right-radius, $border-radius-base)
+  +breakpoint-max
 
-  tr:last-child
-    
-    th:first-child
-      +rem(border-bottom-left-radius, $border-radius-base)
-    
-    td:last-child
-      +rem(border-bottom-right-radius, $border-radius-base)
+    tr:first-child th:first-child
+      +rem(border-radius, $border-radius-base $border-radius-base 0 0)
+      
+    tr:last-child td:last-child
+      +rem(border-radius, 0 0 $border-radius-base $border-radius-base)
+
+  +breakpoint-min
+
+    tr:first-child
+      
+      th:first-child
+        +rem(border-top-left-radius, $border-radius-base)
+      
+      td:last-child
+        +rem(border-top-right-radius, $border-radius-base)
+
+    tr:last-child
+      
+      th:first-child
+        +rem(border-bottom-left-radius, $border-radius-base)
+      
+      td:last-child
+        +rem(border-bottom-right-radius, $border-radius-base)
 
   th
     @extend %h-sm-caps-gray
@@ -49,7 +61,14 @@
     @extend %line-height-x-small
     @extend %white-space-nowrap
 
-.event-schedule-offset
+.event-schedule-offset,
+.event-schedule-room:after
   @extend %color-gray
   @extend %s-foxtrot
+  @extend %font-weight-normal
   @extend %line-height-small
+
+.event-schedule-room:after
+  +breakpoint-max
+    content: " (" attr(data-room) " Room)"
+    display: block
