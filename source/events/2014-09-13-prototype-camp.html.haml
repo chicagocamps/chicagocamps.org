@@ -38,33 +38,10 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
     %p These fantastic sponsors are helping us bring this great event to you.
         
     %ul.event-sponsors.grid
-      %li
-        %a(href="http://aycl.uie.com/?s=sb" rel="nofollow")
-          = image_tag "events/sponsors/aycl-uie.png", alt: "All You Can Learn by UIE"
-      %li
-        %a(href="http://aycl.uie.com/?s=sb" rel="nofollow")
-          = image_tag "events/sponsors/uie.png", alt: "UIE"
-      %li
-        %a(href="http://www.harrington.edu/" rel="nofollow")
-          = image_tag "events/sponsors/harrington.png", alt: "Harrington College of Design"
-      %li
-        %a(href="https://simplecast.fm/" rel="nofollow")
-          = image_tag "events/sponsors/simplecast.jpg", alt: "Simplecast"
-      %li
-        %a(href="http://www.stickermule.com/" rel="nofollow")
-          = image_tag "events/sponsors/sticker-mule.png", alt: "Sticker Mule"
-      %li
-        %a(href="http://uxpin.com/" rel="nofollow")
-          = image_tag "events/sponsors/ux-pin.png", alt: "UX Pin"
-      %li
-        %a(href="https://publishizer.com/1-prototype/" rel="nofollow")
-          = image_tag "events/sponsors/1-dollar-prototype.jpg", alt: "1 Dollar Prototype"
-      %li
-        %a(href="http://rosenfeldmedia.com/" rel="nofollow")
-          = image_tag "events/sponsors/rosenfeld-media.png", alt: "Rosenfeld Media"
-      %li
-        %a(href="https://www.facebook.com/O.P.TaylorBrewing" rel="nofollow")
-          = image_tag "events/sponsors/op-taylor-brewing.png", alt: "Taylor Brewing"
+      - data.sponsors.sponsors.slice("1 Dollar Prototype", "Harrington", "OP Taylor Brewing", "Rosenfeld", "Simplecast", "Sticker Mule", "UIE", "UIE AYCL", "UXPin").each do |s|
+        %li
+          %a(href="#{s[1]['url']}" rel="nofollow")
+            = image_tag "events/sponsors/#{s[1]['name']}.png", alt: "#{s[0]}"
 
     %h3 Lots of Great Reasons to Attend Prototype Camp Chicago
 

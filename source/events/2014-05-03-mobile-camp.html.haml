@@ -40,30 +40,10 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
     %p These fantastic sponsors are helping us bring this great event to you.
 
     %ul.event-sponsors.grid
-      %li
-        %a(href="http://funsize.co/" rel="nofollow")
-          = image_tag "events/sponsors/funsize.png", alt: "Funsize"
-      %li
-        %a(href="http://www.harrington.edu/" rel="nofollow")
-          = image_tag "events/sponsors/harrington.png", alt: "Harrington College of Design"
-      %li
-        %a(href="https://www.facebook.com/Jawhole/" rel="nofollow")
-          = image_tag "events/sponsors/jawhole.jpg", alt: "Jawhole"
-      %li
-        %a(href="http://www.optimalworkshop.com/" rel="nofollow")
-          = image_tag "events/sponsors/optimal-workshop.png", alt: "Optimal Workshop"
-      %li
-        %a(href="http://www.oreilly.com/" rel="nofollow")
-          = image_tag "events/sponsors/oreilly.png", alt: "O'Reilly Media"
-      %li
-        %a(href="https://rosenfeldmedia.com/" rel="nofollow")
-          = image_tag "events/sponsors/rosenfeld-media.png", alt: "Resenfeld Media"
-      %li
-        %a(href="http://www.uie.com/" rel="nofollow")
-          = image_tag "events/sponsors/uie.png", alt: "User Interface Engineering"
-      %li
-        %a(href="http://uxpin.com/" rel="nofollow")
-          = image_tag "events/sponsors/uxpin.png", alt: "UXPin"
+      - data.sponsors.sponsors.slice("Funsize", "Harrington", "Jawhole", "Optimal Workshop", "O'Reilly", "Rosenfeld", "UIE", "UXPin").each do |s|
+        %li
+          %a(href="#{s[1]['url']}" rel="nofollow")
+            = image_tag "events/sponsors/#{s[1]['name']}.png", alt: "#{s[0]}"
 
     %h3 Lots of Great Reasons to Attend Mobile Camp
 

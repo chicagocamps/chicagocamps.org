@@ -40,54 +40,10 @@ summary: Prototype Camp delivers a full day of bringing together Designers, Deve
     %p Do not be shy–you, too, can be an awesome sponsor by contacting us below! We are actively seeking sponsors who will fund our registration coffee &amp; light breakfast, morning and afternoon snack breaks, and lunch. These are &#8220;at cost&#8221; sponsorships, which means that you work with us to provide the food and drink and we provide you with a table during your time slot that will serve as a great place to gather resumes from some of the brightest minds in the Chicago design and development community! 
 
     %ul.event-sponsors.grid
-      %li
-        %a(href="http://www.8thlight.com/" rel="nofollow")
-          = image_tag "events/sponsors/8th-light.png", alt: "8th Light"
-      %li
-        %a(href="http://www.axure.com/" rel="nofollow")
-          = image_tag "events/sponsors/axure.png", alt: "Axure"
-      %li
-        %a(href="http://www.balsamiq.com/" rel="nofollow")
-          = image_tag "events/sponsors/balsamiq.png", alt: "Balsamiq"
-      %li
-        %a(href="http://binth.com/" rel="nofollow")
-          = image_tag "events/sponsors/binth.png", alt: "Binth"
-      %li
-        %a(href="http://fieldnotesbrand.com/" rel="nofollow")
-          = image_tag "events/sponsors/field-notes.jpg", alt: "Field Notes"
-      %li
-        %a(href="https://www.fluidui.com/" rel="nofollow")
-          = image_tag "events/sponsors/fluid.png", alt: "Fluid UI"
-      %li
-        %a(href="http://www.harrington.edu/" rel="nofollow")
-          = image_tag "events/sponsors/harrington.png", alt: "Harrington College of Design"
-      %li
-        %a(href="http://www.peachpit.com/" rel="nofollow")
-          = image_tag "events/sponsors/new-riders.jpg", alt: "New Riders"
-      %li
-        %a(href="http://www.optimalworkshop.com/" rel="nofollow")
-          = image_tag "events/sponsors/optimal-workshop.png", alt: "Optimal Workshop"
-      %li
-        %a(href="http://www.protoshare.com/" rel="nofollow")
-          = image_tag "events/sponsors/protoshare.png", alt: "ProtoShare"
-      %li
-        %a(href="http://rosenfeldmedia.com/" rel="nofollow")
-          = image_tag "events/sponsors/rosenfeld-media.png", alt: "Rosenfeld Media"
-      %li
-        %a(href="http://www.sapient.com/en-us/sapientnitro.html" rel="nofollow")
-          = image_tag "events/sponsors/sapient-nitro.png", alt: "SapientNitro"
-      %li
-        %a(href="http://www.unitedpixelworkers.com/" rel="nofollow")
-          = image_tag "events/sponsors/united-pixel-workers.png", alt: "United Pixelworkers"
-      %li
-        %a(href="https://www.uie.com/" rel="nofollow")
-          = image_tag "events/sponsors/uie.png", alt: "User Interface Engineering"
-      %li
-        %a(href="http://uxpin.com/" rel="nofollow")
-          = image_tag "events/sponsors/uxpin.png", alt: "UXPin"
-      %li
-        %a(href="http://www.webvisionsevent.com/chicago/" rel="nofollow")
-          = image_tag "events/sponsors/webvisions.png", alt: "WebVisions Chicago"
+      - data.sponsors.sponsors.slice("8th Light", "Axure", "Balsamiq", "Binth", "Field Notes", "Fluid UI", "Harrington", "New Riders", "Optimal Workshop", "Protoshare", "Rosenfeld", "SapientNitro", "United Pixelworkers", "UIE", "UXPin", "WebVisions").each do |s|
+        %li
+          %a(href="#{s[1]['url']}" rel="nofollow")
+            = image_tag "events/sponsors/#{s[1]['name']}.png", alt: "#{s[0]}"
 
     %h3 Here Are Some Great Reasons to Attend Prototype Camp
 

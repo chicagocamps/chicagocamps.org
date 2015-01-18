@@ -4,5 +4,88 @@ title: Mobile Camp
 date: 2013-04-20 01:00 CDT
 category: events
 alias: mobile-camp
-summary: Mobile Camp Chicago gets you up to speed on the mobile issues you need to know! Spend a Saturday with us and then spend your Monday applying what you&#8217;ve learned!
+header_image_photographer: Scott Cresswell
+header_image_url: https://flic.kr/p/iVvY69
+summary: Mobile Camp gets you up to speed on the mobile issues you need to know! Spend a Saturday with us and then spend your Monday applying what you&#8217;ve learned!
 ---
+
+%nav.event-nav.group(data-js="event-nav")
+  .container
+    %ul.event-nav-content
+      %li.event-nav-title
+        %a(href="#top" rel="nofollow") Mobile Camp
+      %li
+        %a(href="#details" rel="nofollow") Details
+      %li
+        %a(href="#keynotes" rel="nofollow") Keynotes
+      %li
+        %a(href="#schedule" rel="nofollow") Schedule
+      %li
+        %a(href="#speakers" rel="nofollow") Speakers
+      %li
+        %a(href="#location" rel="nofollow") Location
+
+%section#details.main-content
+  .container
+
+    %h3.h-section Details
+
+    %h2 Mobile Camp gets you up to speed on the mobile issues you need to know! Spend a Saturday with us and then spend your Monday applying what you&#8217;ve learned!
+
+    %p Mobile Camp dedicates a full day to bring together Designers, Developers, and anyone else who is interested in leveling&#8211;up their mobile skills.
+
+    %p It&#8217;s more than smaller screens. Come learn with us!
+
+    %h3 Meet Our Awesome Sponsors
+    
+    %p These fantastic sponsors are helping us bring this great event to you.
+
+    %ul.event-sponsors.grid
+      - data.sponsors.sponsors.slice("Axure", "Balsamiq", "Fluid UI", "Funsize", "Harrington", "HotGloo", "Jawhole", "Mailchimp", "New Riders", "Optimal Workshop", "ParkWhiz", "Rosenfeld Media", "SapientNitro", "SyneCore", "UIE", "User Testing", "UXPin").each do |s|
+        %li
+          %a(href="#{s[1]['url']}" rel="nofollow")
+            = image_tag "events/sponsors/#{s[1]['name']}.png", alt: "#{s[0]}"
+
+    %h3 Lots of Great Reasons to Attend Mobile Camp
+
+    %p For your $50, we try our best to get you an incredible value for your money! The fine folks at <a href="http://www.harrington.edu/" rel="nofollow">Harrington College of Design</a> are excellent hosts with a unique space that allows for multiple tracks of content and easy socializing.
+
+    %p In addition to our hosts, check out the other great things our sponsors are providing you with:
+
+    %ul.list-ul
+      %li The insanely talented team at <a href="http://funsize.co" rel="nofollow">Funsize Corp.</a> is providing us with drinks and snacks throughout the day! We appreciate this generous sponsorship from one of the best mobile design shops in the industry!
+      %li We can&#8217;t tell you what surprise our friends at Jawhole have been cooking up for you, but they&#8217;ve definitely been brewing up something special!
+      %li <a href="http://parkwhiz.com" rel="nofollow">ParkWhiz</a> is serving up something special for an afternoon snack from some other local favorites who you may have heard of: Foiled Cupcakes!
+      %li <a href="http://sapientnitro.com" rel="nofollow">SapientNitro</a> is providing us with a nice spread for breakfast during the registration time.
+      %li Those smart kids at <a href="http://axure.com" rel="nofollow">Axure</a> have also given us 2 copies of the Axure RP Pro software that we get to give away!
+      %li The generous folks at <a href="http://www.balsamiq.com/" rel="nofollow">Balsamiq</a> are providing attendees with an extended trial of the myBalsamiq product through August 1, 2013!
+      %li The swell folks at <a href="https://www.fluidui.com/" rel="nofollow">FluidUI</a> are providing us with 3 months free access to their editor for all attendees!
+      %li Our super smart friends at <a href="http://hotgloo.com" rel="nofollow">HotGloo</a> have provided us with free Small Plan licenses for 6 months for all attendees!
+      %li The tone and voice champions at <a href="http://mailchimp.com/" rel="nofollow">MailChimp</a> have sent us some cool swag to hand out through the day!
+      %li Our pals at <a href="http://newriders.com" rel="nofollow">New Riders</a> and <a href="http://rosenfeldmedia.com" rel="nofollow">Rosenfeld Media</a> are providing us with a whole slew of books that you may win during our raffles throughout the day!
+      %li The gang at <a href="http://optimalworkshop.com" rel="nofollow">Optimal Workshop</a> have some generous gifts in mind for you–stay tuned!
+      %li Our dear friends at <a href="http://uie.com" rel="nofollow">UIE</a> are providing all attendees with access to a Virtual Seminar ($125 value)!
+      %li The kind and generous folks at <a href="http://uxpin.com" rel="nofollow">UXPin</a> have offered up 2-month free extensions to all attendees, as well as 5 one-year UXPin App subscriptions for the Team Pride plan!
+
+%section#keynotes.main-content.main-bg-alt
+  .container
+
+    %h3.h-section Keynotes
+
+
+
+%section#schedule.main-content.main-bg-highlight
+  .container
+
+    %h3.h-section Schedule
+
+
+
+%section#speakers.main-content.main-bg-alt
+  .container
+
+    %h3.h-section Speakers
+
+
+
+= partial "partials/event-location-harrington"

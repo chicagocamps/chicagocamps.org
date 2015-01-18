@@ -36,27 +36,10 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
     %p These fantastic sponsors are helping us bring this great event to you.
         
     %ul.event-sponsors.grid
-      %li
-        %a(href="http://balsamiq.com/" rel="nofollow")
-          = image_tag "events/sponsors/balsamiq.png", alt: "Balsamiq"
-      %li
-        %a(href="http://www.harrington.edu/" rel="nofollow")
-          = image_tag "events/sponsors/harrington.png", alt: "Harrington College of Design"
-      %li
-        %a(href="http://www.foiledcupcakes.com/" rel="nofollow")
-          = image_tag "events/sponsors/foiled-cupcakes.jpg", alt: "Foiled Cupcakes"
-      %li
-        %a(href="https://www.facebook.com/Jawhole/" rel="nofollow")
-          = image_tag "events/sponsors/jawhole.jpg", alt: "Jawhole"
-      %li
-        %a(href="http://www.rga.com/" rel="nofollow")
-          = image_tag "events/sponsors/rga.jpg", alt: "R/GA"
-      %li
-        %a(href="http://www.sapient.com/en-us/sapientnitro.html" rel="nofollow")
-          = image_tag "events/sponsors/sapient-nitro.png", alt: "Sapient Nitro"
-      %li
-        %a(href="http://www.webvisionsevent.com/chicago/" rel="nofollow")
-          = image_tag "events/sponsors/webvisions.png", alt: "WebVisions Chicago"
+      - data.sponsors.sponsors.slice("Balsamiq", "Harrington", "Foiled Cupcakes", "Jawhole", "RG/A", "SapientNitro", "WebVisions").each do |s|
+        %li
+          %a(href="#{s[1]['url']}" rel="nofollow")
+            = image_tag "events/sponsors/#{s[1]['name']}.png", alt: "#{s[0]}"
         
     %h3 Lots of Great Reasons to Attend Prototype Camp Chicago
 
