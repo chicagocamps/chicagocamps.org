@@ -36,10 +36,10 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
     %p These fantastic sponsors are helping us bring this great event to you.
         
     %ul.event-sponsors.grid
-      - data.sponsors.sponsors.slice("Balsamiq", "Harrington", "Foiled Cupcakes", "Jawhole", "RG/A", "SapientNitro", "WebVisions").each do |s|
+      - data.events.sponsors.slice("Balsamiq", "Harrington", "Foiled Cupcakes", "Jawhole", "RG/A", "SapientNitro", "WebVisions").each do |s|
         %li
           %a(href="#{s[1]['url']}" rel="nofollow")
-            = image_tag "events/sponsors/#{s[1]['name']}.png", alt: "#{s[0]}"
+            = image_tag "events/sponsors/#{s[1]['alias']}.png", alt: "#{s[0]}"
         
     %h3 Lots of Great Reasons to Attend Prototype Camp Chicago
 
@@ -80,34 +80,25 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
 
     %h3.h-section Keynotes
 
-    .profile.profile-bump.profile-push.media
-      .profile-object.media-object= image_tag "events/speakers/fred-beecher.jpg", alt: "Fred Beecher"
-      .media-body
-
-        %h2
-          Fred Beecher
-          .lineup.lineup-wrap
-            .h-sm-caps-gray User Experience Designer, <a href="http://nerdery.com/" rel="nofollow">The Nerdery</a>
-
-        %p Fred Beecher has been working in User Experience for 15 years. In that time he&#8217;s seen UX mature from a field struggling to prove its value to one driving an explosion of innovation and economic growth. To help feed the ever-increasing demand this explosion has sparked, Fred designed and implemented the UX apprenticeship program at The Nerdery in Minneapolis, MN.
-        
-        %p Fred is also known for being an outspoken advocate for iterative design methods, especially prototyping. In 2007, he authored the first official Axure training program, which he ran until 2012. He has written numerous articles and blog posts on prototyping and iterative design, and he has spoken on these topics at design conferences worldwide.
-        
-        %p He is excited beyond all reason to be keynoting Prototype Camp 2013.
-
-    .profile.media
-      .profile-object.media-object= image_tag "events/speakers/jared-spool.jpg", alt: "Jared Spool"
-      .media-body
-
-        %h2
-          Jared Spool
-          .lineup.lineup-wrap
-            .h-sm-caps-gray Founder, <a href="https://www.uie.com/" rel="nofollow">User Interface Engineering</a>
-        
-
-        %p Jared M. Spool is the founder of User Interface Engineering, the largest usability research organization of its kind in the world. If you&#8217;ve ever seen Jared speak about user experience design, you know that he&#8217;s probably the most effective and knowledgeable communicator on the subject today. He&#8217;s been working in the field of usability and experience design since 1978, before the term &#8220;usability&#8221; was ever associated with computers.
-        
-        %p Jared spends his time working with the research teams at the company, helps clients understand how to solve their design problems, explains to reporters and industry analysts what the current state of design is all about, and is a top-rated speaker at more than 20 conferences every year. He is also the conference chair and keynote speaker at the annual UI Conference and UX Immersion Conference, and manages to squeeze in a fair amount of writing time. He is author of the book, Web Usability: A Designer&#8217;s Guide and co-author of Web Anatomy: Interaction Design Frameworks that Work. You can find his writing at <a href="http://www.uie.com/" rel="nofollow">uie.com</a> and follow his adventures on the twitters at <a href="https://twitter.com/jmspool" rel="nofollow">@jmspool</a>.
+    - data.events.speakers.slice("Fred Beecher", "Jared Spool").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
 
 %section#schedule.main-content.main-bg-highlight
   .container
@@ -289,226 +280,183 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
 
     %h2 Blue Room
 
-    .profile.profile-bump.profile-push.media
-      .profile-object.media-object= image_tag "events/speakers/jen-myers.jpg", alt: "Jen Myers"
-      .media-body
+    - content_for :talk_jen_myers do
 
-        %h2
-          Jen Myers
-          .lineup.lineup-wrap
-            .h-sm-caps-gray Director of Open Source Curriculum, Pluralsight
+      %h3 Adventures in Prototyping: How To Make Simple, Solid HTML/CSS Prototypes
 
-        %p Jen Myers is a web designer/developer and part of the instructor team at Dev Bootcamp in Chicago. In 2011, she founded the Columbus, Ohio chapter of Girl Develop It, an organization that provides introductory coding classes aimed at women, and currently co-leads the Girl Develop It Chicago chapter. She speaks regularly about design, development and diversity, and focuses on finding new ways to make both technology and technology education accessible to everyone.
-          
-        %h3 Adventures in Prototyping: How To Make Simple, Solid HTML/CSS Prototypes
+      %p You need a prototype and you need it fast. Chances are, you&#8217;d also like it to look nice, be built on solid code and represent both the functionality and feel of the final intended product. With a good foundational knowledge of cutting-edge markup practices, design principles and readily available tools, it is in fact possible. This presentation will provide a look at the static site generators and style frameworks available, how to pick the right ones for your projects, and the process of using them to create quick, beautiful, representative prototypes.
 
-        %p You need a prototype and you need it fast. Chances are, you&#8217;d also like it to look nice, be built on solid code and represent both the functionality and feel of the final intended product. With a good foundational knowledge of cutting-edge markup practices, design principles and readily available tools, it is in fact possible. This presentation will provide a look at the static site generators and style frameworks available, how to pick the right ones for your projects, and the process of using them to create quick, beautiful, representative prototypes.
-            
-    .profile.profile-push.media
-      .profile-object.media-object= image_tag "events/speakers/todd-zaki-warfel.jpg", alt: "Todd Zaki Warfel"
-      .media-body
+    - content_for :talk_mari_luangrath do
 
-        %h2
-          Todd Zaki Warfel
-          .lineup.lineup-wrap
-            .h-sm-caps-gray Design Leader, Author, Speaker
+      %h3 Prototyping Cupcakes: Taking Delicious from Local to National
+      
+      %p Now shipping their sweets nationally, Foiled has undertaken their biggest challenge to date&#8211;sending delicious cupcakes in a box, while keeping the product and brand experience rich and unique&#8230; and still remaining competitive from a cost perspective. Mari and her team have successfully navigated this space, using pastry experience, customer data, trial and error, storymapping, and a strategic partnership with one of the biggest pharmaceutical shipping companies in the world&#8211;in order to do so profitably.
 
-        %p Todd Zaki Warfel is a designer, maker, and craftsman. He loves designing with data and is passionate about grid systems, typography, and designing for mobile.
-
-        %p He&#8217;s currently tackling big data design challenges for mobile, tablet, and desktop applications. He designed Reframer, the industry&#8217;s first collaborative research and analytics application for qualitative data. He also founded and lead the UX design consultancy messagefirst for over a decade. He wrote the book on prototyping, <a href="http://rosenfeldmedia.com/books/prototyping/" rel="nofollow">Prototyping: A Practitioner&#8217;s Guide</a>, and is co-authoring a book on Guerrilla Methods with Russ Unger.
-
-    .profile.profile-push.media
-      .profile-object.media-object= image_tag "events/speakers/max-temkin.jpg", alt: "Max Temkin"
-      .media-body
-
-        %h2
-          Max Temkin
-          .lineup.lineup-wrap
-            .h-sm-caps-gray Co-Creator, Cards Against Humanity
-
-        %p Max Temkin is a designer from Chicago, Il. He&#8217;s worked for good causes like Obama for America and the Hotel Rwanda Rusesabagina Foundation, and makes the games Cards Against Humanity, Humans vs. Zombies, and Werewolf. The Chicago Sun Times said that his business has &#8220;the sophistication of a lemonade stand.&#8221; Max has a degree in philosophy from Goucher College.
-
-    .profile.profile-push.media
-      .profile-object.media-object= image_tag "events/speakers/mari-luangrath.jpg", alt: "Mari Luangrath"
-      .media-body
-
-        %h2
-          Mari Luangrath
-          .lineup.lineup-wrap
-            .h-sm-caps-gray CEO &amp; Founder, Foiled Inc.
-
-        %p Mari Luangrath is best known for her dynamic speaking style, in which she shares stories about starting and growing Chicago&#8217;s Foiled Cupcakes. Starting the company using social media as its only form of advertising, Mari grew the business to revenue numbers 600 percent higher than originally projected.
-
-        %p Even without a traditional storefront, Foiled Cupcakes is Chicago&#8217;s most buzzed about cupcake operation. By marketing via Twitter and Facebook (totally by accident), Foiled is now Chicago&#8217;s cupcake darling, comfortably positioning themselves as the corporate go-to for sweet treats thanks to social media.
-
-        %p A sought-after international speaker and featured on national media outlets (Investors Business Daily, Wall Street Journal, Entrepreneur Magazine, Business Week, to name a few), Mari&#8217;s authenticity and passion towards business strategy and networking has resulted in an impressive client list, including over 100 Fortune 500 companies.
-
-        %h3 Prototyping Cupcakes: Taking Delicious from Local to National
-        
-        %p Now shipping their sweets nationally, Foiled has undertaken their biggest challenge to date&#8211;sending delicious cupcakes in a box, while keeping the product and brand experience rich and unique&#8230; and still remaining competitive from a cost perspective. Mari and her team have successfully navigated this space, using pastry experience, customer data, trial and error, storymapping, and a strategic partnership with one of the biggest pharmaceutical shipping companies in the world&#8211;in order to do so profitably.
+    - data.events.speakers.slice("Jen Myers", "Mari Luangrath", "Max Temkin", "Todd Zaki Warfel").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
+          - if content_for?(talk_desc)
+            = yield_content talk_desc
 
     %h2 Red Room
 
-    .profile.profile-bump.profile-push.media
-      .profile-object.media-object= image_tag "events/speakers/jason-cranford-teague.jpg", alt: "Jason Cranford Teague"
-      .media-body
+    - content_for :talk_dave_kiss do
 
-        %h2
-          Jason Cranford Teague
-          .lineup.lineup-wrap
-            .h-sm-caps-gray Sr. Creative Director, Capital One
-
-        %p Jason combines creative and technical know-how to help people communicate online. He has worked with businesses and organizations including USA TODAY, Marriott International, AOL, Virgin, Bank of America, The Aspen Institute, The Solar Energy Industry Association, and The USDA. Jason is a long standing leader in the Web design community, well know for being able to explain complex technical concepts to non-technical audiences. His most recent book is CSS3 Visual Quickstart Guide available in finer bookstores everywhere.
-        
-        %p Jason blogs regularly for <a href="http://geekdad.com/" rel="nofollow">GeekDad</a> and tweets <a href="https://twitter.com/JasonSpeaking" rel="nofollow">@JasonSpeaking</a>.
-
-        %h3 Interactive Prototyping: Avoiding the Fidelity Cliff
-        
-        %p Interactive Prototyping is the next big Ux skill, but many designers may avoid embracing it. Prototyping can become needlessly complex, requiring designers to know when they&#8217;ve designed enough, and it&#8217;s time to start building. In this session, Jason will explain some of the most common pitfalls with interactive prototyping, how they can be avoided, and why it&#8217;s never been more important for designers to learn how to create working prototypes.
+      %h3 Build Stuff That You&#8217;d Use
       
-    .profile.profile-push.media
-      .profile-object.media-object= image_tag "events/speakers/dave-kiss.jpg", alt: "Dave Kiss"
-      .media-body
+      %p As a designer or developer, keeping up with and growing your skillset can be challenging. However, figuring out what to do with those skills once you have them can be even more difficult. In this presentation, we&#8217;ll explore ways to come up with ideas that can lead to enhancing your work and workflow, shipping those ideas even when they aren&#8217;t perfect, and creating things that other people might even pay to use.
 
-        %h2
-          Dave Kiss
-          .lineup.lineup-wrap
-            .h-sm-caps-gray Designer/Developer, Greyscalegorilla
+    - content_for :talk_jason_cranford_teague do
 
-        %p Dave Kiss branches from the designer/developer model and is interested in shifting the paradigm that learning always has to be from the top down. He currently writes code and love-emails at <a href="http://greyscalegorilla.com/" rel="nofollow">Greyscalegorilla</a>. In his free-time, Dave works on making stuff that he and other people use. He enjoys bitter beers, hiking amongst cedar trees, and writing biographies in third person.
+      %h3 Interactive Prototyping: Avoiding the Fidelity Cliff
+      
+      %p Interactive Prototyping is the next big Ux skill, but many designers may avoid embracing it. Prototyping can become needlessly complex, requiring designers to know when they&#8217;ve designed enough, and it&#8217;s time to start building. In this session, Jason will explain some of the most common pitfalls with interactive prototyping, how they can be avoided, and why it&#8217;s never been more important for designers to learn how to create working prototypes.
 
-        %h3 Build Stuff That You&#8217;d Use
-        
-        %p As a designer or developer, keeping up with and growing your skillset can be challenging. However, figuring out what to do with those skills once you have them can be even more difficult. In this presentation, we&#8217;ll explore ways to come up with ideas that can lead to enhancing your work and workflow, shipping those ideas even when they aren&#8217;t perfect, and creating things that other people might even pay to use.
+    - content_for :talk_philip_likens do
 
-    .profile.profile-push.media
-      .profile-object.media-object= image_tag "events/speakers/smith-schwartz.jpg", alt: "Smith Schwartz"
-      .media-body
+      %h3 Deciding What to Build Without Killing Each Other
+      
+      %p Deciding what to build is hard. Making the decision as a team is even tougher. Team members often have differing views on which portions of the prototype are most important and what functionality to include. Tensions from the decision-making process can drive teams apart. In our labs group we have adopted a framework for making prototyping and project decisions. This presentation outlines the framework we use in Sabre Labs, as well as some examples of times we&#8217;ve gotten it right, and other times we haven&#8217;t.
 
-        %h2
-          Smith Schwartz
-          .lineup.lineup-wrap
-            .h-sm-caps-gray Interaction Designer, Say Media
+    - content_for :talk_smith_schwartz do
 
-        %p <a href="https://twitter.com/smithschwartz" rel="nofollow">Smith Schwartz</a> is a digital nomad who cascades with style around U.S. and the globe while working as a front-end developer and designer. She also writes about her adventures at Schwartzography.com as well as in the column &#8216;Well-Designed Travel&#8217; at <a href="http://www.apartmenttherapy.com/authors/smith" rel="nofollow">Apartment Therapy</a> where she explores the intersection of travel and design on the road.
+      %h3 Well-Designed Travel
+      
+      %p About two years ago, my partner and I left behind our Chicago home and nearly everything we owned to pursue a fanciful life of nomadic travel. We had flexible jobs where working from home was considered normal, so we wondered why couldn&#8217;t home be anywhere we want it to be? This lifestyle (though not without its challenges), has enabled us to visit new places, learn new languages, skip winters and spend time with the friends and family that we rarely got to see in our formerly stationary lives.
+      
+      %p The way we go about our day-to-day life on the road has been informed and made better by many of the development practices we already had, particularly in terms of prototyping. We continually strive for tight feedback loops so that we are free to try new things and quickly adapt. In our case we work for continual incremental improvement in our skills, our experiences, and our ability to connect with others to arrive at the most intentional and rewarding life that we know how to live.
 
-        %h3 Well-Designed Travel
-        
-        %p About two years ago, my partner and I left behind our Chicago home and nearly everything we owned to pursue a fanciful life of nomadic travel. We had flexible jobs where working from home was considered normal, so we wondered why couldn&#8217;t home be anywhere we want it to be? This lifestyle (though not without its challenges), has enabled us to visit new places, learn new languages, skip winters and spend time with the friends and family that we rarely got to see in our formerly stationary lives.
-        
-        %p The way we go about our day-to-day life on the road has been informed and made better by many of the development practices we already had, particularly in terms of prototyping. We continually strive for tight feedback loops so that we are free to try new things and quickly adapt. In our case we work for continual incremental improvement in our skills, our experiences, and our ability to connect with others to arrive at the most intentional and rewarding life that we know how to live.
-
-    .profile.profile-push.media
-      .profile-object.media-object= image_tag "events/speakers/philip-likens.jpg", alt: "Philip Likens"
-      .media-body
-
-        %h2
-          Philip Likens
-          .lineup.lineup-wrap
-            .h-sm-caps-gray Principal UX Designer, Sabre 
-
-        %p Philip Likens is the Principal UX Designer for Sabre Labs, a travel-focused emerging technology incubator within Sabre Holdings. Prior to working at Sabre, Philip taught web design and development at the Art Institute of Dallas. He has 15 years of experience in the design industry and holds a Master of Fine Arts in Interactive Design from Savannah College of Art and Design. When he isn&#8217;t designing, Philip most enjoys spending time with his friends and family over a good meal.
-
-        %p You can find Philip through his web site at <a href="http://deptof.com/" rel="nofollow">http://deptof.com</a>.
-
-        %h3 Deciding What to Build Without Killing Each Other
-        
-        %p Deciding what to build is hard. Making the decision as a team is even tougher. Team members often have differing views on which portions of the prototype are most important and what functionality to include. Tensions from the decision-making process can drive teams apart. In our labs group we have adopted a framework for making prototyping and project decisions. This presentation outlines the framework we use in Sabre Labs, as well as some examples of times we&#8217;ve gotten it right, and other times we haven&#8217;t.
+    - data.events.speakers.slice("Dave Kiss", "Jason Cranford Teague", "Philip Likens", "Smith Schwartz").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
+          - if content_for?(talk_desc)
+            = yield_content talk_desc
            
     %h2 Yellow Room
 
-    .profile.profile-bump.profile-push.media
-      .profile-object.media-object= image_tag "events/speakers/victoria-pater.jpg", alt: "Victoria Pater"
-      .media-body
+    - content_for :talk_gabby_hon do
 
-        %h2
-          Victoria Pater
-          .lineup.lineup-wrap
-            .h-sm-caps-gray Collaborator, Co-founder, Designer, Quite Strong
+      %h3 Co-Designing with the Client: Using Axure to Bring Requirements to Life
+      
+      %p Axure is a great tool to use to help move from a high-level list of requirements into functional concepting. Gabby will present an actual case study of how she used Axure to winnow down a 5-page list of requirements into a working prototype by co-designing with her client. Moving from whiteboard and pencil sketches into Axure, and refining on the go, we were able to get to a pretty decent prototype that gave visual designers the room to be creative, while adhering to the functional goals of the site.
 
-        %p Victoria Pater is a digitally-focused creative in Chicago. She currently works as a senior mobile designer at Orbitz Worldwide. As a co-founder of Quite Strong, a female collaborative made up of 5 women, she is a dedicated advocate for diversity in the design and tech communities. When she&#8217;s not designing, you&#8217;ll find her teaching typography at The School of the Art Institute of Chicago or traveling the world in search of hoppy beers and tasty tacos.
+    - content_for :talk_gail_swanson do
 
-        %h3 Designing for Mobile in InDesign
-        
-        %p Working in an agile setting has changed my approach to mobile design. I&#8217;ve let go of the pixel perfect final product and learned to iterate along the way in primarily one piece of software. I can flesh out everything from wireframes to final screens for my developers&#8211;all using Adobe InDesign. I&#8217;ll share how my files are set-up for efficiency and talk through the main reasons this works for designers who want to create better products that are constantly evolving.
-            
-    .profile.profile-push.media
-      .profile-object.media-object= image_tag "events/speakers/gabby-hon.jpg", alt: "Gabby Hon"
-      .media-body
+      %h3 The Right Type of Prototype
+      
+      %p How do you know what to prototype? What details are important to get right? What level of interactivity is necessary to get valid feedback?
+      
+      %p Prototypes are very effective tools for playing out ideas, testing concepts and getting feedback. But they are often left out of the design and development cycles due to their disposable nature. It can be tough to justify the effort to make something for the purpose of experiment. Finding the right prototype medium and minimum level of detail required is essential. Without it, how will you get the stakeholder buy-in and funding?
+      
+      %p Learn how to match your prototype fidelity to the information you need to gather. Understand the range of prototype techniques and match them to your situation. Get maximum value and minimize your project risk.
 
-        %h2
-          Gabby Hon
-          .lineup.lineup-wrap
-            .h-sm-caps-gray Senior User Experience Consultant
+    - content_for :talk_scott_sullivan do
 
-        %p Gabby Hon is a Senior User Experience Consultant in Chicago with 12+ years experience. She founded UX Book Club Chicago in 2009, and co-founded SketchCamp Chicago with Russ Unger in 2011. Previously, she was a mentor at SpeakerCamp Chicago 2013.
+      %h3 Prototyping Sensor Networks!
+      
+      %p This is an introduction to building connected environments. I&#8217;ll go over the main building blocks of what you need for a wireless sensor network, and show you how to get started making each &#8220;block.&#8221; This talk is intended for designers with little or no engineering ability who would like to start prototyping smart interactive environment-based experiences. I&#8217;ll give real world examples from a sensor network project I currently have deployed in a public space, and show exactly how data and feedback from the prototype has influenced the evolution of the system.
 
-        %h3 Co-Designing with the Client: Using Axure to Bring Requirements to Life
-        
-        %p Axure is a great tool to use to help move from a high-level list of requirements into functional concepting. Gabby will present an actual case study of how she used Axure to winnow down a 5-page list of requirements into a working prototype by co-designing with her client. Moving from whiteboard and pencil sketches into Axure, and refining on the go, we were able to get to a pretty decent prototype that gave visual designers the room to be creative, while adhering to the functional goals of the site.
-            
-    .profile.profile-push.media
-      .profile-object.media-object= image_tag "events/speakers/gail-swanson.jpg", alt: "Gail Swanson"
-      .media-body
+    - content_for :talk_victoria_pater do
 
-        %h2
-          Gail Swanson
-          .lineup.lineup-wrap
-            .h-sm-caps-gray Associate User Experience Director, Manifest Digital
-              
-        %p Experience Designer <a href="http://www.linkedin.com/in/gailswanson" rel="nofollow">Gail Swanson</a> leads creative teams as Associate Creative Director of Experience Design at <a href="http://www.sapient.com/en-us/sapientnitro.html" rel="nofollow">SapientNitro</a>. She devotes her time to finding more balanced methods for producing empowering technology. Her work spans many industries covering ground from digital marketing to enterprise productivity. Gail believes in the importance of spontaneous workplace sing-a-longs, and cartwheels in the workplace.
-        
-        %p Find Gail at her blog <a href="http://www.practicallyux.com/" rel="nofollow">www.practicallyUX.com</a> or follow her on Twitter <a href="https://twitter.com/practicallyUX" rel="nofollow">@practicallyUX</a>.
+      %h3 Designing for Mobile in InDesign
+      
+      %p Working in an agile setting has changed my approach to mobile design. I&#8217;ve let go of the pixel perfect final product and learned to iterate along the way in primarily one piece of software. I can flesh out everything from wireframes to final screens for my developers&#8211;all using Adobe InDesign. I&#8217;ll share how my files are set-up for efficiency and talk through the main reasons this works for designers who want to create better products that are constantly evolving.
 
-        %h3 The Right Type of Prototype
-        
-        %p How do you know what to prototype? What details are important to get right? What level of interactivity is necessary to get valid feedback?
-        
-        %p Prototypes are very effective tools for playing out ideas, testing concepts and getting feedback. But they are often left out of the design and development cycles due to their disposable nature. It can be tough to justify the effort to make something for the purpose of experiment. Finding the right prototype medium and minimum level of detail required is essential. Without it, how will you get the stakeholder buy-in and funding?
-        
-        %p Learn how to match your prototype fidelity to the information you need to gather. Understand the range of prototype techniques and match them to your situation. Get maximum value and minimize your project risk.
-            
-    .profile.profile-push.media
-      .profile-object.media-object= image_tag "events/speakers/scott-sullivan.jpg", alt: "Scott Sullivan"
-      .media-body
-
-        %h2
-          Scott Sullivan
-          .lineup.lineup-wrap
-            .h-sm-caps-gray Digital Product Designer, Involution Studios
-
-        %p Scott Sullivan is a digital product designer at Involution Studios in Columbus, Ohio. He has a background in User Experience design, technology-based art, and visual design. He is currently working in the emerging technology space.
-
-        %h3 Prototyping Sensor Networks!
-        
-        %p This is an introduction to building connected environments. I&#8217;ll go over the main building blocks of what you need for a wireless sensor network, and show you how to get started making each &#8220;block.&#8221; This talk is intended for designers with little or no engineering ability who would like to start prototyping smart interactive environment-based experiences. I&#8217;ll give real world examples from a sensor network project I currently have deployed in a public space, and show exactly how data and feedback from the prototype has influenced the evolution of the system.
+    - data.events.speakers.slice("Gabby Hon", "Gail Swanson", "Scott Sullivan", "Victoria Pater").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
+          - if content_for?(talk_desc)
+            = yield_content talk_desc
       
     %h2 Bonus
 
-    .profile.profile-bump.profile-push.media
-      .profile-object.media-object= image_tag "events/speakers/andy-hullinger.jpg", alt: "Andy Hullinger"
-      .media-body
+    - content_for :talk_andy_hullinger do
 
-        %h2
-          Andy Hullinger
-          .lineup.lineup-wrap
-            .h-sm-caps-gray Program Chair, Harrington College of Design
+      %h3 From Idea to App (in about an hour): Learn to Use the CoronaSDK for Rapid, Native App Prototyping
+      
+      %p You&#8217;ll be surprised just how simple and quick it can be to craft your next prototype with this true mobile development framework. Join App developer and Harrington professor Andy Hullinger in the school&#8217;s iMac lab for a hands-on micro-class in using the <a href="http://www.coronalabs.com/" rel="nofollow">CoronaSDK</a> and programming with the high-performance Lua language. You do not need prior app development experience to learn how to use this elegant, efficient, and freely available software development kit as we walk step-by-step through the creation and coding of an animated,  touch driven, multi-page iPhone App.
+      
+      %ul.list-ul
+        %li Discover tips and tricks for designing a functional mobile prototype presentation
+        %li Learn the simple syntax behind programming animation to enhance UI design
+        %li Understand the creation and optimization of images for mobile display
+        %li Experience the engineering cycle of native App development
+      
+      %p Why learn CoronaSDK? In addition to being the #1 cross-platform mobile development framework you&#8217;ll find it easy to continue pursuing your curiosity. The <a href="http://www.meetup.com/CoronaSDK/" rel="nofollow">Chicago CoronaSDK Developers Group Meetup</a> is now hosted at Harrington and Andy currently serves as a <a href="http://www.coronalabs.com/community/ambassadors/directory/" rel="nofollow">Corona Ambassador</a> advocating for the value of good design (both visual and functional) in App development and promoting the addition of Art education to Science, Tech, Engineering, and Math curriculum to put STEAM into S.T.E.M.
 
-        %p Andy Hullinger is a design professor and the Program Chair for Web Design + Development at Harrington College of Design. His &#8220;***coding for creatives***&#8221; curriculum is helping to change the way designers work with creative technologies.
-        
-        %p Creator of the award winning children&#8217;s book App Dragon Brush Andy has been exploring, teaching, and designing on the iPad right from its start. A former creative director, he consults with Chicago ad agencies to evolve their print campaigns for digital magazines. As a visiting professor at Northwestern&#8217;s Medill School of Journalism, he pioneered the Magazine Innovation Project&#8217;s efforts with tablet publishing. Andy lives in Evanston, Illinois with his wife, daughter, and son in a house full of good books and happy animals.
-          
-        %h3 From Idea to App (in about an hour): Learn to Use the CoronaSDK for Rapid, Native App Prototyping
-        
-        %p You&#8217;ll be surprised just how simple and quick it can be to craft your next prototype with this true mobile development framework. Join App developer and Harrington professor Andy Hullinger in the school&#8217;s iMac lab for a hands-on micro-class in using the <a href="http://www.coronalabs.com/" rel="nofollow">CoronaSDK</a> and programming with the high-performance Lua language. You do not need prior app development experience to learn how to use this elegant, efficient, and freely available software development kit as we walk step-by-step through the creation and coding of an animated,  touch driven, multi-page iPhone App.
-        
-        %ul.list-ul
-          %li Discover tips and tricks for designing a functional mobile prototype presentation
-          %li Learn the simple syntax behind programming animation to enhance UI design
-          %li Understand the creation and optimization of images for mobile display
-          %li Experience the engineering cycle of native App development
-        
-        %p Why learn CoronaSDK? In addition to being the #1 cross-platform mobile development framework you&#8217;ll find it easy to continue pursuing your curiosity. The <a href="http://www.meetup.com/CoronaSDK/" rel="nofollow">Chicago CoronaSDK Developers Group Meetup</a> is now hosted at Harrington and Andy currently serves as a <a href="http://www.coronalabs.com/community/ambassadors/directory/" rel="nofollow">Corona Ambassador</a> advocating for the value of good design (both visual and functional) in App development and promoting the addition of Art education to Science, Tech, Engineering, and Math curriculum to put STEAM into S.T.E.M.
+    - data.events.speakers.slice("Andy Hullinger").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
+          - if content_for?(talk_desc)
+            = yield_content talk_desc
             
     .profile.media
       .profile-object.media-object

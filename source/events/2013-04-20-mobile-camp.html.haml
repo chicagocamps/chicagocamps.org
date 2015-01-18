@@ -41,10 +41,10 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
     %p These fantastic sponsors are helping us bring this great event to you.
 
     %ul.event-sponsors.grid
-      - data.sponsors.sponsors.slice("Axure", "Balsamiq", "Fluid UI", "Funsize", "Harrington", "HotGloo", "Jawhole", "Mailchimp", "New Riders", "Optimal Workshop", "ParkWhiz", "Rosenfeld Media", "SapientNitro", "SyneCore", "UIE", "User Testing", "UXPin").each do |s|
+      - data.events.sponsors.slice("Axure", "Balsamiq", "Fluid UI", "Funsize", "Harrington", "HotGloo", "Jawhole", "Mailchimp", "New Riders", "Optimal Workshop", "ParkWhiz", "Rosenfeld Media", "SapientNitro", "SyneCore", "UIE", "User Testing", "UXPin").each do |s|
         %li
           %a(href="#{s[1]['url']}" rel="nofollow")
-            = image_tag "events/sponsors/#{s[1]['name']}.png", alt: "#{s[0]}"
+            = image_tag "events/sponsors/#{s[1]['alias']}.png", alt: "#{s[0]}"
 
     %h3 Lots of Great Reasons to Attend Mobile Camp
 
@@ -72,20 +72,400 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
 
     %h3.h-section Keynotes
 
+    %p We are bringing together two of the brightest minds in the industry to share with you what they know about mobile design and development. You don&#8217;t want to miss out on these talks!
 
+    - content_for :talk_phil_sharp do
+
+      %h3 The Four Mobile Traps (And How To Avoid Them)
+
+      %p After spending months reviewing thousands of mobile usability tests, UserTesting.com has identified the four most common traps that companies fall into when creating their mobile websites and apps.
+
+      %p These mobile traps show up over and over again because they grow out of some of the best practices that make a company successful in the traditional computing world. Plus, they&#8217;re not obvious until you know about them.
+
+      %p In this session you&#8217;ll learn:
+
+      %ul.list-ul
+        %li The four mobile traps and why it&#8217;s easy to fall into them
+        %li How to avoid the traps, and how to get out if you&#8217;ve fallen in
+        %li The most critical features to include, and avoid, in a mobile app or website
+
+    - content_for :talk_samantha_starmer do
+
+      %h3 The Future of Experience Design &#8211; Mobile &amp; Beyond
+
+      %p The future of experience design is not just the web or even mobile &#8211; it is everywhere a customer touches our products and services. The ubiquity of technology in our lives means that our interactions across different devices and mediums are becoming increasingly intertwined. We can work out using a Kinect, track our children&#8217;s whereabouts with an iPad app, and use our phones to check for best prices on a product while in shopping in a store. We therefore increasingly need to design experiences that are seamless across all interactions &#8211; physical and digital. As we are increasingly digitally connected, and as device diversification grows, mobile interfaces take on the role of intermediary between our online and offline lives. Samantha will describe the challenges and opportunities of this exciting future, and provide recommendations for how experience designers can be successful and increase their value by taking advantage of this new world.
+
+    - data.events.speakers.slice("Phil Sharp", "Samantha Starmer").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
+          - if content_for?(talk_desc)
+            = yield_content talk_desc
 
 %section#schedule.main-content.main-bg-highlight
   .container
 
     %h3.h-section Schedule
 
+    %p A full day of smart people and great topics, book-ended by two of the smartest people in the industry that you will ever meet. Do not delay&#8211;register for Mobile Camp and/or sign-up for your own speaking slot today!
 
+    %table.event-schedule
+
+      %tr
+        %th
+          %time(datetime="2013-04-20T08:30") 8:30
+          &#8212;
+          %time(datetime="2013-04-20T09:15") 9:15
+        %td.event-schedule-offset(colspan="3")
+          Registration &amp; Waking Up
+          %br
+          Coffee &amp; Breakfast Sponsored by <a href="http://www.sapient.com/en-us/sapientnitro.html" rel="nofollow">Sapient</a>
+
+      %tr
+        %th
+          %time(datetime="2013-04-20T09:15") 9:15
+          &#8212;
+          %time(datetime="2013-04-20T09:30") 9:30
+        %td.event-schedule-offset(colspan="3") Introduction, Housekeeping, Overview, Kick-off
+
+      %tr
+        %th
+          %time(datetime="2013-04-20T09:30") 9:30
+          &#8212;
+          %time(datetime="2013-04-20T10:15") 10:15
+        %td(colspan="3")
+          %strong.event-schedule-room(data-room="Blue") Phil Sharp
+          .event-schedule-offset The Four Mobile Traps (And How To Avoid Them) Keynote
+
+      %tr
+        %th
+          %time(datetime="2013-04-20T10:15") 10:15
+          &#8212;
+          %time(datetime="2013-04-20T10:30") 10:30
+        %td.event-schedule-offset(colspan="3") Morning Break
+
+      %tr
+        %th Rooms
+        %td
+          %strong Blue
+          %span.event-schedule-offset (Main)
+        %td
+          %strong Red
+        %td
+          %strong Yellow
+
+      %tr
+        %th
+          %time(datetime="2013-04-20T10:30") 10:30
+          &#8212;
+          %time(datetime="2013-04-20T11:10") 11:10
+        %td
+          %strong.event-schedule-room(data-room="Blue") Dan LeBoeuf
+          .event-schedule-offset How Do I Get Started in Mobile?
+        %td
+          %strong.event-schedule-room(data-room="Red") Jacey Gulden
+          .event-schedule-offset Rethinking Usability for Responsive Web Design
+        %td
+          %strong.event-schedule-room(data-room="Yellow") Dennis Kardys
+          .event-schedule-offset Convincing Your Boss to Go Mobile Now
+
+      %tr
+        %th
+          %time(datetime="2013-04-20T11:15") 11:15
+          &#8212;
+          %time(datetime="2013-04-20T11:55") 11:55
+        %td
+          %strong.event-schedule-room(data-room="Blue") Will Hacker
+          .event-schedule-offset Mobile How? Mobile Now.
+        %td
+          %strong.event-schedule-room(data-room="Red") Darby Frey
+          .event-schedule-offset Building a Mobile Layout
+        %td
+          %strong.event-schedule-room(data-room="Yellow") Christian Crumlish
+          .event-schedule-offset Tablet First: Designing Holistic Ubiquitous Experiences
+
+      %tr
+        %th
+          %time(datetime="2013-04-20T12:00") 12:00
+          &#8212;
+          %time(datetime="2013-04-20T13:00") 1:00
+        %td.event-schedule-offset(colspan="3") Lunch
+
+      %tr
+        %th
+          %time(datetime="2013-04-20T13:00") 1:00
+          &#8212;
+          %time(datetime="2013-04-20T13:40") 1:40
+        %td
+          %strong.event-schedule-room(data-room="Blue") Jon Buda
+          .event-schedule-offset Keep It Quick: Speed Up Your Mobile Site for Fun and Profit
+        %td
+          %strong.event-schedule-room(data-room="Red") Gail Swanson
+          .event-schedule-offset User Research Goes Mobile
+        %td
+          %strong.event-schedule-room(data-room="Yellow") Greg Nudelman
+          .event-schedule-offset Designing Mobile Magic Moments with Cross&#8211;Platform UX Framework
+
+      %tr
+        %th
+          %time(datetime="2013-04-20T13:45") 1:45
+          &#8212;
+          %time(datetime="2013-04-20T14:25") 2:25
+        %td
+          %strong.event-schedule-room(data-room="Blue") Shay Howe
+          .event-schedule-offset Modern Style Guides for a Better Tomorrow
+        %td
+          %strong.event-schedule-room(data-room="Red") Golli Hashemian
+          .event-schedule-offset An Assessment of Mobile Design Approaches: Which is Right for You and How Do You Know?
+        %td
+          %strong.event-schedule-room(data-room="Yellow") Jason Cranford Teague
+          .event-schedule-offset Mobile Iconography
+
+      %tr
+        %th
+          %time(datetime="2013-04-20T14:30") 2:30
+          &#8212;
+          %time(datetime="2013-04-20T14:45") 2:45
+        %td.event-schedule-offset(colspan="3")
+          Afternoon Break
+          %br
+          Snacks Sponsored by <a href="http://parkwhiz.com" rel="nofollow">ParkWhiz</a>
+
+      %tr
+        %th
+          %time(datetime="2013-04-20T14:45") 2:45
+          &#8212;
+          %time(datetime="2013-04-20T15:25") 3:25
+        %td
+          %strong.event-schedule-room(data-room="Blue") Dan Shipton
+          .event-schedule-offset Preparing For Sea: A Captain&#8217;s Guide For Shipping A Mobile Product
+        %td
+          %strong.event-schedule-room(data-room="Red") Simon King
+          .event-schedule-offset Scratch Your Own Itch: Simple, Designer-driven Apps
+        %td
+          %strong.event-schedule-room(data-room="Yellow") Andy Hullinger
+          .event-schedule-offset How Gesture-Based Design Can Enhance the Narrative Experience of Reading on the iPad
+
+      %tr
+        %th
+          %time(datetime="2013-04-20T15:30") 3:30
+          &#8212;
+          %time(datetime="2013-04-20T16:15") 4:15
+        %td(colspan="3")
+          %strong.event-schedule-room(data-room="Blue") Samantha Starmer
+          .event-schedule-offset The Future of Experience Design &#8211; Mobile &amp; Beyond Keynote
+
+      %tr
+        %th
+          %time(datetime="2013-04-20T16:15") 4:15
+          &#8212;
+          %time(datetime="2013-04-20T16:30") 4:30
+        %td.event-schedule-offset(colspan="3") Closing Ceremonies
 
 %section#speakers.main-content.main-bg-alt
   .container
 
     %h3.h-section Speakers
 
+    %h2 Blue Room
 
+    - content_for :talk_dan_leboeuf do
+
+      %h3 How Do I Get Started in Mobile?
+
+      %p It seems like everyone&#8211;and everything&#8211;is working in mobile, but maybe you haven&#8217;t yet had the opportunity to get up to speed. This session will help you catch up and give you a broad overview that helps you understand the ways that you can steer yourself in order to learn more in areas that are important to you.
+
+      %p Mobile can me many different things today, but it is most commonly referring to mobile phones and tablets, so it is important to have a basic understand of what designing and developing for the myriad of devices that exist looks like.
+
+      %p There is no denying that there is plenty to know to do great work in this space, and new technologies and processes are introduced all the time. It&#8217;s easy to feel like you&#8217;re falling behind faster and faster, and if you are not working in the mobile space yet, it is even easier to become increasingly intimidated by what&#8217;s out there. This will be a quick journey of the basics and some common themes that are evolving today. Get ready to get up to speed and get pointed in the right direction!
+
+    - content_for :talk_dan_shipton do
+
+      %h3 Preparing For Sea: A Captain&#8217;s Guide For Shipping A Mobile Product
+
+      %p Captain Dan Shipton will be sharing stories straight from his logbook about his experiences shipping a mobile product. While swinging the lamp, he&#8217;ll discuss how to prepare your product for sea by focusing on foundational design first and avoiding feature creep. He&#8217;ll also cover how to make your design process more efficient, especially for future voyages.
+
+      %p The Captain will end his chat with lessons for navigating choppy waters, including the hazards of being mobile, how to approach testing, and the challenges of rejection. By the end of his talk, you&#8217;ll feel your sea legs kicking in–enough to batten down the hatches and cast off on your own mobile adventure.
+
+    - content_for :talk_jon_buda do
+
+      %h3 Keep It Quick: Speed Up Your Mobile Site for Fun and Profit
+
+      %p As attention spans are heading towards zero and more and more of the population is constantly on-the-go, optimizing your mobile websites to load quickly and efficiently can make an enormous difference in visitor engagement, and most importantly, your bottom-line. Designing for performance should be a top-priority in keeping your visitors happy and allowing them do what they need to do quickly.
+
+      %p You&#8217;ll learn a few techniques on how to keep your mobile websites lean and loading quickly, how page speed is actually a component of good UX, how to test and benchmark under various network conditions, and how slow loading times can turn away visitors and potential paying customers.
+
+    - content_for :talk_shay_howe do
+
+      %h3 Modern Style Guides for a Better Tomorrow
+
+      %p Times are changing and so must the process in which we design and build websites. The days of designing static compositions in Photoshop are a thing of the past, instead, responsive design within the browser is the future. This new world is not without its own risks, but if we focus on maintainability, organization, and modularity we can achieve a better tomorrow.
+
+      %p In this talk Shay will outline styleguides, living documentation on the design and development of a website, and their role within web design and development process. Looking at a few modern practices and standards, this talk will cover the benefits of stylesguides, the strategy behind creating one, and how to best utilize one within your project.
+
+    - content_for :talk_will_hacker do
+
+      %h3 Mobile How? Mobile Now.
+
+      %p If you&#8217;re not taking your existing web properties mobile, you&#8217;re already slipping behind. But it&#8217;s not too late to start making changes, even if you don&#8217;t have the time to invest in a full mobile strategy right away. Jumpstart your mobile approach using this set of design techniques geared toward making your website easier to use for people on tablets&#8211;see real-world examples and hear practical advice that you can use right away to make your site mobile-friendly as quickly as possible! If you need to improve your website&#8217;s tablet experience but don&#8217;t have time or resources available to you to stop everything and go responsive, these easy-to-use-and-implement techniques will help you find your way. Quickly.
+
+    - data.events.speakers.slice("Dan LeBoeuf", "Dan Shipton", "Jon Buda", "Shay Howe", "Will Hacker").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
+          - if content_for?(talk_desc)
+            = yield_content talk_desc
+
+    %h2 Red Room
+
+    - content_for :talk_darby_frey do
+      
+      %h3 Building a Mobile Layout
+
+      %p Designing for mobile is challenging. With the ever changing landscape of devices and screen sizes, there is no way to predict every possible canvas we&#8217;ll be desiging for. Luckily, there are few tools at our disposal that we can use to be confident in our designs.
+
+      %p In this session we will introduce some of these tools, including flexible grids and media queries. We will also dive into some code and see how these components can be created and how we can avoid some common pitfalls along the way.
+
+    - content_for :talk_gail_swanson do
+
+      %h3 User Research Goes Mobile
+
+      %p Success making for mobile users depends upon how well we can fulfill users&#8217; needs while matching their perspectives. This is easy when your users are tied to a desk, but when they are moving throughout the world, things can be a little complicated. To get the insights we need, we use an array of user research methods. Let&#8217;s take a look at adapted methods for field research, ethnography as well as usability testing on small devices. And, let&#8217;s have some fun using core research principles to customize research for unique devices or situations. Whether you are a designer, developer or just interested in mobile technology, Gail will get you thinking beyond surveys and one way glass.
+
+    - content_for :talk_golli_hashemian do
+
+      %h3 An Assessment of Mobile Design Approaches: Which is Right for You and How Do You Know?
+
+      %p Your mobile strategy should depend upon the goals of your website or application, your users, and how it is that you interact with those users. This session will walk you through a step-by-step approach that you can use to evaluate your mobile metrics and gather insights from your users in order to make decisions about whether or not you should take an approach that is based upon Responsive Design, Mobile First, native application, or a hybrid of these. We&#8217;re talking due diligence here, and the type that you can do yourself.
+
+      %p A social network or eCommerce mobile strategy is not going to be the same as the mobile strategy for a content site; there are many different approaches to designing for mobile devices. Key decisions, such as how to mobilize your website, should be based upon research, planning, and a healthy dose of the metrics and analytics that are available to you and not by locking into the current buzzword trends. When you know what the buzzwords mean, and you understand who and what you are designing and developing for, these decisions can be a piece of cake!
+
+    - content_for :talk_jacey_gulden do
+
+      %h3 Rethinking Usability for Responsive Web Design
+
+      %p Join SyneCore Web Designer Jacey Gulden as she delivers a primer on Responsive Web Design (RWD) and usability. Responsive is one of the top design trends of 2013, but many designers have become so obsessed with the trend itself they have forgotten to give critical thought to the effect of their designs on the humans interacting with them.
+
+      %p Your user doesn&#8217;t care whether or not your website utilizes the latest technologies or follows the most popular design trends. What they do care about, though, is whether or not your website works and brings them to the information they desire. Give them a great user experience, and they&#8217;ll keep coming back for more. Jacey will talk about the importance of an end user centric design and give tips for creating great responsive web designs.
+
+    - content_for :talk_simon_king do
+
+      %h3 Scratch Your Own Itch: Simple, Designer-driven Apps
+
+      %p Making a useful app doesn&#8217;t always require a development team, VC funding, or plans to change the world. We all use services where part of the experience is broken or not quite what we need. Create instead of critique&#8211;dive in and build simple apps to make common everyday experiences a little better. To scratch my own itch I created News Now, an iPhone app utilizing the NPR API. Using that experience as a starting point, this talk will look at examples and techniques for making simple single-serving apps that even designers without hardcore development chops can create.
+
+    - data.events.speakers.slice("Darby Frey", "Gail Swanson", "Golli Hashemian", "Jacey Gulden", "Simon King").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
+          - if content_for?(talk_desc)
+            = yield_content talk_desc
+
+    %h2 Yellow Room
+
+    - content_for :talk_andy_hullinger do
+
+      %h3 How Gesture-Based Design Can Enhance the Narrative Experience of Reading on the iPad
+
+      %p Four years ago the iPad was a rumor! Today our increasingly powerful and sublimely tactical mobile devices have become the primary tools of our networked culture. Is truly &#8220;digital&#8221; design finally close at hand? How can we design stories that are as delightful to the fingers as they are to the eye?
+
+      %p In this session, Andy shares the secrets, struggles, and successes of exploring this emerging vocabulary of multi-touch gestures by taking you behind the scenes of the award winning children&#8217;s book <a href="http://www.commarts.com/interactive/cai13/dragonbrush.html" rel="nofollow">App Dragon Brush</a> and scrutinizing the work of his students in the <a href="http://www.medill.northwestern.edu/innovation/page.aspx?id=175621" rel="nofollow">Magazine Innovation Project</a> at Northwestern&#8217;s Medill School of Journalism.
+
+    - content_for :talk_christian_crumlish do
+
+      %h3 Tablet First: Designing Holistic Ubiquitous Experiences
+
+      %p Mobility today means more than handsets in pockets. We are entering a world of ubiquitous network access to always-on cross-channel digital services, bringing multiple new dimensions of complexity to the job of user experience strategy and product design. Many practitioners have embraced or experimented with a philosophy called &#8220;Mobile First&#8221; as a method of designing a core, minimally viable product, and then selectively extending or scaling the interface for traditional &#8220;lapdesk&#8221; devices. Christian will discuss a variation on this approach he called &#8220;Tablet First,&#8221; in which experiences are designed holistically and the prototyped and implemented initially on gesture-based tablets. Because the tablet form factor shares some charcteristics both with smaller handsets and larger lapdesks, solving problems for these devices lays a good foundation for extending the experience out across the full spectrum of touchpoints. Christian will draw on his experience leading the product and design teams at CloudOn, a mobile productivity application that launched initially on the iPad and now reaches customers on iPhones, numerous Android phones and tablets, and through the browser.
+
+    - content_for :talk_dennis_kardys do
+      
+      %h3 Convincing Your Boss to Go Mobile Now
+
+      %p A lot of organizations recognize the need to provide their Web visitors with a better mobile experience, but struggle with how to get there. What do you do when the decision to invest in mobile is in somebody else&#8217;s hands? Trying to get all vested stakeholders onboard can be an overwhelming challenge. How do you factor in the needs of your content authors? How do you address the disparity of devices that exist? What&#8217;s going to be the most sensible long-term or short-term investment of development resources? If you want to get your project off the ground, you&#8217;re going to need a plan. In this talk we&#8217;ll look at how to build a solid case for mobile.
+
+      %p You&#8217;ll leave armed with some useful data, actionable techniques, and mobile web best practices that will help you convince your boss, and others in your organization, to go mobile now!
+
+    - content_for :talk_greg_nudelman do
+      
+      %h3 Designing Mobile Magic Moments with Cross-Platform UX Framework
+
+      %p I&#8217;ve always been excited by mobile experiences, that make customers feel that they are wearing the Iron Man suit of armor. Apps that dissolve in behavior and empower users through superior experiences that people can&#8217;t wait to tell their friends about. In this talk I will help you understand what makes mobile experience magical, and how to create a magical experience for your own customers using my Cross-Platform UX Design framework. We will discuss unique device ergonomics, new device senors and essential mobile UX design patterns to discover what makes experiences magical. From camera-driven search, voice recognition, Artificial Intelligence and Mechanical Turk to emerging facial recognition technology and Near-field communication&#8211;we will cover the latest digital magic trends on iPhone and Android. We will see what works, and what doesn&#8217;t. We will look at how to put all of the key elements of the framework together to create delightful experiences for touch devices, and show you how to create magical delight in your own mobile and tablet apps. If you want to learn what makes mobile magical, you can&#8217;t afford to miss this talk.
+
+    - content_for :talk_jason_cranford_teague do
+
+      %h3 Mobile Iconography
+
+      %p One of the daunting issues web developers face with mobile design is how to deal with interface icons and controls. You can create images with fixed dimensions for particular interface context, but what happens when that context changes? Buttons that are the perfect size for clicking on with a mouse pointer are not so good for pushing with big bulky fingers on a tablet or smart phone. You can create separate images for different contexts, but that is rapidly becomes a complex exercise, especially as new screen resolutions are developed. The solution is to stop using images for icons and controls, and instead use webfonts. Webfonts can be scaled up and down without loss of fidelity and allow for a wide range of dynmic styling without having to resort to images. Now that webfonts are ubiquitous, they provide the best solution to this growing issue. In this session, I&#8217;ll detail the issues involved, and outline a solution that not only allows for better responsive design, but can also increase search engine optimization and accessibility.
+
+    - data.events.speakers.slice("Andy Hullinger", "Christian Crumlish", "Dennis Kardys", "Greg Nudelman", "Jason Cranford Teague").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
+          - if content_for?(talk_desc)
+            = yield_content talk_desc
 
 = partial "partials/event-location-harrington"

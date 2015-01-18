@@ -2,14 +2,17 @@
 // ========================================
 
 .profile
+  
   #{headings()}
     @extend %text-left
 
-.profile-bump
-  @extend %margin-top-x-large
+  & + &
+    @extend %margin-top
 
-.profile-push
-  @extend %margin-bottom
+#{headings()},
+p
+  + .profile
+    @extend %margin-top-x-large
 
 .profile-object
   +breakpoint-min($min: 480px)

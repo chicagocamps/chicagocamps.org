@@ -68,15 +68,24 @@ summary: This one-day, hands-on workshop is designed for those who want to learn
 
     %h3.h-section Instructor
 
-    .profile.profile-bump.media
-      .profile-object.media-object= image_tag "events/speakers/will-hacker.jpg", alt: "Will Hacker"
-      .media-body
-
-        %h2
-          Will Hacker
-          .lineup.lineup-wrap
-            .h-sm-caps-gray Lead Interaction Designer, GE Capital
-        
-        %p Will Hacker is the author of <a href="http://axuremobilebook.com/" rel="nofollow">Mobile Prototyping with Axure 7</a>. He&#8217;s used Axure for several years as part of his iterative design and prototyping process. Will spent two and a half years working exclusively on mobile design, prototyping, and usability testing, and Axure was one of the main tools in his arsenal. He also has written about prototyping and user experience design for Smashing Magazine and UX Booth, and is a frequent speaker at design events in Chicago. Will is currently a Lead Interaction Designer at GE Capital. You can follow his tweets at <a href="https://twitter.com/willhacker" rel="nofollow">@willhacker</a> or visit his website at <a href="http://willhacker.net/" rel="nofollow">willhacker.net.</a>
+    - data.events.speakers.slice("Will Hacker").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
 
 = partial "partials/event-location-harrington"
