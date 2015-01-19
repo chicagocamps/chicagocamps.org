@@ -34,6 +34,10 @@ Funsize:
   alias: funsize
   url:  http://funsize.co/
 
+Gravity Tank:
+  alias: gravity-tank
+  url:  http://www.gravitytank.com/
+
 Harrington:
   alias: harrington
   url:  http://www.harrington.edu/
@@ -81,6 +85,10 @@ ParkWhiz:
 Protoshare:
   alias: protoshare
   url:  http://www.protoshare.com/
+
+Resource:
+  alias: resource
+  url:  http://www.resource.com/
 
 RG/A:
   alias: rga

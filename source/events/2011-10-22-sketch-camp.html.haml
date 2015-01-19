@@ -1,8 +1,134 @@
 ---
-published: false
 title: Sketch Camp
 date: 2011-10-22 01:00 CDT
 category: events
 alias: sketch-camp
-summary: SketchCamp Chicago is an unconference/camp that brings together designers of all types for a single-day event focused on sketching for user experience design.
+summary: SketchCamp is an unconference/camp that brings together designers of all types for a single-day event focused on sketching for user experience design.
 ---
+
+%nav.event-nav.group(data-js="event-nav")
+  .container
+    %ul.event-nav-content
+      %li.event-nav-title
+        %a(href="#top" rel="nofollow") Sketch Camp
+      %li
+        %a(href="#details" rel="nofollow") Details
+      %li
+        %a(href="#schedule" rel="nofollow") Schedule
+
+%section#details.main-content
+  .container
+
+    %h3.h-section Details
+
+    %h2 Sketch Camp spends a full day taking a deep dive into the world of sketching! Bring your favorite pencils, erasers, and a fresh Moleskine to fill up with all you can sketch!
+
+    %p Spend the day learning how to add a variety of sketching techniques to your existing work process&#8211;or learn from super smart folks who can help you upgrade your existing skills. Either way, you&#8217;ll be sure to have fun filling pages with every session you take part in!
+
+    %h3 Meet Our Awesome Sponsors
+    
+    %p These fantastic sponsors are helping us bring this great event to you.
+        
+    %ul.event-sponsors.grid
+      - data.events.sponsors.slice("Balsamiq", "Field Notes", "Gravity Tank", "New Riders", "Resource", "Rosenfeld", "UIE").each do |s|
+        %li
+          %a(href="#{s[1]['url']}" rel="nofollow")
+            = image_tag "events/sponsors/#{s[1]['alias']}.png", alt: "#{s[0]}"
+
+%section#schedule.main-content.main-bg-highlight
+  .container
+
+    %h3.h-section Schedule
+
+    %table.event-schedule
+
+      %tr
+        %th
+          %time(datetime="2011-10-22T09:30") 9:30
+          &#8212;
+          %time(datetime="2011-10-22T10:00") 10:00
+        %td.event-schedule-offset(colspan="3") Sign-in &amp; Breakfast
+
+      %tr
+        %th
+          %time(datetime="2011-10-22T10:00") 10:00
+          &#8212;
+          %time(datetime="2013-11-22T10:45") 10:45
+        %td(colspan="3")
+          %strong Craighton Berman
+          .event-schedule-offset GravityTank Speaker
+
+      %tr
+        %th
+          %time(datetime="2013-11-22T10:45") 10:45
+          &#8212;
+          %time(datetime="2011-10-22T11:00") 11:00
+        %td.event-schedule-offset(colspan="3") Break
+
+      %tr
+        %th
+          %time(datetime="2011-10-22T11:00") 11:00
+          &#8212;
+          %time(datetime="2013-11-22T11:45") 11:45
+        %td(colspan="3")
+          %strong Keith Tatum
+          .event-schedule-offset Resource Interactive Speaker
+
+      %tr
+        %th
+          %time(datetime="2013-11-22T11:45") 11:45
+          &#8212;
+          %time(datetime="2011-10-22T13:30") 1:30
+        %td.event-schedule-offset(colspan="3") Lunch
+
+      %tr
+        %th
+          %time(datetime="2011-10-22T13:30") 1:30
+          &#8212;
+          %time(datetime="2011-10-22T14:15") 2:15
+        %td.event-schedule-offset &#8212;
+        %td
+          %strong Greg Nudelman
+          .event-schedule-offset Agile Mobile Design Sketching
+        %td
+          %strong Amanda Morrow
+          .event-schedule-offset Toilet Paper Sketching
+
+      %tr
+        %th
+          %time(datetime="2011-10-22T14:15") 2:15
+          &#8212;
+          %time(datetime="2011-10-22T15:00") 3:00
+        %td
+          %strong Josh Damon Williams 
+          .event-schedule-offset Using Techniques from Animation in UI Design
+        %td
+          %strong Lauren Colton
+          .event-schedule-offset The Language of Design
+        %td.event-schedule-offset &#8212;
+
+      %tr
+        %th
+          %time(datetime="2011-10-22T15:00") 3:00
+          &#8212;
+          %time(datetime="2011-10-22T15:45") 3:45
+        %td
+          %strong Alexis Finch
+          .event-schedule-offset Memory &amp; Metaphor: Using SketchNoting to Solve Complex Problems
+        %td.event-schedule-offset &#8212;
+        %td
+          %strong Brad Nunnally
+          .event-schedule-offset From Sketch to Proto
+
+      %tr
+        %th
+          %time(datetime="2011-10-22T15:45") 3:45
+          &#8212;
+          %time(datetime="2011-10-22T16:30") 4:30
+        %td.event-schedule-offset &#8212;
+        %td
+          %strong Pradeep Nayar
+          .event-schedule-offset Sketching for Collaboration
+        %td
+          %strong Nick Disabato
+          .event-schedule-offset Sketching and Prototyping in Book Design
