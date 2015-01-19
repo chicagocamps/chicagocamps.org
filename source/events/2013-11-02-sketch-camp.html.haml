@@ -1,8 +1,323 @@
 ---
-published: false
 title: Sketch Camp
 date: 2013-11-02 01:00 CDT
 category: events
 alias: sketch-camp
-summary: Sketch Camp Chicago spends a full day taking a deep dive into the world of sketching! Bring your favorite pencils, erasers, and a fresh Moleskine to fill up with all you can sketch!
+summary: Sketch Camp spends a full day taking a deep dive into the world of sketching! Bring your favorite pencils, erasers, and a fresh Moleskine to fill up with all you can sketch!
 ---
+
+%nav.event-nav.group(data-js="event-nav")
+  .container
+    %ul.event-nav-content
+      %li.event-nav-title
+        %a(href="#top" rel="nofollow") Sketch Camp
+      %li
+        %a(href="#details" rel="nofollow") Details
+      %li
+        %a(href="#keynotes" rel="nofollow") Keynotes
+      %li
+        %a(href="#schedule" rel="nofollow") Schedule
+      %li
+        %a(href="#speakers" rel="nofollow") Speakers
+      %li
+        %a(href="#location" rel="nofollow") Location
+
+%section#details.main-content
+  .container
+
+    %h3.h-section Details
+
+    %h2 Sketch Camp spends a full day taking a deep dive into the world of sketching! Bring your favorite pencils, erasers, and a fresh Moleskine to fill up with all you can sketch!
+
+    %p Spend the day learning how to add a variety of sketching techniques to your existing work process&#8211;or learn from super smart folks who can help you upgrade your existing skills. Either way, you&#8217;ll be sure to have fun filling pages with every session you take part in!
+
+    %h3 Meet Our Awesome Sponsors
+    
+    %p These fantastic sponsors are helping us bring this great event to you.
+        
+    %ul.event-sponsors.grid
+      - data.events.sponsors.slice("Field Notes", "Harrington", "Mailchimp", "MOO", "The Nerdery", "New Riders", "OP Taylor Brewing", "UIE").each do |s|
+        %li
+          %a(href="#{s[1]['url']}" rel="nofollow")
+            = image_tag "events/sponsors/#{s[1]['alias']}.png", alt: "#{s[0]}"
+
+%section#keynotes.main-content.main-bg-alt
+  .container
+
+    %h3.h-section Keynotes
+
+    - data.events.speakers.slice("Dan Klyn", "Peter Merholz").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
+          - if content_for?(talk_desc)
+            = yield_content talk_desc
+
+%section#schedule.main-content.main-bg-highlight
+  .container
+
+    %h3.h-section Schedule
+
+    %table.event-schedule
+
+      %tr
+        %th
+          %time(datetime="2013-11-02T08:30") 8:30
+          &#8212;
+          %time(datetime="2013-11-02T09:00") 9:00
+        %td.event-schedule-offset(colspan="3") Registration &amp; Breakfast
+
+      %tr
+        %th
+          %time(datetime="2013-11-02T09:00") 9:00
+          &#8212;
+          %time(datetime="2013-11-09:45") 9:45
+        %td(colspan="3")
+          %strong.event-schedule-room(data-room="Blue") Peter Merholz
+          .event-schedule-offset Morning Keynote
+
+      %tr
+        %th
+          %time(datetime="2013-11-02T09:45") 9:45
+          &#8212;
+          %time(datetime="2013-11-10:15") 10:15
+        %td(colspan="3")
+          %strong.event-schedule-room(data-room="Blue") Brandy Agerbeck
+          .event-schedule-offset Explore the Draw Quad
+
+      %tr
+        %th
+          %time(datetime="2013-11-10:15") 10:15
+          &#8212;
+          %time(datetime="2013-11-02T10:30") 10:30
+        %td.event-schedule-offset(colspan="3") Break
+
+      %tr
+        %th Rooms
+        %td
+          %strong Blue
+          %span.event-schedule-offset (Main)
+        %td
+          %strong Red
+        %td
+          %strong Yellow
+
+      %tr
+        %th
+          %time(datetime="2013-11-02T10:30") 10:30
+          &#8212;
+          %time(datetime="2013-11-02T11:30") 11:30
+        %td
+          %strong.event-schedule-room(data-room="Blue") Dennis Kardys
+          .event-schedule-offset The Straight Up &#8220;How To Draw Better&#8221; Workshop
+        %td
+          %strong.event-schedule-room(data-room="Red") Lauren Johnson
+          .event-schedule-offset Rapid Paper Prototyping
+        %td.event-schedule-offset &#8212;
+
+      %tr
+        %th
+          %time(datetime="2013-11-11:30") 11:30
+          &#8212;
+          %time(datetime="2013-11-02T13:00") 1:00
+        %td.event-schedule-offset(colspan="3") Lunch
+
+      %tr
+        %th
+          %time(datetime="2013-11-02T13:00") 1:00
+          &#8212;
+          %time(datetime="2013-11-14:00") 2:00
+        %td
+          %strong.event-schedule-room(data-room="Blue") Abi Jones
+          .event-schedule-offset Explore, Persuade, Destroy: An Introduction to Storyboarding Techniques
+        %td
+          %strong.event-schedule-room(data-room="Red") Jason Ulaszek
+          .event-schedule-offset Make Your Stick Figures Work Harder: The 3 C&#8217;s of Sketching
+        %td
+          %strong.event-schedule-room(data-room="Yellow") Margot Harrington
+          .event-schedule-offset Workshop: Associative Drawing
+
+      %tr
+        %th
+          %time(datetime="2013-11-02T14:00") 2:00
+          &#8212;
+          %time(datetime="2013-11-02T14:20") 2:20
+        %td.event-schedule-offset(colspan="3") Break
+
+      %tr
+        %th
+          %time(datetime="2013-11-02T14:20") 2:20
+          &#8212;
+          %time(datetime="2013-11-02T15:20") 3:20
+        %td(colspan="3")
+          %strong.event-schedule-room(data-room="Blue") Brandy Agerbeck
+          .event-schedule-offset Eradicate Illuphobia
+
+      %tr
+        %th
+          %time(datetime="2013-11-15:20") 3:20
+          &#8212;
+          %time(datetime="2013-11-15:30") 3:30
+        %td.event-schedule-offset(colspan="3") Break
+
+      %tr
+        %th
+          %time(datetime="2013-11-02T15:30") 3:30
+          &#8212;
+          %time(datetime="2013-11-02T16:15") 4:15
+        %td(colspan="3")
+          %strong.event-schedule-room(data-room="Blue") Dan Klyn
+          .event-schedule-offset Afternoon Keynote
+
+      %tr
+        %th
+          %time(datetime="2013-11-02T16:15") 4:15
+          &#8212;
+          %time(datetime="2013-11-02T16:30") 4:30
+        %td.event-schedule-offset(colspan="3") Closing Ceremonies
+
+%section#speakers.main-content.main-bg-alt
+  .container
+
+    %h3.h-section Speakers
+
+    %h2 Blue Room
+
+    - content_for :talk_abi_jones do
+
+      %h3 Explore, Persuade, Destroy: An Introduction to Storyboarding Techniques
+      
+      %p Storyboarding helps me turn the brainstorming whirlwind of notes into a real product direction, and in turn provides a vision that my team can return to throughout the design and development process. In this workshop you&#8217;ll how to put your ideas in the context of user needs through storyboarding.
+      
+      %p Exploring product ideas with stories bridges silos between your teams and gets you communicating by using collaborative methods to define product direction. By crafting a story together, every member of your team is focused on building a single, cohesive product. You&#8217;ll learn about the components of an excellent storyboard and how those elements impact interface design.
+      
+      %p Persuade your managers and clients to champion user-centered products by channeling the power of stories. From childhood we&#8217;re wired to remember and think in story structure. In this workshop you&#8217;ll get examples of how to harness this ingrained skill by presenting your product concepts in the form of stories and storyboards.
+      
+      %p Destroy zombie ideas, the ones without a brain or beating heart. Zombies eat resources and sap your team&#8217;s time, energy, and commitment. Your storyboards will drive a product&#8217;s structure and flow, saving time by focusing on ideas that provide value to your users.
+
+    - content_for :talk_brandy_agerbeck do
+
+      %h3 Morning Session: Explore the Draw Quad
+      
+      %p To expand our definition of drawing and give broader context for our sketching, Brandy Agerbeck introduces The Draw Quad. Drawing is fantastic tool to think through ideas, AND to see and understand the world around us, AND communicate with each other, AND solve problems and improve our work. She&#8217;ll share a 2x2 matrix that holds drawing&#8217;s many possibilities, clarifying when it is a noun (a product) and when it is a verb (a process). By exploring these two aspects and four facets of sketching, everyone can find reasons to pick up a pen and draw.
+
+      %h3 Aftenoon Session: Eradicate Illuphobia
+
+      %p While we all arrived to Sketchcamp ready and rarin&#8217; to draw, most of our colleagues and clients fear the act of picking up pen or pencil and putting it to paper. Today you filled your toolbox with ideas and techniques to make yourself a stronger sketcher. In this interactive hour, Brandy Agerbeck will share a handful of principles that you can use tomorrow to empower those you work with and for to draw with you, to engage more with your drawings. You&#8217;ll be invited to share your experiences of what has and hasn&#8217;t worked inviting others to collaborate visually, creating a group picture of how we can all tap into the power of drawing.
+
+    - content_for :talk_dennis_kardys do
+
+      %h3 The Straight Up &#8220;How To Draw Better&#8221; Workshop
+      
+      %p One of the first things taught in sketching workshops is, &#8220;It&#8217;s okay—you don&#8217;t have to be good at drawing.&#8221; True as this may be, when it comes to visual thinking a little drawing skill goes a hell of a long way. Fortunately, anyone can learn to draw. Roll up your sleeves, it&#8217;s time to bust out the vine charcoal and take a studio crash course in drawing fundamentals. We&#8217;ll do some basic exercises designed to develop your visual perceptual skills while equipping you with an arsenal of rendering techniques you can apply right away.
+      
+      %p If the terrifying stare of the blank white sketchbook page paralyzes you with dread, or feelings of self consciousness leave you hesitant to show your sketches, you should attend this session. Novice and expert sketcher alike, you&#8217;ll leave with more confidence in your drawing ability and some practice exercises that&#8217;ll have you seeing noticeable improvements in no time!
+
+    - data.events.speakers.slice("Abi Jones", "Brandy Agerbeck", "Dennis Kardys").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
+          - if content_for?(talk_desc)
+            = yield_content talk_desc
+
+    %h2 Red Room
+
+    - content_for :talk_lauren_johnson do
+
+      %h3 Rapid Paper Prototyping
+
+      %p Paper prototyping is an excellent tool for iterating through ideas and getting them in front of an audience for testing as quickly as possible. Using paper and pencil as a medium, paper prototyping can be done efficiently and with minimal budgeting. This talk with cover best practices for ideation, paper prototyping, prepping these prototypes for testing using a mobile app like POP (Prototypes on Paper), and then showing them to an audience for guerrilla usability testing.
+
+    - content_for :talk_jason_ulaszek do
+
+      %h3 Make Your Stick Figures Work Harder: The 3 C&#8217;s of Sketching
+
+      %p Look inside a designer&#8217;s toolkit and you&#8217;ll likely find a broadly defined exercise called sketching. It&#8217;s an exercise that can turn napkins, flip charts, whiteboards and 6-up templates into valuable assets containing everything from direction of business models to mobile app experiences. While a sketching exercise might produce an artifact seemingly simple to the uninitiated, great designers know the exercise requires design itself. By purposefully designing the exercise around the &#8220;3 C&#8217;s&#8221;&#8211;communication, context and collaboration&#8211;we can increase participation and engagement by both design team members and stakeholders. In this session you&#8217;ll learn about these three factors that are key to consider in planning and facilitating a sketching exercise. You&#8217;ll also walk away with a handful of tips and tricks to try on your next project.
+
+    - data.events.speakers.slice("Lauren Johnson", "Jason Ulaszek").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
+          - if content_for?(talk_desc)
+            = yield_content talk_desc
+
+    %h2 Yellow Room
+
+    - content_for :talk_margot_harrington do
+
+      %h3 Workshop: Associative Drawing
+
+      %p Even with the most finely tuned drawing skills, perfectly sharpened pencils, and just the right piece of paper, it&#8217;s still hard to know what to actually draw sometimes. Waiting for inspiration to strike is certainly one option, but it&#8217;s not exactly guaranteed, nor proactive. This workshop will teach you a series of prompts to take some of the pressure off, and underscore the importance of establishing your creative triggers as habit so your can push your work further. You&#8217;ll also be given ample time in the workshop to practice these skills, as well any you might&#8217;ve learned in earlier sessions. This session isn&#8217;t so much concerned with the quality of the marks, but the concept and idea behind them.
+
+    - data.events.speakers.slice("Margot Harrington").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
+          - if content_for?(talk_desc)
+            = yield_content talk_desc
+
+= partial "partials/event-location-harrington"

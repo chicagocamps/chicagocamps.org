@@ -1,3 +1,11 @@
+Abi Jones:
+  alias:   abi-jones
+  title:   "Interaction Designer, Google"
+  bio: |
+    <p>Abi Jones designs for people interacting with Google&#8217;s Knowledge Graph, a semantic network of over 570 million objects (and 18 billion related facts) representing the continually growing realm of human knowledge.</p>
+    <p>Prior to working on the Knowledge Graph, Abi designed personal aspects of Google Search, including profiles in search and personal search. In her 20% time she teaches sketching and storyboarding classes to non-designers at Google.</p>
+    <p>When not designing interfaces for the computable portions of human knowledge, Abi writes a webcomic at <a href="http://www.dearfuture.com/" rel="nofollow">DearFuture.com</a> and rides her trusty 7-speed between the redwoods and beaches of Santa Cruz, California.</p>
+
 Adam Tramposh:
   alias:   adam-tramposh
   title:   "Sr. User Experience Manager, Manifest Digital"
@@ -71,6 +79,13 @@ Brandon Satrom:
   bio: |
     <p>Brandon Satrom is the Director of Product Management for <a href="http://www.telerik.com/" rel="nofollow">Telerik</a>, the world&#8217;s greatest developer tools company. An unabashed lover of the open web, Brandon loves to talk about HTML, JavaScript, CSS, open source and whatever new shiny tool or technology has distracted him from that other thing he was working on. Brandon has spoken at national, international and online events, and he loves hanging out with and learning from passionate designers and developers. He is the author of two books, the latest being &#8220;Building Polyfills&#8221; from O&#8217;Reilly. Brandon lives in Austin, TX with his wife, Sarah, and three sons, Benjamin, Jack and Matthew.</p>
 
+Brandy Agerbeck:
+  alias:   brandy-agerbeck
+  title:   "Graphic Facilitator"
+  bio: |
+    <p>Brandy Agerbeck believes that drawing is a powerful thinking tool. As a <a href="http://www.loosetooth.com/gfg/" rel="nofollow">graphic facilitator</a>, Brandy supports clients by mapping out their complex conversations onto giant sheets of paper. Transforming the discussion into a tangible drawing frees your best minds to focus, make more connections, generate new ideas and understand their work in new ways. Working as a visual, silent partner to facilitators, she collaborates on making meetings more productive with the best visual, spatial and kinesthetic tools.</p>
+    <p>Brandy speaks to the power of drawing as an author, teacher and speaker. From her 17 years of graphic facilitation experience, she published <a href="http://www.amazon.com/The-Graphic-Facilitators-Guide-listening/dp/0615591876/" rel="nofollow">The Graphic Facilitator&#8217;s Guide: How to use your listening, thinking and drawing skills to make meaning</a>. In her TEDx talk, she illustrates how to <a href="http://www.youtube.com/watch?v=6bCHq1OvGR4" rel="nofollow">Shape Your Thinking</a> as an individual and how we can blend the best of LIBraries and LABoratories, creating LIBLABs.</p>
+
 Brett Schilke:
   alias:   brett-schilke
   title:   "Chief Instigator, IDEAco"
@@ -109,6 +124,13 @@ Christian Crumlish:
   bio: |
     <p>Christian Crumlish leads product and user experience teams to deliver amazing cross-channel experiences. He is director of product at CloudOn, co-chairs the monthly BayCHI program and has been director of messaging products for AOL, curator of the Yahoo design pattern library, and director of the Information Architecture Institute.</p>
     <p>He is the author of the bestselling The Internet for Busy People, and The Power of Many, and co-author most recently of Designing Social Interfaces with Erin Malone. He has spoken at BarCamp, BayCHI, South by Southwest, the IA Summit, Ignite, Web 2.0 Expo, PLoP, IDEA, Interaction, Web Directions, the Web App Masters Tour, the Italian IA Summit, and UX Lisbon, and Web Visions in Sydney, Tokyo, and London (@media).</p>
+
+Dan Klyn:
+  alias:   dan-klyn
+  title:   "Co-Founder, The Understanding Group (TUG)"
+  bio: |
+    <p>Dan Klyn, co-founder of The Understanding Group (TUG), teaches information architecture at the University of Michigan School of Information and serves on the board of the IA Institute. He does IA work for clients including Herman Miller and JSTOR and his research focus is also his hero: Richard Saul Wurman.</p>
+    <p>Dan will be talking about Marshall McLuhan for Designers. He will share how the medium we use to express and specify our work is impossible to separate from the meaning that our colleagues and clients get out of these artifacts. The better choices that we, as designers, make when it comes to our sketching practices (and beyond!), the better the decisions will be from those who receive and review them.</p>
 
 Dan LeBoeuf:
   alias:   dan-leboeuf
@@ -216,6 +238,12 @@ Jason Kunesh:
   bio: |
     <p>Jason Kunesh is the CEO of <a href="https://publicgoodsoftware.com/" rel="nofollow">Public Good Software</a>, a social enterprise software startup in Chicago. Previously, he was Director of User Experience &amp; Product at Obama for America, a founder of Fuzzy Math, on the founding team of ThePoint (which grew up to be Groupon), an early designer at Orbitz, an adjunct faculty member at DePaul University and the School of the Art Institute of Chicago, and a bouncer at the Green Mill.</p>
 
+Jason Ulaszek:
+  alias:   jason-ulaszek
+  title:   "Executive Innovation Director, Manifest Digital"
+  bio: |
+    <p>Jason Ulaszek leads the customer experience strategy practice at <a href="http://manifestdigital.com/" rel="nofollow">Manifest Digital</a>. He has worked with some of the biggest and most influential brands in the country, including Allstate, Cardinal Health, Kohl&#8217;s and Mattel, helping them identify new business opportunities to improve brand awareness, customer satisfaction and loyalty. He is also Founder of UX for Good, an annual pro bono event that serves non-profits around the world by applying design-thinking practices to social challenges. Most recently, UX for Good partnered with The Dalai Lama Center for Peace and Education in Vancouver to design new tools for teaching social and emotional learning in primary and secondary education. He serves as an adjunct faculty member in the Human-Computer Interaction (HCI) Masters program at DePaul University in Chicago.</p>
+
 Jen Myers:
   alias:   jen-myers
   title:   "Instructor, Dev Bootcamp"
@@ -270,6 +298,18 @@ Kamaria Campbell:
   bio: |
     <p>Kamaria is a Chicago-based User Experience Professional, currently working at IBM as an Information Architect. Kamaria began her career in UX as a Usability Analyst for 3 years and made the shift to Information Architecture and Design in 2013. For the past year, she has worked on projects requiring prototyping websites, mobile phone, and tablet applications using tools like Balsamiq and Axure. While the design varies each time, Kamaria has found that the steps leading up to prototyping are often similar.</p>
 
+Lauren Johnson:
+  alias:   lauren-johnson
+  title:   "Interaction Designer, Goodspark"
+  bio: |
+    <p>Lauren Johnson has previously worked for Jellyvision and Fathead Design as an interactive designer, and currently runs the interaction company Goodspark in Chicago. She is a lecturer at Columbia College Chicago in the Interactive Arts &amp; Media department teaching interface design, usability, and interactive advertising.</p>
+
+Margot Harrington:
+  alias:   margot-harrington
+  title:   "Founder, Pitch Design Union"
+  bio: |
+    <p>Margot Harrington is a Chicago-based communication designer. She founded her design studio <a href="http://pitchdesignunion.com/" rel="nofollow">Pitch Design Union</a> in the fall of 2008 and has been captivated by all forms of making and doing ever since. Margot&#8217;s collaborations run a gamut of media from letterpress to CSS and she&#8217;s given talks and workshops on small business and creative habits at University of IL at Champaign-Urbana, Portland State University, WMC Fest, Apple, Columbia College Chicago, and the Chicago Portfolio School. She has a BFA in Graphic Design and Printmaking from UW-Madison.</p>
+
 Mari Luangrath:
   alias:   mari-luangrath
   title:   "CEO &amp; Founder, Foiled Inc."
@@ -320,6 +360,14 @@ Param Rengaiah:
   title:   "Experience Architect, Aspire Systems"
   bio: |
     <p>Param Rengaiah&#8217;s LinkedIn title is Solutions Architect/Experience Architect, but he considers himself a developer and a hacker. He is currently employed by Aspire Systems. In his quest to find the ingredients for creating useful software products, his technical interests revolves around scalable enterprise systems, digital media, mobile, cloud, enterprise social media, open source innovations and user experience. If he is not in front of his laptop or iPad hacking some code or reading, he spends rest of his time either sleeping, watching old movies on Netflix or playing with his two boys.</p>
+
+Peter Merholz:
+  alias:   peter-merholz
+  title:   "VP, Global Design, Groupon"
+  bio: |
+    <p>Peter Merholz serves as VP of Global Design at Groupon. He joined the company in October, 2012 as it&#8217;s first VP of Global Design. He ensures that Groupon delivers world-class user experiences.</p>
+    <p>Prior to Groupon, Peter was one of the founding partners at Adaptive Path and ran their operation for many years. He has published a book entitled &#8220;Subject to Change&#8221; and articles in publications like The Harvard Business Review and Businessweek.</p>
+    <p>In 1999, he coined the word &#8220;blog.&#8221; That will be on his tombstone.</p>
 
 Phil Sharp:
   alias:   phil-sharp

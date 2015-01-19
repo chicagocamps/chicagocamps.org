@@ -50,6 +50,14 @@ Mailchimp:
   alias: mailchimp
   url:  http://mailchimp.com/
 
+MOO:
+  alias: moo
+  url:  http://us.moo.com/
+
+The Nerdery:
+  alias: nerdery
+  url:  http://nerdery.com/
+
 New Riders:
   alias: new-riders
   url:  http://www.peachpit.com/
