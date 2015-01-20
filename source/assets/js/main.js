@@ -10,6 +10,21 @@ $(document).ready(function() {
     return false;
   });
 
+  // iPad hover
+
+  $('[data-js="primary-nav"]').on("touchstart", function (e) {
+    "use strict"; // Satisfy the code inspectors
+    var nav = $(this); // Preselect the nav
+    if (nav.hasClass('primary-nav-hover')) {
+      return true;
+    } else {
+      nav.addClass("primary-nav-hover");
+      $('[data-js="primary-nav"]').not(this).removeClass("primary-nav-hover");
+      e.preventDefault();
+      return false; // Extra, and to make sure the function has consistent return points
+    }
+  });
+
   // Forms
 
   var $form             = $('[data-js="form"]'),
