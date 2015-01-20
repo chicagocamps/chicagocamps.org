@@ -8,10 +8,10 @@
 
         - if current_page.data.alias
           - if current_page.data.alias.end_with? "camp"
-            %h1.header-logo.header-logo-event(class="header-logo-#{current_page.data.alias}")
+            %h1.header-logo.header-logo-event(class="#{current_page.data.alias}-logo-alt")
               = current_page.data.title
           - else
-            %h1.header-logo.header-logo-event(style="#{event_logo(current_page)}")
+            %h1.header-logo.header-logo-event(style="#{event_logo_alt(current_page)}")
               = current_page.data.title
         - else
           %h1.header-title.header-title-event= current_page.data.title

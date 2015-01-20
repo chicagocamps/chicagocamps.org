@@ -57,22 +57,61 @@ title: Home
     -# Upcoming events
 
     %ul.events-list
-      - blog.articles.select {|a| a.data.category == "events"}.each_with_index do |article, i|
-        - break if i == 4
-        
-        %li.event-item
+      
+      %li.event-item
+        .event-item-logo-container
+          .event-item-logo.mobile-camp-logo
+        %h3.event-item-title
+          Mobile Camp
+          .lineup
+            %span.h-sm-caps-gray April 18, 2015
+        .btn.btn-outline Coming Soon!
 
-          - if article.data.alias
-            - if article.data.alias.end_with? "camp"
-              .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo #{article.data.alias}-logo"
-            - else
-              .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo", style: "#{event_logo(article)}"
+      %li.event-item
+        .event-item-logo-container
+          .event-item-logo.ux-camp-logo
+        %h3.event-item-title
+          UX Camp
+          .lineup
+            %span.h-sm-caps-gray June 6, 2015
+        .btn.btn-outline Coming Soon!
 
-          %h3.event-item-title
-            = link_to article.title, article
-            .lineup
-              %span.h-sm-caps-gray= article.date.strftime("%B %e, %Y")
-          = link_to "Attend", article, class: "btn btn-outline"
+      %li.event-item
+        .event-item-logo-container
+          .event-item-logo(style="background-image: url('/assets/img/events/logos/prototypes-process-play.jpg'); background-image: url('/assets/img/events/logos/prototypes-process-play.svg');")
+        %h3.event-item-title
+          Prototypes, Process &amp; Play
+          .lineup
+            %span.h-sm-caps-gray August 6-8, 2015
+        .btn.btn-outline Coming Soon!
+
+      %li.event-item
+        .event-item-logo-container
+          .event-item-logo.front-end-camp-logo
+        %h3.event-item-title
+          Front-end Camp
+          .lineup
+            %span.h-sm-caps-gray October 3, 2015
+        .btn.btn-outline Coming Soon!
+
+    -#
+      %ul.events-list
+        - blog.articles.select {|a| a.data.category == "events"}.each_with_index do |article, i|
+          - break if i == 4
+          
+          %li.event-item
+
+            - if article.data.alias
+              - if article.data.alias.end_with? "camp"
+                .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo #{article.data.alias}-logo"
+              - else
+                .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo", style: "#{event_logo(article)}"
+
+            %h3.event-item-title
+              = link_to article.title, article
+              .lineup
+                %span.h-sm-caps-gray= article.date.strftime("%B %e, %Y")
+            = link_to "Attend", article, class: "btn btn-outline"
 
     .events-archive-link.lineup
       %a.a-chevron-right(href="/events/") Events Archive

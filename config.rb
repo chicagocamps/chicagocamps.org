@@ -91,6 +91,9 @@ helpers do
   def event_logo(source)
     "background-image: url('/assets/img/events/logos/#{source.data.alias}.jpg'); background-image: url('/assets/img/events/logos/#{source.data.alias}.svg');"
   end
+  def event_logo_alt(source)
+    "background-image: url('/assets/img/events/logos/#{source.data.alias}-alt.jpg'); background-image: url('/assets/img/events/logos/#{source.data.alias}-alt.svg');"
+  end
 end
 
 activate :directory_indexes
