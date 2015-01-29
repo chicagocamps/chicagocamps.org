@@ -6,9 +6,7 @@ $camp-logos: front-end, mobile, prototype, sketch, speaker, ux
 @each $logo in $camp-logos
 
   .#{$logo}-camp-logo
-    background-image: image-url("events/logos/#{$logo}-camp.png")
-    // +background-svg("events/logos/#{$logo}-camp")
+    +background-svg("events/logos/#{$logo}-camp")
 
   .#{$logo}-camp-logo-alt
-    background-image: image-url("events/logos/#{$logo}-camp-alt.png")
-    // +background-svg("events/logos/#{$logo}-camp-alt")
+    +background-svg("events/logos/#{$logo}-camp-alt")

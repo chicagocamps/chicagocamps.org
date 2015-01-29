@@ -89,10 +89,10 @@ helpers do
     "background-image: url('/assets/img/events/headers/#{source.data.alias}.jpg');"
   end
   def event_logo(source)
-    "background-image: url('/assets/img/events/logos/#{source.data.alias}.jpg'); background-image: url('/assets/img/events/logos/#{source.data.alias}.svg');"
+    "background-image: url('/assets/img/events/logos/#{source.data.alias}.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}.svg');"
   end
   def event_logo_alt(source)
-    "background-image: url('/assets/img/events/logos/#{source.data.alias}-alt.jpg'); background-image: url('/assets/img/events/logos/#{source.data.alias}-alt.svg');"
+    "background-image: url('/assets/img/events/logos/#{source.data.alias}-alt.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}-alt.svg');"
   end
 end
 
