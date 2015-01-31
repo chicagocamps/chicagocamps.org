@@ -77,48 +77,12 @@ summary: Speaker Camp helps you get ready to present at conferences. Spend your 
     %h2 Mentors
     
     %ul.mentor-list.grid
-
-      %li
-        %a(href="https://twitter.com/cmanzella" rel="nofollow")
-          = image_tag "events/mentors/christian-manzell.jpg", alt: "Christian Manzella"
-          .mentor-name Christian Manzella
-        .mentor-job Co-founder, GIANT &amp; VP of UX, Moz
-
-      %li
-        %a(href="https://twitter.com/thatpita" rel="nofollow")
-          = image_tag "events/mentors/kalpita-kothary.jpg", alt: "Kalpita Kothary"
-          .mentor-name Kalpita Kothary
-        .mentor-job Co-Founder, Minky
-
-      %li
-        %a(href="https://twitter.com/msweeny" rel="nofollow")
-          = image_tag "events/mentors/marianne-sweeney.jpg", alt: "Marianne Sweeney"
-          .mentor-name Marianne Sweeney
-        .mentor-job Search Information Architect, Daedalus Information Systems
-
-      %li
-        %a(href="https://twitter.com/meaningmeasure" rel="nofollow")
-          = image_tag "events/mentors/misty-weaver.jpg", alt: "Misty Weaver"
-          .mentor-name Misty Weaver
-        .mentor-job Content Strategy Lead, Portent
-
-      %li
-        %a(href="https://twitter.com/nickf" rel="nofollow")
-          = image_tag "events/mentors/nick-finck.jpg", alt: "Nick Finck"
-          .mentor-name Nick Finck
-        .mentor-job Senior Manager of UX, Amazon Web Services
-
-      %li
-        %a(href="https://twitter.com/rainypixels" rel="nofollow")
-          = image_tag "events/mentors/nishant-kothary.jpg", alt: "Nishant Kothary"
-          .mentor-name Nishant Kothary
-        .mentor-job Co-Founder, Minky
-
-      %li
-        %a(href="https://twitter.com/berkun" rel="nofollow")
-          = image_tag "events/mentors/scott-berkun.jpg", alt: "Scott Berkun"
-          .mentor-name Scott Berkun
-        .mentor-job Best Selling Author &amp; Speaker
+      - data.events.mentors.slice("Christian Manzella", "Kalpita Kothary", "Marianne Sweeney", "Misty Weaver", "Nick Finck", "Nishant Kothary", "Scott Berkun").each do |s|
+        %li
+          %a(href="https://twitter.com/#{s[1]['twitter']}" rel="nofollow")
+            = image_tag "events/mentors/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+            .mentor-name= s[0]
+          .mentor-job= s[1]['title']
         
 %section#schedule.main-content.main-bg-highlight
   .container

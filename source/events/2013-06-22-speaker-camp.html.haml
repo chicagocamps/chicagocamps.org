@@ -90,66 +90,12 @@ summary: Speaker Camp helps you get prepared for Conference Submission Season&tr
     %h2 Mentors
     
     %ul.mentor-list.grid
-
-      %li
-        %a(href="https://twitter.com/crestodina" rel="nofollow")
-          = image_tag "events/mentors/andy-crestodina.jpg", alt: "Andy Crestodina"
-          .mentor-name Andy Crestodina
-        .mentor-job Principal/Strategic Director, Orbit Media
-
-      %li
-        %a(href="https://twitter.com/yippeecahier" rel="nofollow")
-          = image_tag "events/mentors/andy-hullinger.jpg", alt: "Andy Hullinger"
-          .mentor-name Andy Hullinger
-        .mentor-job Program Chair, Harrington College of Design
-
-      %li
-        %a(href="https://twitter.com/bnunnally" rel="nofollow")
-          = image_tag "events/mentors/brad-nunnally.jpg", alt: "Brad Nunnally"
-          .mentor-name Brad Nunnally
-        .mentor-job Solution Architect, Perficient
-
-      %li
-        %a(href="https://twitter.com/csell5" rel="nofollow")
-          = image_tag "events/mentors/clark-sell.jpg", alt: "Clark Sell"
-          .mentor-name Clark Sell
-        .mentor-job Founder, That Conference
-
-      %li
-        %a(href="https://twitter.com/dkardys" rel="nofollow")
-          = image_tag "events/mentors/dennis-kardys.jpg", alt: "Dennis Kardys"
-          .mentor-name Dennis Kardys
-        .mentor-job Creative Director/UX Lead, WSOL
-
-      %li
-        %a(href="https://twitter.com/DennisSchleiche" rel="nofollow")
-          = image_tag "events/mentors/dennis-schleicher.jpg", alt: "Dennis Schleicher"
-          .mentor-name Dennis Schleicher
-        .mentor-job Executive Producer, User Experience, Sears Holdings Corp.
-
-      %li
-        %a(href="https://twitter.com/gabbyhon" rel="nofollow")
-          = image_tag "events/mentors/gabby-hon.jpg", alt: "Gabby Hon"
-          .mentor-name Gabby Hon
-        .mentor-job Independent Senior User Experience Consultant
-
-      %li
-        %a(href="https://twitter.com/LauraCreekmore" rel="nofollow")
-          = image_tag "events/mentors/laura-creekmore.jpg", alt: "Laura Creekmore"
-          .mentor-name Laura Creekmore
-        .mentor-job President, Creek Content
-
-      %li
-        %a(href="https://twitter.com/timfrick" rel="nofollow")
-          = image_tag "events/mentors/tim-frick.jpg", alt: "Tim Frick"
-          .mentor-name Tim Frick
-        .mentor-job President, Mightybytes
-
-      %li
-        %a(href="https://twitter.com/tonia" rel="nofollow")
-          = image_tag "events/mentors/tonia-bartz.jpg", alt: "Tonia Bartz"
-          .mentor-name Tonia Bartz
-        .mentor-job Senior Human Sciences Designer, General Dynamics C4 Systems
+      - data.events.mentors.slice("Andy Crestodina", "Andy Hullinger", "Brad Nunnally", "Clark Sell", "Dennis Kardys", "Dennis Schleicher", "Gabby Hon", "Laura Creekmore", "Tim Frick", "Tonia Bartz").each do |s|
+        %li
+          %a(href="https://twitter.com/#{s[1]['twitter']}" rel="nofollow")
+            = image_tag "events/mentors/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+            .mentor-name= s[0]
+          .mentor-job= s[1]['title']
 
 %section#schedule.main-content.main-bg-highlight
   .container

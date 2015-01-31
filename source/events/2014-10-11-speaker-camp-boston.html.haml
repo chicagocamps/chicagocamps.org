@@ -90,59 +90,31 @@ summary: Speaker Camp helps you get ready to present at conferences. Spend your 
 
     %h2 Mentors
     
+    - content_for :podcast_boon_sheridan do
+      %a.a-chevron-right(href="/podcasts/2014/boon-sheridan/") Boon&#8217;s Podcast
+    
+    - content_for :podcast_dana_chisnell do
+      %a.a-chevron-right(href="/podcasts/2014/dana-chisnell/") Dana&#8217;s Podcast
+
+    - content_for :podcast_jenn_downs do
+      %a.a-chevron-right(href="/podcasts/2014/jenn-downs/") Jenn&#8217;s Podcast
+
+    - content_for :podcast_kyle_soucy do
+      %a.a-chevron-right(href="/podcasts/2014/kyle-soucy/") Kyle&#8217;s Podcast
+
+    - content_for :podcast_margot_bloomstein do
+      %a.a-chevron-right(href="/podcasts/2014/margot-bloomstein/") Margot&#8217;s Podcast
+
     %ul.mentor-list.grid
-
-      %li
-        %a(href="https://twitter.com/boonerang" rel="nofollow")
-          = image_tag "events/mentors/boon-sheridan.jpg", alt: "Boon Sheridan"
-          .mentor-name Boon Sheridan
-        .mentor-job Senior Product Designer, NASDAQ OMX
-        .mentor-podcast-cta.lineup
-          %a.a-chevron-right(href="/podcasts/2014/boon-sheridan/") Boon&#8217;s Podcast
-
-      %li
-        %a(href="https://twitter.com/cperfetti" rel="nofollow")
-          = image_tag "events/mentors/christine-perfetti.jpg", alt: "Christine Perfetti"
-          .mentor-name Christine Perfetti
-        .mentor-job Senior Director, Acquia
-
-      %li
-        %a(href="https://twitter.com/danachis" rel="nofollow")
-          = image_tag "events/mentors/dana-chisnell.jpg", alt: "Dana Chisnell"
-          .mentor-name Dana Chisnell
-        .mentor-job Co-Director, Center for Civic Design
-        .mentor-podcast-cta.lineup
-          %a.a-chevron-right(href="/podcasts/2014/dana-chisnell/") Dana&#8217;s Podcast
-
-      %li
-        %a(href="https://twitter.com/DU5TB1N" rel="nofollow")
-          = image_tag "events/mentors/dustin-ditommaso.jpg", alt: "Dustin DiTommaso"
-          .mentor-name Dustin DiTommaso
-        .mentor-job VP, Experience Design, Mad*Pow
-
-      %li
-        %a(href="https://twitter.com/beparticular" rel="nofollow")
-          = image_tag "events/mentors/jenn-downs.jpg", alt: "Jenn Downs"
-          .mentor-name Jenn Downs
-        .mentor-job UX Researcher, ShootProof
-        .mentor-podcast-cta.lineup
-          %a.a-chevron-right(href="/podcasts/2014/jenn-downs/") Jenn&#8217;s Podcast
-      
-      %li
-        %a(href="https://twitter.com/kylesoucy" rel="nofollow")
-          = image_tag "events/mentors/kyle-soucy.jpg", alt: "Kyle Soucy"
-          .mentor-name Kyle Soucy
-        .mentor-job Founding Principal, Usable Interface
-        .mentor-podcast-cta.lineup
-          %a.a-chevron-right(href="/podcasts/2014/kyle-soucy/") Kyle&#8217;s Podcast
-      
-      %li
-        %a(href="https://twitter.com/mbloomstein" rel="nofollow")
-          = image_tag "events/mentors/margot-bloomstein.jpg", alt: "Margot Bloomstein"
-          .mentor-name Margot Bloomstein
-        .mentor-job Brand &amp; Content Strategist, Appropriate, Inc.
-        .mentor-podcast-cta.lineup
-          %a.a-chevron-right(href="/podcasts/2014/margot-bloomstein/") Margot&#8217;s Podcast
+      - data.events.mentors.slice("Boon Sheridan", "Christine Perfetti", "Dana Chisnell", "Dustin DiTommaso", "Jenn Downs", "Kyle Soucy", "Margot Bloomstein").each do |s|
+        %li
+          %a(href="https://twitter.com/#{s[1]['twitter']}" rel="nofollow")
+            = image_tag "events/mentors/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+            .mentor-name= s[0]
+          .mentor-job= s[1]['title']
+          - podcast_desc = :"podcast_#{s[1]['alias'].gsub(/[-]/, '_')}"
+          - if content_for?(podcast_desc)
+            .mentor-podcast-cta.lineup= yield_content podcast_desc
 
 %section#schedule.main-content.main-bg-highlight
   .container
