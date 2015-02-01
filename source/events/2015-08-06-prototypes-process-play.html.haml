@@ -3,6 +3,7 @@ title: Prototypes, Process &amp; Play
 date: 2015-08-06 01:00 CDT
 category: events
 alias: prototypes-process-play
+duration: August 6&#8211;7, 2015
 summary: Learn design leadership skills from Adaptive Path, Public Good Software, Google Ventures, and the Chicago Bulls&#8211;just to name a few!
 ---
 
@@ -37,6 +38,16 @@ summary: Learn design leadership skills from Adaptive Path, Public Good Software
       %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/prototypes-process-play-2015/dates/Aug-06-2015_at_0900AM" rel="nofollow")
         Join Us for Now Only $250 &#8212; Ticket Prices Increase Each Month
 
+    %h3 Meet Our Awesome Sponsors
+    
+    %p These fantastic sponsors are helping us bring this great event to you.
+        
+    %ul.event-sponsors.grid
+      - data.events.sponsors.slice("Columbia College", "Terminus Threads").each do |s|
+        %li
+          %a(href="#{s[1]['url']}" rel="nofollow")
+            = image_tag "events/sponsors/#{s[1]['alias']}.png", alt: "#{s[0]}"
+
 %section#schedule.main-content.main-bg-highlight
   .container
 
@@ -55,7 +66,28 @@ summary: Learn design leadership skills from Adaptive Path, Public Good Software
 
     %p We&#8217;re very excited for you to meet our speakers!
 
-    %h4 Speaker Announcement Forthcoming
+    - data.events.speakers.slice("Andrea Mignolo", "Braden Kowitz", "Carl Smith", "Dustin DiTommaso", "Hannah Donovan", "J Cornelius", "Jason Kunesh", "Jen Myers", "Jesse James Garrett", "Stacey James", "Dr. Steve Julius", "Dr. Temple Grandin").each do |s|
+      .profile.media
+        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
+        .media-body
+          %h2
+            = s[0]
+            .lineup.lineup-wrap
+              .h-sm-caps-gray= s[1]['title']
+          = s[1]['bio']
+          - if s[1]['website'] || s[1]['twitter']
+            %p
+              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
+              = succeed "." do
+                - if s[1]['website']
+                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
+                - if s[1]['website'] && s[1]['twitter']
+                  or
+                - if s[1]['twitter']
+                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
+          - if content_for?(talk_desc)
+            = yield_content talk_desc
 
 %section#location.main-content
   .container

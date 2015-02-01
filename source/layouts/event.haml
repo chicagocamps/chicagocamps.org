@@ -20,7 +20,11 @@
         - else
           %h1.header-title.header-title-event= current_page.data.title
 
-        %h2.header-event-date.header-shadow= current_page.date.strftime("%A, %B %e, %Y")
+        %h2.header-event-date.header-shadow
+          - if current_page.data.duration
+            = current_page.data.duration
+          - else
+            = current_page.date.strftime("%A, %B %e, %Y")
 
         %h4.header-event-location.header-shadow
           - if current_page.data.location

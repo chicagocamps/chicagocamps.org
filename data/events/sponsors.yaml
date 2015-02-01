@@ -18,6 +18,10 @@ Binth:
   alias: binth
   url:  http://binth.com/
 
+Columbia College:
+  alias: columbia-college
+  url:   http://www.colum.edu/
+
 Field Notes:
   alias: field-notes
   url:  http://fieldnotesbrand.com/
@@ -113,6 +117,10 @@ Sticker Mule:
 SyneCore:
   alias: synecore
   url:  http://synecoretech.com/
+
+Terminus Threads:
+  alias: terminus-threads
+  url:   http://terminusthreads.com/
 
 UIE:
   alias: uie

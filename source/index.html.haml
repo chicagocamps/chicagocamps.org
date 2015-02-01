@@ -2,6 +2,8 @@
 title: Home
 ---
 
+- next_event = blog.articles.reverse.find {|a| a.data.category == "events" && a.data.date > Time.now.strftime("%Y-%m-%d %H:%M %Z")}
+
 %header.header.header-home
   .header-container
     .container
@@ -10,9 +12,8 @@ title: Home
       %h2.header-home-tagline.header-shadow Low-cost, high-value events <br> serving the technology community.
 
       .h-sm-caps Up Next:
-      %h2.header-home-next.header-shadow
-        %a(href="/events/2015/speaker-camp-seattle/") Speaker Camp Seattle
-      %a.btn.btn-alt.btn-large(href="/events/2015/speaker-camp-seattle/") View Details
+      %h2.header-home-next.header-shadow= link_to next_event.title, next_event
+      = link_to "View Details", next_event, class: "btn btn-alt btn-large"
 
       %a.header-credit(href="https://flic.kr/p/amYWgx") Photo: Robert Lowe
 
@@ -30,25 +31,26 @@ title: Home
 
     %h3.h-section Events
 
-    - blog.articles.select {|a| a.data.category == "events"}.each_with_index do |article, i|
-      - break if i == 1
-
-      .event-feat
-        
-        - if article.data.alias
-          - if article.data.alias.end_with? "camp"
-            .event-feat-logo-container= link_to article.data.title, article, class: "event-feat-logo #{article.data.alias}-logo"
-          - else
-            .event-feat-logo-container= link_to article.data.title, article, class: "event-feat-logo", style: "#{event_logo(article)}"
-        
-        .event-feat-info
-          %h2
-            = link_to article.title, article
-            .lineup
-              %span.h-sm-caps-gray= article.date.strftime("%B %e, %Y")
-          %p= truncate_words(article.data.summary, length: 30)
-        
-        .event-feat-cta= link_to "Attend", article, class: "btn btn-outline"
+    .event-feat
+      
+      - if next_event.data.alias
+        - if next_event.data.alias.end_with? "camp"
+          .event-feat-logo-container= link_to next_event.data.title, next_event, class: "event-feat-logo #{next_event.data.alias}-logo"
+        - else
+          .event-feat-logo-container= link_to next_event.data.title, next_event, class: "event-feat-logo", style: "#{event_logo(next_event)}"
+      
+      .event-feat-info
+        %h2
+          = link_to next_event.title, next_event
+          .lineup
+            %span.h-sm-caps-gray
+              - if next_event.data.duration
+                = next_event.data.duration
+              - else
+                = next_event.date.strftime("%B %e, %Y")
+        %p= truncate_words(next_event.data.summary, length: 30)
+      
+      .event-feat-cta= link_to "Attend", next_event, class: "btn btn-outline"
 
     -# Testimonial
 
@@ -57,61 +59,26 @@ title: Home
     -# Upcoming events
 
     %ul.events-list
-      
-      %li.event-item
-        .event-item-logo-container
-          .event-item-logo.mobile-camp-logo
-        %h3.event-item-title
-          Mobile Camp
-          .lineup
-            %span.h-sm-caps-gray April 18, 2015
-        .btn.btn-outline Coming Soon!
+      - blog.articles.reverse.select {|a| a.data.category == "events" && a.data.date > Time.now.strftime("%Y-%m-%d %H:%M %Z")}.drop(1).each_with_index do |article, i|
+        - break if i == 4
+        
+        %li.event-item
 
-      %li.event-item
-        .event-item-logo-container
-          .event-item-logo.ux-camp-logo
-        %h3.event-item-title
-          UX Camp
-          .lineup
-            %span.h-sm-caps-gray June 6, 2015
-        .btn.btn-outline Coming Soon!
+          - if article.data.alias
+            - if article.data.alias.end_with? "camp"
+              .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo #{article.data.alias}-logo"
+            - else
+              .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo", style: "#{event_logo(article)}"
 
-      %li.event-item
-        .event-item-logo-container
-          .event-item-logo(style="background-image: url('/assets/img/events/logos/prototypes-process-play.png'); background-image: url('/assets/img/events/logos/prototypes-process-play.svg');")
-        %h3.event-item-title
-          Prototypes, Process &amp; Play
-          .lineup
-            %span.h-sm-caps-gray August 6-8, 2015
-        .btn.btn-outline Coming Soon!
-
-      %li.event-item
-        .event-item-logo-container
-          .event-item-logo.front-end-camp-logo
-        %h3.event-item-title
-          Front-end Camp
-          .lineup
-            %span.h-sm-caps-gray October 3, 2015
-        .btn.btn-outline Coming Soon!
-
-    -#
-      %ul.events-list
-        - blog.articles.select {|a| a.data.category == "events"}.each_with_index do |article, i|
-          - break if i == 4
-          
-          %li.event-item
-
-            - if article.data.alias
-              - if article.data.alias.end_with? "camp"
-                .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo #{article.data.alias}-logo"
-              - else
-                .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo", style: "#{event_logo(article)}"
-
-            %h3.event-item-title
-              = link_to article.title, article
-              .lineup
-                %span.h-sm-caps-gray= article.date.strftime("%B %e, %Y")
-            = link_to "Attend", article, class: "btn btn-outline"
+          %h3.event-item-title
+            = link_to article.title, article
+            .lineup
+              %span.h-sm-caps-gray
+                - if article.data.duration
+                  = article.data.duration
+                - else
+                  = article.date.strftime("%B %e, %Y")
+          = link_to "Attend", article, class: "btn btn-outline"
 
     .events-archive-link.lineup
       %a.a-chevron-right(href="/events/") Events Archive
