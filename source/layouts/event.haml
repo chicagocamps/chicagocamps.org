@@ -2,7 +2,11 @@
   
   -# Header
   
-  %header.header(class="#{'header-default' unless current_page.data.alias}" style="#{event_header(current_page) if current_page.data.alias}")
+  %header.header(class="#{'header-default' unless current_page.data.alias} #{'header-ppp' if current_page.data.alias == 'prototypes-process-play'}" style="#{event_header(current_page) if current_page.data.alias && current_page.data.alias != 'prototypes-process-play'}" id="#{'header-ppp' if current_page.data.alias == 'prototypes-process-play'}")
+
+    - if current_page.data.alias == 'prototypes-process-play'
+      %canvas#header-ppp-canvas.header-ppp-canvas
+
     .header-container
       .container
 
@@ -29,4 +33,3 @@
           Photo: #{current_page.data.header_image_photographer}
 
   = yield
-  

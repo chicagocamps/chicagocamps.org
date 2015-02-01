@@ -45,6 +45,18 @@
           });
         });
 
+    - if current_page.data.alias == "prototypes-process-play"
+      :javascript
+        $(document).ready(function() {
+          Modernizr.load({
+            test: Modernizr.mq('screen and (min-width: 741px)'),
+            yep: ['/assets/js/vendor/TweenLite.min.js',
+                  '/assets/js/vendor/EasePack.min.js',
+                  '/assets/js/vendor/rAF.min.js',
+                  '/assets/js/ppp.js']
+          });
+        });
+
     %script(src="/assets/js/main.js")
     
     - unless :development == environment
