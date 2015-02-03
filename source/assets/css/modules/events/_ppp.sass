@@ -2,9 +2,6 @@
 // ========================================
 
 .header-ppp
-  animation: header-ppp 8s ease infinite
-  background: linear-gradient(to left, #a24bcf, $blue)
-  background-size: 400% 400%
   @extend %position-relative
 
 .header-ppp-canvas
@@ -12,11 +9,3 @@
   @extend %position-absolute
   @extend %top-0
   @extend %grid-1-1
-
-@keyframes header-ppp
-  0%
-    background-position: 0 50%
-  50%
-    background-position: 100% 50%
-  100%
-    background-position: 0 50%
