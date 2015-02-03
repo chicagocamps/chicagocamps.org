@@ -14,8 +14,6 @@
 
     %script(src="/assets/js/vendor/modernizr-2.8.3.min.js")
 
-    = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
-
   %body#top(class="#{page_classes}")
     
     = partial "partials/header"

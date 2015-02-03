@@ -2,7 +2,7 @@
 title: Home
 ---
 
-- next_event = blog.articles.reverse.find {|a| a.data.category == "events" && a.data.date > Time.now.strftime("%Y-%m-%d %H:%M %Z")}
+- next_event = blog("events").articles.reverse.find {|a| a.data.date > Time.now.strftime("%Y-%m-%d %H:%M %Z")}
 
 %header.header.header-home
   .header-container
@@ -20,7 +20,7 @@ title: Home
   .header-home-news
     .container
       .h-divider.h-divider-opaque Latest News
-      - blog.articles.select {|a| a.data.category != "events"}.each_with_index do |article, i|
+      - blog("updates").articles.each_with_index do |article, i|
         - break if i == 1
         = link_to article.title, article
 
@@ -59,7 +59,7 @@ title: Home
     -# Upcoming events
 
     %ul.events-list
-      - blog.articles.reverse.select {|a| a.data.category == "events" && a.data.date > Time.now.strftime("%Y-%m-%d %H:%M %Z")}.drop(1).each_with_index do |article, i|
+      - blog("events").articles.reverse.select {|a| a.data.date > Time.now.strftime("%Y-%m-%d %H:%M %Z")}.drop(1).each_with_index do |article, i|
         - break if i == 4
         
         %li.event-item

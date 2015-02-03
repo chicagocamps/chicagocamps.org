@@ -1,5 +1,6 @@
 ---
 title: Events
+blog: events
 ---
 
 %section
@@ -13,7 +14,7 @@ title: Events
 
       %h3.h-section Upcoming Events
 
-      - blog.articles.reverse.select {|a| a.data.category == "events" && a.data.date > Time.now.strftime("%Y-%m-%d %H:%M %Z")}.group_by {|a| a.date.year }.each do |year, articles|
+      - blog.articles.reverse.select {|a| a.data.date > Time.now.strftime("%Y-%m-%d %H:%M %Z")}.group_by {|a| a.date.year }.each do |year, articles|
 
         %h2= year
 
@@ -40,7 +41,7 @@ title: Events
 
       %h3.h-section Past Events
 
-      - blog.articles.select {|a| a.data.category == "events" && a.data.date < Time.now.strftime("%Y-%m-%d %H:%M %Z")}.group_by {|a| a.date.year }.each do |year, articles|
+      - blog.articles.select {|a| a.data.date < Time.now.strftime("%Y-%m-%d %H:%M %Z")}.group_by {|a| a.date.year }.each do |year, articles|
 
         %h2= year
 
