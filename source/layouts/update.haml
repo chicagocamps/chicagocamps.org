@@ -30,7 +30,7 @@
           %iframe.podcast-player.update-podcast-player(seamless src="https://simplecast.fm/e/#{current_page.data.podcast_id}?style=light")
         = yield
 
-      = partial "partials/podcast-credits" if current_page.data.podcast_credit?
+      = partial "partials/updates/podcast-credits" if current_page.data.podcast_credit?
 
     %nav.pagination
       - prev_article = current_article.blog_data.articles.find {|a| a.data.category != "events" && a.data.date < current_article.data.date }

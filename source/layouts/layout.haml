@@ -16,14 +16,14 @@
 
   %body#top(class="#{page_classes}")
     
-    = partial "partials/header"
+    = partial "partials/global/header"
 
     .main.group(role="main")
       = yield
-      = partial "partials/sponsors"
-      = partial "partials/code-of-conduct" unless current_page.data.title == "Code of Conduct"
+      = partial "partials/global/sponsors"
+      = partial "partials/global/code-of-conduct" unless current_page.data.title == "Code of Conduct"
 
-    = partial "partials/footer"
+    = partial "partials/global/footer"
     
     %script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
     :javascript
