@@ -5,6 +5,12 @@ category: events
 alias: prototype-camp
 summary: Prototype Camp delivers a full day of bringing together people who are interested in putting a bit more &#8220;build and create&#8221; into their craft. Clearly-thought and nearly-there are great places to be!
 ---
+- sponsors = ["Balsamiq", "Harrington", "Foiled Cupcakes", "Jawhole", "RG/A", "SapientNitro", "WebVisions"]
+- keynotes             = ["Fred Beecher", "Jared Spool"]
+- blue_room_speakers   = ["Jen Myers", "Mari Luangrath", "Max Temkin", "Todd Zaki Warfel"]
+- red_room_speakers    = ["Dave Kiss", "Jason Cranford Teague", "Philip Likens", "Smith Schwartz"]
+- yellow_room_speakers = ["Gabby Hon", "Gail Swanson", "Scott Sullivan", "Victoria Pater"]
+- bonus_room_speakers  = ["Andy Hullinger"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -34,12 +40,8 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
     %h3 Meet Our Awesome Sponsors
     
     %p These fantastic sponsors are helping us bring this great event to you.
-        
-    %ul.event-sponsors.grid
-      - data.events.sponsors.slice("Balsamiq", "Harrington", "Foiled Cupcakes", "Jawhole", "RG/A", "SapientNitro", "WebVisions").each do |s|
-        %li
-          %a(href="#{s[1]['url']}" rel="nofollow")
-            = image_tag "events/sponsors/#{s[1]['alias']}.png", alt: "#{s[0]}"
+
+    = partial "partials/events/sponsors", locals: {sponsors: sponsors}
         
     %h3 Lots of Great Reasons to Attend Prototype Camp Chicago
 
@@ -79,26 +81,7 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
   .container
 
     %h3.h-section Keynotes
-
-    - data.events.speakers.slice("Fred Beecher", "Jared Spool").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 %section#schedule.main-content.main-bg-highlight
   .container
@@ -278,8 +261,6 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
 
     %h3.h-section Speakers
 
-    %h2 Blue Room
-
     - content_for :talk_jen_myers do
 
       %h3 Adventures in Prototyping: How To Make Simple, Solid HTML/CSS Prototypes
@@ -291,31 +272,6 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
       %h3 Prototyping Cupcakes: Taking Delicious from Local to National
       
       %p Now shipping their sweets nationally, Foiled has undertaken their biggest challenge to date&#8211;sending delicious cupcakes in a box, while keeping the product and brand experience rich and unique&#8230; and still remaining competitive from a cost perspective. Mari and her team have successfully navigated this space, using pastry experience, customer data, trial and error, storymapping, and a strategic partnership with one of the biggest pharmaceutical shipping companies in the world&#8211;in order to do so profitably.
-
-    - data.events.speakers.slice("Jen Myers", "Mari Luangrath", "Max Temkin", "Todd Zaki Warfel").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
-
-    %h2 Red Room
 
     - content_for :talk_dave_kiss do
 
@@ -342,31 +298,6 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
       %p About two years ago, my partner and I left behind our Chicago home and nearly everything we owned to pursue a fanciful life of nomadic travel. We had flexible jobs where working from home was considered normal, so we wondered why couldn&#8217;t home be anywhere we want it to be? This lifestyle (though not without its challenges), has enabled us to visit new places, learn new languages, skip winters and spend time with the friends and family that we rarely got to see in our formerly stationary lives.
       
       %p The way we go about our day-to-day life on the road has been informed and made better by many of the development practices we already had, particularly in terms of prototyping. We continually strive for tight feedback loops so that we are free to try new things and quickly adapt. In our case we work for continual incremental improvement in our skills, our experiences, and our ability to connect with others to arrive at the most intentional and rewarding life that we know how to live.
-
-    - data.events.speakers.slice("Dave Kiss", "Jason Cranford Teague", "Philip Likens", "Smith Schwartz").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
-           
-    %h2 Yellow Room
 
     - content_for :talk_gabby_hon do
 
@@ -396,31 +327,6 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
       
       %p Working in an agile setting has changed my approach to mobile design. I&#8217;ve let go of the pixel perfect final product and learned to iterate along the way in primarily one piece of software. I can flesh out everything from wireframes to final screens for my developers&#8211;all using Adobe InDesign. I&#8217;ll share how my files are set-up for efficiency and talk through the main reasons this works for designers who want to create better products that are constantly evolving.
 
-    - data.events.speakers.slice("Gabby Hon", "Gail Swanson", "Scott Sullivan", "Victoria Pater").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
-      
-    %h2 Bonus
-
     - content_for :talk_andy_hullinger do
 
       %h3 From Idea to App (in about an hour): Learn to Use the CoronaSDK for Rapid, Native App Prototyping
@@ -435,29 +341,18 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
       
       %p Why learn CoronaSDK? In addition to being the #1 cross-platform mobile development framework you&#8217;ll find it easy to continue pursuing your curiosity. The <a href="http://www.meetup.com/CoronaSDK/" rel="nofollow">Chicago CoronaSDK Developers Group Meetup</a> is now hosted at Harrington and Andy currently serves as a <a href="http://www.coronalabs.com/community/ambassadors/directory/" rel="nofollow">Corona Ambassador</a> advocating for the value of good design (both visual and functional) in App development and promoting the addition of Art education to Science, Tech, Engineering, and Math curriculum to put STEAM into S.T.E.M.
 
-    - data.events.speakers.slice("Andy Hullinger").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
-            
+    %h2 Blue Room
+    = partial "partials/events/speakers", locals: {speakers: blue_room_speakers}
+
+    %h2 Red Room
+    = partial "partials/events/speakers", locals: {speakers: red_room_speakers}
+
+    %h2 Yellow Room
+    = partial "partials/events/speakers", locals: {speakers: yellow_room_speakers}
+    
+    %h2 Bonus
+    = partial "partials/events/speakers", locals: {speakers: bonus_room_speakers}
+
     .profile.media
       .profile-object.media-object
         = image_tag "events/speakers/kaitlin-yapchaian.jpg", alt: "Kaitlin Yapchaian"
@@ -480,4 +375,4 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
         
         %p From Google Glass apps to Tweeting E-Cigarettes, R/GA&#8217;s Prototype Studio is actively exploring innovative ways to use new technologies. Join Marc Maleh and Kaitlin Yapchaian to learn best practices for creating smart, swift, and effective prototypes.
 
-= partial "partials/event-location-harrington"
+= partial "partials/events/location-harrington"

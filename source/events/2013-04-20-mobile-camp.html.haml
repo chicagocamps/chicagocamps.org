@@ -7,6 +7,11 @@ header_image_photographer: Scott Cresswell
 header_image_url: https://flic.kr/p/iVvY69
 summary: Mobile Camp gets you up to speed on the mobile issues you need to know! Spend a Saturday with us and then spend your Monday applying what you&#8217;ve learned!
 ---
+- sponsors = ["Axure", "Balsamiq", "Fluid UI", "Funsize", "Harrington", "HotGloo", "Jawhole", "Mailchimp", "New Riders", "Optimal Workshop", "ParkWhiz", "Rosenfeld Media", "SapientNitro", "SyneCore", "UIE", "User Testing", "UXPin"]
+- keynotes             = ["Phil Sharp", "Samantha Starmer"]
+- blue_room_speakers   = ["Dan LeBoeuf", "Dan Shipton", "Jon Buda", "Shay Howe", "Will Hacker"]
+- red_room_speakers    = ["Darby Frey", "Gail Swanson", "Golli Hashemian", "Jacey Gulden", "Simon King"]
+- yellow_room_speakers = ["Andy Hullinger", "Christian Crumlish", "Dennis Kardys", "Greg Nudelman", "Jason Cranford Teague"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -39,11 +44,7 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
     
     %p These fantastic sponsors are helping us bring this great event to you.
 
-    %ul.event-sponsors.grid
-      - data.events.sponsors.slice("Axure", "Balsamiq", "Fluid UI", "Funsize", "Harrington", "HotGloo", "Jawhole", "Mailchimp", "New Riders", "Optimal Workshop", "ParkWhiz", "Rosenfeld Media", "SapientNitro", "SyneCore", "UIE", "User Testing", "UXPin").each do |s|
-        %li
-          %a(href="#{s[1]['url']}" rel="nofollow")
-            = image_tag "events/sponsors/#{s[1]['alias']}.png", alt: "#{s[0]}"
+    = partial "partials/events/sponsors", locals: {sponsors: sponsors}
 
     %h3 Lots of Great Reasons to Attend Mobile Camp
 
@@ -87,28 +88,7 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
 
       %p The future of experience design is not just the web or even mobile &#8211; it is everywhere a customer touches our products and services. The ubiquity of technology in our lives means that our interactions across different devices and mediums are becoming increasingly intertwined. We can work out using a Kinect, track our children&#8217;s whereabouts with an iPad app, and use our phones to check for best prices on a product while in shopping in a store. We therefore increasingly need to design experiences that are seamless across all interactions &#8211; physical and digital. As we are increasingly digitally connected, and as device diversification grows, mobile interfaces take on the role of intermediary between our online and offline lives. Samantha will describe the challenges and opportunities of this exciting future, and provide recommendations for how experience designers can be successful and increase their value by taking advantage of this new world.
 
-    - data.events.speakers.slice("Phil Sharp", "Samantha Starmer").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 %section#schedule.main-content.main-bg-highlight
   .container
@@ -275,8 +255,6 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
 
     %h3.h-section Speakers
 
-    %h2 Blue Room
-
     - content_for :talk_dan_leboeuf do
 
       %h3 How Do I Get Started in Mobile?
@@ -317,31 +295,6 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
 
       %p If you&#8217;re not taking your existing web properties mobile, you&#8217;re already slipping behind. But it&#8217;s not too late to start making changes, even if you don&#8217;t have the time to invest in a full mobile strategy right away. Jumpstart your mobile approach using this set of design techniques geared toward making your website easier to use for people on tablets&#8211;see real-world examples and hear practical advice that you can use right away to make your site mobile-friendly as quickly as possible! If you need to improve your website&#8217;s tablet experience but don&#8217;t have time or resources available to you to stop everything and go responsive, these easy-to-use-and-implement techniques will help you find your way. Quickly.
 
-    - data.events.speakers.slice("Dan LeBoeuf", "Dan Shipton", "Jon Buda", "Shay Howe", "Will Hacker").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
-
-    %h2 Red Room
-
     - content_for :talk_darby_frey do
       
       %h3 Building a Mobile Layout
@@ -378,31 +331,6 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
 
       %p Making a useful app doesn&#8217;t always require a development team, VC funding, or plans to change the world. We all use services where part of the experience is broken or not quite what we need. Create instead of critique&#8211;dive in and build simple apps to make common everyday experiences a little better. To scratch my own itch I created News Now, an iPhone app utilizing the NPR API. Using that experience as a starting point, this talk will look at examples and techniques for making simple single-serving apps that even designers without hardcore development chops can create.
 
-    - data.events.speakers.slice("Darby Frey", "Gail Swanson", "Golli Hashemian", "Jacey Gulden", "Simon King").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
-
-    %h2 Yellow Room
-
     - content_for :talk_andy_hullinger do
 
       %h3 How Gesture-Based Design Can Enhance the Narrative Experience of Reading on the iPad
@@ -437,27 +365,13 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
 
       %p One of the daunting issues web developers face with mobile design is how to deal with interface icons and controls. You can create images with fixed dimensions for particular interface context, but what happens when that context changes? Buttons that are the perfect size for clicking on with a mouse pointer are not so good for pushing with big bulky fingers on a tablet or smart phone. You can create separate images for different contexts, but that is rapidly becomes a complex exercise, especially as new screen resolutions are developed. The solution is to stop using images for icons and controls, and instead use webfonts. Webfonts can be scaled up and down without loss of fidelity and allow for a wide range of dynmic styling without having to resort to images. Now that webfonts are ubiquitous, they provide the best solution to this growing issue. In this session, I&#8217;ll detail the issues involved, and outline a solution that not only allows for better responsive design, but can also increase search engine optimization and accessibility.
 
-    - data.events.speakers.slice("Andy Hullinger", "Christian Crumlish", "Dennis Kardys", "Greg Nudelman", "Jason Cranford Teague").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
+    %h2 Blue Room
+    = partial "partials/events/speakers", locals: {speakers: blue_room_speakers}
 
-= partial "partials/event-location-harrington"
+    %h2 Red Room
+    = partial "partials/events/speakers", locals: {speakers: red_room_speakers}
+
+    %h2 Yellow Room
+    = partial "partials/events/speakers", locals: {speakers: yellow_room_speakers}
+
+= partial "partials/events/location-harrington"

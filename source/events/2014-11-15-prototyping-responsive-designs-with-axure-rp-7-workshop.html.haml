@@ -5,6 +5,7 @@ category: events
 alias: prototyping-responsive-designs-axure-workshop
 summary: This one-day workshop will get you up to speed prototyping responsive web designs with the new Adaptive Views feature in Axure RP 7. In this hands-on workshop you&#8217;ll learn how to create designs that scale for smartphones, tablets, and desktop displays. This workshop includes examples, tutorials, and exercises covering the functionality of an cross-platform ecommerce project prototyped with Axure.
 ---
+- instructors = ["Svetlin Denkov", "Will Hacker"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -71,25 +72,6 @@ summary: This one-day workshop will get you up to speed prototyping responsive w
   .container
 
     %h3.h-section Instructors
+    = partial "partials/events/speakers", locals: {speakers: instructors}
 
-    - data.events.speakers.slice("Svetlin Denkov", "Will Hacker").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-
-= partial "partials/event-location-harrington"
+= partial "partials/events/location-harrington"

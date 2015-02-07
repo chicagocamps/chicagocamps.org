@@ -1,0 +1,11 @@
+%ul.mentor-list.grid
+  - mentors.each do |m|
+    - data.events.mentors.slice(m).each do |mentor|
+      %li
+        %a(href="https://twitter.com/#{mentor[1]['twitter']}" rel="nofollow")
+          = image_tag "events/mentors/#{mentor[1]['alias']}.jpg", alt: "#{mentor[0]}"
+          .mentor-name= mentor[0]
+        .mentor-job= mentor[1]['title']
+        - podcast_desc = :"podcast_#{mentor[1]['alias'].gsub(/[-]/, '_')}"
+        - if content_for?(podcast_desc)
+          .mentor-podcast-cta.lineup= yield_content podcast_desc

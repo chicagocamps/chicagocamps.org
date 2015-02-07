@@ -1,0 +1,6 @@
+%ul.event-sponsors.grid
+  - sponsors.each do |s|
+    - data.events.sponsors.slice(s).each do |sponsor|
+      %li
+        %a(href="#{sponsor[1]['url']}" rel="nofollow")
+          = image_tag "events/sponsors/#{sponsor[1]['alias']}.png", alt: "#{sponsor[0]}"

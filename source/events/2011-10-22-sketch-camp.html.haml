@@ -5,6 +5,7 @@ category: events
 alias: sketch-camp
 summary: SketchCamp is an unconference/camp that brings together designers of all types for a single-day event focused on sketching for user experience design.
 ---
+- sponsors = ["Balsamiq", "Field Notes", "Gravity Tank", "New Riders", "Resource", "Rosenfeld", "UIE"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -28,12 +29,8 @@ summary: SketchCamp is an unconference/camp that brings together designers of al
     %h3 Meet Our Awesome Sponsors
     
     %p These fantastic sponsors are helping us bring this great event to you.
-        
-    %ul.event-sponsors.grid
-      - data.events.sponsors.slice("Balsamiq", "Field Notes", "Gravity Tank", "New Riders", "Resource", "Rosenfeld", "UIE").each do |s|
-        %li
-          %a(href="#{s[1]['url']}" rel="nofollow")
-            = image_tag "events/sponsors/#{s[1]['alias']}.png", alt: "#{s[0]}"
+
+    = partial "partials/events/sponsors", locals: {sponsors: sponsors}
 
 %section#schedule.main-content.main-bg-highlight
   .container

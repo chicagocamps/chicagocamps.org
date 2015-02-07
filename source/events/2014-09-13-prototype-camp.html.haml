@@ -5,6 +5,11 @@ category: events
 alias: prototype-camp
 summary: Prototype Camp delivers a full day of bringing together people who are interested in putting a bit more &#8220;build and create&#8221; into their craft. Clearly-thought and nearly-there are great places to be!
 ---
+- sponsors = ["1 Dollar Prototype", "Harrington", "OP Taylor Brewing", "Rosenfeld", "Simplecast", "Sticker Mule", "UIE", "UIE AYCL", "UXPin"]
+- keynotes             = ["Jason Kunesh", "Russ Unger"]
+- blue_room_speakers   = ["Brandon Satrom", "Jon Hadden", "Kamaria Campbell", "Will Hacker"]
+- red_room_speakers    = ["Adam Tramposh", "Brett Schilke", "Brittanie Crain", "Jonathan Ozeran"]
+- yellow_room_speakers = ["Ben Lister", "Marina Lin", "Nicole Maynard", "Ross Belmont"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -36,12 +41,8 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
     %h3 Meet Our Awesome Sponsors
     
     %p These fantastic sponsors are helping us bring this great event to you.
-        
-    %ul.event-sponsors.grid
-      - data.events.sponsors.slice("1 Dollar Prototype", "Harrington", "OP Taylor Brewing", "Rosenfeld", "Simplecast", "Sticker Mule", "UIE", "UIE AYCL", "UXPin").each do |s|
-        %li
-          %a(href="#{s[1]['url']}" rel="nofollow")
-            = image_tag "events/sponsors/#{s[1]['alias']}.png", alt: "#{s[0]}"
+
+    = partial "partials/events/sponsors", locals: {sponsors: sponsors}
 
     %h3 Lots of Great Reasons to Attend Prototype Camp Chicago
 
@@ -58,29 +59,8 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
 
     - content_for :talk_jason_kunesh do
       %iframe.podcast-player.event-podcast-player(seamless src="https://simplecast.fm/e/4558?style=light")
-
-    - data.events.speakers.slice("Jason Kunesh", "Russ Unger").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
+    
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 %section#schedule.main-content.main-bg-highlight
   .container
@@ -231,8 +211,6 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
 
     %h3.h-section Speakers
 
-    %h2 Blue Room
-
     - content_for :talk_brandon_satrom do
 
       %h3 Goodbye Specs, Hello Prototypes
@@ -277,31 +255,6 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
 
       %p Because after you&#8217;ve created that perfect prototype, covered all the anticipated use cases, fixed all the bugs so that it works as it&#8217;s expected to, and considered all of the web browsers and mobile devices you have to deal with&#8211;you&#8217;re still not done! We&#8217;ll uncover why and how to better prepare yourself for the real world just outside your door.
 
-    - data.events.speakers.slice("Brandon Satrom", "Jon Hadden", "Kamaria Campbell", "Will Hacker").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
-
-    %h2 Red Room
-
     - content_for :talk_adam_tramposh do
 
       %h3 Prototyping Glassware
@@ -339,31 +292,6 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
       %p This is the tale of a globally distributed team of individuals who came together to build a product for their dogs in 2013 without ever having been in the same room together. Month by month, the team started to grow and now includes individuals from the U.S., Canada, France, Germany, Venezuela and Pakistan, all working to bring the product to life and into the marketplace of wearable dog collars.
 
       %p A few of the experiences to be shared with the audience will include how team member initiatives and responsibilities have been divvied up, approaches to making routine team communication work and insights into assembling iterative hardware and mobile software prototypes. Additionally, we&#8217;ll share some of our progress that was presented recently at the Boomtown Accelerator&#8217;s Demo Day in Boulder, Colorado.
-
-    - data.events.speakers.slice("Adam Tramposh", "Brett Schilke", "Brittanie Crain", "Jonathan Ozeran").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
-
-    %h2 Yellow Room
 
     - content_for :talk_ben_lister do
 
@@ -405,27 +333,13 @@ summary: Prototype Camp delivers a full day of bringing together people who are 
 
       %p Hear our stories of what it&#8217;s been like to trade Photoshop for a text editor, the problems we had in doing so, and how we addressed them.
 
-    - data.events.speakers.slice("Ben Lister", "Marina Lin", "Nicole Maynard", "Ross Belmont").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
+    %h2 Blue Room
+    = partial "partials/events/speakers", locals: {speakers: blue_room_speakers}
 
-= partial "partials/event-location-harrington"
+    %h2 Red Room
+    = partial "partials/events/speakers", locals: {speakers: red_room_speakers}
+
+    %h2 Yellow Room
+    = partial "partials/events/speakers", locals: {speakers: yellow_room_speakers}
+
+= partial "partials/events/location-harrington"

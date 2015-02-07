@@ -7,6 +7,11 @@ header_image_photographer: Scott Cresswell
 header_image_url: https://flic.kr/p/iVvY69
 summary: Mobile Camp gets you up to speed on the mobile issues you need to know! Spend a Saturday with us and then spend your Monday applying what you&#8217;ve learned!
 ---
+- sponsors = ["Funsize", "Harrington", "Jawhole", "Optimal Workshop", "O'Reilly", "Rosenfeld", "UIE", "UXPin"]
+- keynotes             = ["Anthony Armendariz", "Carolyn Chandler"]
+- blue_room_speakers   = ["Adam Tramposh", "Arthur Kay", "Philip Likens", "Will Hacker"]
+- red_room_speakers    = ["Gail Swanson", "Matthew Doty", "Mike Gibson", "Tom Greever"]
+- yellow_room_speakers = ["Adam McCrimmon", "Andy Hullinger", "Dennis Kardys", "Sean Johnson"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -39,11 +44,7 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
     
     %p These fantastic sponsors are helping us bring this great event to you.
 
-    %ul.event-sponsors.grid
-      - data.events.sponsors.slice("Funsize", "Harrington", "Jawhole", "Optimal Workshop", "O'Reilly", "Rosenfeld", "UIE", "UXPin").each do |s|
-        %li
-          %a(href="#{s[1]['url']}" rel="nofollow")
-            = image_tag "events/sponsors/#{s[1]['alias']}.png", alt: "#{s[0]}"
+    = partial "partials/events/sponsors", locals: {sponsors: sponsors}
 
     %h3 Lots of Great Reasons to Attend Mobile Camp
 
@@ -76,34 +77,13 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
 
       %p In this session we&#8217;ll explore the power of transitions in the mobile space, and discuss:
 
-      %ul
+      %ul.list-ul
         %li Why is it important to consider transitions?
         %li What types of situations warrant a unique transition?
         %li Where can you find inspiration?
         %li How do you know when you&#8217;ve gone overboard?
 
-    - data.events.speakers.slice("Anthony Armendariz", "Carolyn Chandler").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 %section#schedule.main-content.main-bg-highlight
   .container
@@ -256,8 +236,6 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
 
     %h3.h-section Speakers
 
-    %h2 Blue Room
-
     - content_for :talk_adam_tramposh do
 
       %h3 Designing for Android
@@ -286,31 +264,6 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
 
       %p So you&#8217;ve built a great app, included awesome features, and have personalization in place to make it a rich and robust experience for every user. But have you considered when those folks are using handheld devices, with small screens, with less-than-optimal text input interfaces? Suddenly your well-crafted account and profile are about to get painful. But it doesn&#8217;t have to be this way. This talk looks at how we can create mobile account and profile experiences that get the information we need to deliver value from our apps even in a small-screen context without burdening users to the point they just give up and go somewhere else.
 
-    - data.events.speakers.slice("Adam Tramposh", "Arthur Kay", "Philip Likens", "Will Hacker").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
-
-    %h2 Red Room
-
     - content_for :talk_gail_swanson do
 
       %h3 10lbs of Features in a 5lb App: Tips on Creating Simple Yet Yobust Experiences for Mobile Devices
@@ -336,31 +289,6 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
       %h3 Easy Mobile Testing: Usability Checks Without Money, Time, or Even an App
 
       %p Usability testing is one of the most important parts of the mobile app design process, yet few organizations do it because they believe it&#8217;s expensive, time-consuming or requires a completed app. The reality is, you can do some great usability tests in one day with no money, little prep, and even without an app! During this session, I&#8217;ll give tips for doing ad hoc usability testing for mobile devices and how to get the most out of it. Plus, I&#8217;ll do a test on-the-spot with a volunteer audience member to demonstrate just how easy it can be.
-
-    - data.events.speakers.slice("Gail Swanson", "Matthew Doty", "Mike Gibson", "Tom Greever").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
-
-    %h2 Yellow Room
 
     - content_for :talk_adam_mccrimmon do
 
@@ -394,27 +322,13 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
 
       %p We won&#8217;t be operating at a 50,000 foot level. Instead, you&#8217;ll learn specific techniques and strategies that smart companies are using to build the right product, find customers and turn them into advocates.
 
-    - data.events.speakers.slice("Adam McCrimmon", "Andy Hullinger", "Dennis Kardys", "Sean Johnson").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
+    %h2 Blue Room
+    = partial "partials/events/speakers", locals: {speakers: blue_room_speakers}
 
-= partial "partials/event-location-harrington"
+    %h2 Red Room
+    = partial "partials/events/speakers", locals: {speakers: red_room_speakers}
+
+    %h2 Yellow Room
+    = partial "partials/events/speakers", locals: {speakers: yellow_room_speakers}
+
+= partial "partials/events/location-harrington"

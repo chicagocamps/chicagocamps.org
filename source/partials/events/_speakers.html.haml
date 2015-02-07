@@ -1,0 +1,23 @@
+- speakers.each do |s|
+  - data.events.speakers.slice(s).each do |speaker|
+    .profile.media
+      .profile-object.media-object= image_tag "events/speakers/#{speaker[1]['alias']}.jpg", alt: "#{speaker[0]}"
+      .media-body
+        %h2
+          = speaker[0]
+          .lineup.lineup-wrap
+            .h-sm-caps-gray= speaker[1]['title']
+        = speaker[1]['bio']
+        - if speaker[1]['website'] || speaker[1]['twitter']
+          %p
+            For more, keep up with #{speaker[0].split[0...1].to_s.delete('[""]')}
+            = succeed "." do
+              - if speaker[1]['website']
+                at <a href="http://#{speaker[1]['website']}" rel="nofollow">#{speaker[1]['website']}</a>
+              - if speaker[1]['website'] && speaker[1]['twitter']
+                or
+              - if speaker[1]['twitter']
+                on Twitter as <a href="http://twitter.com/#{speaker[1]['twitter']}" rel="nofollow">@#{speaker[1]['twitter']}</a>
+        - talk_desc = :"talk_#{speaker[1]['alias'].gsub(/[-]/, '_')}"
+        - if content_for?(talk_desc)
+          = yield_content talk_desc

@@ -5,6 +5,7 @@ category: events
 alias: axure-rp-7-workshop
 summary: This one-day, hands-on workshop is designed for those who want to learn how this powerful rapid prototyping tool can be used to create clickable HTML-based prototypes so they can more clearly communicate their visual and interaction designs to stakeholders and end users. Unlike tools that create static wireframes, <a href="http://www.axure.com/" rel="nofollow">Axure RP 7</a> lets user experience designers create highly interactive prototypes that can be used in web browsers and on mobile devices without having to write any code.
 ---
+- instructor = ["Will Hacker"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -67,25 +68,6 @@ summary: This one-day, hands-on workshop is designed for those who want to learn
   .container
 
     %h3.h-section Instructor
+    = partial "partials/events/speakers", locals: {speakers: instructor}
 
-    - data.events.speakers.slice("Will Hacker").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-
-= partial "partials/event-location-harrington"
+= partial "partials/events/location-harrington"

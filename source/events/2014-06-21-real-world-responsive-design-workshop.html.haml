@@ -5,6 +5,7 @@ category: events
 alias: real-world-responsive-design-workshop
 summary: This one-day, hands-on workshop is for those that are ready to start building responsively or are having trouble integrating responsive techniques into their workflow. They&#8217;re convinced of the benefits of a fluid, device agnostic web and believe in mobile first as a best practice, but need a helping hand in breaking free of old build habits.
 ---
+- instructor = ["Mike Gibson"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -49,25 +50,6 @@ summary: This one-day, hands-on workshop is for those that are ready to start bu
   .container
 
     %h3.h-section Instructor
+    = partial "partials/events/speakers", locals: {speakers: instructor}
 
-    - data.events.speakers.slice("Mike Gibson").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-
-= partial "partials/event-location-harrington"
+= partial "partials/events/location-harrington"

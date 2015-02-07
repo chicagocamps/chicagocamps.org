@@ -5,6 +5,11 @@ category: events
 alias: sketch-camp
 summary: Sketch Camp spends a full day taking a deep dive into the world of sketching! Bring your favorite pencils, erasers, and a fresh Moleskine to fill up with all you can sketch!
 ---
+- sponsors= ["Field Notes", "Harrington", "Mailchimp", "MOO", "The Nerdery", "New Riders", "OP Taylor Brewing", "UIE"]
+- keynotes             = ["Dan Klyn", "Peter Merholz"]
+- blue_room_speakers   = ["Abi Jones", "Brandy Agerbeck", "Dennis Kardys"]
+- red_room_speakers    = ["Lauren Johnson", "Jason Ulaszek"]
+- yellow_room_speakers = ["Margot Harrington"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -34,40 +39,14 @@ summary: Sketch Camp spends a full day taking a deep dive into the world of sket
     %h3 Meet Our Awesome Sponsors
     
     %p These fantastic sponsors are helping us bring this great event to you.
-        
-    %ul.event-sponsors.grid
-      - data.events.sponsors.slice("Field Notes", "Harrington", "Mailchimp", "MOO", "The Nerdery", "New Riders", "OP Taylor Brewing", "UIE").each do |s|
-        %li
-          %a(href="#{s[1]['url']}" rel="nofollow")
-            = image_tag "events/sponsors/#{s[1]['alias']}.png", alt: "#{s[0]}"
+
+    = partial "partials/events/sponsors", locals: {sponsors: sponsors}
 
 %section#keynotes.main-content.main-bg-alt
   .container
 
     %h3.h-section Keynotes
-
-    - data.events.speakers.slice("Dan Klyn", "Peter Merholz").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 %section#schedule.main-content.main-bg-highlight
   .container
@@ -197,8 +176,6 @@ summary: Sketch Camp spends a full day taking a deep dive into the world of sket
 
     %h3.h-section Speakers
 
-    %h2 Blue Room
-
     - content_for :talk_abi_jones do
 
       %h3 Explore, Persuade, Destroy: An Introduction to Storyboarding Techniques
@@ -229,31 +206,6 @@ summary: Sketch Camp spends a full day taking a deep dive into the world of sket
       
       %p If the terrifying stare of the blank white sketchbook page paralyzes you with dread, or feelings of self consciousness leave you hesitant to show your sketches, you should attend this session. Novice and expert sketcher alike, you&#8217;ll leave with more confidence in your drawing ability and some practice exercises that&#8217;ll have you seeing noticeable improvements in no time!
 
-    - data.events.speakers.slice("Abi Jones", "Brandy Agerbeck", "Dennis Kardys").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
-
-    %h2 Red Room
-
     - content_for :talk_lauren_johnson do
 
       %h3 Rapid Paper Prototyping
@@ -266,58 +218,19 @@ summary: Sketch Camp spends a full day taking a deep dive into the world of sket
 
       %p Look inside a designer&#8217;s toolkit and you&#8217;ll likely find a broadly defined exercise called sketching. It&#8217;s an exercise that can turn napkins, flip charts, whiteboards and 6-up templates into valuable assets containing everything from direction of business models to mobile app experiences. While a sketching exercise might produce an artifact seemingly simple to the uninitiated, great designers know the exercise requires design itself. By purposefully designing the exercise around the &#8220;3 C&#8217;s&#8221;&#8211;communication, context and collaboration&#8211;we can increase participation and engagement by both design team members and stakeholders. In this session you&#8217;ll learn about these three factors that are key to consider in planning and facilitating a sketching exercise. You&#8217;ll also walk away with a handful of tips and tricks to try on your next project.
 
-    - data.events.speakers.slice("Lauren Johnson", "Jason Ulaszek").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
-
-    %h2 Yellow Room
-
     - content_for :talk_margot_harrington do
 
       %h3 Workshop: Associative Drawing
 
       %p Even with the most finely tuned drawing skills, perfectly sharpened pencils, and just the right piece of paper, it&#8217;s still hard to know what to actually draw sometimes. Waiting for inspiration to strike is certainly one option, but it&#8217;s not exactly guaranteed, nor proactive. This workshop will teach you a series of prompts to take some of the pressure off, and underscore the importance of establishing your creative triggers as habit so your can push your work further. You&#8217;ll also be given ample time in the workshop to practice these skills, as well any you might&#8217;ve learned in earlier sessions. This session isn&#8217;t so much concerned with the quality of the marks, but the concept and idea behind them.
 
-    - data.events.speakers.slice("Margot Harrington").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
+    %h2 Blue Room
+    = partial "partials/events/speakers", locals: {speakers: blue_room_speakers}
 
-= partial "partials/event-location-harrington"
+    %h2 Red Room
+    = partial "partials/events/speakers", locals: {speakers: red_room_speakers}
+
+    %h2 Yellow Room
+    = partial "partials/events/speakers", locals: {speakers: yellow_room_speakers}
+
+= partial "partials/events/location-harrington"

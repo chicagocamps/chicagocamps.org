@@ -5,6 +5,11 @@ category: events
 alias: prototype-camp
 summary: Prototype Camp delivers a full day of bringing together Designers, Developers, and anyone else who is interested in putting a bit more &#8220;build and create&#8221; into their craft.
 ---
+- sponsors = ["8th Light", "Axure", "Balsamiq", "Binth", "Field Notes", "Fluid UI", "Harrington", "New Riders", "Optimal Workshop", "Protoshare", "Rosenfeld", "SapientNitro", "United Pixelworkers", "UIE", "UXPin", "WebVisions"]
+- special_guests       = ["Jared Spool", "Ryan Singer"]
+- blue_room_speakers   = ["Adam McCrimmon", "Brad Nunnally", "Jon Hadden", "Russ Unger", "Sharlene King"]
+- red_room_speakers    = ["Chris Webb", "Dan LeBoeuf", "Dennis Kardys", "Param Rengaiah", "Will Hacker"]
+- yellow_room_speakers = ["Adam Lupu", "John Polacek", "Jonathan Snook", "Quite Strong"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -39,11 +44,7 @@ summary: Prototype Camp delivers a full day of bringing together Designers, Deve
 
     %p Do not be shy–you, too, can be an awesome sponsor by contacting us below! We are actively seeking sponsors who will fund our registration coffee &amp; light breakfast, morning and afternoon snack breaks, and lunch. These are &#8220;at cost&#8221; sponsorships, which means that you work with us to provide the food and drink and we provide you with a table during your time slot that will serve as a great place to gather resumes from some of the brightest minds in the Chicago design and development community! 
 
-    %ul.event-sponsors.grid
-      - data.events.sponsors.slice("8th Light", "Axure", "Balsamiq", "Binth", "Field Notes", "Fluid UI", "Harrington", "New Riders", "Optimal Workshop", "Protoshare", "Rosenfeld", "SapientNitro", "United Pixelworkers", "UIE", "UXPin", "WebVisions").each do |s|
-        %li
-          %a(href="#{s[1]['url']}" rel="nofollow")
-            = image_tag "events/sponsors/#{s[1]['alias']}.png", alt: "#{s[0]}"
+    = partial "partials/events/sponsors", locals: {sponsors: sponsors}
 
     %h3 Here Are Some Great Reasons to Attend Prototype Camp
 
@@ -74,25 +75,7 @@ summary: Prototype Camp delivers a full day of bringing together Designers, Deve
     
     %p We are bringing together two of the brightest minds in the web industry today to share with you why they find prototyping and blended skill sets so valuable today.
 
-    - data.events.speakers.slice("Jared Spool", "Ryan Singer").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
+    = partial "partials/events/speakers", locals: {speakers: special_guests}
 
 %section#schedule.main-content.main-bg-highlight
   .container
@@ -259,8 +242,6 @@ summary: Prototype Camp delivers a full day of bringing together Designers, Deve
 
     %h3.h-section Speakers
 
-    %h2 Blue Room
-
     - content_for :talk_adam_mccrimmon do
 
       %h3 PDF = Prototype
@@ -298,31 +279,6 @@ summary: Prototype Camp delivers a full day of bringing together Designers, Deve
       %p We need to reconsider our software for its strengths and weaknesses rather than rely upon what&#8217;s familiar for the sake of familiarity. As designers, we need to shake ourselves from habit and adapt.
 
       %p In this talk, we&#8217;ll cover reasons why you should use InDesign for web design, how to calmly explain your conversion to a developer, how to ensure your client doesn&#8217;t completely break down into pure panic, and other surefire ways to be the most interesting person in your office by being novel in your software choices. There might even be some talk about CS6 versus CS5.
-
-    - data.events.speakers.slice("Adam McCrimmon", "Brad Nunnally", "Jon Hadden", "Russ Unger", "Sharlene King").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
-
-    %h2 Red Room
 
     - content_for :talk_chris_webb do
 
@@ -362,31 +318,6 @@ summary: Prototype Camp delivers a full day of bringing together Designers, Deve
 
       %p In this session Will shows some of the techniques he used to create a demo iPhone app using some of the new features in Axure. You&#8217;ll learn how to simulate the user experience using dynamic displays, stored data in variables, multiple chained events, and more. For mobile user experience designers without ready access to iOS developers who can assist with prototyping, Axure provides a great way to get your ideas in people&#8217;s hands for design exploration and iteration.
 
-    - data.events.speakers.slice("Chris Webb", "Dan LeBoeuf", "Dennis Kardys", "Param Rengaiah", "Will Hacker").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
-
-    %h2 Yellow Room
-
     - content_for :talk_adam_lupu do
 
       %h3 360 Prototyping: Learn to Look at What You&#8217;re Building from Every Angle
@@ -417,27 +348,13 @@ summary: Prototype Camp delivers a full day of bringing together Designers, Deve
 
       %p Quite Strong is using 15 numbers to show you the power of numbers. In this chat you will hear from 3/5ths of Quite Strong on different aspects of engaging in your design and development community, some tried and true practices of getting involved with projects and people, and how to turn your connections into opportunities.
 
-    - data.events.speakers.slice("Adam Lupu", "John Polacek", "Jonathan Snook", "Quite Strong").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-          - talk_desc = :"talk_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(talk_desc)
-            = yield_content talk_desc
+    %h2 Blue Room
+    = partial "partials/events/speakers", locals: {speakers: blue_room_speakers}
 
-= partial "partials/event-location-harrington"
+    %h2 Red Room
+    = partial "partials/events/speakers", locals: {speakers: red_room_speakers}
+
+    %h2 Yellow Room
+    = partial "partials/events/speakers", locals: {speakers: yellow_room_speakers}
+
+= partial "partials/events/location-harrington"

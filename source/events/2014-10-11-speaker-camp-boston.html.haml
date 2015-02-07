@@ -6,6 +6,9 @@ alias: speaker-camp
 location: Mad*Pow &ndash; Boston
 summary: Speaker Camp helps you get ready to present at conferences. Spend your Saturday with us and get prepared to get on stage and show your smarts!
 ---
+- leader        = ["Russ Unger"]
+- special_guest = ["Jared Spool"]
+- mentors       = ["Boon Sheridan", "Christine Perfetti", "Dana Chisnell", "Dustin DiTommaso", "Jenn Downs", "Kyle Soucy", "Margot Bloomstein"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -43,52 +46,6 @@ summary: Speaker Camp helps you get ready to present at conferences. Spend your 
       Staff
       %span &amp;
       Mentors
-
-    %h2 Leader
-
-    - data.events.speakers.slice("Russ Unger").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-
-    %h2 Special Guest
-
-    - data.events.speakers.slice("Jared Spool").each do |s|
-      .profile.media
-        .profile-object.media-object= image_tag "events/speakers/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-        .media-body
-          %h2
-            = s[0]
-            .lineup.lineup-wrap
-              .h-sm-caps-gray= s[1]['title']
-          = s[1]['bio']
-          - if s[1]['website'] || s[1]['twitter']
-            %p
-              For more, keep up with #{s[0].split[0...1].to_s.delete('[""]')}
-              = succeed "." do
-                - if s[1]['website']
-                  at <a href="http://#{s[1]['website']}" rel="nofollow">#{s[1]['website']}</a>
-                - if s[1]['website'] && s[1]['twitter']
-                  or
-                - if s[1]['twitter']
-                  on Twitter as <a href="http://twitter.com/#{s[1]['twitter']}" rel="nofollow">@#{s[1]['twitter']}</a>
-
-    %h2 Mentors
     
     - content_for :podcast_boon_sheridan do
       %a.a-chevron-right(href="/podcasts/2014/boon-sheridan/") Boon&#8217;s Podcast
@@ -105,16 +62,14 @@ summary: Speaker Camp helps you get ready to present at conferences. Spend your 
     - content_for :podcast_margot_bloomstein do
       %a.a-chevron-right(href="/podcasts/2014/margot-bloomstein/") Margot&#8217;s Podcast
 
-    %ul.mentor-list.grid
-      - data.events.mentors.slice("Boon Sheridan", "Christine Perfetti", "Dana Chisnell", "Dustin DiTommaso", "Jenn Downs", "Kyle Soucy", "Margot Bloomstein").each do |s|
-        %li
-          %a(href="https://twitter.com/#{s[1]['twitter']}" rel="nofollow")
-            = image_tag "events/mentors/#{s[1]['alias']}.jpg", alt: "#{s[0]}"
-            .mentor-name= s[0]
-          .mentor-job= s[1]['title']
-          - podcast_desc = :"podcast_#{s[1]['alias'].gsub(/[-]/, '_')}"
-          - if content_for?(podcast_desc)
-            .mentor-podcast-cta.lineup= yield_content podcast_desc
+    %h2 Leader
+    = partial "partials/events/speakers", locals: {speakers: leader}
+
+    %h2 Special Guest
+    = partial "partials/events/speakers", locals: {speakers: special_guest}
+
+    %h2 Mentors
+    = partial "partials/events/mentors", locals: {mentors: mentors}
 
 %section#schedule.main-content.main-bg-highlight
   .container
