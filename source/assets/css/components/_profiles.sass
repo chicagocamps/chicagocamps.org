@@ -9,6 +9,16 @@
   & + &
     @extend %margin-top
 
+  &:target
+    @extend %card
+    background: #fff
+    @extend %margin-bottom
+    +rem(margin-left, $gutter * -1)
+    +rem(margin-right, $gutter * -1)
+
+    &:not(:last-of-type)
+      @extend %margin-bottom-xx-large
+
 #{headings()},
 p
   + .profile

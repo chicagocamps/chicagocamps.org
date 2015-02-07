@@ -1,6 +1,6 @@
 - speakers.each do |s|
   - data.events.speakers.slice(s).each do |speaker|
-    .profile.media
+    .profile.media(id="#{speaker[1]['alias']}")
       .profile-object.media-object= image_tag "events/speakers/#{speaker[1]['alias']}.jpg", alt: "#{speaker[0]}"
       .media-body
         %h2
