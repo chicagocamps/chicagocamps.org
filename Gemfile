@@ -16,3 +16,6 @@ gem "nokogiri"
 
 # GH pages
 gem "middleman-gh-pages"
+
+# Image optim
+gem "middleman-imageoptim"

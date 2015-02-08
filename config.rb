@@ -24,6 +24,12 @@ activate :blog do |blog|
 end
 
 ###
+# Image Optim
+###
+
+activate :imageoptim
+
+###
 # Autoprefixer
 ###
 
