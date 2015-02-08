@@ -1,41 +1,107 @@
 ---
 title: Submit a Talk
 ---
--#
 
-  %h2 Submit a Talk
+%section
 
-  %p Are you interested in submitting a talk to be a part of our line-up of speakers at Prototype Camp 2014?
+  %header.header.header-default
+    .header-container.container
+      %h1.header-title Submit a Talk
 
-  %p Hopefully so! We are certainly interested in hearing about your great ideas! Please fill out the following form and let us know what you have in mind. Here&#8217;s what we&#8217;re looking for in a submission to present at Prototype Camp: We&#8217;re pretty wide open! We want to hear from people who are building things&#8211;quickly and/or iteratively&#8211;across any medium (we&#8217;ve had presentations about cupcakes and card games in the past&#8211;we&#8217;re pretty open)!
+  .main-content.container
 
-  %p A speaker at Prototype Camp will get free admission to the event, an exciting podcast with one of our co-founders, lunch in the fabulous Green Room with the staff and other speakers, and a unique Speaker Gift&#8482; courtesy of Chicago Camps. We regret that we cannot sponsor travel or lodging at this point in time.
+    %p Are you interested in submitting a talk to be a part of our line-up?
 
-  %p Still on the fence? Take a few minutes to listen to this great interview we did with <a href="thedocwaller.com" rel="nofollow">Doc Waller</a> on speaking at conferences!
+    %p Hopefully so! We are certainly interested in hearing about your great ideas! Please fill out the following form and let us know what you have in mind. Here&#8217;s what we&#8217;re looking for in a submission to present: We&#8217;re pretty wide open!
 
-  %iframe(seamless src="https://simplecast.fm/e/3053?style=dark")
+    %p All speakers get free admission to the event, an exciting podcast with one of our co-founders, lunch in the fabulous Green Room with the staff and other speakers, and a unique Speaker Gift&#8482; courtesy of Chicago Camps. We regret that we cannot sponsor travel or lodging at this point in time.
 
-  %form
+    %p Still on the fence? Take a few minutes to <a href="/podcasts/2014/doc-waller/">listen to this great interview we did with Doc Waller</a> on speaking at conferences!
 
-    %label
-      Name
-      %input(name="Field1" required type="text")
+    %form(action="https://docs.google.com/forms/d/1Cf3YLRnWUUTnwKjGFgKFbwJCokm-EUWWEl3cc2GIB5A/formResponse" data-js="form" method="POST" name="ss-form" target="hidden_form")
+    
+      .grid
 
-    %label
-      Email
-      %input(name="Field3" required type="email")
+        .form-col.form-group
+          %label.form-label(for="form-name") Name
+          %input#form-name.form-control(name="entry.1565436970" placeholder="Your full name" required type="text")
 
-    %label
-      Presentation Title
-      %input(name="Field6" required type="text")
+        .form-col.form-group
+          %label.form-label(for="form-email") Email
+          %input#form-email.form-control(name="entry.419230340" placeholder="Your email address" required type="email")
 
-    %label(for="presentation-overview") Presentation Overview
-    %textarea#presentation-overview(name="Field5" required)
+      .form-group
+        %label.form-label Which event does your proposal relate to?
 
-    %label(for="your-bio">Your Bio
-    %textarea#your-bio(name="Field7")
+        .grid
 
-    %label(for="comments") Anything Else/Comments?
-    %textarea#comments(name="Field8")
+          .form-col
+            .form-choice
+              %label
+                %input(name="entry.656477003" role="checkbox" type="checkbox" value="Front-end Camp")
+                Front-end Camp
 
-    %input(name="saveForm" type="submit" value="Send Message")
+          .form-col
+            .form-choice
+              %label
+                %input(name="entry.656477003" role="checkbox" type="checkbox" value="Mobile Camp")
+                Mobile Camp
+
+          .form-col
+            .form-choice
+              %label
+                %input(name="entry.656477003" role="checkbox" type="checkbox" value="Prototype Camp")
+                Prototype Camp
+
+          .form-col
+            .form-choice
+              %label
+                %input(name="entry.656477003" role="checkbox" type="checkbox" value="Sketch Camp")
+                Sketch Camp
+
+          .form-col
+            .form-choice
+              %label
+                %input(name="entry.656477003" role="checkbox" type="checkbox" value="Speaker Camp")
+                Speaker Camp
+
+          .form-col
+            .form-choice
+              %label
+                %input(name="entry.656477003" role="checkbox" type="checkbox" value="UX Camp")
+                UX Camp
+
+          .form-col
+            .form-choice
+              %label
+                %input(name="entry.656477003" role="checkbox" type="checkbox" value="Workshop")
+                Workshop
+
+          .form-col
+            .form-choice
+              %label
+                %input(name="entry.656477003" role="checkbox" type="checkbox" value="Other")
+                Other
+
+      .form-group
+        %label.form-label(for="form-presenation-title") Presentation Title
+        %input#form-presenation-title.form-control(name="entry.1921382943" required type="text")
+
+      .form-group
+        %label.form-label(for="form-presentation-overview") Presentation Overview
+        %textarea#form-presentation-overview.form-area(name="entry.2102619502" required)
+
+      .form-group
+        %label.form-label(for="form-your-bio") Your Biography
+        %textarea#form-your-bio.form-area(name="entry.1423668227" required)
+
+      .form-group
+        %label.form-label(for="form-comments") Anything Else/Comments?
+        %textarea#form-comments.form-area(name="entry.1958185669")
+
+      .form-group
+        %button.btn.btn-default(name="submit" type="submit") Send Proposal
+
+    %iframe(name="hidden_form" hidden)
+
+    %h3(data-js="form-confirmation" hidden) Thank you! We will review your proposal and respond accordingly!
