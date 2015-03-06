@@ -8,6 +8,8 @@ header_image_url: https://flic.kr/p/iVvY69
 summary: Mobile Camp gets you up to speed on the mobile issues you need to know! Spend a Saturday with us and then spend your Monday applying what you&#8217;ve learned!
 ---
 
+- speakers = ["Sharon Bautista", "Will Hacker"]
+
 %nav.event-nav.group(data-js="event-nav")
   .container
     %ul.event-nav-content
@@ -66,5 +68,23 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
     %h3.h-section Speakers
 
     %h4 Want to speak? <a href="/proposal/">Submit a proposal.</a>
+
+    - content_for :talk_sharon_bautista do
+
+      %h3 The New Frontiers of User Research (or What Your Digital Wallet Says About You)
+
+      %p Once upon a time, people carried physical wallets that contained personal identification, cash, credit cards, photos of loved ones, and perhaps a Blockbuster card. Times have clearly changed. Blockbuster is long gone, and now with our physical wallets, many of us also carry smartphones with native functionality and downloaded apps that give ever richer meaning to the notion of digital wallets. 
+
+      %p In this session, I will draw on this particular straddling between the physical and digital to discuss new opportunities and challenges for user research focused on mobile experiences. I will share stories of what happened when I asked people to open their wallets to me and the lessons I learned about observation, qualitative interviewing, documentation, and empathy.
+
+    - content_for :talk_will_hacker do
+
+      %h3 Material Design: It&#8217;s a Whole New Language
+
+      %p This talk is an introduction to Material Design, Google&#8217;s new visual design and interaction language for cross-platform applications. 
+
+      %p Material Design has been introduced in various Google web apps and in Android 5 (Lollipop). Material Design is more than a visual pattern language; it also address interaction patterns, motion and animations, and transitions between on-screen states. On the ever-evolving continuum of approaches to design, Material Design is the next step on a journey that has already taken designers from skeuomorphism to flat design. Learn from examples drawn from real applications about the principals behind Material Design and how it adds a new dimension to how we conceive user experiences.
+
+    = partial "partials/events/speakers", locals: {speakers: speakers}
 
 = partial "partials/events/location-harrington"
