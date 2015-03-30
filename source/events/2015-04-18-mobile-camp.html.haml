@@ -8,6 +8,7 @@ header_image_url: https://flic.kr/p/iVvY69
 summary: Mobile Camp gets you up to speed on the mobile issues you need to know! Spend a Saturday with us and then spend your Monday applying what you&#8217;ve learned!
 ---
 
+- keynotes = ["Dylan Richard"]
 - speakers = ["Brian Lee", "Mark McEahern", "Mark Meeker", "Sharon Bautista", "Will Hacker"]
 
 %nav.event-nav.group(data-js="event-nav")
@@ -52,7 +53,7 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
 
     %h3.h-section Keynotes
 
-    %h4 Coming soon!
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 %section#schedule.main-content.main-bg-highlight
   .container
