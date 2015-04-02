@@ -9,7 +9,7 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
 ---
 
 - keynotes = ["Dylan Richard", "Kathi Kaiser"]
-- speakers = ["Brian Lee", "Mark McEahern", "Mark Meeker", "Sharon Bautista", "Will Hacker", "Zac Siegel"]
+- speakers = ["Alyssa Burke", "Brian Lee", "Mark McEahern", "Mark Meeker", "Sharon Bautista", "Will Hacker", "Zac Siegel"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -39,8 +39,6 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
     %h2 Mobile Camp gets you up to speed on the mobile issues you need to know! Spend a Saturday with us and then spend your Monday applying what you&#8217;ve learned!
 
     %p Mobile Camp dedicates a full day to bring together Designers, Developers, and anyone else who is interested in leveling-up their mobile skills.
-
-    %p Should you be interested in speaking please <a href="/proposal/">let us know</a>!
 
     %p It&#8217;s more than smaller screens. Come learn with us!
 
@@ -75,7 +73,8 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
           &#8212;
           %time(datetime="2014-09-13T09:45") 9:45
         %td(colspan="2")
-          %strong.event-schedule-room(data-room="Blue") Kathi Kaiser
+          %a(href="#kathi-kaiser" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Kathi Kaiser
           .event-schedule-offset Morning Keynote
 
       %tr
@@ -99,10 +98,12 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
           &#8212;
           %time(datetime="2014-09-13T10:45") 10:45
         %td
-          %strong.event-schedule-room(data-room="Blue") Mark Meeker
+          %a(href="#mark-meeker" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Mark Meeker
           .event-schedule-offset Building a Mobile Device Lab
         %td
-          %strong.event-schedule-room(data-room="Red") Mark McEahern
+          %a(href="#mark-mceahern" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Mark McEahern
           .event-schedule-offset Getting Started with the Ionic Framework
       
       %tr
@@ -118,10 +119,12 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
           &#8212;
           %time(datetime="2014-09-13T11:45") 11:45
         %td
-          %strong.event-schedule-room(data-room="Blue") Sharon Bautista
+          %a(href="#sharon-bautista" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Sharon Bautista
           .event-schedule-offset The New Frontiers of User Research <br> (or What Your Digital Wallet Says About You)
         %td
-          %strong.event-schedule-room(data-room="Red") Zac Siegel
+          %a(href="#zac-siegel" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Zac Siegel
           .event-schedule-offset Animation Nation!
       
       %tr
@@ -137,7 +140,8 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
           &#8212;
           %time(datetime="2014-09-13T14:00") 2:00
         %td
-          %strong.event-schedule-room(data-room="Blue") Will Hacker
+          %a(href="#will-hacker" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Will Hacker
           .event-schedule-offset Material Design: It&#8217;s a Whole New Language
         %td
           %strong.event-schedule-room(data-room="Red") Speaker To Be Announced
@@ -156,10 +160,12 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
           &#8212;
           %time(datetime="2014-09-13T15:00") 3:00
         %td
-          %strong.event-schedule-room(data-room="Blue") Speaker To Be Announced
-          -# .event-schedule-offset Talk
+          %a(href="#alyssa-burke" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Alyssa Burke
+          .event-schedule-offset The Battle of the Smartwatches
         %td
-          %strong.event-schedule-room(data-room="Red") Brian Lee
+          %a(href="#brian-lee" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Brian Lee
           .event-schedule-offset Android: Be Together. Not the Same.
       
       %tr
@@ -175,7 +181,8 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
           &#8212;
           %time(datetime="2014-09-13T16:15") 4:15
         %td(colspan="2")
-          %strong.event-schedule-room(data-room="Blue") Dylan Richard
+          %a(href="#dylan-richard" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Dylan Richard
           .event-schedule-offset Afternoon Keynote
 
       %tr
@@ -190,7 +197,11 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
 
     %h3.h-section Speakers
 
-    %h4 Want to speak? <a href="/proposal/">Submit a proposal.</a>
+    - content_for :talk_alyssa_burke do
+
+      %h3 The Battle of the Smartwatches
+
+      %p With the recent announcement of the Apple Watch, along with Android Wear rapidly evolving, the popularity of the smartwatch is at an all-time high. Learn the commonalities and differences between these two platforms as means to enhance the smartwatch user experience &#8211; from understanding design trends for each operating system, to utilizing the constraints of these small devices.
 
     - content_for :talk_brian_lee do
 
