@@ -9,7 +9,7 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
 ---
 
 - keynotes = ["Dylan Richard", "Kathi Kaiser"]
-- speakers = ["Alyssa Burke", "Brian Lee", "Mark McEahern", "Mark Meeker", "Sharon Bautista", "Will Hacker", "Zac Siegel"]
+- speakers = ["Alyssa Burke", "Ashley Phillips", "Brian Lee", "Mark McEahern", "Mark Meeker", "Sharon Bautista", "Will Hacker", "Zac Siegel"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -144,8 +144,9 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
             %strong.event-schedule-room(data-room="Blue") Will Hacker
           .event-schedule-offset Material Design: It&#8217;s a Whole New Language
         %td
-          %strong.event-schedule-room(data-room="Red") Speaker To Be Announced
-          -# .event-schedule-offset Talk Title
+          %a(href="#ashley-phillips" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Ashley Phillips
+          .event-schedule-offset Think Globally, Develop Locally: <br> What International Users (Should) Mean to You
       
       %tr
         %th
@@ -202,6 +203,12 @@ summary: Mobile Camp gets you up to speed on the mobile issues you need to know!
       %h3 The Battle of the Smartwatches
 
       %p With the recent announcement of the Apple Watch, along with Android Wear rapidly evolving, the popularity of the smartwatch is at an all-time high. Learn the commonalities and differences between these two platforms as means to enhance the smartwatch user experience &#8211; from understanding design trends for each operating system, to utilizing the constraints of these small devices.
+
+    - content_for :talk_ashley_phillips do
+
+      %h3 Think Globally, Develop Locally: What International Users (Should) Mean to You
+
+      %p As the world gets smaller, the universe of mobile users is getting bigger. Mobile devices outnumber the world&#8217;s population, yet as we design and develop apps from our stateside offices, couches and coffee shops, we often forget about consumers in other countries. In this session, we&#8217;ll talk about how to design for other cultures, what our products lose when we don&#8217;t and how to find inspiration in the incredible mobile experiences made for international audiences.
 
     - content_for :talk_brian_lee do
 
