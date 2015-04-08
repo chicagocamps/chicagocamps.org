@@ -1,0 +1,160 @@
+---
+title: Speaker Camp Minneapolis
+date: 2015-06-27 01:00 CDT
+category: events
+alias: speaker-camp
+location: University of Minnesota &ndash; Minneapolis
+summary: Speaker Camp helps you get ready to present at conferences. Spend your Saturday with us and get prepared to get on stage and show your smarts!
+---
+- speakers = ["Russ Unger"]
+- mentors  = ["Amanda Costello", "Jon Hadden"]
+
+%nav.event-nav.group(data-js="event-nav")
+  .container
+    %ul.event-nav-content
+      %li.event-nav-title
+        %a(href="#top" rel="nofollow") Speaker Camp
+      %li
+        %a(href="#details" rel="nofollow") Details
+      %li
+        %a(href="#staff" rel="nofollow") Staff &amp; Mentors
+      %li
+        %a(href="#schedule" rel="nofollow") Schedule
+      %li
+        %a(href="#location" rel="nofollow") Location
+
+    %a.btn.btn-alt.event-nav-btn(href="https://chicagocamps.ticketleap.com/speaker-camp-minneapolis/dates/Jun-27-2015_at_0830AM" rel="nofollow")
+      Join Us for
+      %strong Only $60
+
+%section#details.main-content
+  .container
+
+    %h3.h-section Details
+
+    %h2 Speaker Camp helps you get ready to present at conferences. Spend your Saturday with us and get prepared to get on stage and show your smarts!
+
+    %p You don&#8217;t need to picture people in their underwear to get up on stage and share what you know. You do, however, need to have a compelling idea along with a well-written abstract and a well-structured, well-prepared presentation in order to give the talk you–and your audience–deserve.
+
+    %h3 You&#8217;ve Got A Lot To Say. People Deserve to Hear It.
+
+    %p Show up with 5 minutes of a presentation and learn from seasoned professionals who have seen their fair share of stages. We&#8217;ll provide you with a safe, welcoming environment and help you by providing valuable and actionable feedback that will help you level-up your presentation game.
+
+    %p We can help with that. Come learn with us!
+
+    .event-cta
+      %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/speaker-camp-minneapolis/dates/Jun-27-2015_at_0830AM" rel="nofollow")
+        Join Us for Only $60 &#8212; Limited Tickets Available
+
+%section#staff.main-content.main-bg-alt
+  .container
+
+    %h3.h-section
+      Staff
+      %span &amp;
+      Mentors
+
+    %h2 Leader
+    = partial "partials/events/speakers", locals: {speakers: speakers}
+
+    %h2 Mentors
+    = partial "partials/events/mentors", locals: {mentors: mentors}
+        
+%section#schedule.main-content.main-bg-highlight
+  .container
+
+    %h3.h-section
+      Schedule
+      %span &amp;
+      Curriculum
+
+    %p We&#8217;ve pulled together a great schedule for Speaker Camp, which includes brainstorming your ideas, understanding abstract structure and format, crafting your abstract, and much, much more!
+
+    %table.event-schedule
+
+      %tr
+        %th
+          %time(datetime="2015-02-28T08:00") 8:00
+          &#8212;
+          %time(datetime="2015-02-28T08:30") 8:30
+        %td.event-schedule-offset Registration &amp; Morning Beverages
+
+      %tr
+        %th
+          %time(datetime="2015-02-28T08:30") 8:30
+          &#8212;
+          %time(datetime="2015-02-28T12:00") 12:00
+
+        %td
+          %ul
+            %li Brainstorming Your Big Idea
+            %li How to Write Your Bio
+            %li How to Write Your Proposal &amp; Abstract
+            %li Critique Proposals &amp; Abstracts
+
+      %tr
+        %th
+          %time(datetime="2015-02-28T12:00") 12:00
+          &#8212;
+          %time(datetime="2015-02-28T13:00") 1:00
+        %td.event-schedule-offset Lunch
+
+      %tr
+        %th
+          %time(datetime="2015-02-28T13:00") 1:00
+          &#8212;
+          %time(datetime="2015-02-28T13:45") 1:45
+        %td Presentation Tips &amp; Techniques
+
+      %tr
+        %th
+          %time(datetime="2015-02-28T14:30") 2:00
+          &#8212;
+          %time(datetime="2015-02-28T16:00") 4:00
+        %td
+          Trial by Fire
+          .event-schedule-offset Presentations &amp; Critique
+
+      %tr
+        %th
+          %time(datetime="2015-02-28T16:00") 4:00
+          &#8212;
+          %time(datetime="2015-02-28T16:45") 4:30
+        %td Closing
+
+%section#location.main-content
+  .container
+
+    %h3.h-section Location
+
+    %h2
+      University of Minnesota
+      %br
+      Science Teaching &amp; Student Services Building
+      .lineup
+        %a.a-chevron-right(href="https://goo.gl/maps/xwE2F") 222 Pleasant Street SE, 4th Floor, Minneapolis, MN 55455
+
+    .grid
+
+      .event-location-venue
+        .event-location-media
+          %figure= image_tag "events/locations/university-of-minnesota.jpg", class: "frame", alt: "University of Minnesota, Science Teaching and Student Services Building"
+        
+        %h3 About MinneWebCon
+
+        %p Our space at the University of Minnesota is sponsored by MinneWebCon, a two-day web conference that encourages inclusive grassroots knowledge-sharing. In addition to keynote speakers, breakout sessions, and half-day workshops, their annual conference is a space for speakers and attendees to collaborate, talk, learn, ask, test, and grow.
+        
+        %p Check out <a href="http://minnewebcon.org/" rel="nofollow">MinneWebCon</a>.
+
+      .event-location-area
+        .event-location-media
+          %figure
+            %iframe.frame(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.502216487728!2d-93.23719499999994!3d44.97410800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32d15a2ca7a47%3A0x39743b43b7c4f54!2sSTSS!5e0!3m2!1sen!2sus!4v1428535618204")
+
+        %h3 Where to Park?
+
+        %p There are a few easy-access <a href="https://goo.gl/maps/5AqPs" rel="nofollow">parking garages</a> available in the surrounding blocks.
+
+        %h3 Where to Stay?
+
+        %p Coming from out of town? There are a lot of <a href="https://goo.gl/maps/jD9vg" rel="nofollow">hotels in the surrounding area</a> that may work well for you and we have already done the searching for you!
