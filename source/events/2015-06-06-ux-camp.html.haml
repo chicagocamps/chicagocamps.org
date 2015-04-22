@@ -8,6 +8,8 @@ header_image_url: https://flic.kr/p/fhkjZh
 summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics uncovered and you&#8217;ll learn current topics and improved upon standards in one of the hottest fields today!
 ---
 
+- speakers = ["Nathan Hinshaw", "Travis LaFleur"]
+
 %nav.event-nav.group(data-js="event-nav")
   .container
     %ul.event-nav-content
@@ -59,12 +61,36 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
     %h4 Coming soon!
 
-
 %section#speakers.main-content.main-bg-alt
   .container
 
     %h3.h-section Speakers
 
     %h4 Want to speak? <a href="/proposal/">Submit a proposal.</a>
+
+    - content_for :talk_nathan_hinshaw do
+
+      %h3 Designing Digital Communities
+
+      %p As the architectural complexities and user expectations of websites continue to evolve, viewing them as the communities that they are&#8211;or can become&#8211;is increasingly important to both their sustainability and success. How do we as technologists design, build, and maintain these properties; while also evolving the tools we use to support them? 
+
+      %p We&#8217;ll look at:
+
+      %ul.list-ul
+        %li Design patterns, development processes and feedback cycles
+        %li How Threadless has worked to foster collaboration between users and developers by encouraging both active and passive participation
+        %li How to best leverage a community&#8217;s shared assets, inspiration, and potential, with the intention of creating digital spaces that promote users&#8217; sense of inclusion and satisfaction
+        %li Looking at existing real world design patterns (e.g. universal iconography and visual wayfinding) as a means of creating more accessible user experiences in a digital space
+        %li Responsible development: pushing design and technology forward without dragging users behind you
+
+    - content_for :talk_travis_lafleur do
+
+      %h3 WHAT Before HOW: Practical, Lo-fi Tools for Alignment, Planning, &amp; Understanding
+
+      %p Budgets and deadlines often push us toward making and doing before we have a shared understanding of the problem space. Here we will explore a handful of lightweight techniques from an information architecture perspective that can compliment your existing UX toolkit. 
+
+      %p These approaches will help frame your design activities first in terms of WHAT would be good to do, setting you up to create even better HOWs. 
+
+    = partial "partials/events/speakers", locals: {speakers: speakers}
 
 = partial "partials/events/location-harrington"
