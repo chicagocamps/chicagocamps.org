@@ -8,7 +8,9 @@ header_image_url: https://flic.kr/p/fhkjZh
 summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics uncovered and you&#8217;ll learn current topics and improved upon standards in one of the hottest fields today!
 ---
 
-- speakers = ["Nathan Hinshaw", "Travis LaFleur"]
+- sponsors = ["Harrington", "UXPin"]
+- keynotes = ["Marcin Treder"]
+- speakers = ["Daniel Zarick", "Mike Kornacki", "Nathan Hinshaw", "Travis LaFleur"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -47,12 +49,17 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
       %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/ux-camp-2015/dates/Jun-06-2015_at_0800AM" rel="nofollow")
         Join Us for Only $60 &#8212; Limited Tickets Available
 
+    %h3 Meet Our Awesome Sponsors
+    
+    %p These fantastic sponsors are helping us bring this great event to you.
+
+    = partial "partials/events/sponsors", locals: {sponsors: sponsors}
+
 %section#keynotes.main-content.main-bg-alt
   .container
 
     %h3.h-section Keynotes
-
-    %h4 Coming soon!
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 %section#schedule.main-content.main-bg-highlight
   .container
@@ -67,6 +74,24 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
     %h3.h-section Speakers
 
     %h4 Want to speak? <a href="/proposal/">Submit a proposal.</a>
+
+    - content_for :talk_daniel_zarick do
+
+      %h3 Questioning Default Design Decisions
+
+      %p &#8220;Well, that&#8217;s how [another company] does it.&#8221;
+
+      %p It&#8217;s easy to default to common design patterns when building a product, but that doesn&#8217;t mean those are the right choices for your software. This talk will discuss some of these common patterns and show alternative options.
+
+    - content_for :talk_mike_kornacki do
+
+      %h3 Experience Innovation &#8212; The New Design Imperative
+       
+      %p We live in a world where technology is making almost everything possible. Companies are no longer standing head and shoulders above their competition when it comes to the latest features. The TV industry is a great example&#8230; TVs are commodities; every new model that a company like LG releases, there are 2 or 3 competitors like Samsung or Toshiba that can match them feature for feature. In 2013 the Global Innovation 1000 survey showed that product R&D spending rose 5.8% in the last year, yet revenue for those companies increased less than 1%.
+       
+      %p Enter experience innovation &#8212; this is becoming the most important element in smart companies product lifecycle. They are starting to use experience innovation to remain relevant and retain customer loyalty. Companies like Uber, Delta Airlines, Disney and Nike, to name a few, are figuring out ways to create signature moments that delight users and create significant opportunities for growth. They have learned how to look beyond their products to and see the broader experience their customers have when using their products and services. Look at Virgin Airlines for example. They figured out that they could only do so much to affect their customers&#8217; experience in the air, so what they did is create the Virgin Airport Clubs to make the wait for a flight way more enjoyable. They saw a 11% uptick in ticket sales and a 34% decrease in customer complaints after establishing these clubs. They figured out how to affect the overall experience their customers were having in a positive way and to a mutual benefit.
+       
+      %p I have come up with a list of 6 things that we as UXers can do to get our clients or our companies we work for to start innovating experiences. I will share with you examples of how others have done it and how I have led a UX team in a giant engineering organization like Johnson Controls to innovate and impact our business directly. Ultimately we need to start doing this for the companies we work for or for our clients. Experience innovation is not a new idea and it only a matter of time before your company&#8217;s or client&#8217;s competition figures it out.
 
     - content_for :talk_nathan_hinshaw do
 
