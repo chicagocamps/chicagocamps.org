@@ -110,6 +110,10 @@ Simplecast:
   alias: simplecast
   url:  https://simplecast.fm/
 
+Software for Good:
+  alias: software-for-good
+  url:  http://softwareforgood.com/
+
 Sticker Mule:
   alias: sticker-mule
   url:  http://www.stickermule.com/
