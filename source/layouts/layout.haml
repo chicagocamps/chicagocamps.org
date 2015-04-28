@@ -63,6 +63,15 @@
                   '/assets/js/ppp.js']
           });
         });
+  
+        $(document).ready(function() {
+          if (Modernizr.mq('screen and (max-width: 740px)')) {
+            $('[data-js="event-multi-day"]').clone().insertAfter('[data-js="event-multi-day"]').addClass('event-schedule-day-2');
+            $('[data-js="event-multi-day"]:not(.event-schedule-day-2)').addClass('event-schedule-day-1');
+            $('.event-schedule-day-1').find('.event-multi-day-2').remove();
+            $('.event-schedule-day-2').find('.event-multi-day-1').remove();
+          }
+        });
 
     %script(src="/assets/js/main.js")
     

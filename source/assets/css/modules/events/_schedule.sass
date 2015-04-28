@@ -21,6 +21,9 @@
       &:not(:last-child)
         padding-bottom: 0
 
+      &:empty
+        padding: 0
+
   tr:nth-child(odd) th,
   tr:nth-child(odd) td
     background-color: rgba($white, .50)
@@ -31,27 +34,42 @@
 
   +breakpoint-max
 
-    tr:first-child th:first-child
-      +rem(border-radius, $border-radius-base $border-radius-base 0 0)
+    tr:first-child
+      th:first-child,
+      td:first-child
+        +rem(border-radius, $border-radius-base $border-radius-base 0 0)
       
-    tr:last-child td:last-child
-      +rem(border-radius, 0 0 $border-radius-base $border-radius-base)
+    tr:last-child
+      th:last-child,
+      td:last-child
+        +rem(border-radius, 0 0 $border-radius-base $border-radius-base)
+
+    &.event-multi-day
+    
+      tr:first-child
+        th:nth-child(2),
+        td:nth-child(2)
+          +rem(border-radius, $border-radius-base $border-radius-base 0 0)
 
   +breakpoint-min
 
     tr:first-child
       
-      th:first-child
+      th:first-child,
+      td:first-child
         +rem(border-top-left-radius, $border-radius-base)
       
+      th:last-child,
       td:last-child
         +rem(border-top-right-radius, $border-radius-base)
 
     tr:last-child
       
-      th:first-child
+      th:first-child,
+      td:first-child
         +rem(border-bottom-left-radius, $border-radius-base)
       
+      th:last-child,
       td:last-child
         +rem(border-bottom-right-radius, $border-radius-base)
 
