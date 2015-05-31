@@ -19,7 +19,3 @@ gem "middleman-gh-pages"
 
 # Image optim
 gem "middleman-imageoptim"
-
-# Redirects
-
-gem "middleman-alias"

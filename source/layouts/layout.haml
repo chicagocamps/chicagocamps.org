@@ -14,6 +14,10 @@
 
     %script(src="/assets/js/vendor/modernizr-2.8.3.min.js")
 
+    - if current_page.data.redirect == "ppp"
+      %meta(http-equiv="refresh" content="0; url=http://chicagocamps.org/prototypes-process-play/")
+      %link(rel="canonical" href="http://chicagocamps.org/prototypes-process-play/")
+
   %body#top(class="#{page_classes}")
     
     = partial "partials/global/header"
