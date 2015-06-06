@@ -18,6 +18,31 @@
       %meta(http-equiv="refresh" content="0; url=http://chicagocamps.org/events/2015/prototypes-process-play/")
       %link(rel="canonical" href="http://chicagocamps.org/events/2015/prototypes-process-play/")
 
+    -# Facebook open graph
+
+    %meta(property="og:url" content="http://chicagocamps.org#{current_page.url}")
+    %meta(property="og:type" content="article")
+    %meta(property="og:title" content="#{current_page.data.title} - Chicago Camps")
+    %meta(property="og:og:site_name" content="Chicago Camps")
+    - if current_page.data.summary
+      %meta(property="og:description" content="#{current_page.data.summary}")
+    - if current_page.data.alias
+      %meta(property="og:image" content="http://chicagocamps.org/assets/img/events/logos/#{current_page.data.alias}.png")
+    - else
+      %meta(property="og:image" content="http://chicagocamps.org/assets/img/logos/logo-wordmark-gray.png")
+
+    -# Twitter card
+
+    %meta(name="twitter:card" content="summary")
+    %meta(name="twitter:title" content="#{current_page.data.title} - Chicago Camps")
+    %meta(name="twitter:site" content="Chicago Camps")
+    - if current_page.data.summary
+      %meta(name="twitter:description" content="#{current_page.data.summary}")
+    - if current_page.data.alias
+      %meta(name="twitter:image" content="http://chicagocamps.org/assets/img/events/logos/#{current_page.data.alias}.png")
+    - else
+      %meta(name="twitter:image" content="http://chicagocamps.org/assets/img/logos/logo-wordmark-gray.png")
+
   %body#top(class="#{page_classes}")
     
     = partial "partials/global/header"
