@@ -130,6 +130,10 @@ Terminus Threads:
   alias: terminus-threads
   url:   http://terminusthreads.com/
 
+thoughtbot:
+  alias: thoughtbot
+  url:   https://thoughtbot.com/
+
 UIE:
   alias: uie
   url:  https://www.uie.com/
