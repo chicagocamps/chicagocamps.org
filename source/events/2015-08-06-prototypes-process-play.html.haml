@@ -8,7 +8,9 @@ location: Columbia College Film Row &ndash; Chicago
 summary: Learn design leadership skills from Adaptive Path, Public Good Software, Google Ventures, and the Chicago Bulls&#8211;just to name a few!
 ---
 - sponsors = ["Balsamiq", "Columbia College", "The Creative Dose", "Mailchimp", "Terminus Threads", "thoughtbot", "User Testing"]
-- speakers = ["Andrea Mignolo", "Braden Kowitz", "Bridget Weis-Urbain", "Carl Smith", "Danny Schuman", "Denise Jacobs", "Hannah Donovan", "J Cornelius", "Jason Kunesh", "Jen Myers", "Jesse James Garrett", "Laralyn McWilliams", "Milissa Tarquini", "Dr. Steve Julius", "Dr. Temple Grandin"]
+- keynotes = ["Jesse James Garrett", "Dr. Steve Julius", "Dr. Temple Grandin"]
+- speakers = ["Andrea Mignolo", "Braden Kowitz", "Carl Smith", "Denise Jacobs", "Hannah Donovan", "J Cornelius", "Laralyn McWilliams", "Milissa Tarquini"]
+- lightening = ["Bridget Weis-Urbain", "Danny Schuman", "Jason Kunesh", "Jen Myers"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -16,7 +18,7 @@ summary: Learn design leadership skills from Adaptive Path, Public Good Software
       %li.event-nav-title
         %a(href="#top" rel="nofollow") Prototypes, Process &amp; Play
       %li
-        %a(href="#details" rel="nofollow") Details
+        %a(href="#overview" rel="nofollow") Overview
       %li
         %a(href="#schedule" rel="nofollow") Schedule
       %li
@@ -24,212 +26,292 @@ summary: Learn design leadership skills from Adaptive Path, Public Good Software
       %li
         %a(href="#location" rel="nofollow") Location
 
-    %a.btn.btn-alt.event-nav-btn(href="https://chicagocamps.ticketleap.com/prototypes-process-play-2015/dates/Aug-06-2015_at_0900AM" rel="nofollow")
-      Join Us Now for
-      %strong Only $350
+    %a.btn.btn-alt.event-nav-btn(href="https://chicagocamps.ticketleap.com/prototypes-process-play-2015/dates/Aug-06-2015_at_0900AM" rel="nofollow") Register Now!
 
-%section#details.main-content
+%section#overview.main-content
   .container
 
-    %h3.h-section Details
+    %h3.h-section Conference Overview
 
-    %h2 Prototypes, Process &amp; Play is a conference focused on design leadership through experimentation (<strong>prototypes</strong>), proven methods (<strong>process</strong>), and creative exploration (<strong>play</strong>). 
+    %h2
+      Learn design leadership from the experts at
+      %br
+      = succeed "." do
+        %strong Prototypes, Process, &amp; Play
 
-    %p You can expect our speakers and audience to be comprised of Design Leaders, Aspiring Leaders, and Design Mentors and Coaches.
+    %p It&#8217;s a two-day, single-track conference featuring inspiring keynote speakers, accomplished design leaders, and experienced professionals from major brands and organizations.
 
-    %p Learn design leadership skills from Adaptive Path, Public Good Software, Google Ventures, and the Chicago Bulls&#8211;just to name a few!
+    %p Curious about the name? It comes from our formula for effective design leadership:
 
-    %p We&#8217;ll gain from the wisdom and experience of brilliant professionals who have been there, done that, and have shown others how to do it, too. 
+    %table.ppp-overview
+      %tr
+        %td
+          .ppp-overiew-title Experimentation
+          .h-sm-caps-gray Prototypes
+        %td.ppp-overiew-equal &#43;
+        %td 
+          .ppp-overiew-title Proven Methodologies
+          .h-sm-caps-gray Process
+        %td.ppp-overiew-equal  &#43;
+        %td 
+          .ppp-overiew-title Creative Exploration
+          .h-sm-caps-gray Play
 
     .event-cta
-      %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/prototypes-process-play-2015/dates/Aug-06-2015_at_0900AM" rel="nofollow")
-        Join Us for Now Only $350
+      %a.btn.btn-alt.btn-large(href="https://chicagocamps.ticketleap.com/prototypes-process-play-2015/dates/Aug-06-2015_at_0900AM" rel="nofollow")
+        %strong Register Now for Prototypes, Process, &amp; Play
+        %br
+        Only $350 for the full program!
 
     %h3 Meet Our Awesome Sponsors
     
-    %p These fantastic sponsors are helping us bring this great event to you.
+    %p These great sponsors help us make Prototypes, Process &amp; Play affordable and accessible. These organizations see the value in design and design leadership&#8212;please show your support for the support they&#8217;ve shown us!
 
     = partial "partials/events/sponsors", locals: {sponsors: sponsors}
 
 %section#schedule.main-content.main-bg-highlight
   .container
 
-    %h3.h-section Schedule
+    %h3.h-section
+      Program
+      %span &amp;
+      Schedule
 
-    %p We&#8217;ve prepared 2 days&#8211;Thursday and Friday, August 6th and 7th&#8211;at Columbia College Chicago that will help you hone and focus your design leadership skills. Come ready to learn, and leave ready to drive the future of design in your organization!
+    %p Hone your design leadership skills over two days with us at Columbia College Chicago. A carefully curated single-track approach ensures that you can attend every session and have a truly shared experience with other attendees and speakers.
 
-    %table.event-schedule.event-multi-day(data-js="event-multi-day")
+    %h3
+      .h-sm-caps-gray Day One
+      Thursday, August 6th
 
-      %tr
-        %td
-        %th.event-multi-day-1 Thursday, August 6th
-        %th.event-multi-day-2 Friday, August 7th
-
+    %table.event-schedule
       %tr
         %th
           %time(datetime="08:00") 8:00
           &#8212;
           %time(datetime="09:00") 9:00
-        %td.event-schedule-offset(colspan="2") Registration &amp; Coffee
-
+        %td.event-schedule-offset Registration &amp; Coffee
       %tr
         %th
           %time(datetime="09:00") 9:00
           &#8212;
           %time(datetime="09:15") 9:15
-        %td(colspan="2")
-          %strong Welcome to Prototypes, Process &amp; Play
-
+        %td.event-schedule-offset Welcome to Prototypes, Process &amp; Play Day One
       %tr
         %th
           %time(datetime="09:15") 9:15
           &#8212;
           %time(datetime="10:00") 10:00
-        %td.event-multi-day-1
+        %td
           %a(href="#temple-grandin" rel="nofollow")
             %strong Dr. Temple Grandin
           .event-schedule-offset Keynote
-        %td.event-multi-day-2
-          %a(href="#steve-julius" rel="nofollow")
-            %strong Dr. Steve Julius
-          .event-schedule-offset Keynote
-
       %tr
         %th
           %time(datetime="10:00") 10:00
           &#8212;
           %time(datetime="10:45") 10:45
-        %td.event-multi-day-1
+        %td
           %a(href="#denise-jacobs" rel="nofollow")
             %strong Denise Jacobs
           .event-schedule-offset Creativity Imperative
-        %td.event-multi-day-2
-          %a(href="#laralyn-mcwilliams" rel="nofollow")
-            %strong Laralyn McWilliams
-          .event-schedule-offset The Right Way to Be Wrong
-
       %tr
         %th
           %time(datetime="10:45") 10:45
           &#8212;
           %time(datetime="11:15") 11:15
-        %td.event-schedule-offset(colspan="2") Morning Break
-
+        %td.event-schedule-offset Morning Break
       %tr
         %th
           %time(datetime="11:15") 11:15
           &#8212;
           %time(datetime="12:00") 12:00
-        %td.event-multi-day-1
+        %td
           %a(href="#braden-kowitz" rel="nofollow")
             %strong Braden Kowitz
           .event-schedule-offset Design What Really Matters
-        %td.event-multi-day-2
-          %a(href="#j-cornelius" rel="nofollow")
-            %strong J Cornelius
-          .event-schedule-offset Redesign Our Design Thinking
-
       %tr
         %th
           %time(datetime="12:00") 12:00
           &#8212;
           %time(datetime="13:30") 1:30
-        %td.event-schedule-offset(colspan="2") Lunch Break
-
+        %td.event-schedule-offset Lunch Break
       %tr
         %th
           %time(datetime="13:30") 1:30
           &#8212;
           %time(datetime="13:45") 1:45
-        %td.event-multi-day-1
+        %td
           %a(href="#jen-myers" rel="nofollow")
             %strong Jen Myers
           .event-schedule-offset Cartoon Creativity: What I Learned from Chuck Jones
-        %td.event-multi-day-2
-          %a(href="#danny-schuman" rel="nofollow")
-            %strong Danny Schuman
-          .event-schedule-offset 5 Tips for Designers from a Terrible Designer
-
       %tr
         %th
           %time(datetime="13:50") 1:50
           &#8212;
           %time(datetime="14:05") 2:05
-        %td.event-multi-day-1
+        %td
           %a(href="#bridget-weis-urbain" rel="nofollow")
             %strong Bridget Weis-Urbain
           .event-schedule-offset Cooking by Design
-        %td.event-multi-day-2
-          %a(href="#jason-kunesh" rel="nofollow")
-            %strong Jason Kunesh
-          .event-schedule-offset How to be a Designer CEO at a Startup without Being a Jerk
-
       %tr
         %th
           %time(datetime="14:15") 2:15
           &#8212;
           %time(datetime="15:00") 3:00
-        %td.event-multi-day-1
+        %td
           %a(href="#hannah-donovan" rel="nofollow")
             %strong Hannah Donovan
           .event-schedule-offset Sometimes You Need to Draw Animals
-        %td.event-multi-day-2
-          %a(href="#andrea-mignolo" rel="nofollow")
-            %strong Andrea Mignolo
-          .event-schedule-offset So You&#8217;ve Got A Seat At the Table. Now What?
-
       %tr
         %th
           %time(datetime="15:00") 3:00
           &#8212;
           %time(datetime="15:30") 3:30
-        %td.event-schedule-offset(colspan="2") Afternoon Break
-
+        %td.event-schedule-offset Afternoon Break
       %tr
         %th
           %time(datetime="15:30") 3:30
           &#8212;
           %time(datetime="16:15") 4:15
-        %td.event-multi-day-1
+        %td
           %a(href="#milissa-tarquini" rel="nofollow")
             %strong Milissa Tarquini
           .event-schedule-offset Design Organization du Jour
-        %td.event-multi-day-2
-          %a(href="#carl-smith" rel="nofollow")
-            %strong Carl Smith
-          .event-schedule-offset Theft, Tributes &amp; Collaboration
-      
       %tr
         %th
           %time(datetime="16:15") 4:15
           &#8212;
           %time(datetime="17:00") 5:00
-        %td.event-multi-day-1
+        %td
           %strong Keynote TBA
-        %td.event-multi-day-2
+      %tr
+        %td
+        %td
+          %strong Happy Hour &amp; Experience Panel 
+
+    %h3
+      .h-sm-caps-gray Day Two
+      Friday, August 7th
+
+    %table.event-schedule
+      %tr
+        %th
+          %time(datetime="08:00") 8:00
+          &#8212;
+          %time(datetime="09:00") 9:00
+        %td.event-schedule-offset Registration &amp; Coffee
+      %tr
+        %th
+          %time(datetime="09:00") 9:00
+          &#8212;
+          %time(datetime="09:15") 9:15
+        %td.event-schedule-offset Welcome to Prototypes, Process &amp; Play Day Two
+      %tr
+        %th
+          %time(datetime="09:15") 9:15
+          &#8212;
+          %time(datetime="10:00") 10:00
+        %td
+          %a(href="#steve-julius" rel="nofollow")
+            %strong Dr. Steve Julius
+          .event-schedule-offset Keynote
+      %tr
+        %th
+          %time(datetime="10:00") 10:00
+          &#8212;
+          %time(datetime="10:45") 10:45
+        %td
+          %a(href="#laralyn-mcwilliams" rel="nofollow")
+            %strong Laralyn McWilliams
+          .event-schedule-offset The Right Way to Be Wrong
+      %tr
+        %th
+          %time(datetime="10:45") 10:45
+          &#8212;
+          %time(datetime="11:15") 11:15
+        %td.event-schedule-offset Morning Break
+      %tr
+        %th
+          %time(datetime="11:15") 11:15
+          &#8212;
+          %time(datetime="12:00") 12:00
+        %td
+          %a(href="#j-cornelius" rel="nofollow")
+            %strong J Cornelius
+          .event-schedule-offset Redesign Our Design Thinking
+      %tr
+        %th
+          %time(datetime="12:00") 12:00
+          &#8212;
+          %time(datetime="13:30") 1:30
+        %td.event-schedule-offset Lunch Break
+      %tr
+        %th
+          %time(datetime="13:30") 1:30
+          &#8212;
+          %time(datetime="13:45") 1:45
+        %td
+          %a(href="#danny-schuman" rel="nofollow")
+            %strong Danny Schuman
+          .event-schedule-offset 5 Tips for Designers from a Terrible Designer
+      %tr
+        %th
+          %time(datetime="13:50") 1:50
+          &#8212;
+          %time(datetime="14:05") 2:05
+        %td
+          %a(href="#jason-kunesh" rel="nofollow")
+            %strong Jason Kunesh
+          .event-schedule-offset How to be a Designer CEO at a Startup without Being a Jerk
+      %tr
+        %th
+          %time(datetime="14:15") 2:15
+          &#8212;
+          %time(datetime="15:00") 3:00
+        %td
+          %a(href="#andrea-mignolo" rel="nofollow")
+            %strong Andrea Mignolo
+          .event-schedule-offset So You&#8217;ve Got A Seat At the Table. Now What?
+      %tr
+        %th
+          %time(datetime="15:00") 3:00
+          &#8212;
+          %time(datetime="15:30") 3:30
+        %td.event-schedule-offset Afternoon Break
+      %tr
+        %th
+          %time(datetime="15:30") 3:30
+          &#8212;
+          %time(datetime="16:15") 4:15
+        %td
+          %a(href="#carl-smith" rel="nofollow")
+            %strong Carl Smith
+          .event-schedule-offset Theft, Tributes &amp; Collaboration
+      %tr
+        %th
+          %time(datetime="16:15") 4:15
+          &#8212;
+          %time(datetime="17:00") 5:00
+        %td
           %a(href="#jesse-james-garrett" rel="nofollow")
             %strong Jesse James Garrett
           .event-schedule-offset Keynote
-
       %tr
         %td
-        %td.event-multi-day-1
-          %strong Happy Hour &amp; Experience Panel 
-        %td.event-multi-day-2
-          %strong Closing Ceremonies 
+        %td.event-schedule-offset Closing Ceremonies 
 
     .event-cta
-      %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/prototypes-process-play-2015/dates/Aug-06-2015_at_0900AM" rel="nofollow")
-        Join Us for Now Only $350
+      %a.btn.btn-alt.btn-large(href="https://chicagocamps.ticketleap.com/prototypes-process-play-2015/dates/Aug-06-2015_at_0900AM" rel="nofollow")
+        %strong Register Now for Prototypes, Process, &amp; Play
+        %br
+        Only $350 for the full program!
 
 %section#speakers.main-content.main-bg-alt
   .container
 
-    %h3.h-section Speakers
+    %h3.h-section About Our Speakers
 
-    %p We&#8217;ve meticulously curated professionals who are a mix of strong design leaders, leadership mentors and coaches from other fields, and aspiring design leaders who are forging their own path. Our line-up will inspire you and provide you with techniques and tools to help you down your own leadership path.
-
-    %p We&#8217;re very excited for you to meet our speakers!
+    %p Great thinking on design leadership is found in many forms in many industries. We&#8217;ve curated an incredible lineup of design experts, mentors, and coaches from diverse fields to help you down your own leadership path. Our single-track format ensures you'll get to learn from every one of them.
 
     - content_for :talk_andrea_mignolo do
 
@@ -341,12 +423,37 @@ summary: Learn design leadership skills from Adaptive Path, Public Good Software
 
       %p We have entered the age of collective wisdom; an era where it is recognized that paradigm shifting innovation requires cooperation within an ecosystem of diverse talents and creative styles. Dr. Steve Julius, a clinical psychologist and entrepreneur, will explain and demonstrate how to marshal and lead our natural desire to engage, contribute and act collaboratively in ways that allow for perceiving new possibilities and status quo changing actions.
 
+    %h3 Keynotes
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
+
+    .event-cta
+      %a.btn.btn-alt.btn-large(href="https://chicagocamps.ticketleap.com/prototypes-process-play-2015/dates/Aug-06-2015_at_0900AM" rel="nofollow")
+        %strong Register Now for Prototypes, Process, &amp; Play
+        %br
+        Only $350 for the full program!
+
+    %h3 Full Sessions
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
+    .event-cta
+      %a.btn.btn-alt.btn-large(href="https://chicagocamps.ticketleap.com/prototypes-process-play-2015/dates/Aug-06-2015_at_0900AM" rel="nofollow")
+        %strong Register Now for Prototypes, Process, &amp; Play
+        %br
+        Only $350 for the full program!
+
+    %h3 Lightening
+    = partial "partials/events/speakers", locals: {speakers: lightening}
+
+    .event-cta
+      %a.btn.btn-alt.btn-large(href="https://chicagocamps.ticketleap.com/prototypes-process-play-2015/dates/Aug-06-2015_at_0900AM" rel="nofollow")
+        %strong Register Now for Prototypes, Process, &amp; Play
+        %br
+        Only $350 for the full program!
+        
 %section#location.main-content
   .container
 
-    %h3.h-section Location
+    %h3.h-section Location Details
 
     %h2
       Columbia College Film Row
@@ -382,8 +489,10 @@ summary: Learn design leadership skills from Adaptive Path, Public Good Software
         %p Coming from out of town? We&#8217;ve set up a special rate for attendees at <a href="https://reservations.ihotelier.com/crs/g_reservation.cfm?groupID=1452025&hotelID=5054" rel="nofollow">The Congress Plaza Hotel</a> on Michigan Avenue in the heart of Chicago.
 
     .event-cta
-      %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/prototypes-process-play-2015/dates/Aug-06-2015_at_0900AM" rel="nofollow")
-        Join Us for Now Only $350
+      %a.btn.btn-alt.btn-large(href="https://chicagocamps.ticketleap.com/prototypes-process-play-2015/dates/Aug-06-2015_at_0900AM" rel="nofollow")
+        %strong Register Now for Prototypes, Process, &amp; Play
+        %br
+        Only $350 for the full program!
 
 %section.main-content
   .container
@@ -392,6 +501,6 @@ summary: Learn design leadership skills from Adaptive Path, Public Good Software
 
     %p We want to be the easiest partner you&#8217;ve ever worked with&#8211;even at the traditional conference level! With that as our guiding mantra, all of our Prototypes, Process &amp; Play sponsorships are $1,500.
 
-    %p Prototypes, Process &amp; Play has many different options available that are comparable to any other large scale event, and we&#8217;re happy to work with you to create something custom to meet your needs! We&#8217;ve got a great event planned and we&#8217;d love to talk to you about how we can partner with you!
+    %p Prototypes, Process &amp; Play has many different options available that are comparable to any other large scale event, and we&#8217;re happy to work with you to create something custom to meet your needs. We&#8217;ve got a great event planned and we&#8217;d love to talk to you about how we can partner with you!
 
     %p If you&#8217;re interested in sponsoring Prototypes, Process &amp; Play and getting in front of the people who are driving the future of design, <a href="/contact/">contact us</a> or <a href="/assets/packets/Prototypes-Process-PlaySponsorship-Info.pdf" download>download our Sponsorship Packet</a>.

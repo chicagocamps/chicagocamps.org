@@ -48,6 +48,12 @@
   &:hover
     background-color: darken($yellow, 6)
 
+  &.btn-large
+    +rem(padding, $baseline-x-small ($gutter * 2))
+
+    strong
+      @extend %s-echo
+
 // Outline
 
 .btn-outline

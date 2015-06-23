@@ -1,6 +1,8 @@
 // PPP
 // ========================================
 
+// Header
+
 .header-ppp
   @extend %position-relative
 
@@ -9,3 +11,24 @@
   @extend %position-absolute
   @extend %top-0
   @extend %grid-1-1
+
+// Overview table
+
+.ppp-overview
+  @extend %margin-bottom
+  @extend %text-center
+  @extend %grid-1-1
+
+  td
+    +rem(padding, 0 $gutter-half)
+
+    +breakpoint-max
+      display: block
+
+.ppp-overiew-title
+  @extend %h-charlie
+  font-weight: 700
+
+.ppp-overiew-equal
+  @extend %color-gray
+  @extend %s-delta
