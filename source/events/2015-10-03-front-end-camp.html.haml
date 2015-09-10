@@ -8,6 +8,9 @@ header_image_url: https://flic.kr/p/nQfMy5
 summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit of UX and Design for good measure, Front-end Camp is the event you won&#8217;t want to miss!
 ---
 
+- speakers   = ["Ben Lister"]
+- sponsors   = ["TCG", "WeWork"]
+
 %nav.event-nav.group(data-js="event-nav")
   .container
     %ul.event-nav-content
@@ -45,6 +48,12 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
       %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/front-end-camp-2015/dates/Oct-03-2015_at_0800AM" rel="nofollow")
         Join Us for Only $60 &#8212; Limited Tickets Available
 
+    %h3 Meet Our Awesome Sponsors
+    
+    %p These fantastic sponsors are helping us bring this great event to you.
+
+    = partial "partials/events/sponsors", locals: {sponsors: sponsors}
+
 %section#keynotes.main-content.main-bg-alt
   .container
 
@@ -66,5 +75,13 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
     %h3.h-section Speakers
     
     %h4 Want to speak? <a href="/proposal/">Submit a proposal.</a>
+
+    - content_for :talk_ben_lister do
+
+      %h3 Creating a Scalable Image Workflow with SVG 
+
+      %p SVG has been one of the hottest buzz words in the web community over the last couple of years but with so many options how do you get started? This talk will explore some of the capabilities, benefits and real world techniques you can use today to create a SVG workflow for your next project. Topics covered will include: SVG Maps, Icon Fonts, Optimizations, Animations and the Pitfalls.
+
+    = partial "partials/events/speakers", locals: {speakers: speakers}
 
 = partial "partials/events/location-harrington"

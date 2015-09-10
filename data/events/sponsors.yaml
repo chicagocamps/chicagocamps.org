@@ -134,6 +134,10 @@ SyneCore:
   alias: synecore
   url:  http://synecoretech.com/
 
+TCG:
+  alias: tcg
+  url:   http://www.roberthalf.com/creativegroup
+
 Terminus Threads:
   alias: terminus-threads
   url:   http://terminusthreads.com/
@@ -165,3 +169,7 @@ UXPin:
 WebVisions:
   alias: webvisions
   url:  http://www.webvisionsevent.com/
+
+WeWork:
+  alias: wework
+  url:   https://www.wework.com/
