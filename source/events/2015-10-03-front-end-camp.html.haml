@@ -8,7 +8,7 @@ header_image_url: https://flic.kr/p/nQfMy5
 summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit of UX and Design for good measure, Front-end Camp is the event you won&#8217;t want to miss!
 ---
 
-- speakers   = ["Ben Lister"]
+- speakers   = ["Ben Lister", "Brian Montana"]
 - sponsors   = ["TCG", "WeWork"]
 
 %nav.event-nav.group(data-js="event-nav")
@@ -68,7 +68,6 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
 
     %h4 Coming soon!
 
-
 %section#speakers.main-content.main-bg-alt
   .container
 
@@ -81,6 +80,12 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
       %h3 Creating a Scalable Image Workflow with SVG 
 
       %p SVG has been one of the hottest buzz words in the web community over the last couple of years but with so many options how do you get started? This talk will explore some of the capabilities, benefits and real world techniques you can use today to create a SVG workflow for your next project. Topics covered will include: SVG Maps, Icon Fonts, Optimizations, Animations and the Pitfalls.
+
+    - content_for :talk_brian_montana do
+
+      %h3 Design Through the Lens of Developer Eyes
+
+      %p The discussions in digital workflow have focused on the expectation of the designer communicating and thinking like a developer, an artifact of the waterfall workflow. The dynamic of the emerging workflow, repositions the conversations away from the canon and invites others to use empathy when collaborating on projects. Within this talk I&#8217;ll cover how I, as a developer, communicate through the perspective of a designer and how making a designers life easier makes the current, and future, projects easier to manage.
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
