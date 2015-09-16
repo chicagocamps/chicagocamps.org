@@ -3,6 +3,8 @@ title: Events
 blog: events
 ---
 
+- next_event = blog.articles.reverse.find {|a| a.data.date > Time.now.strftime("%Y-%m-%d %H:%M %Z")}
+
 %section
 
   %header.header.header-default
@@ -12,32 +14,34 @@ blog: events
   %section.main-content.main-bg-light.group
     .container
 
-      %h3.h-section Upcoming Events
+      - if next_event
 
-      - blog.articles.reverse.select {|a| a.data.date > Time.now.strftime("%Y-%m-%d %H:%M %Z")}.group_by {|a| a.date.year }.each do |year, articles|
+        %h3.h-section Upcoming Events
 
-        %h2= year
+        - blog.articles.reverse.select {|a| a.data.date > Time.now.strftime("%Y-%m-%d %H:%M %Z")}.group_by {|a| a.date.year }.each do |year, articles|
 
-        %ul.events-list
-          - articles.each do |article|
-            %li.event-item
+          %h2= year
 
-              - if article.data.alias
-                - if article.data.alias.end_with? "camp"
-                  .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo #{article.data.alias}-logo"
-                - else
-                  .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo", style: "#{event_logo(article)}"
-              
-              %h3.event-item-title
-                = link_to article.title, article
-                .lineup
-                  %span.h-sm-caps-gray
-                    - if article.data.duration
-                      = article.data.duration
-                    - else
-                      = article.date.strftime("%B %e, %Y")
-              
-              = link_to "Attend", article, class: "btn btn-outline"
+          %ul.events-list
+            - articles.each do |article|
+              %li.event-item
+
+                - if article.data.alias
+                  - if article.data.alias.end_with? "camp"
+                    .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo #{article.data.alias}-logo"
+                  - else
+                    .event-item-logo-container= link_to article.data.title, article, class: "event-item-logo", style: "#{event_logo(article)}"
+                
+                %h3.event-item-title
+                  = link_to article.title, article
+                  .lineup
+                    %span.h-sm-caps-gray
+                      - if article.data.duration
+                        = article.data.duration
+                      - else
+                        = article.date.strftime("%B %e, %Y")
+                
+                = link_to "Attend", article, class: "btn btn-outline"
 
       %h3.h-section Past Events
 

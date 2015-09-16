@@ -11,9 +11,14 @@ title: Home
       %h1.header-logo.header-logo-home Chicago Camps
       %h2.header-home-tagline.header-shadow Low-cost, high-value events <br> serving the technology community.
 
-      .h-sm-caps Up Next:
-      %h2.header-home-next.header-shadow= link_to next_event.title, next_event
-      = link_to "View Details", next_event, class: "btn btn-alt btn-large"
+      - if next_event
+        .h-sm-caps Up Next:
+        %h2.header-home-next.header-shadow= link_to next_event.title, next_event
+        = link_to "View Details", next_event, class: "btn btn-alt btn-large"
+      - else
+        .h-sm-caps Stay Tuned
+        %h2.header-home-next.header-shadow New Events Coming Soon!
+        = link_to "Recommend an Event", "/contact/", class: "btn btn-alt btn-large"
 
       %a.header-credit(href="https://flic.kr/p/amYWgx") Photo: Robert Lowe
 
@@ -29,28 +34,30 @@ title: Home
 
     -# Featured event
 
-    %h3.h-section Events
+    - if next_event
 
-    .event-feat
-      
-      - if next_event.data.alias
-        - if next_event.data.alias.end_with? "camp"
-          .event-feat-logo-container= link_to next_event.data.title, next_event, class: "event-feat-logo #{next_event.data.alias}-logo"
-        - else
-          .event-feat-logo-container= link_to next_event.data.title, next_event, class: "event-feat-logo", style: "#{event_logo(next_event)}"
-      
-      .event-feat-info
-        %h2
-          = link_to next_event.title, next_event
-          .lineup
-            %span.h-sm-caps-gray
-              - if next_event.data.duration
-                = next_event.data.duration
-              - else
-                = next_event.date.strftime("%B %e, %Y")
-        %p= truncate_words(next_event.data.summary, length: 30)
-      
-      .event-feat-cta= link_to "Attend", next_event, class: "btn btn-outline"
+      %h3.h-section Events
+
+      .event-feat
+        
+        - if next_event.data.alias
+          - if next_event.data.alias.end_with? "camp"
+            .event-feat-logo-container= link_to next_event.data.title, next_event, class: "event-feat-logo #{next_event.data.alias}-logo"
+          - else
+            .event-feat-logo-container= link_to next_event.data.title, next_event, class: "event-feat-logo", style: "#{event_logo(next_event)}"
+        
+        .event-feat-info
+          %h2
+            = link_to next_event.title, next_event
+            .lineup
+              %span.h-sm-caps-gray
+                - if next_event.data.duration
+                  = next_event.data.duration
+                - else
+                  = next_event.date.strftime("%B %e, %Y")
+          %p= truncate_words(next_event.data.summary, length: 30)
+        
+        .event-feat-cta= link_to "Attend", next_event, class: "btn btn-outline"
 
     -# Testimonial
 
