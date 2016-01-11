@@ -1,0 +1,232 @@
+---
+title: UX Camp
+date: 2016-04-30 01:00 CDT
+category: events
+alias: ux-camp
+location: Columbia College Film Row &ndash; Chicago
+header_image_photographer: Anne Worner
+header_image_url: https://flic.kr/p/fhkjZh
+summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics uncovered and you&#8217;ll learn current topics and improved upon standards in one of the hottest fields today!
+---
+
+- sponsors = ["Columbia College"]
+- keynotes = []
+- speakers = []
+
+%nav.event-nav.group(data-js="event-nav")
+  .container
+    %ul.event-nav-content
+      %li.event-nav-title
+        %a(href="#top" rel="nofollow") UX Camp
+      %li
+        %a(href="#details" rel="nofollow") Details
+      -#
+        %li
+          %a(href="#keynotes" rel="nofollow") Keynotes
+        %li
+          %a(href="#schedule" rel="nofollow") Schedule
+        %li
+          %a(href="#speakers" rel="nofollow") Speakers
+      %li
+        %a(href="#location" rel="nofollow") Location
+
+    %a.btn.btn-alt.event-nav-btn(href="https://chicagocamps.ticketleap.com/ux-camp-2016/dates/Apr-30-2016_at_0830AM" rel="nofollow")
+      Join Us for
+      %strong Only $60
+
+%section#details.main-content
+  .container
+
+    %h3.h-section Details
+
+    %h2 UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics uncovered and you&#8217;ll learn current topics and improved upon standards in one of the hottest fields today!
+
+    %p If you&#8217;re just getting your start in UX and you&#8217;re hoping to learn more, or you&#8217;ve been in the field awhile and want to stay current, UX Camp is for you. A full day&#8211;3 full tracks&#8211;of UX talks, surrounded by impressive keynotes and all for a great price that includes your lunch. 
+
+    %p Sign up now&#8211;these tickets go fast!
+
+    .event-cta
+      %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/ux-camp-2015/dates/Jun-06-2015_at_0800AM" rel="nofollow")
+        Join Us for Only $60 &#8212; Limited Tickets Available
+
+    %h3 Meet Our Awesome Sponsors
+    
+    %p These fantastic sponsors are helping us bring this great event to you.
+
+    = partial "partials/events/sponsors", locals: {sponsors: sponsors}
+
+-#
+  %section#keynotes.main-content.main-bg-alt
+    .container
+
+      %h3.h-section Keynotes
+      = partial "partials/events/speakers", locals: {speakers: keynotes}
+
+-#
+  %section#schedule.main-content.main-bg-highlight
+    .container
+
+      %h3.h-section Schedule
+
+      %table.event-schedule
+
+        %tr
+          %th
+            %time(datetime="2014-09-13T08:30") 8:30
+            &#8212;
+            %time(datetime="2014-09-13T09:00") 9:00
+          %td.event-schedule-offset(colspan="3") Registration &amp; Breakfast
+
+        %tr
+          %th
+            %time(datetime="2014-09-13T09:00") 9:00
+            &#8212;
+            %time(datetime="2014-09-13T09:45") 9:45
+          %td(colspan="3")
+            %a(href="#anna-van-slee" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Anna van Slee &amp; Carolyn Chandler
+            .event-schedule-offset Morning Keynote
+
+        %tr
+          %th
+            %time(datetime="2014-09-13T09:45") 9:45
+            &#8212;
+            %time(datetime="2014-09-13T10:00") 10:00
+          %td.event-schedule-offset(colspan="3") Morning Break
+
+        %tr
+          %th Rooms
+          %td
+            %strong Blue
+            %span.event-schedule-offset (Main)
+          %td
+            %strong Red
+          %td
+            %strong Yellow
+
+        %tr
+          %th
+            %time(datetime="2014-09-13T10:00") 10:00
+            &#8212;
+            %time(datetime="2014-09-13T10:45") 10:45
+          %td
+            %a(href="#ameeda-chowdhury" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Ameeda Chowdhury
+            .event-schedule-offset Designing Learning That Sticks: Collaborating with Users to Redefine the Engagement Problem
+          %td
+            %a(href="#jared-caponi" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Jared Caponi
+            .event-schedule-offset Personalities, Politics, Art &amp; Design: The UX Remix of the Guggenheim Museum
+          %td
+            %a(href="#natalie-kurz" rel="nofollow")
+              %strong.event-schedule-room(data-room="Yellow") Natalie Kurz
+            .event-schedule-offset The Unwitting Content Strategist
+        
+        %tr
+          %th
+            %time(datetime="2014-09-13T10:45") 10:45
+            &#8212;
+            %time(datetime="2014-09-13T11:00") 11:00
+          %td.event-schedule-offset(colspan="3") Break
+        
+        %tr
+          %th
+            %time(datetime="2014-09-13T11:00") 11:00
+            &#8212;
+            %time(datetime="2014-09-13T11:45") 11:45
+          %td
+            %a(href="#daniel-zarick" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Daniel Zarick
+            .event-schedule-offset Questioning Default Design Decisions
+          %td
+            %a(href="#beth-mckeever" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Beth McKeever
+            .event-schedule-offset The 4 Fool-Proof Steps to Becoming a UX Professional
+          %td
+            %a(href="#mike-kornacki" rel="nofollow")
+              %strong.event-schedule-room(data-room="Yellow") Mike Kornacki
+            .event-schedule-offset Experience Innovation &#8212; The New Design Imperative
+
+        %tr
+          %th
+            %time(datetime="2014-09-13T11:45") 11:45
+            &#8212;
+            %time(datetime="2014-09-13T13:00") 1:00
+          %td.event-schedule-offset(colspan="3") Lunch
+        
+        %tr
+          %th
+            %time(datetime="2014-09-13T13:00") 1:00
+            &#8212;
+            %time(datetime="2014-09-13T13:45") 1:45
+          %td
+            %a(href="#carl-beien" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Carl Beien &amp; Courtney Roberts
+            .event-schedule-offset Maximizing UX Research: In-house vs. Consulting
+          %td
+            %a(href="#kamaria-campbell" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Kamaria Campbell
+            .event-schedule-offset Heuristics 101: Understanding &amp; Applying Design Principles
+          %td
+            %a(href="#travis-lafleur" rel="nofollow")
+              %strong.event-schedule-room(data-room="Yellow") Travis LaFleur
+            .event-schedule-offset WHAT Before HOW: Practical, Lo-fi Tools for Alignment, Planning, &amp; Understanding
+
+        %tr
+          %th
+            %time(datetime="2014-09-13T13:45") 1:45
+            &#8212;
+            %time(datetime="2014-09-13T14:00") 2:00
+          %td.event-schedule-offset(colspan="3") Break
+        
+        %tr
+          %th
+            %time(datetime="2014-09-13T14:00") 2:00
+            &#8212;
+            %time(datetime="2014-09-13T14:45") 2:45
+          %td
+            %a(href="#nathan-hinshaw" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Nathan Hinshaw
+            .event-schedule-offset Designing Digital Communities
+          %td
+            %a(href="#dimple-rao" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Dimple Rao &amp; Ryan Wynia
+            .event-schedule-offset From You &amp; Me To We: Re-designing the Product &#8212; UX Partnership
+          %td
+            %a(href="#jeff-eaton" rel="nofollow")
+              %strong.event-schedule-room(data-room="Yellow") Jeff Eaton
+            .event-schedule-offset Content Strategy &#8212; Getting It Started!
+
+        %tr
+          %th
+            %time(datetime="2014-09-13T14:45") 2:45
+            &#8212;
+            %time(datetime="2014-09-13T15:15") 3:15
+          %td.event-schedule-offset(colspan="3") Afternoon Snack
+        
+        %tr
+          %th
+            %time(datetime="2014-09-13T15:15") 3:15
+            &#8212;
+            %time(datetime="2014-09-13T16:00") 4:00
+          %td(colspan="3")
+            %a(href="#marcin-treder" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Marcin Treder
+            .event-schedule-offset Afternoon Keynote
+
+        %tr
+          %th
+            %time(datetime="2014-09-13T16:00") 4:00
+            &#8212;
+            %time(datetime="2014-09-13T16:15") 4:15
+          %td.event-schedule-offset(colspan="3") Closing Ceremonies
+
+-#
+  %section#speakers.main-content.main-bg-alt
+    .container
+
+      %h3.h-section Speakers
+
+      = partial "partials/events/speakers", locals: {speakers: speakers}
+
+= partial "partials/events/location-columbia-film-row"
