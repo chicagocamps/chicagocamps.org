@@ -49,7 +49,11 @@ helpers do
     "background-image: url('/assets/img/updates/#{source.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}/header.jpg');"
   end
   def event_header(source)
-    "background-image: url('/assets/img/events/headers/#{source.data.alias}.jpg');"
+    if source.data.alias == 'prototypes-process-play'
+      "background-image: url('/assets/img/events/headers/#{source.data.alias}-#{Date.parse(source.data.date).strftime('%Y')}.jpg');"
+    else
+      "background-image: url('/assets/img/events/headers/#{source.data.alias}.jpg');"
+    end
   end
   def event_logo(source)
     "background-image: url('/assets/img/events/logos/#{source.data.alias}.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}.svg');"

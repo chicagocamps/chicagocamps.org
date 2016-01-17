@@ -15,8 +15,8 @@
     %script(src="/assets/js/vendor/modernizr-2.8.3.min.js")
 
     - if current_page.data.redirect == "ppp"
-      %meta(http-equiv="refresh" content="0; url=http://chicagocamps.org/events/2015/prototypes-process-play/")
-      %link(rel="canonical" href="http://chicagocamps.org/events/2015/prototypes-process-play/")
+      %meta(http-equiv="refresh" content="0; url=http://chicagocamps.org/events/2016/prototypes-process-play/")
+      %link(rel="canonical" href="http://chicagocamps.org/events/2016/prototypes-process-play/")
 
     -# Facebook open graph
 
@@ -83,16 +83,6 @@
 
     - if current_page.data.alias == "prototypes-process-play"
       :javascript
-        $(document).ready(function() {
-          Modernizr.load({
-            test: Modernizr.mq('screen and (min-width: 741px)'),
-            yep: ['/assets/js/vendor/TweenLite.min.js',
-                  '/assets/js/vendor/EasePack.min.js',
-                  '/assets/js/vendor/rAF.min.js',
-                  '/assets/js/ppp.js']
-          });
-        });
-  
         $(document).ready(function() {
           if (Modernizr.mq('screen and (max-width: 740px)')) {
             $('[data-js="event-multi-day"]').clone().insertAfter('[data-js="event-multi-day"]').addClass('event-schedule-day-2');
