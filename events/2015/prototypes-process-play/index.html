@@ -62,8 +62,7 @@
       </form>
     </header>
     <div class='main group' role='main'>
-      <header class='header header-ppp' id='header-ppp' style="background-image: url('/assets/img/events/headers/prototypes-process-play.jpg');">
-        <canvas class='header-ppp-canvas' id='header-ppp-canvas'></canvas>
+      <header class='header' style="background-image: url('/assets/img/events/headers/prototypes-process-play-2015.jpg');">
         <div class='header-container'>
           <div class='container'>
             <h1 class='header-logo header-logo-event' style="background-image: url('/assets/img/events/logos/prototypes-process-play-alt.png'); background-image: url('/assets/img/events/logos/prototypes-process-play-alt.svg');">
@@ -1033,16 +1032,6 @@
       });
     </script>
     <script>
-      $(document).ready(function() {
-        Modernizr.load({
-          test: Modernizr.mq('screen and (min-width: 741px)'),
-          yep: ['/assets/js/vendor/TweenLite.min.js',
-                '/assets/js/vendor/EasePack.min.js',
-                '/assets/js/vendor/rAF.min.js',
-                '/assets/js/ppp.js']
-        });
-      });
-      
       $(document).ready(function() {
         if (Modernizr.mq('screen and (max-width: 740px)')) {
           $('[data-js="event-multi-day"]').clone().insertAfter('[data-js="event-multi-day"]').addClass('event-schedule-day-2');
