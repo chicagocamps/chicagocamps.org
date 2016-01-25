@@ -46,7 +46,11 @@ activate :livereload
 # Methods defined in the helpers block are available in templates
 helpers do
   def header_image(source)
-    "background-image: url('/assets/img/updates/#{source.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}/header.jpg');"
+    if source.data.related_event == 'prototyes-process-play-2015'
+      "background-image: url('/assets/img/events/headers/prototypes-process-play-2015.jpg');"
+    else
+      "background-image: url('/assets/img/updates/#{source.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}/header.jpg');"
+    end
   end
   def event_header(source)
     if source.data.alias == 'prototypes-process-play'
