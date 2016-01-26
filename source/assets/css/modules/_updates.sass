@@ -60,3 +60,19 @@
 
   img
     +rem(max-width, $baseline-step * 22)
+
+.update-video
+  height: 0
+  @extend %margin-auto
+  @extend %margin-bottom-x-large
+  padding-bottom: 56.25% // 16:9
+  @extend %position-relative
+  @extend %grid-9-10
+
+  iframe
+    @extend %border-0
+    height: 100%
+    @extend %left-0
+    @extend %position-absolute
+    @extend %top-0
+    @extend %grid-1-1
