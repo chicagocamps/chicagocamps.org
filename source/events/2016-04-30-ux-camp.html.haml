@@ -11,7 +11,7 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
 - sponsors = ["Columbia College"]
 - keynotes = []
-- speakers = []
+- speakers = ["Cornelius Rachieru", "Rizwan Javaid"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -25,8 +25,8 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
           %a(href="#keynotes" rel="nofollow") Keynotes
         %li
           %a(href="#schedule" rel="nofollow") Schedule
-        %li
-          %a(href="#speakers" rel="nofollow") Speakers
+      %li
+        %a(href="#speakers" rel="nofollow") Speakers
       %li
         %a(href="#location" rel="nofollow") Location
 
@@ -225,12 +225,23 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
             %time(datetime="2014-09-13T16:15") 4:15
           %td.event-schedule-offset(colspan="3") Closing Ceremonies
 
--#
-  %section#speakers.main-content.main-bg-alt
-    .container
+%section#speakers.main-content.main-bg-alt
+  .container
 
-      %h3.h-section Speakers
+    %h3.h-section Speakers
 
-      = partial "partials/events/speakers", locals: {speakers: speakers}
+    - content_for :talk_cornelius_rachieru do
+
+      %h3 UXers Are from Mars, BAs Are from Venus
+
+      %p Looking back at my 15+ year career in user experience, I found that the relationship between UX professionals and business analysts (BAs) is a great indicator of whether a project will be successful or not. This presentation will look at the mutual perception between BA and UX teams, the historical source of their differences, the best ways to start tackling projects together, and why UXers should not loose arguments over design decisions with BAs (this may even have something to do with starting to practice your very own Jedi mind tricks).
+
+    - content_for :talk_rizwan_javaid do
+
+      %h3 You Too Can Be A Sketching Machine
+
+      %p It&#8217;s intimidating to be called out to sketch or draw anything—and even worse when you&#8217;re doing so with people who have the word &#8220;designer&#8221; in their title. Don&#8217;t worry—the confidence you need to put your pencil to paper and start to sketch is close at hand! With the addition of a few simple approaches, you can begin to incorporate sketching into your daily activities. Even better: you can begin to coach others, even non-designers or designers-who-don&#8217;t-really-draw, to use sketching to jumpstart their sketching skills.
+
+    = partial "partials/events/speakers", locals: {speakers: speakers}
 
 = partial "partials/events/location-columbia-film-row"
