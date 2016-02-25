@@ -11,7 +11,7 @@ Bridget Weis-Urban is a Chicago-area chef and owner of Cook from Scratch where s
 
 We hope you enjoy Bridget&#8217;s presentation, &#8220;Cooking by Design&#8221; where she talks about simplicity in cooking. The cooking process, like any design process, can start with fundamentals, and often some of the best results stem from focusing on the basics first!
 
-Don&#8217;t forget to get your tickets for <a href="/events/2016/prototypes-process-play/">Prototypes, Process &amp; Play</a> on August 4th and 5th! READMORE
+Don&#8217;t forget to get your tickets for <a href="/events/2016/prototypes-process-play/">Prototypes, Process &amp; Play</a> on August 11th and 12th! READMORE
 
 <figure class="update-video">
   <iframe src="https://player.vimeo.com/video/155736505" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

@@ -9,7 +9,7 @@ related_event: prototyes-process-play-2015
 
 Hannah has done a number of outstandingly cool projects, from Last.fm to This is My Jam and clearly has found her path through music. She&#8217;s also found out, the hard way, what it&#8217;s like to deal with burnout, and has some great lessons to share with you.
 
-We hope you enjoy Hannah&#8217;s presentation, &#8220;Sometimes You Need to Draw Animals&#8221; and don&#8217;t forget to get your tickets for <a href="/events/2016/prototypes-process-play/">Prototypes, Process &amp; Play</a> on August 4th and 5th! READMORE
+We hope you enjoy Hannah&#8217;s presentation, &#8220;Sometimes You Need to Draw Animals&#8221; and don&#8217;t forget to get your tickets for <a href="/events/2016/prototypes-process-play/">Prototypes, Process &amp; Play</a> on August 11th and 12th! READMORE
 
 <figure class="update-video">
   <iframe src="https://player.vimeo.com/video/155925885" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

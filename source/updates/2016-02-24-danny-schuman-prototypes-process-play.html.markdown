@@ -9,7 +9,7 @@ related_event: prototyes-process-play-2015
 
 Danny Schuman is another local Chicago treasure&#8212;he&#8217;s been doing work with many of the brands you&#8217;ve known and loved all of your life and like Dr. Steve Julius, he&#8217;s also spent a number of years working with Michael Jordan! Danny is not a designer, yet he&#8217;s managed to successfully work with great ones over the years and shares some of his best tips for working with them.
 
-We hope you enjoy Danny&#8217;s presentation, &#8220;5 Tips for Designers from a Terrible Designer&#8221; and don&#8217;t forget to get your tickets for <a href="/events/2016/prototypes-process-play/">Prototypes, Process &amp; Play</a> on August 4th and 5th! READMORE
+We hope you enjoy Danny&#8217;s presentation, &#8220;5 Tips for Designers from a Terrible Designer&#8221; and don&#8217;t forget to get your tickets for <a href="/events/2016/prototypes-process-play/">Prototypes, Process &amp; Play</a> on August 11th and 12th! READMORE
 
 <figure class="update-video">
   <iframe src="https://player.vimeo.com/video/156493491" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

@@ -9,7 +9,7 @@ related_event: prototyes-process-play-2015
 
 Denise Jacobs, founder and chief creativity evangelist at The Creative Dose, presented at the <a href="/events/2015/prototypes-process-play/">2015 Prototypes, Process &amp; Play</a> conference and shares her four directives that help us keep our creative flame burning strong!
 
-We hope you enjoy Denise&#8217;s presentation, &#8220;Creativity Imperative&#8221; and don&#8217;t forget to get your tickets for <a href="/events/2016/prototypes-process-play/">Prototypes, Process &amp; Play</a> on August 4th and 5th, 2016! READMORE
+We hope you enjoy Denise&#8217;s presentation, &#8220;Creativity Imperative&#8221; and don&#8217;t forget to get your tickets for <a href="/events/2016/prototypes-process-play/">Prototypes, Process &amp; Play</a> on August 11th and 12th, 2016! READMORE
 
 <figure class="update-video">
   <iframe src="https://player.vimeo.com/video/154587546" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

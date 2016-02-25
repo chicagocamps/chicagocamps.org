@@ -9,7 +9,7 @@ related_event: prototyes-process-play-2015
 
 Jen Myers is a Chicago-area technologist and writer, and a local hero to us at Chicago Camps. She&#8217;s a leader and a role model and she&#8217;s brought us wonderful things like <a href="http://codeandcupcakes.net" rel="nofollow">Code and Cupcakes</a> where she teaches mothers and daughters how to code and serves cupcakes, too. She&#8217;s a champion for diversity in the tech community and she also really likes otters.
 
-We hope you enjoy Jen&#8217;s presentation, &#8220;Cartoon Creativity: What I Learned from Chuck Jones&#8221; and don&#8217;t forget to get your tickets for <a href="/events/2016/prototypes-process-play/">Prototypes, Process &amp; Play</a> on August 4th and 5th! READMORE
+We hope you enjoy Jen&#8217;s presentation, &#8220;Cartoon Creativity: What I Learned from Chuck Jones&#8221; and don&#8217;t forget to get your tickets for <a href="/events/2016/prototypes-process-play/">Prototypes, Process &amp; Play</a> on August 11th and 12th! READMORE
 
 <figure class="update-video">
   <iframe src="https://player.vimeo.com/video/155726779" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

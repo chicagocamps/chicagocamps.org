@@ -11,7 +11,7 @@ In August 2015, we were very fortunate to have Dr. Temple Grandin join us for th
 
 We hope you enjoy this keynote as much as we did! READMORE
 
-**Don&#8217;t forget to get your tickets for this years <a href="/events/2016/prototypes-process-play/">Prototypes, Process &amp; Play</a> on August 4th and 5th, 2016!**
+**Don&#8217;t forget to get your tickets for this years <a href="/events/2016/prototypes-process-play/">Prototypes, Process &amp; Play</a> on August 11th and 12th, 2016!**
 
 <figure class="update-video">
   <iframe src="https://player.vimeo.com/video/153052318" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

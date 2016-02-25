@@ -9,7 +9,7 @@ related_event: prototyes-process-play-2015
 
 Jason Kunesh is a local Chicago treasure&#8212;he&#8217;s worked with all kinds of great companies and for a president of the United States of America and now works for a purpose-driven start-up where he&#8217;s got a team of great folks (with no design department) who are trying to change the world, a little nudge at a time. 
 
-We hope you enjoy Jason&#8217;s presentation, &#8220;How to be a Designer CEO without Being a Jerk&#8221; and don&#8217;t forget to get your tickets for <a href="/events/2016/prototypes-process-play/">Prototypes, Process &amp; Play</a> on August 4th and 5th! READMORE
+We hope you enjoy Jason&#8217;s presentation, &#8220;How to be a Designer CEO without Being a Jerk&#8221; and don&#8217;t forget to get your tickets for <a href="/events/2016/prototypes-process-play/">Prototypes, Process &amp; Play</a> on August 11th and 12th! READMORE
 
 <figure class="update-video">
   <iframe src="https://player.vimeo.com/video/156408869" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
