@@ -11,7 +11,7 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
 - sponsors = ["Columbia College"]
 - keynotes = []
-- speakers = ["Cornelius Rachieru", "Jamie McAtee", "Lauren Johnson", "Rachel McClung", "Rizwan Javaid", "Scott Sullivan"]
+- speakers = ["Cornelius Rachieru", "Jamie McAtee", "Lauren Johnson", "Rachel McClung", "Rizwan Javaid", "Scott Sullivan", "Stacy Kvernmo", "Will Hacker"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -278,6 +278,22 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
         %li Non-quantitative wearable devices?
         %li The digital behavior change landscape
         %li Manual input doesn&#8217;t work
+
+    - content_for :talk_stacy_kvernmo do
+
+      %h3 Curing Design Complacency
+
+      %p We may have a design epidemic on our hands: Complacency. Many factors can contribute to becoming complacent as a designer, and fortunately there are numerous ways to push your work beyond &#8220;good enough&#8221;! I&#8217;ve spent many years exploring techniques that can get designers out of their comfort zone and break away from the &#8220;this what we&#8217;ve always done&#8221; mind set. Together, we will walk through the symptoms and discuss treatment options. 
+
+      %p Designers have a greater impact on this world than we realize. Far too often I&#8217;ve seen designers settle for less than what they are capable of. Putting time and effort into a big pile of blah can leave us feeling powerless and unmotivated. Let&#8217;s focus on how to keep pushing past the status quo to create something in which we can all be proud.
+
+    - content_for :talk_will_hacker do
+
+      %h3 Sketch-to-Code Prototyping: Moving Faster to Final Designs
+      
+      %p Prototyping in code, and making use of established pattern libraries, allows UX design teams to have greater control over how their work is executed across devices. This model lets designers do what they do best: think about experiences and interactions, and not the ins and outs of the latest prototyping tool. It also frees designers from having to wait for the development team to see if their designs will work as planned, and can speed time to market by delivering working HTML and CSS to the technical team. 
+
+      %p This talk takes you behind the curtain to see how a real design team is using a sketch-to-code approach to prototyping that gets it to testable responsive designs faster than traditional prototyping approaches. If you&#8217;re looking for ways to add more agility to your design and build process, this talk is for you.
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
