@@ -9,9 +9,9 @@ header_image_url: https://flic.kr/p/fhkjZh
 summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics uncovered and you&#8217;ll learn current topics and improved upon standards in one of the hottest fields today!
 ---
 
-- sponsors = ["Columbia College"]
-- keynotes = []
-- speakers = ["Cornelius Rachieru", "Dennis Ellis", "Katie Swindler", "Kavitha Krishna", "Jamie McAtee", "Lauren Johnson", "Natalie Kurz", "Rachel McClung", "Rizwan Javaid", "Scott Sullivan", "Sean Johnson", "Stacy Kvernmo", "Will Hacker"]
+- sponsors = ["Columbia College", "Proto.io"]
+- keynotes = ["Carolyn Chandler", "Cornelius Rachieru"]
+- speakers = ["Dennis Ellis", "Katie Swindler", "Kavitha Krishna", "Jamie McAtee", "Lauren Johnson", "Natalie Kurz", "Rachel McClung", "Rizwan Javaid", "Scott Sullivan", "Sean Johnson", "Stacy Kvernmo", "Will Hacker"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -20,11 +20,10 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
         %a(href="#top" rel="nofollow") UX Camp
       %li
         %a(href="#details" rel="nofollow") Details
-      -#
-        %li
-          %a(href="#keynotes" rel="nofollow") Keynotes
-        %li
-          %a(href="#schedule" rel="nofollow") Schedule
+      %li
+        %a(href="#keynotes" rel="nofollow") Keynotes
+      %li
+        %a(href="#schedule" rel="nofollow") Schedule
       %li
         %a(href="#speakers" rel="nofollow") Speakers
       %li
@@ -46,7 +45,7 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
     %p Sign up now&#8211;these tickets go fast!
 
     .event-cta
-      %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/ux-camp-2015/dates/Jun-06-2015_at_0800AM" rel="nofollow")
+      %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/ux-camp-2016/dates/Apr-30-2016_at_0830AM" rel="nofollow")
         Join Us for Only $60 &#8212; Limited Tickets Available
 
     %h3 Interested in Speaking at or Sponsoring UX Camp?
@@ -59,182 +58,196 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
     = partial "partials/events/sponsors", locals: {sponsors: sponsors}
 
--#
-  %section#keynotes.main-content.main-bg-alt
-    .container
-
-      %h3.h-section Keynotes
-      = partial "partials/events/speakers", locals: {speakers: keynotes}
-
--#
-  %section#schedule.main-content.main-bg-highlight
-    .container
-
-      %h3.h-section Schedule
-
-      %table.event-schedule
-
-        %tr
-          %th
-            %time(datetime="2014-09-13T08:30") 8:30
-            &#8212;
-            %time(datetime="2014-09-13T09:00") 9:00
-          %td.event-schedule-offset(colspan="3") Registration &amp; Breakfast
-
-        %tr
-          %th
-            %time(datetime="2014-09-13T09:00") 9:00
-            &#8212;
-            %time(datetime="2014-09-13T09:45") 9:45
-          %td(colspan="3")
-            %a(href="#anna-van-slee" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Anna van Slee &amp; Carolyn Chandler
-            .event-schedule-offset Morning Keynote
-
-        %tr
-          %th
-            %time(datetime="2014-09-13T09:45") 9:45
-            &#8212;
-            %time(datetime="2014-09-13T10:00") 10:00
-          %td.event-schedule-offset(colspan="3") Morning Break
-
-        %tr
-          %th Rooms
-          %td
-            %strong Blue
-            %span.event-schedule-offset (Main)
-          %td
-            %strong Red
-          %td
-            %strong Yellow
-
-        %tr
-          %th
-            %time(datetime="2014-09-13T10:00") 10:00
-            &#8212;
-            %time(datetime="2014-09-13T10:45") 10:45
-          %td
-            %a(href="#ameeda-chowdhury" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Ameeda Chowdhury
-            .event-schedule-offset Designing Learning That Sticks: Collaborating with Users to Redefine the Engagement Problem
-          %td
-            %a(href="#jared-caponi" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Jared Caponi
-            .event-schedule-offset Personalities, Politics, Art &amp; Design: The UX Remix of the Guggenheim Museum
-          %td
-            %a(href="#natalie-kurz" rel="nofollow")
-              %strong.event-schedule-room(data-room="Yellow") Natalie Kurz
-            .event-schedule-offset The Unwitting Content Strategist
-        
-        %tr
-          %th
-            %time(datetime="2014-09-13T10:45") 10:45
-            &#8212;
-            %time(datetime="2014-09-13T11:00") 11:00
-          %td.event-schedule-offset(colspan="3") Break
-        
-        %tr
-          %th
-            %time(datetime="2014-09-13T11:00") 11:00
-            &#8212;
-            %time(datetime="2014-09-13T11:45") 11:45
-          %td
-            %a(href="#daniel-zarick" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Daniel Zarick
-            .event-schedule-offset Questioning Default Design Decisions
-          %td
-            %a(href="#beth-mckeever" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Beth McKeever
-            .event-schedule-offset The 4 Fool-Proof Steps to Becoming a UX Professional
-          %td
-            %a(href="#mike-kornacki" rel="nofollow")
-              %strong.event-schedule-room(data-room="Yellow") Mike Kornacki
-            .event-schedule-offset Experience Innovation &#8212; The New Design Imperative
-
-        %tr
-          %th
-            %time(datetime="2014-09-13T11:45") 11:45
-            &#8212;
-            %time(datetime="2014-09-13T13:00") 1:00
-          %td.event-schedule-offset(colspan="3") Lunch
-        
-        %tr
-          %th
-            %time(datetime="2014-09-13T13:00") 1:00
-            &#8212;
-            %time(datetime="2014-09-13T13:45") 1:45
-          %td
-            %a(href="#carl-beien" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Carl Beien &amp; Courtney Roberts
-            .event-schedule-offset Maximizing UX Research: In-house vs. Consulting
-          %td
-            %a(href="#kamaria-campbell" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Kamaria Campbell
-            .event-schedule-offset Heuristics 101: Understanding &amp; Applying Design Principles
-          %td
-            %a(href="#travis-lafleur" rel="nofollow")
-              %strong.event-schedule-room(data-room="Yellow") Travis LaFleur
-            .event-schedule-offset WHAT Before HOW: Practical, Lo-fi Tools for Alignment, Planning, &amp; Understanding
-
-        %tr
-          %th
-            %time(datetime="2014-09-13T13:45") 1:45
-            &#8212;
-            %time(datetime="2014-09-13T14:00") 2:00
-          %td.event-schedule-offset(colspan="3") Break
-        
-        %tr
-          %th
-            %time(datetime="2014-09-13T14:00") 2:00
-            &#8212;
-            %time(datetime="2014-09-13T14:45") 2:45
-          %td
-            %a(href="#nathan-hinshaw" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Nathan Hinshaw
-            .event-schedule-offset Designing Digital Communities
-          %td
-            %a(href="#dimple-rao" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Dimple Rao &amp; Ryan Wynia
-            .event-schedule-offset From You &amp; Me To We: Re-designing the Product &#8212; UX Partnership
-          %td
-            %a(href="#jeff-eaton" rel="nofollow")
-              %strong.event-schedule-room(data-room="Yellow") Jeff Eaton
-            .event-schedule-offset Content Strategy &#8212; Getting It Started!
-
-        %tr
-          %th
-            %time(datetime="2014-09-13T14:45") 2:45
-            &#8212;
-            %time(datetime="2014-09-13T15:15") 3:15
-          %td.event-schedule-offset(colspan="3") Afternoon Snack
-        
-        %tr
-          %th
-            %time(datetime="2014-09-13T15:15") 3:15
-            &#8212;
-            %time(datetime="2014-09-13T16:00") 4:00
-          %td(colspan="3")
-            %a(href="#marcin-treder" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Marcin Treder
-            .event-schedule-offset Afternoon Keynote
-
-        %tr
-          %th
-            %time(datetime="2014-09-13T16:00") 4:00
-            &#8212;
-            %time(datetime="2014-09-13T16:15") 4:15
-          %td.event-schedule-offset(colspan="3") Closing Ceremonies
-
-%section#speakers.main-content.main-bg-alt
+%section#keynotes.main-content.main-bg-alt
   .container
 
-    %h3.h-section Speakers
+    - content_for :talk_carolyn_chandler do
+
+      %h3 Lessons Learned from the World of Wearables
+
+      %p Apple Watch, Fitbit, Jawbone, Misfit&#8230; fitness-related wearables have exploded over the past few years. Their promise, like the promise of many other kinds of wearables: a deeper understanding of personal data and the encouragement to make positive change. How well has this promise been carried out&#8230; and what other kinds of wearables are getting traction?
+
+      %p In this session Carolyn will share some of the UX lessons learned after working for Chicago wearables start-up, Mira Fitness. We&#8217;ll cover research on the wearables user experience, brand and product differentiation, and common industrial design considerations, as well as some stories from this year&#8217;s Consumer Electronics Show which featured everything from smart clothes to virtual reality headwear.
 
     - content_for :talk_cornelius_rachieru do
 
       %h3 UXers Are from Mars, BAs Are from Venus
 
       %p Looking back at my 15+ year career in user experience, I found that the relationship between UX professionals and business analysts (BAs) is a great indicator of whether a project will be successful or not. This presentation will look at the mutual perception between BA and UX teams, the historical source of their differences, the best ways to start tackling projects together, and why UXers should not loose arguments over design decisions with BAs (this may even have something to do with starting to practice your very own Jedi mind tricks).
+
+    %h3.h-section Keynotes
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
+
+    .event-cta
+      %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/ux-camp-2016/dates/Apr-30-2016_at_0830AM" rel="nofollow")
+        Join Us for Only $60 &#8212; Limited Tickets Available
+
+%section#schedule.main-content.main-bg-highlight
+  .container
+
+    %h3.h-section Schedule
+
+    %table.event-schedule
+
+      %tr
+        %th
+          %time(datetime="2016-04-30T08:30") 8:30
+          &#8212;
+          %time(datetime="2016-04-30T09:00") 9:00
+        %td.event-schedule-offset(colspan="3") Registration &amp; Breakfast
+
+      %tr
+        %th
+          %time(datetime="2016-04-30T09:00") 9:00
+          &#8212;
+          %time(datetime="2016-04-30T09:45") 9:45
+        %td(colspan="3")
+          %a(href="#carolyn-chandler" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Carolyn Chandler
+          .event-schedule-offset Lessons Learned from the World of Wearables Keynote
+
+      %tr
+        %th
+          %time(datetime="2016-04-30T09:45") 9:45
+          &#8212;
+          %time(datetime="2016-04-30T10:00") 10:00
+        %td.event-schedule-offset(colspan="3") Morning Break
+
+      %tr
+        %th Rooms
+        %td.event-schedule-distributed
+          %strong Blue
+          %span.event-schedule-offset (Main)
+        %td.event-schedule-distributed
+          %strong Red
+        %td.event-schedule-distributed
+          %strong Yellow
+
+      %tr
+        %th
+          %time(datetime="2016-04-30T10:00") 10:00
+          &#8212;
+          %time(datetime="2016-04-30T10:45") 10:45
+        %td
+          -#%a(href="#foo" rel="nofollow")
+          %strong.event-schedule-room(data-room="Blue") TBA
+          -#.event-schedule-offset talk
+        %td
+          %a(href="#natalie-kurz" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Natalie Kurz
+          .event-schedule-offset Vocal Exercises: Finding Your Voice
+        %td
+          %a(href="#jamie-mcatee" rel="nofollow")
+            %strong.event-schedule-room(data-room="Yellow") Jamie McAtee
+          .event-schedule-offset Get the Whole Team Together &amp; Design Jam
+      
+      %tr
+        %th
+          %time(datetime="2016-04-30T10:45") 10:45
+          &#8212;
+          %time(datetime="2016-04-30T11:00") 11:00
+        %td.event-schedule-offset(colspan="3") Break
+      
+      %tr
+        %th
+          %time(datetime="2016-04-30T11:00") 11:00
+          &#8212;
+          %time(datetime="2016-04-30T11:45") 11:45
+        %td
+          %a(href="#will-hacker" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Will Hacker
+          .event-schedule-offset Sketch-to-Code Prototyping: Moving Faster to Final Designs
+        %td
+          %a(href="#rachel-mcclung" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Rachel McClung
+          .event-schedule-offset Type Trials
+        %td
+          %a(href="#rizwan-javaid" rel="nofollow")
+            %strong.event-schedule-room(data-room="Yellow") Rizwan Javaid
+          .event-schedule-offset You Too Can Be a Sketching Machine
+
+      %tr
+        %th
+          %time(datetime="2016-04-30T11:45") 11:45
+          &#8212;
+          %time(datetime="2016-04-30T13:00") 1:00
+        %td.event-schedule-offset(colspan="3") Lunch
+      
+      %tr
+        %th
+          %time(datetime="2016-04-30T13:00") 1:00
+          &#8212;
+          %time(datetime="2016-04-30T13:45") 1:45
+        %td
+          %a(href="#sean-johnson" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Sean Johnson
+          .event-schedule-offset How to Guarantee Product Failure
+        %td
+          %a(href="#stacy-kvernmo" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Stacy Kvernmo
+          .event-schedule-offset Curing Design Complacency
+        %td
+          %a(href="#dennis-ellis" rel="nofollow")
+            %strong.event-schedule-room(data-room="Yellow") Katie Swindler &amp; Dennis Ellis
+          .event-schedule-offset The Checkbox That Ruined My Life: Exposing Manipulative Design
+
+      %tr
+        %th
+          %time(datetime="2016-04-30T13:45") 1:45
+          &#8212;
+          %time(datetime="2016-04-30T14:00") 2:00
+        %td.event-schedule-offset(colspan="3") Break
+      
+      %tr
+        %th
+          %time(datetime="2016-04-30T14:00") 2:00
+          &#8212;
+          %time(datetime="2016-04-30T14:45") 2:45
+        %td
+          %a(href="#scott-sullivan" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Scott Sullivan
+          .event-schedule-offset Wearable Devices &amp; Everyone
+        %td
+          %a(href="#lauren-johnson" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Lauren Johnson
+          .event-schedule-offset Fostering Empathy in Collaborative Development
+        %td
+          %a(href="#kavitha-krishna" rel="nofollow")
+            %strong.event-schedule-room(data-room="Yellow") Kavitha Krishna
+          .event-schedule-offset Content First for Better User Experience
+
+      %tr
+        %th
+          %time(datetime="2016-04-30T14:45") 2:45
+          &#8212;
+          %time(datetime="2016-04-30T15:15") 3:15
+        %td.event-schedule-offset(colspan="3") Afternoon Snack
+      
+      %tr
+        %th
+          %time(datetime="2016-04-30T15:15") 3:15
+          &#8212;
+          %time(datetime="2016-04-30T16:00") 4:00
+        %td(colspan="3")
+          %a(href="#cornelius-rachieru" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Cornelius Rachieru
+          .event-schedule-offset UXers Are from Mars, BAs Are from Venus Keynote
+
+      %tr
+        %th
+          %time(datetime="2016-04-30T16:00") 4:00
+          &#8212;
+          %time(datetime="2016-04-30T16:15") 4:15
+        %td.event-schedule-offset(colspan="3") Closing Ceremonies
+
+    .event-cta
+      %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/ux-camp-2016/dates/Apr-30-2016_at_0830AM" rel="nofollow")
+        Join Us for Only $60 &#8212; Limited Tickets Available
+
+%section#speakers.main-content.main-bg-alt
+  .container
+
+    %h3.h-section Speakers
 
     - content_for :talk_katie_swindler do
 
@@ -293,13 +306,13 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
     - content_for :talk_rizwan_javaid do
 
-      %h3 You Too Can Be A Sketching Machine
+      %h3 You Too Can Be a Sketching Machine
 
       %p It&#8217;s intimidating to be called out to sketch or draw anything—and even worse when you&#8217;re doing so with people who have the word &#8220;designer&#8221; in their title. Don&#8217;t worry—the confidence you need to put your pencil to paper and start to sketch is close at hand! With the addition of a few simple approaches, you can begin to incorporate sketching into your daily activities. Even better: you can begin to coach others, even non-designers or designers-who-don&#8217;t-really-draw, to use sketching to jumpstart their sketching skills.
 
     - content_for :talk_scott_sullivan do
 
-      %h3 Wearable Devices and Everyone
+      %h3 Wearable Devices &amp; Everyone
       
       %p Wearable devices are still in the &#8220;Wild West&#8221; phase, but we&#8217;re finally starting to learn enough about them that we can start making more intentional decisions. This talk will cover the entire wearable device ecosystem from raw data inputs to prescriptive feedback and emerging behavior change models.
 
@@ -314,7 +327,7 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
     - content_for :talk_sean_johnson do
       
-      %h3 How to guarantee product failure 
+      %h3 How to Guarantee Product Failure 
       
       %p Many user experience professionals design screens and flows imagining a user is already bought in, with dashboards full of activity and full friend lists. But getting a user to that point requires a tremendous amount of thought. Onboarding and first time UX represent the most important and most overlooked part of product design, leading to subpar experiences and failed products.
 
