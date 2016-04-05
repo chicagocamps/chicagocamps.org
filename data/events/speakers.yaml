@@ -608,7 +608,7 @@ Katie Swindler:
   alias:   katie-swindler
   title:   "UX Director, FCB"
   bio: |
-    <p>Katie currently leads experience strategy for a wide range of B2C and B2B clients at FCB. Her background in theatre lends a unique perspective on storytelling through experiences. At FCB, she merges emotion and utility, storytelling and technology to create engaging and measurably impactful experiences for brands including Jack Daniels, Cox Communications, Peterbilt & Kenworth truck parts (PACCAR Parts), and Toyota Financial Services. Prior to joining FCB, Katie led multiple digital initiatives for global brands such as Wiley Publishing, including web properties for their popular Everything DiSC team assessment tool (And if you were wondering, the assessment accurately identifies her as a strong D.)</p>
+    <p>Katie currently leads experience strategy for a wide range of B2C and B2B clients at FCB. Her background in theatre lends a unique perspective on storytelling through experiences. At FCB, she merges emotion and utility, storytelling and technology to create engaging and measurably impactful experiences for brands including Jack Daniels, Cox Communications, Peterbilt &amp; Kenworth truck parts (PACCAR Parts), and Toyota Financial Services. Prior to joining FCB, Katie led multiple digital initiatives for global brands such as Wiley Publishing, including web properties for their popular Everything DiSC team assessment tool (And if you were wondering, the assessment accurately identifies her as a strong D.)</p>
 
 Kavitha Krishna:
   alias:   kavitha-krishna
@@ -766,8 +766,17 @@ Param Rengaiah:
 Peter Merholz:
   alias:   peter-merholz
   title:   "Senior Director, Product Experience, Jawbone"
+  twitter: peterme
+  website: peterme.com
   bio: |
     <p>Peter Merholz is a design and product management executive. He is a Sr. Director in Product Experience at Jawbone, the company behind UP fitness trackers. He helped OpenTable launch their redesigned website, and before that was VP of Design at Groupon. He was one of the founders of Adaptive Path, and helped grow it from 7 to 50 people. He&#8217;s been writing about design and technology (among other things) at <a href="http://peterme.com" rel="nofollow">http://peterme.com</a> for 17 years.</p>
+
+Phil Balagtas:
+  alias:   phil-balagtas
+  title:   "Senior Director, Product Experience, Jawbone"
+  twitter: neshacom1
+  bio: |
+    <p>Phil holds a BA in Graphic Design and MFA in Interaction Design, has been a Visual and UX Designer since 2001, and has experience designing across a variety of devices and platforms within non-profit, retail, advertising, and enterprise software organizations. He is currently a Lead Designer and Researcher for Digital Solutions within GE Aviation working with airlines to use big data to improve operational and fuel efficiency. He is also founder and organizer of the Sand Francisco Critical Design and Speculative Futures meetup where he hosts speakers and educators as well as conducts workshops to develop methods and frameworks for designing for the future.
 
 Phil Sharp:
   alias:   phil-sharp
