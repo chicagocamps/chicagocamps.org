@@ -146,6 +146,10 @@ Terminus Threads:
   alias: terminus-threads
   url:   http://terminusthreads.com/
 
+Tesla Amazing:
+  alias: tesla-amazing
+  url:   https://teslaamazing.com/
+
 thoughtbot:
   alias: thoughtbot
   url:   https://thoughtbot.com/
