@@ -26,6 +26,27 @@
   @extend %top-0
   @extend %grid-1-1
 
+.update-hero-img
+  @extend %margin-bottom
+
+  .update-summary &
+    @extend %display-none
+
+  img
+    @extend %border-radius-base
+    @extend %display-block
+    @extend %margin-auto
+    @extend %margin-bottom-xx-small
+    max-width: 100%
+    
+    +breakpoint-min
+      width: 80%
+
+  figcaption
+    @extend %h-sm-caps
+    @extend %color-gray
+    @extend %text-center
+
 // Title
 
 .update-title
