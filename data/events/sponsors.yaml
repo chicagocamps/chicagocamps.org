@@ -134,6 +134,10 @@ Simplecast:
   alias: simplecast
   url:  https://simplecast.fm/
 
+Sketch:
+  alias: sketch
+  url:   http://www.sketchapp.com/
+  
 Software for Good:
   alias: software-for-good
   url:  http://softwareforgood.com/
