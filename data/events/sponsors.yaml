@@ -18,6 +18,10 @@ Bakery:
   alias: bakery
   url:  http://done-n-done.com/
 
+Belly Up:
+  alias: belly-up
+  url:  http://www.bellyupchicago.com/
+
 Binth:
   alias: binth
   url:  http://binth.com/
@@ -57,6 +61,10 @@ Harrington:
 HotGloo:
   alias: hotgloo
   url:  http://www.hotgloo.com/
+
+Indigo Studio:
+  alias: indigo-studio
+  url:  http://www.infragistics.com/products/indigo-studio
 
 Jawhole:
   alias: jawhole
