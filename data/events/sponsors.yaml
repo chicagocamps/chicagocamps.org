@@ -82,6 +82,10 @@ Mailchimp:
   alias: mailchimp
   url:  http://mailchimp.com/
 
+MOMENT:
+  alias: moment
+  url: http://www.momentdesign.com/
+
 MOO:
   alias: moo
   url:  http://us.moo.com/
