@@ -9,7 +9,7 @@ summary: Learn design leadership skills from Slack, Etsy, Adaptive Path/Capital 
 ---
 - sponsors = ["Balsamiq", "Belly Up", "Columbia College", "Indigo Studio", "Jockey", "Justinmind", "Loop11", "MOMENT", "Rosenfeld", "Sketch", "UXPin"]
 - keynotes = ["Ashleigh Axios", "Cennydd Bowles", "Michael Lopp", "Randy Hunt"]
-- speakers = ["Adam Connor", "Adam Cutler", "Erin L. Thomas, PhD", "Gail Swanson", "Ian Swinson", "Kristin Skinner", "Rebecca Miller-Webster"]
+- speakers = ["Adam Connor", "Adam Cutler", "Erin L. Thomas, PhD", "Gail Swanson", "Ian Swinson", "Kristin Skinner", "Rebecca Miller-Webster", "Xavier Wynn"]
 - lightning = ["Amanda Schonfeld", "Amy Cueva", "Chris Avore", "Tanseela Molani"]
 
 %nav.event-nav.group(data-js="event-nav")
@@ -253,9 +253,10 @@ summary: Learn design leadership skills from Slack, Etsy, Adaptive Path/Capital 
           &#8212;
           %time(datetime="12:00") 12:00
         %td
-          -# %a(href="#cindy-chastain" rel="nofollow")
-          %strong TBA
-          -# .event-schedule-offset Design-Driven Innovation at Scale
+          %a(href="#xavier-wynn" rel="nofollow")
+            %strong Xavier Wynn
+            .event-schedule-offset Moving Fast with the Ultimate Driving Machine
+
       %tr
         %th
           %time(datetime="12:00") 12:00
@@ -447,6 +448,12 @@ summary: Learn design leadership skills from Slack, Etsy, Adaptive Path/Capital 
       %p What do Deadpool, Superman, Elastic Man, Mr. Mxyzptlk, Multiple Man and a Design Researcher have in common? Super powers!
  
       %p Yes, Design Researchers have super powers, and they may be the best super hero of them all! While most super heroes have only one or two powers, immortality, x-ray vision, elasticity, re-animation and replication are all super powers of the Design Researcher. And, these powers are used for good.
+
+    - content_for :talk_xavier_wynn do
+      
+      %h3 Moving Fast with the Ultimate Driving Machine
+
+      %p We will review the good, the bad and the ugly of the agile process through a BMW case study: BMW wanted to launch a new connected car at CES 2016. They asked Manifest to help introduce an agile, customer-centric design processes into their organization to achieve this goal. 
 
     %h3 Keynotes
     = partial "partials/events/speakers", locals: {speakers: keynotes}
