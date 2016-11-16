@@ -1,0 +1,24 @@
+---
+title: "2017 Events Update"
+date: 2016-11-16 01:00 CDT
+category: posts
+tags: chicago
+---
+
+Howdy folks!
+
+We&#8217;re busy getting all the things updated and doing some housekeeping from our 2016 events.
+
+While that&#8217;s happening, we wanted to let you know that we know our schedule for next year, and it looks like this:
+
+<ul class="list-ul">
+  <li><strong><a href="/events/2017/ux-camp/">UX Camp</a></strong> &#8212; Saturday, February 11th</li>
+  <li><strong>TBD Camp</strong> &#8212; Saturday, June 3rd</li>
+  <li><strong><a href="/events/2017/prototypes-process-play/">Prototypes, Process &amp; Play</a></strong> &#8212; Thursday &amp; Friday August 10th &amp; 11th</li>
+</ul>
+
+READMORE
+
+Feel free to <a href="/proposal/">submit a talk to UX Camp</a> or purchase tickets to UX Camp and/or Prototypes, Process &amp; Play. (Really great early rates right now!)
+
+Thank you for your continued support! We look forward to bringing you more high-quality events in 2017!
