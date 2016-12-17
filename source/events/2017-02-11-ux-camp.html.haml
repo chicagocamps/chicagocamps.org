@@ -11,7 +11,7 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
 - sponsors = ["Columbia College", "Rosenfeld"]
 - keynotes = []
-- speakers = []
+- speakers = ["Daniel Orbach", "Lauren Lucchese"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -25,8 +25,8 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
           %a(href="#keynotes" rel="nofollow") Keynotes
         %li
           %a(href="#schedule" rel="nofollow") Schedule
-        %li
-          %a(href="#speakers" rel="nofollow") Speakers
+      %li
+        %a(href="#speakers" rel="nofollow") Speakers
       %li
         %a(href="#location" rel="nofollow") Location
 
@@ -233,11 +233,28 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
             %time(datetime="2016-04-30T16:15") 4:15
           %td.event-schedule-offset(colspan="3") Closing Ceremonies
 
--#
-  %section#speakers.main-content.main-bg-alt
-    .container
+%section#speakers.main-content.main-bg-alt
+  .container
+    
+    - content_for :talk_daniel_orbach do
 
-      %h3.h-section Speakers
-      = partial "partials/events/speakers", locals: {speakers: speakers}
+      %h3 The Journey to a Better Bar Graph
+
+      %p How do you take something like a basic bar graph and make it beautiful without making it overly complex, or worse, misleading? Thinking about well-designed data visualization often conjures images of complex charts whose beauty lies in the dense texture of the data they bring to life. However, these visualizations are often lacking when it comes to being easily read and consumed by another human being. 
+
+      %p In this talk, I&#8217;ll discuss how to meet in the middle by visualizing information in an intuitive, but also beautiful way. We&#8217;ll walk through a brief history of data visualization and look at various types of graphs and charts as well as ways of getting visualizations &#8220;past default.&#8221; Attendees will walk away with a better understanding of why graphs are the way they are, the parts you can keep and the parts you can change, and a framework that can be used right away to create more compelling visualizations in their everyday work.
+
+    - content_for :talk_lauren_lucchese do
+
+      %h3 Real Talk: Designing Content That Builds Trust
+
+      %p As content strategy continues to grow, it&#8217;s adapting to the needs of different organizations. While it used to be synonymous with writing web content, copywriting, and content marketing, that&#8217;s no longer the case. Now, we content strategists design messages to create meaningful, personal interactions with customers across across app interfaces, error messages, transactional communications, and more. Essentially, we are experience designers. It&#8217;s just that instead of visual elements, our main tool is words.
+
+      %p With this increased influence comes responsibility. As designers and content strategists, we need to constantly be thoughtful about how we&#8217;re positioning messaging in our experiences. We need to build trust with our customers, and much like trust between people, the only way we can do this effectively is by being upfront, authentic, and honest in our communication at all times. When we&#8217;re not, we end up failing our customers in a big way.
+
+      %p Lauren will talk about her experience as a content strategist on design and product teams at Capital One, and will showcase some of her go-to content strategy techniques and tools. She&#8217;ll introduce some questions and frameworks that can be iteratively applied throughout our design processes to maintain the integrity of our content. Lauren is a UX content strategist, writer, and editor based in Chicago. She&#8217;s currently a UX Content Strategist at Capital One, where she uses words to design product experiences that feel like meaningful, personal conversations with customers.
+
+    %h3.h-section Speakers
+    = partial "partials/events/speakers", locals: {speakers: speakers}
 
 = partial "partials/events/location-columbia-film-row"
