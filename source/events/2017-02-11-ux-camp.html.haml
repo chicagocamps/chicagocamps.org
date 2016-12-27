@@ -10,7 +10,7 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 ---
 
 - sponsors = ["Columbia College", "Rosenfeld"]
-- keynotes = []
+- keynotes = ["Jeff Eaton"]
 - speakers = ["Daniel Orbach", "Lauren Lucchese", "Mike Gorgone"]
 
 %nav.event-nav.group(data-js="event-nav")
@@ -67,12 +67,19 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
     = partial "partials/events/sponsors", locals: {sponsors: sponsors}
 
--#
-  %section#keynotes.main-content.main-bg-alt
-    .container
+%section#keynotes.main-content.main-bg-alt
+  .container
 
-      %h3.h-section Keynotes
-      = partial "partials/events/speakers", locals: {speakers: keynotes}
+    - content_for :talk_jeff_eaton do
+
+      %h3 The Map Is Not The Territory: Collaborative Content Modeling for Digital Teams
+
+      %p The rise of content strategy has given digital teams a new way to tackle the challenges of publishing and product design. Concepts like a shared &#8220;content model&#8221; promise better communication and coordination… but somehow, most teams still manage to talk past each other.
+
+      %p Developers, designers, content editors, and stakeholders all care about different aspects of the content—and use different tools to capture their pieces of the puzzle. The good news is that these different views don&#8217;t have to conflict. By using each discipline&#8217;s perspectives to inform the others, we can gain a clearer and richer understanding of the content-avoiding common pitfalls, developing better lines of communication, and spotting often-overlooked opportunities for improvement.
+
+    %h3.h-section Keynotes
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 -#
   %section#schedule.main-content.main-bg-highlight
