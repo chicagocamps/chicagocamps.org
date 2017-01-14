@@ -379,6 +379,14 @@ Dave Kiss:
   bio: |
     <p>Dave Kiss branches from the designer/developer model and is interested in shifting the paradigm that learning always has to be from the top down. He currently writes code and love-emails at <a href="http://greyscalegorilla.com/" rel="nofollow">Greyscalegorilla</a>. In his free-time, Dave works on making stuff that he and other people use. He enjoys bitter beers, hiking amongst cedar trees, and writing biographies in third person.</p>
 
+David Farkas:
+  alias:   david-farkas
+  title:   "Sr. UX Designer, EPAM"
+  twitter: dafark8
+  website: dfarkasdesign.com
+  bio: |
+    <p>David is a User Experience Designer in Philadelphia, PA and co-author of UX Research: Practical Techniques for Designing Better Products. David started his career in-house, has worked in consultancies of all sizes, has had opportunities to craft the design process within an organization, and has also adopted and evolved existing paradigms. His experience includes a range of financial services systems, business systems, and e-commerce and cross-channel platforms.</p>
+
 Denise Jacobs:
   alias:   denise-jacobs
   title:   "Founder &amp; Chief Creativity Evangelist, The Creative Dose"
@@ -478,6 +486,14 @@ Gail Swanson:
   website: practicallyux.com
   bio: |
     <p>Gail Swanson is honored to be serving her country as Director of Strategy at 18F. She has spent over 15 years guiding teams to look deeper and learn about the people they serve to create technology that fits. Gail&#8217;s past work spans a diverse range of industries including financial services, leisure travel, advertising, and even brewery operations. She started her career as a front end developer with an education in fine art. With experience, she formed her creative approach to UX design, molding technology into usable systems. Gail is happiest untangling complexity into simple ideas and instigating office sing-alongs.</p>
+
+Garrett Polifka:
+  alias:   garrett-polifka
+  title:   "UX Lead, Paylocity"
+  twitter: garrettpolifka
+  website: garrettpolifka.com
+  bio: |
+    <p>Garrett Polifka is a User Experience Lead with over a decade of creative industry experience, ranging from marketing to front-end development as well as application design. At Paylocity, Garrett is responsible for contributing to the organization&#8217;s design system, Citrus, while supporting the evolution of their industry-leading, cloud-based payroll, and human capital management software. Garrett prides himself on his desire to consume more information than an average 1984 computer could handle each day.</p>
 
 Golli Hashemian:
   alias:   golli-hashemian
@@ -579,6 +595,13 @@ Jason Ulaszek:
   title:   "Executive Innovation Director, Manifest Digital"
   bio: |
     <p>Jason Ulaszek leads the customer experience strategy practice at <a href="http://manifestdigital.com/" rel="nofollow">Manifest Digital</a>. He has worked with some of the biggest and most influential brands in the country, including Allstate, Cardinal Health, Kohl&#8217;s and Mattel, helping them identify new business opportunities to improve brand awareness, customer satisfaction and loyalty. He is also Founder of UX for Good, an annual pro bono event that serves non-profits around the world by applying design-thinking practices to social challenges. Most recently, UX for Good partnered with The Dalai Lama Center for Peace and Education in Vancouver to design new tools for teaching social and emotional learning in primary and secondary education. He serves as an adjunct faculty member in the Human-Computer Interaction (HCI) Masters program at DePaul University in Chicago.</p>
+
+Jayne Spottswood:
+  alias:   jayne-spottswood
+  title:   "UX Architect, Paylocity"
+  twitter: spotted_jay
+  bio: |
+    <p>Jayne Spottswood is a UX Architect &#8211; or &#8220;UX Swiss Army Knife,&#8221; depending who you ask &#8211; at Paylocity, which develops industry-leading, cloud-based payroll and human capital management software solutions for medium-sized organizations. A few years after earning a communication degree in college, and working as a PR professional, Jayne could no longer resist her calling to create experiences that would help users get things done. To that end, she completed the HCI program at DePaul, and has since provided UX architecture, design, and research work for organizations ranging from small non-profits to large-scale enterprises. In Jayne&#8217;s free time, she serves an IxDA Chicago Local Leader, seeks out karaoke opportunities, and plays video games featuring anthropomorphic space rangers.</p>
 
 Jeff Eaton:
   alias:   jeff-eaton
@@ -812,7 +835,7 @@ Mike Kornacki:
   twitter: lordshales
   website: hellogoat.com
   bio: |
-    <p>Mike&#8217;s 20 years of work in the creative arts field has brought him to Johnson Controls, Inc. (JCI) where, over the last 5 years, he has built a team of User Experience specialists. Within JCI, he is currently setting creative direction for the building efficiency line of business and leading the charge establishing UX as a culture within the organization. He has created the first ever Design Language System (DLS) for JCI products, that has revolutionized the &#8220;Johnson Controls way&#8221; of product interaction. He continues to push the innovation boundaries of user experience into the future.</p>
+    <p>Mike&#8217;s 20 years of work in the creative arts field has brought him to Johnson Controls, Inc. (JCI) where, over the last five years, he has built a team of User Experience specialists. Within JCI, he is currently setting creative direction for the building efficiency line of business and leading the charge establishing UX as a culture within the organization. He has created the first ever Design Language System (DLS) for JCI products, that has revolutionized the &#8220;Johnson Controls way&#8221; of product interaction. He continues to push the innovation boundaries of user experience into the future.</p>
 
 Milissa Tarquini:
   alias:   milissa-tarquini
@@ -845,6 +868,15 @@ Nicole Maynard:
   bio: |
     <p>Nicole Maynard is a Lead Interaction Designer at GE Capital creating solutions that improve the way commercial lending teams work and use data to manage their growth. She got her start in graphic, information and interaction design and had been performing user research well before realizing it was an actual thing. Her work has been published nationally and has won various design awards.</p>
     <p>Nicole has recently taken the helm as the president of the <a href="http://www.meetup.com/UXPAChicago/" rel="nofollow">Chicago chapter of UXPA</a> (User Experience Professionals Association) and is a purveyor of health and nutrition. She has a possibly unhealthy love of birds, but don&#8217;t ever tell her that.</p>
+
+Nikola Ranguelov:
+  alias:   nikola-ranguelov
+  title:   "UX Lead &amp; VR/AR Enthusiast"
+  twitter: nickdotvr
+  website: nikolaranguelov.com
+  bio: |
+    <p>Nikola has been obsessed with technology since he was about five years old and his father brought home a computer from work. He quickly learned how to break it&#8230; and then, in turn, fix it (else he couldn&#8217;t play his games). He discovered that he experienced great joy in helping others figure out how to work their computers which ultimately led him to pursuing a career in the UX field.</p>
+    <p>Nikola&#8217;s been excited about touch-less, gesture, voice, and gaze-based interfaces since he first encountered them in science fiction. During his Master&#8217;s at DePaul HCI his capstone focused on the topic, over seven years ago. He backed the Oculus Rift on Kickstarter five years ago (in 2012) and has been anxiously anticipating the days when computing no longer consists of tapping and swiping on glass rectangles.</p> 
 
 Param Rengaiah:
   alias:   param-rengaiah
@@ -1100,7 +1132,7 @@ Victoria Pater:
   title:   "Collaborator, Co-founder, Designer, Quite Strong"
   twitter: typeis4lovers
   bio: |
-    <p>Victoria Pater is a digitally-focused creative in Chicago. She currently works as a senior mobile designer at Orbitz Worldwide. As a co-founder of Quite Strong, a female collaborative made up of 5 women, she is a dedicated advocate for diversity in the design and tech communities. When she&#8217;s not designing, you&#8217;ll find her teaching typography at The School of the Art Institute of Chicago or traveling the world in search of hoppy beers and tasty tacos.</p>
+    <p>Victoria Pater is a digitally-focused creative in Chicago. She currently works as a senior mobile designer at Orbitz Worldwide. As a co-founder of Quite Strong, a female collaborative made up of five women, she is a dedicated advocate for diversity in the design and tech communities. When she&#8217;s not designing, you&#8217;ll find her teaching typography at The School of the Art Institute of Chicago or traveling the world in search of hoppy beers and tasty tacos.</p>
 
 Will Hacker:
   alias:   will-hacker
@@ -1109,6 +1141,12 @@ Will Hacker:
   website: willhacker.net
   bio: |
     <p>Will Hacker is a Manager of Interaction Design at <a href="https://www.cars.com/" rel="nofollow">Cars.com</a>, where he leads a team responsible for experience design and usability for a portfolio of consumer-facing automotive shopping, research, and financing products. He is also the author of Mobile Prototyping with Axure 7, and his work has appeared in Boxes and Arrows, Mobile Commerce Daily, Smashing Magazine, UX Booth, and UX Magazine. Will is a frequent speaker at design events in Chicago.</p>
+
+Wilson Lee:
+  alias:   wilson-lee
+  title:   "Developer, Broadway.com"
+  bio: |
+    <p>Wilson is a developer at Broadway.com in NYC, working on web and Android development. He is very passionate about building clean and intuitive UI on web and mobile platforms, especially presenting complex data and information. Besides technology, he is a huge theatre fan (saw 44 Broadway shows in 2016) and an avid comic book reader. He loves bringing the sensitivity of performing and visual arts into his work. Most recently, he spoke at NYC Google Developer Group DevFest on building interactive UI with D3.js.</p>
 
 Xavier Wynn:
   alias: xavier-wynn
