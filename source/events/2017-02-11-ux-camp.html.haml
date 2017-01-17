@@ -11,7 +11,7 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
 - sponsors = ["Columbia College", "Lead Honestly", "MOMENT", "Rosenfeld"]
 - keynotes = ["Gail Swanson", "Jeff Eaton"]
-- speakers = ["Autumn Schultz", "Brad Nunnally", "Daniel Orbach", "David Farkas", "Garrett Polifka", "Jayne Spottswood", "Lauren Lucchese", "Mike Gorgone", "Nikola Ranguelov", "Wilson Lee"]
+- speakers = ["Autumn Schultz", "Brad Nunnally", "Daniel Orbach", "David Farkas", "Garrett Polifka", "Jayne Spottswood", "Lauren Johnson", "Lauren Lucchese", "Mike Gorgone", "Nikola Ranguelov", "Wilson Lee"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -22,9 +22,8 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
         %a(href="#details" rel="nofollow") Details
       %li
         %a(href="#keynotes" rel="nofollow") Keynotes
-      -#
-        %li
-          %a(href="#schedule" rel="nofollow") Schedule
+      %li
+        %a(href="#schedule" rel="nofollow") Schedule
       %li
         %a(href="#speakers" rel="nofollow") Speakers
       %li
@@ -89,164 +88,163 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
     %h3.h-section Keynotes
     = partial "partials/events/speakers", locals: {speakers: keynotes}
 
--#
-  %section#schedule.main-content.main-bg-highlight
-    .container
+%section#schedule.main-content.main-bg-highlight
+  .container
 
-      %h3.h-section Schedule
+    %h3.h-section Schedule
 
-      %table.event-schedule
+    %table.event-schedule
 
-        %tr
-          %th
-            %time(datetime="2016-04-30T08:30") 8:30
-            &#8212;
-            %time(datetime="2016-04-30T09:00") 9:00
-          %td.event-schedule-offset(colspan="3") Registration &amp; Breakfast
+      %tr
+        %th
+          %time(datetime="2017-02-11T08:30") 8:30
+          &#8212;
+          %time(datetime="2017-02-11T09:00") 9:00
+        %td.event-schedule-offset(colspan="3") Registration &amp; Breakfast
 
-        %tr
-          %th
-            %time(datetime="2016-04-30T09:00") 9:00
-            &#8212;
-            %time(datetime="2016-04-30T09:45") 9:45
-          %td(colspan="3")
-            %a(href="#carolyn-chandler" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Carolyn Chandler
-            .event-schedule-offset Lessons Learned from the World of Wearables Keynote
+      %tr
+        %th
+          %time(datetime="2017-02-11T09:00") 9:00
+          &#8212;
+          %time(datetime="2017-02-11T09:45") 9:45
+        %td(colspan="3")
+          %a(href="#gail-swanson" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Gail Swanson
+          .event-schedule-offset Presenting Design Work to Decision Makers Keynote
 
-        %tr
-          %th
-            %time(datetime="2016-04-30T09:45") 9:45
-            &#8212;
-            %time(datetime="2016-04-30T10:00") 10:00
-          %td.event-schedule-offset(colspan="3") Morning Break
+      %tr
+        %th
+          %time(datetime="2017-02-11T09:45") 9:45
+          &#8212;
+          %time(datetime="2017-02-11T10:00") 10:00
+        %td.event-schedule-offset(colspan="3") Morning Break
 
-        %tr
-          %th Rooms
-          %td.event-schedule-distributed
-            %strong Blue
-            %span.event-schedule-offset (Main)
-          %td.event-schedule-distributed
-            %strong Red
-          %td.event-schedule-distributed
-            %strong Yellow
+      %tr
+        %th Rooms
+        %td.event-schedule-distributed
+          %strong Blue
+          %span.event-schedule-offset (Main)
+        %td.event-schedule-distributed
+          %strong Red
+        %td.event-schedule-distributed
+          %strong Yellow
 
-        %tr
-          %th
-            %time(datetime="2016-04-30T10:00") 10:00
-            &#8212;
-            %time(datetime="2016-04-30T10:45") 10:45
-          %td
-            %a(href="#sean-johnson" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Sean Johnson
-            .event-schedule-offset How to Guarantee Product Failure
-          %td
-            %a(href="#stacy-kvernmo" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Stacy Kvernmo
-            .event-schedule-offset Curing Design Complacency
-          %td
-            %a(href="#jamie-mcatee" rel="nofollow")
-              %strong.event-schedule-room(data-room="Yellow") Jamie McAtee
-            .event-schedule-offset Get the Whole Team Together &amp; Design Jam
-        
-        %tr
-          %th
-            %time(datetime="2016-04-30T10:45") 10:45
-            &#8212;
-            %time(datetime="2016-04-30T11:00") 11:00
-          %td.event-schedule-offset(colspan="3") Break
-        
-        %tr
-          %th
-            %time(datetime="2016-04-30T11:00") 11:00
-            &#8212;
-            %time(datetime="2016-04-30T11:45") 11:45
-          %td
-            %a(href="#will-hacker" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Will Hacker
-            .event-schedule-offset Sketch-to-Code Prototyping: Moving Faster to Final Designs
-          %td
-            %a(href="#rachel-mcclung" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Rachel McClung
-            .event-schedule-offset Type Trials
-          %td
-            %a(href="#dennis-ellis" rel="nofollow")
-              %strong.event-schedule-room(data-room="Yellow") Katie Swindler &amp; Dennis Ellis
-            .event-schedule-offset The Checkbox That Ruined My Life: Exposing Manipulative Design
+      %tr
+        %th
+          %time(datetime="2017-02-11T10:00") 10:00
+          &#8212;
+          %time(datetime="2017-02-11T10:45") 10:45
+        %td
+          %a(href="#david-farkas" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") David Farkas
+          .event-schedule-offset UX Field Research Basics
+        %td
+          -# %a(href="#stacy-kvernmo" rel="nofollow")
+          %strong.event-schedule-room(data-room="Red") TBA
+          -# .event-schedule-offset TBA
+        %td
+          %a(href="#garrett-polifka" rel="nofollow")
+            %strong.event-schedule-room(data-room="Yellow") Garrett Polifka &amp; Jayne Spottswood
+          .event-schedule-offset Get the Whole Team Together &amp; Design Jam
+      
+      %tr
+        %th
+          %time(datetime="2017-02-11T10:45") 10:45
+          &#8212;
+          %time(datetime="2017-02-11T11:00") 11:00
+        %td.event-schedule-offset(colspan="3") Break
+      
+      %tr
+        %th
+          %time(datetime="2017-02-11T11:00") 11:00
+          &#8212;
+          %time(datetime="2017-02-11T11:45") 11:45
+        %td
+          %a(href="#brad-nunnally" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Brad Nunnally
+          .event-schedule-offset See What I Mean &#8212; The Hidden Language of the Body
+        %td
+          -# %a(href="#rachel-mcclung" rel="nofollow")
+          %strong.event-schedule-room(data-room="Red") TBA
+          -# .event-schedule-offset Type Trials
+        %td
+          %a(href="#mike-gorgone" rel="nofollow")
+            %strong.event-schedule-room(data-room="Yellow") Mike Gorgone
+          .event-schedule-offset ImprovUX: Creating a Culture with Trust, Empathy &amp; Collaboration
 
-        %tr
-          %th
-            %time(datetime="2016-04-30T11:45") 11:45
-            &#8212;
-            %time(datetime="2016-04-30T13:00") 1:00
-          %td.event-schedule-offset(colspan="3") Lunch
-        
-        %tr
-          %th
-            %time(datetime="2016-04-30T13:00") 1:00
-            &#8212;
-            %time(datetime="2016-04-30T13:45") 1:45
-          %td
-            %a(href="#natalie-kurz" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Natalie Kurz
-            .event-schedule-offset Vocal Exercises: Finding Your Voice
-          %td
-            %a(href="#phil-balagtas" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Phil Balagtas
-            .event-schedule-offset Shaping Signals: Preparing for the Future through Speculative Design
-          %td
-            %a(href="#rizwan-javaid" rel="nofollow")
-              %strong.event-schedule-room(data-room="Yellow") Rizwan Javaid
-            .event-schedule-offset You Too Can Be a Sketching Machine
+      %tr
+        %th
+          %time(datetime="2017-02-11T11:45") 11:45
+          &#8212;
+          %time(datetime="2017-02-11T13:00") 1:00
+        %td.event-schedule-offset(colspan="3") Lunch
+      
+      %tr
+        %th
+          %time(datetime="2017-02-11T13:00") 1:00
+          &#8212;
+          %time(datetime="2017-02-11T13:45") 1:45
+        %td
+          %a(href="#autumn-schultz" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Autumn Schultz
+          .event-schedule-offset Askin&#8217; Aint Easy
+        %td
+          %a(href="#lauren-johnson" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Lauren Johnson
+          .event-schedule-offset The Benefits of Iterative Failure
+        %td
+          %a(href="#wilson-lee" rel="nofollow")
+            %strong.event-schedule-room(data-room="Yellow") Wilson Lee
+          .event-schedule-offset Accessible UI for Color-Blind Users
 
-        %tr
-          %th
-            %time(datetime="2016-04-30T13:45") 1:45
-            &#8212;
-            %time(datetime="2016-04-30T14:00") 2:00
-          %td.event-schedule-offset(colspan="3") Break
-        
-        %tr
-          %th
-            %time(datetime="2016-04-30T14:00") 2:00
-            &#8212;
-            %time(datetime="2016-04-30T14:45") 2:45
-          %td
-            %a(href="#scott-sullivan" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Scott Sullivan
-            .event-schedule-offset Wearable Devices &amp; Everyone
-          %td
-            %a(href="#lauren-johnson" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Lauren Johnson
-            .event-schedule-offset Fostering Empathy in Collaborative Development
-          %td
-            %a(href="#kavitha-krishna" rel="nofollow")
-              %strong.event-schedule-room(data-room="Yellow") Kavitha Krishna
-            .event-schedule-offset Content First for Better User Experience
+      %tr
+        %th
+          %time(datetime="2017-02-11T13:45") 1:45
+          &#8212;
+          %time(datetime="2017-02-11T14:00") 2:00
+        %td.event-schedule-offset(colspan="3") Break
+      
+      %tr
+        %th
+          %time(datetime="2017-02-11T14:00") 2:00
+          &#8212;
+          %time(datetime="2017-02-11T14:45") 2:45
+        %td
+          %a(href="#lauren-lucchese" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Lauren Lucchese
+          .event-schedule-offset Real Talk: Designing Content That Builds Trust
+        %td
+          %a(href="#nikola-ranguelov" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Nikola Ranguelov
+          .event-schedule-offset Designing for All the Rs (VR/AR/SR/MR/HR/etc.)
+        %td
+          %a(href="#daniel-orbach" rel="nofollow")
+            %strong.event-schedule-room(data-room="Yellow") Daniel Orbach
+          .event-schedule-offset The Journey to a Better Bar Graph
 
-        %tr
-          %th
-            %time(datetime="2016-04-30T14:45") 2:45
-            &#8212;
-            %time(datetime="2016-04-30T15:15") 3:15
-          %td.event-schedule-offset(colspan="3") Afternoon Snack
-        
-        %tr
-          %th
-            %time(datetime="2016-04-30T15:15") 3:15
-            &#8212;
-            %time(datetime="2016-04-30T16:00") 4:00
-          %td(colspan="3")
-            %a(href="#cornelius-rachieru" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Cornelius Rachieru
-            .event-schedule-offset UXers Are from Mars, BAs Are from Venus Keynote
+      %tr
+        %th
+          %time(datetime="2017-02-11T14:45") 2:45
+          &#8212;
+          %time(datetime="2017-02-11T15:15") 3:15
+        %td.event-schedule-offset(colspan="3") Afternoon Snack
+      
+      %tr
+        %th
+          %time(datetime="2017-02-11T15:15") 3:15
+          &#8212;
+          %time(datetime="2017-02-11T16:00") 4:00
+        %td(colspan="3")
+          %a(href="#jeff-eaton" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Jeff Eaton
+          .event-schedule-offset The Map Is Not The Territory: Collaborative Content Modeling for Digital Teams Keynote
 
-        %tr
-          %th
-            %time(datetime="2016-04-30T16:00") 4:00
-            &#8212;
-            %time(datetime="2016-04-30T16:15") 4:15
-          %td.event-schedule-offset(colspan="3") Closing Ceremonies
+      %tr
+        %th
+          %time(datetime="2017-02-11T16:00") 4:00
+          &#8212;
+          %time(datetime="2017-02-11T16:15") 4:15
+        %td.event-schedule-offset(colspan="3") Closing Ceremonies
 
 %section#speakers.main-content.main-bg-alt
   .container
@@ -300,6 +298,12 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
       %p We&#8217;ve all had that moment where it becomes apparent that various designers created the UI for your product. It also becomes glaring that reusable parts of the UI have divergent thinking contributing to inconsistencies in experience. There is a trend enterprise organizations are embracing to address these common problems, Design Systems.
 
       %p Companies such as Salesforce and Google have embraced the notion with systems like Lighting and Material. At Paylocity, we&#8217;ve been fortunate to have found success creating the Citrus Design System alongside a company that grew to be a top twenty tech company that tripled its revenue. We&#8217;ll share some of our most critical findings; failures, challenges and defining moments over the last two years that helped shape our shift to a design mindset as an organization.
+
+    - content_for :talk_lauren_johnson do
+
+      %h3 The Benefits of Iterative Failure
+
+      %p As design thinkers, we must focus on the process and not just the end goal. This presentation will address the benefits of creating environments that allow teams to take risks and fail; through this failure, they become more resilient, more realistic, and more accountable. In turn, their future work is more thoughtful and they have a greater ability to be nimble, collaborate, and pivot away from ineffective ideas.
 
     - content_for :talk_lauren_lucchese do
 
