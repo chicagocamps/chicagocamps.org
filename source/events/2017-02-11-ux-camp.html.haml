@@ -11,7 +11,7 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
 - sponsors = ["Columbia College", "Lead Honestly", "MOMENT", "Rosenfeld"]
 - keynotes = ["Gail Swanson", "Jeff Eaton"]
-- speakers = ["Autumn Schultz", "Brad Nunnally", "Daniel Orbach", "David Farkas", "Garrett Polifka", "Jayne Spottswood", "Lauren Johnson", "Lauren Lucchese", "Mike Gorgone", "Nikola Ranguelov", "Wilson Lee"]
+- speakers = ["Autumn Schultz", "Brad Nunnally", "Daniel Orbach", "David Farkas", "Garrett Polifka", "Jayne Spottswood", "Lauren Johnson", "Lauren Lucchese", "Mike Gorgone", "Nikola Ranguelov", "Wilson Lee", "Zeke Binion"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -164,9 +164,9 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
             %strong.event-schedule-room(data-room="Blue") Brad Nunnally
           .event-schedule-offset See What I Mean &#8212; The Hidden Language of the Body
         %td
-          -# %a(href="#rachel-mcclung" rel="nofollow")
-          %strong.event-schedule-room(data-room="Red") TBA
-          -# .event-schedule-offset Type Trials
+          %a(href="#zeke-binion" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Zeke Binion
+          .event-schedule-offset Facilitating Google Design Sprints
         %td
           %a(href="#mike-gorgone" rel="nofollow")
             %strong.event-schedule-room(data-room="Yellow") Mike Gorgone
@@ -338,6 +338,18 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
       %h3 Accessible UI for Color-Blind Users
     
       %p According to non-profit organization Color Blind Awareness, 8% of men and 0.5% of women in the world suffer from color blindness. It is crucial to develop websites that are accessible to color-blind users. I will first go over the accessibility guidelines on color and contrast from W3C as well as a series of dos and don&#8217;ts examples. I will then dive into a set of new non-color-based animations and transitions. These can be used to provide interaction feedback (active state, select state, etc) using SVG and D3.js. The attendees will walk away with useful tools and principles to build accessible UI for color-blind users. 
+
+    - content_for :talk_zeke_binion do
+    
+      %h3 Facilitating Google Design Sprints
+      
+      %p Making products that customers love is hard. So giving yourself 1 week to do it sounds crazy.
+
+      %p But many companies spend months or years building products only to learn that their customers don&#8217;t want it. Google&#8217;s Design Sprint solves this problem by focusing a cross-disciplinary team on a clearly defined problem, empowering them to generate many creative ideas, and ensuring they are building the right product by putting a prototype in front of customers in just 5 days.
+
+      %p This highly collaborative process breaks down silos and brings cross-functional project teams together to ensure all product perspectives are represented. But facilitating the room for a full week can be difficult. You&#8217;ll need to manage different personalities, encourage divergent thinking, build agreement, teach new skills and keep everyone moving on schedule.
+
+      %p Zeke will teach you techniques he&#8217;s learned by effectively facilitating Google Design Sprints for clients at Table XI.
 
     %h3.h-section Speakers
     = partial "partials/events/speakers", locals: {speakers: speakers}
