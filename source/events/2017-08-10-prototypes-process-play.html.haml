@@ -9,7 +9,7 @@ summary: Learn design leadership skills from Slack, Etsy, Adaptive Path/Capital 
 ---
 - sponsors = ["Columbia College", "Lead Honestly", "Rosenfeld"]
 - keynotes = []
-- speakers = []
+- speakers = ["Jay Newton-Small"]
 - lightning = []
 
 %nav.event-nav.group(data-js="event-nav")
@@ -22,8 +22,8 @@ summary: Learn design leadership skills from Slack, Etsy, Adaptive Path/Capital 
       -#
         %li
           %a(href="#schedule" rel="nofollow") Schedule
-        %li
-          %a(href="#speakers" rel="nofollow") Speakers
+      %li
+        %a(href="#speakers" rel="nofollow") Speakers
       %li
         %a(href="#location" rel="nofollow") Location
 
@@ -41,10 +41,10 @@ summary: Learn design leadership skills from Slack, Etsy, Adaptive Path/Capital 
         %strong Prototypes, Process, &amp; Play
 
     .event-cta
-      %a.btn.btn-alt.btn-large(href="https://chicagocamps.ticketleap.com/prototypes-process-play-2016/dates/Aug-04-2016_at_0800AM" rel="nofollow")
+      %a.btn.btn-alt.btn-large(href="https://chicagocamps.ticketleap.com/prototypes-process--play-2017/dates/Aug-10-2017_at_0900AM" rel="nofollow")
         %strong Register Now for Prototypes, Process, &amp; Play
         %br
-        Only $225 &#8212; Ticket Prices Increase Each Month
+        Only $300 &#8212; Ticket Prices Increase Each Month
 
     %p It&#8217;s a two-day, single-track conference featuring inspiring keynote speakers, accomplished design leaders, and experienced professionals from major brands and organizations.
 
@@ -326,22 +326,29 @@ summary: Learn design leadership skills from Slack, Etsy, Adaptive Path/Capital 
           %td
             %strong Closing Ceremonies
 
--#
-  %section#speakers.main-content.main-bg-alt
-    .container
+%section#speakers.main-content.main-bg-alt
+  .container
 
-      %h3.h-section About Our Speakers
+    %h3.h-section About Our Speakers
 
-      %p Great thinking on design leadership is found in many forms in many industries. We&#8217;ve curated an incredible lineup of design experts, mentors, and coaches from diverse fields to help you down your own leadership path. Our single-track format ensures you&#8217;ll get to learn from every one of them.
+    %p Great thinking on design leadership is found in many forms in many industries. We&#8217;ve curated an incredible lineup of design experts, mentors, and coaches from diverse fields to help you down your own leadership path. Our single-track format ensures you&#8217;ll get to learn from every one of them.
 
+    -#
       %h3 Keynotes
       = partial "partials/events/speakers", locals: {speakers: keynotes}
 
-      %h3 Sessions
-      = partial "partials/events/speakers", locals: {speakers: speakers}
+    %h3 Sessions
+    = partial "partials/events/speakers", locals: {speakers: speakers}
 
+    -#
       %h3 Lightning
       = partial "partials/events/speakers", locals: {speakers: lightning}
+
+    .event-cta
+      %a.btn.btn-alt.btn-large(href="https://chicagocamps.ticketleap.com/prototypes-process--play-2017/dates/Aug-10-2017_at_0900AM" rel="nofollow")
+        %strong Register Now for Prototypes, Process, &amp; Play
+        %br
+        Only $300 &#8212; Ticket Prices Increase Each Month
 
 %section#location.main-content
   .container
@@ -381,6 +388,12 @@ summary: Learn design leadership skills from Slack, Etsy, Adaptive Path/Capital 
 
         %p Coming from out of town? We&#8217;ve set up a special rate for attendees at <a href="http://bookings.ihotelier.com/bookings.jsp?groupID=1734630&hotelID=5054" rel="nofollow">The Congress Plaza Hotel</a> on Michigan Avenue in the heart of Chicago.
 
+    .event-cta
+      %a.btn.btn-alt.btn-large(href="https://chicagocamps.ticketleap.com/prototypes-process--play-2017/dates/Aug-10-2017_at_0900AM" rel="nofollow")
+        %strong Register Now for Prototypes, Process, &amp; Play
+        %br
+        Only $300 &#8212; Ticket Prices Increase Each Month
+        
 %section.main-content
   .container
 
