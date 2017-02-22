@@ -10,7 +10,7 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
 ---
 
 - keynotes = []
-- speakers = ["Chris Courtney"]
+- speakers = ["Chris Courtney", "John Polacek"]
 - sponsors = ["Columbia College", "Lead Honestly", "Rosenfeld"]
 
 %nav.event-nav.group(data-js="event-nav")
@@ -92,6 +92,14 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
       %h3 Beyond the Show: The Making of Job-Ready Designers
     
       %p Every year thousands of designers graduate from our educational institutions, yet many are not hired even though thousands of open positions go unfilled. Why is that? At Bloc, we&#8217;ve had conversations with hundreds of design program graduates and the design leaders who have hired them. This gives us a very good read on how graduates successfully land jobs as well as what design leaders see in these graduates that makes them want to bring them on. This talk will break apart what the ideal design graduate looks like to industry and investigate how we as educators can prepare the next wave of graduates to have a greater chance of success.
+
+    - content_for :talk_john_polacek do
+
+      %h3 Rethinking CSS: Go Functional for Scaling, Performance and Simplicity
+
+      %p We can be our own worst enemies when it comes to creating CSS architectures. Functional CSS is a simple approach to creating and following consistent design patterns that lead to performant web applications at scale. If you do it right, the older a project gets, the less CSS you write. The only catch is that you may have to change the way you think.
+
+      %p We will look at real world applications of this technique, and show how you can apply it, from prototypes to large scale mature web applications.
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 

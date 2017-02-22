@@ -650,9 +650,11 @@ Jesse James Garrett:
 
 John Polacek:
   alias:   john-polacek
-  title:   "Senior Developer, Draftfcb"
+  title:   "Lead Web Developer, Gesture"
+  twitter: johnpolacek
+  website: johnpolacek.com
   bio: |
-    <p>John Polacek is a Senior Developer at Draftfcb Chicago. He has authored popular open source projects, drawn indie comic books, hit #1 on Hacker News and shows up #3 in the Google search results for Responsive Web Design. John has worked in the trenches doing big agency/big client digital work for years. &#8220;I love brass tacks and the nitty gritty. Ideas are great. Executions are better. Solving problems and building cool stuff is what I do.&#8221;</p>
+    <p>John Polacek leads front end at <a href="http://gesture.com/" rel="nofollow">Gesture</a>, the mobile fundraising platform for charity events, and is the author of many open source projects like Expressive CSS, Stacktable, Responsivator, BigVideo.js and Scrollorama.</p>
 
 Jon Buda:
   alias:   jon-buda
