@@ -1,448 +1,448 @@
 ---
-build/assets/img/about/brad.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/about/russ.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/about/shay.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/headers/axure-rp-7-workshop.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/headers/front-end-camp.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/headers/mobile-camp.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/headers/prototype-camp.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/headers/prototypes-process-play-2015.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/headers/prototypes-process-play-2016.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/headers/prototypes-process-play-2017.jpg: 2016-11-16 15:31:05.000000000
+build/assets/img/about/brad.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/about/russ.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/about/shay.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/headers/axure-rp-7-workshop.jpg: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/headers/prototyping-responsive-designs-axure-workshop.jpg: 2016-09-23
-  18:00:37.000000000 -05:00
-build/assets/img/events/headers/real-world-responsive-design-workshop.jpg: 2016-09-23
-  18:00:37.000000000 -05:00
-build/assets/img/events/headers/sketch-camp.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/headers/speaker-camp.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/headers/ux-camp.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/headers/workshop-workshop.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/locations/big-nerd-ranch.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/locations/columbia-college.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/locations/harrington.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/locations/madpow.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/locations/moz.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/locations/university-of-minnesota.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/logos/axure-rp-7-workshop-alt.png: 2016-09-23 18:00:56.000000000
-  -05:00
-build/assets/img/events/logos/axure-rp-7-workshop.png: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/logos/front-end-camp-alt.png: 2016-09-23 18:01:03.000000000
-  -05:00
-build/assets/img/events/logos/front-end-camp.png: 2016-09-23 18:00:59.000000000 -05:00
-build/assets/img/events/logos/mobile-camp-alt.png: 2016-09-23 18:01:05.000000000 -05:00
-build/assets/img/events/logos/mobile-camp.png: 2016-09-23 18:01:03.000000000 -05:00
-build/assets/img/events/logos/prototype-camp-alt.png: 2016-09-23 18:01:08.000000000
-  -05:00
-build/assets/img/events/logos/prototype-camp.png: 2016-09-23 18:01:08.000000000 -05:00
-build/assets/img/events/logos/prototypes-process-play-alt.png: 2016-09-23 18:01:11.000000000
-  -05:00
-build/assets/img/events/logos/prototypes-process-play.png: 2016-09-23 18:01:10.000000000
-  -05:00
-build/assets/img/events/logos/prototyping-responsive-designs-axure-workshop-alt.png: 2016-09-23
-  18:01:11.000000000 -05:00
-build/assets/img/events/logos/prototyping-responsive-designs-axure-workshop.png: 2016-09-23
-  18:00:37.000000000 -05:00
-build/assets/img/events/logos/real-world-responsive-design-workshop-alt.png: 2016-09-23
-  18:00:37.000000000 -05:00
-build/assets/img/events/logos/real-world-responsive-design-workshop.png: 2016-09-23
-  18:01:16.000000000 -05:00
-build/assets/img/events/logos/sketch-camp-alt.png: 2016-09-23 18:01:24.000000000 -05:00
-build/assets/img/events/logos/sketch-camp.png: 2016-09-23 18:01:20.000000000 -05:00
-build/assets/img/events/logos/speaker-camp-alt.png: 2016-09-23 18:01:26.000000000
-  -05:00
-build/assets/img/events/logos/speaker-camp.png: 2016-09-23 18:01:24.000000000 -05:00
-build/assets/img/events/logos/ux-camp-alt.png: 2016-09-23 18:01:30.000000000 -05:00
-build/assets/img/events/logos/ux-camp.png: 2016-09-23 18:01:29.000000000 -05:00
-build/assets/img/events/logos/workshop-workshop-alt.png: 2016-09-23 18:01:28.000000000
-  -05:00
-build/assets/img/events/logos/workshop-workshop.png: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/mentors/amanda-costello.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/mentors/amy-ellis.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/andy-crestodina.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/mentors/andy-hullinger.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/mentors/boon-sheridan.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/brad-nunnally.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/brad-weaver.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/christian-manzella.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/mentors/christine-perfetti.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/mentors/clark-sell.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/dana-chisnell.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/dennis-kardys.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/dennis-schleicher.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/mentors/dustin-ditommaso.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/mentors/gabby-hon.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/j-cornelius.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/jenn-downs.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/jessica-cherok.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/mentors/jon-hadden.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/kalpita-kothary.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/mentors/kyle-soucy.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/laura-creekmore.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/mentors/loren-norman.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/margot-bloomstein.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/mentors/marianne-sweeny.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/mentors/misty-weaver.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/nick-finck.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/nishant-kothary.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/mentors/rose-robinson.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/scott-berkun.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/tim-frick.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/mentors/tonia-bartz.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/abi-jones.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/adam-connor.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/adam-cutler.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/adam-lupu.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/adam-mccrimmon.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/adam-tramposh.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/alyssa-burke.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/amanda-schonfeld.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/ameeda-chowdhury.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/amy-cueva.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/andrea-mignolo.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/andy-hullinger.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/anna-van-slee.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/anthony-armendariz.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/arlo-bryan-guthrie.jpg: 2017-02-23 19:00:23.000000000
+build/assets/img/events/headers/front-end-camp.jpg: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/speakers/arthur-kay.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/ashleigh-axios.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/ashley-phillips.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/autumn-schultz.jpg: 2017-01-05 16:27:35.000000000
+build/assets/img/events/headers/mobile-camp.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/headers/prototype-camp.jpg: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/speakers/ben-lister.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/beth-mckeever.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/brad-nunnally.jpg: 2017-01-15 19:56:33.000000000
+build/assets/img/events/headers/prototypes-process-play-2015.jpg: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/speakers/braden-kowitz.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/brandon-satrom.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/brandy-agerbeck.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/brett-schilke.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/brian-lee.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/brian-montana.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/bridget-weis-urbain.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/brittanie-crain.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/carl-beien.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/carl-smith.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/carolyn-chandler.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/cennydd-bowles.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/chris-avore.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/chris-courtney.jpg: 2017-01-25 07:54:17.000000000
+build/assets/img/events/headers/prototypes-process-play-2016.jpg: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/speakers/chris-webb.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/christian-crumlish.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/cindy-chastain.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/clay-parker-jones.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/cornelius-rachieru.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/courtney-roberts.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/dan-klyn.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/dan-leboeuf.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/dan-shipton.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/daniel-orbach.jpg: 2016-12-17 12:37:15.000000000
+build/assets/img/events/headers/prototypes-process-play-2017.jpg: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/speakers/daniel-zarick.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/danny-schuman.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/darby-frey.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/dave-kiss.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/david-farkas.jpg: 2017-01-14 15:57:05.000000000 -06:00
-build/assets/img/events/speakers/denise-jacobs.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/dennis-ellis.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/dennis-kardys.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/dimple-rao.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/doc-waller.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/don-bora.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/dustin-ditommaso.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/dylan-richard.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/erin-l-thomas.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/fred-beecher.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/gabby-hon.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/gail-swanson.jpg: 2017-01-15 19:56:33.000000000 -06:00
-build/assets/img/events/speakers/garrett-polifka.jpg: 2017-01-14 15:57:05.000000000
+build/assets/img/events/headers/prototyping-responsive-designs-axure-workshop.jpg: 2017-03-01
+  21:48:32.000000000 -06:00
+build/assets/img/events/headers/real-world-responsive-design-workshop.jpg: 2017-03-01
+  21:48:32.000000000 -06:00
+build/assets/img/events/headers/sketch-camp.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/headers/speaker-camp.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/headers/ux-camp.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/headers/workshop-workshop.jpg: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/speakers/golli-hashemian.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/greg-nudelman.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/hannah-donovan.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/hillary-hartley.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/ian-swinson.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/j-cornelius.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/jacey-gulden.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/jamie-mcatee.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/jared-caponi.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/jared-spool.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/jason-cranford-teague.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/jason-kunesh.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/jason-ulaszek.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/jay-newton-small.jpg: 2017-02-16 18:48:38.000000000
+build/assets/img/events/locations/big-nerd-ranch.jpg: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/speakers/jayne-spottswood.jpg: 2017-01-14 15:57:05.000000000
+build/assets/img/events/locations/columbia-college.jpg: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/speakers/jeff-eaton.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/jen-myers.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/jesse-james-garrett.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/jessica-bertling.jpg: 2017-02-23 19:00:23.000000000
+build/assets/img/events/locations/harrington.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/locations/madpow.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/locations/moz.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/locations/university-of-minnesota.jpg: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/speakers/john-polacek.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/jon-buda.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/jon-hadden.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/jonathan-ozeran.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/jonathan-snook.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/kaitlin-yapchaian.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/kamaria-campbell.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/katherine-walker.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/kathi-kaiser.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/katie-swindler.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/kavitha-krishna.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/kristin-skinner.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/laralyn-mcwilliams.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/lauren-johnson.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/lauren-lucchese.jpg: 2016-12-17 12:37:15.000000000
+build/assets/img/events/logos/axure-rp-7-workshop-alt.png: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/speakers/marc-maleh.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/marcin-treder.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/margot-harrington.jpg: 2017-01-24 21:09:29.000000000
+build/assets/img/events/logos/axure-rp-7-workshop.png: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/speakers/mari-luangrath.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/marina-lin.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/mark-mceahern.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/mark-meeker.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/matthew-doty.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/matthew-milan.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/max-temkin.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/michael-lopp.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/mike-gibson.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/mike-gorgone.jpg: 2016-12-22 14:20:48.000000000 -06:00
-build/assets/img/events/speakers/mike-kornacki.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/milissa-tarquini.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/natalie-kurz.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/nathan-hinshaw.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/nicole-maynard.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/nikola-ranguelov.jpg: 2017-01-14 15:57:05.000000000
+build/assets/img/events/logos/front-end-camp-alt.png: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/speakers/param-rengaiah.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/peter-merholz.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/phil-balagtas.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/phil-sharp.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/philip-likens.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/quite-strong.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/rachel-mcclung.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/randy-hunt.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/rebecca-miller-webster.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/rizwan-javaid.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/ross-belmont.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/russ-unger.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/ryan-singer.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/ryan-wynia.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/samantha-starmer.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/scott-sullivan.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/sean-johnson.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/sharlene-king.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/sharon-bautista.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/shay-howe.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/simon-king.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/smith-schwartz.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/stacey-james.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/stacy-kvernmo.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/steve-julius.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/svetlin-denkov.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/tanseela-molani.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/temple-grandin.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/todd-zaki-warfel.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/tom-greever.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/travis-lafleur.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/victoria-pater.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/speakers/will-hacker.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/wilson-lee.jpg: 2017-01-14 15:57:06.000000000 -06:00
-build/assets/img/events/speakers/xavier-wynn.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/zac-siegel.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/speakers/zeke-binion.jpg: 2017-01-21 10:35:47.000000000 -06:00
-build/assets/img/events/sponsors/1-dollar-prototype.png: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/sponsors/8th-light.png: 2016-09-23 18:01:58.000000000 -05:00
-build/assets/img/events/sponsors/axure.png: 2016-09-23 18:01:59.000000000 -05:00
-build/assets/img/events/sponsors/bakery.png: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/sponsors/balsamiq.png: 2016-09-23 18:01:56.000000000 -05:00
-build/assets/img/events/sponsors/belly-up.png: 2016-09-23 18:02:00.000000000 -05:00
-build/assets/img/events/sponsors/binth.png: 2016-09-23 18:02:16.000000000 -05:00
-build/assets/img/events/sponsors/columbia-college.png: 2016-09-23 18:02:03.000000000
-  -05:00
-build/assets/img/events/sponsors/creative-dose.png: 2016-09-23 18:02:04.000000000
-  -05:00
-build/assets/img/events/sponsors/field-notes.png: 2016-09-23 18:02:03.000000000 -05:00
-build/assets/img/events/sponsors/fluid-ui.png: 2016-09-23 18:02:07.000000000 -05:00
-build/assets/img/events/sponsors/foiled-cupcakes.png: 2016-09-23 18:02:07.000000000
-  -05:00
-build/assets/img/events/sponsors/funsize.png: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/sponsors/gravity-tank.png: 2016-09-23 18:02:10.000000000 -05:00
-build/assets/img/events/sponsors/harrington.png: 2016-09-23 18:02:12.000000000 -05:00
-build/assets/img/events/sponsors/hotgloo.png: 2016-09-23 18:02:12.000000000 -05:00
-build/assets/img/events/sponsors/indigo-studio.png: 2016-09-23 18:02:14.000000000
-  -05:00
-build/assets/img/events/sponsors/jawhole.png: 2016-09-23 18:02:14.000000000 -05:00
-build/assets/img/events/sponsors/jockey.png: 2016-09-23 18:02:14.000000000 -05:00
-build/assets/img/events/sponsors/justinmind.png: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/sponsors/lead-honestly.png: 2017-01-05 16:27:37.000000000
+build/assets/img/events/logos/front-end-camp.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/logos/mobile-camp-alt.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/logos/mobile-camp.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/logos/prototype-camp-alt.png: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/sponsors/loop11.png: 2016-09-23 18:02:19.000000000 -05:00
-build/assets/img/events/sponsors/mailchimp.png: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/sponsors/moment.png: 2017-01-06 13:49:17.000000000 -06:00
-build/assets/img/events/sponsors/moo.png: 2016-09-23 18:02:20.000000000 -05:00
-build/assets/img/events/sponsors/nerdery.png: 2016-09-23 18:02:20.000000000 -05:00
-build/assets/img/events/sponsors/new-riders.png: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/sponsors/op-taylor-brewing.png: 2016-09-23 18:02:23.000000000
-  -05:00
-build/assets/img/events/sponsors/optimal-workshop.png: 2016-09-23 18:02:21.000000000
-  -05:00
-build/assets/img/events/sponsors/oreilly.png: 2016-09-23 18:02:25.000000000 -05:00
-build/assets/img/events/sponsors/parkwhiz.png: 2016-09-23 18:02:25.000000000 -05:00
-build/assets/img/events/sponsors/prettyprettyponies.png: 2016-09-23 18:02:24.000000000
-  -05:00
-build/assets/img/events/sponsors/protoio.png: 2016-09-23 18:02:28.000000000 -05:00
-build/assets/img/events/sponsors/protoshare.png: 2016-09-23 18:02:28.000000000 -05:00
-build/assets/img/events/sponsors/resource.png: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/sponsors/rga.png: 2016-09-23 18:02:29.000000000 -05:00
-build/assets/img/events/sponsors/rosenfeld-media.png: 2016-09-23 18:02:29.000000000
-  -05:00
-build/assets/img/events/sponsors/sapient-nitro.png: 2016-09-23 18:02:29.000000000
-  -05:00
-build/assets/img/events/sponsors/simplecast.png: 2016-09-23 18:02:32.000000000 -05:00
-build/assets/img/events/sponsors/sketch.png: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/events/sponsors/software-for-good.png: 2016-09-23 18:02:32.000000000
-  -05:00
-build/assets/img/events/sponsors/sticker-mule.png: 2016-09-23 18:02:35.000000000 -05:00
-build/assets/img/events/sponsors/synecore.png: 2016-09-23 18:02:33.000000000 -05:00
-build/assets/img/events/sponsors/tcg.png: 2016-09-23 18:02:36.000000000 -05:00
-build/assets/img/events/sponsors/terminus-threads.png: 2016-09-23 18:02:37.000000000
-  -05:00
-build/assets/img/events/sponsors/tesla-amazing.png: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/events/sponsors/thoughtbot.png: 2016-09-23 18:02:37.000000000 -05:00
-build/assets/img/events/sponsors/uie-aycl.png: 2016-09-23 18:02:38.000000000 -05:00
-build/assets/img/events/sponsors/uie.png: 2016-09-23 18:02:41.000000000 -05:00
-build/assets/img/events/sponsors/united-pixelworkers.png: 2016-09-23 18:02:39.000000000
-  -05:00
-build/assets/img/events/sponsors/user-testing.png: 2016-09-23 18:02:42.000000000 -05:00
-build/assets/img/events/sponsors/uxpin.png: 2016-09-23 18:02:42.000000000 -05:00
-build/assets/img/events/sponsors/webvisions.png: 2016-09-23 18:02:44.000000000 -05:00
-build/assets/img/events/sponsors/west-town-bakery.png: 2017-02-04 10:25:05.000000000
+build/assets/img/events/logos/prototype-camp.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/logos/prototypes-process-play-alt.png: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/sponsors/wework.png: 2016-09-23 18:02:47.000000000 -05:00
-build/assets/img/headers/default.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/headers/home.jpg: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/icons/i-chevron-left.png: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/icons/i-chevron-right.png: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/icons/i-menu.png: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/logos/logo-full-white.png: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/logos/logo-wordmark-gray.png: 2016-09-23 18:02:44.000000000 -05:00
-build/assets/img/logos/logo-wordmark-white.png: 2016-09-23 18:02:45.000000000 -05:00
-build/assets/img/sponsors/columbia-college.png: 2016-09-23 18:00:37.000000000 -05:00
-build/assets/img/sponsors/moment.png: 2017-01-06 13:55:29.000000000 -06:00
-build/assets/img/sponsors/rosenfeld.png: 2016-09-23 18:02:48.000000000 -05:00
-build/assets/img/sponsors/simplecast.png: 2016-09-23 18:02:54.000000000 -05:00
-build/assets/img/sponsors/uie.png: 2016-09-23 18:02:48.000000000 -05:00
-build/assets/img/sponsors/wework.png: 2016-09-23 18:02:49.000000000 -05:00
-build/assets/img/updates/2015-schedule-of-events/header.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/updates/all-things-chicago-camps/header.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
-build/assets/img/updates/in-remembrance-will-hacker/will-hacker.jpg: 2016-09-23 18:00:37.000000000
-  -05:00
+build/assets/img/events/logos/prototypes-process-play.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/logos/prototyping-responsive-designs-axure-workshop-alt.png: 2017-03-01
+  21:48:32.000000000 -06:00
+build/assets/img/events/logos/prototyping-responsive-designs-axure-workshop.png: 2017-03-01
+  21:48:32.000000000 -06:00
+build/assets/img/events/logos/real-world-responsive-design-workshop-alt.png: 2017-03-01
+  21:48:32.000000000 -06:00
+build/assets/img/events/logos/real-world-responsive-design-workshop.png: 2017-03-01
+  21:48:32.000000000 -06:00
+build/assets/img/events/logos/sketch-camp-alt.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/logos/sketch-camp.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/logos/speaker-camp-alt.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/logos/speaker-camp.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/logos/ux-camp-alt.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/logos/ux-camp.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/logos/workshop-workshop-alt.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/logos/workshop-workshop.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/mentors/amanda-costello.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/mentors/amy-ellis.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/andy-crestodina.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/mentors/andy-hullinger.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/mentors/boon-sheridan.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/brad-nunnally.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/brad-weaver.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/christian-manzella.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/mentors/christine-perfetti.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/mentors/clark-sell.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/dana-chisnell.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/dennis-kardys.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/dennis-schleicher.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/mentors/dustin-ditommaso.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/mentors/gabby-hon.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/j-cornelius.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/jenn-downs.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/jessica-cherok.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/mentors/jon-hadden.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/kalpita-kothary.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/mentors/kyle-soucy.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/laura-creekmore.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/mentors/loren-norman.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/margot-bloomstein.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/mentors/marianne-sweeny.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/mentors/misty-weaver.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/nick-finck.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/nishant-kothary.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/mentors/rose-robinson.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/scott-berkun.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/tim-frick.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/mentors/tonia-bartz.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/abi-jones.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/adam-connor.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/adam-cutler.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/adam-lupu.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/adam-mccrimmon.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/adam-tramposh.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/alyssa-burke.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/amanda-schonfeld.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/ameeda-chowdhury.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/amy-cueva.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/andrea-mignolo.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/andy-hullinger.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/anna-van-slee.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/anthony-armendariz.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/arlo-bryan-guthrie.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/arthur-kay.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/ashleigh-axios.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/ashley-phillips.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/autumn-schultz.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/ben-lister.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/beth-mckeever.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/brad-nunnally.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/braden-kowitz.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/brandon-satrom.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/brandy-agerbeck.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/brett-schilke.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/brian-lee.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/brian-montana.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/bridget-weis-urbain.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/brittanie-crain.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/carl-beien.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/carl-smith.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/carolyn-chandler.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/cennydd-bowles.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/chris-avore.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/chris-courtney.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/chris-webb.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/christian-crumlish.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/cindy-chastain.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/clay-parker-jones.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/cornelius-rachieru.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/courtney-roberts.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/dan-klyn.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/dan-leboeuf.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/dan-shipton.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/daniel-orbach.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/daniel-zarick.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/danny-schuman.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/darby-frey.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/dave-kiss.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/david-farkas.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/denise-jacobs.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/dennis-ellis.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/dennis-kardys.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/dimple-rao.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/doc-waller.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/don-bora.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/dustin-ditommaso.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/dylan-richard.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/erin-l-thomas.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/fred-beecher.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/gabby-hon.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/gail-swanson.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/garrett-polifka.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/golli-hashemian.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/greg-nudelman.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/hannah-donovan.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/hillary-hartley.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/ian-swinson.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/j-cornelius.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/jacey-gulden.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/jamie-mcatee.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/jared-caponi.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/jared-spool.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/jason-cranford-teague.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/jason-kunesh.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/jason-ulaszek.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/jay-newton-small.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/jayne-spottswood.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/jeff-eaton.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/jen-myers.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/jesse-james-garrett.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/jessica-bertling.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/john-polacek.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/jon-buda.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/jon-hadden.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/jonathan-ozeran.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/jonathan-snook.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/kaitlin-yapchaian.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/kamaria-campbell.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/katherine-walker.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/kathi-kaiser.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/katie-swindler.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/kavitha-krishna.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/kristin-skinner.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/laralyn-mcwilliams.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/lauren-johnson.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/lauren-lucchese.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/marc-maleh.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/marcin-treder.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/margot-harrington.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/mari-luangrath.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/marina-lin.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/mark-mceahern.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/mark-meeker.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/matthew-doty.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/matthew-milan.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/max-temkin.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/michael-lopp.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/mike-gibson.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/mike-gorgone.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/mike-kornacki.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/milissa-tarquini.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/natalie-kurz.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/nathan-hinshaw.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/nicole-maynard.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/nikola-ranguelov.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/param-rengaiah.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/peter-merholz.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/phil-balagtas.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/phil-sharp.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/philip-likens.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/quite-strong.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/rachel-mcclung.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/randy-hunt.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/rebecca-miller-webster.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/rizwan-javaid.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/ross-belmont.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/russ-unger.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/ryan-singer.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/ryan-wynia.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/samantha-starmer.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/scott-sullivan.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/sean-johnson.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/sharlene-king.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/sharon-bautista.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/shay-howe.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/simon-king.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/smith-schwartz.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/stacey-james.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/stacy-kvernmo.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/steve-julius.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/svetlin-denkov.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/tanseela-molani.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/temple-grandin.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/todd-zaki-warfel.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/tom-greever.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/travis-lafleur.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/victoria-pater.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/speakers/will-hacker.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/wilson-lee.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/xavier-wynn.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/zac-siegel.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/zeke-binion.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/1-dollar-prototype.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/8th-light.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/axure.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/bakery.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/balsamiq.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/belly-up.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/binth.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/columbia-college.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/creative-dose.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/field-notes.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/fluid-ui.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/foiled-cupcakes.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/funsize.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/gravity-tank.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/harrington.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/hotgloo.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/indigo-studio.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/jawhole.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/jockey.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/justinmind.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/lead-honestly.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/loop11.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/mailchimp.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/moment.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/moo.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/nerdery.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/new-riders.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/op-taylor-brewing.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/optimal-workshop.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/oreilly.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/parkwhiz.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/prettyprettyponies.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/protoio.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/protoshare.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/resource.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/rga.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/rosenfeld-media.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/sapient-nitro.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/simplecast.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/sketch.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/software-for-good.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/sticker-mule.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/synecore.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/tcg.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/terminus-threads.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/tesla-amazing.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/thoughtbot.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/uie-aycl.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/uie.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/united-pixelworkers.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/user-testing.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/uxpin.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/webvisions.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/sponsors/west-town-bakery.png: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/events/sponsors/wework.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/headers/default.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/headers/home.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/icons/i-chevron-left.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/icons/i-chevron-right.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/icons/i-menu.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/logos/logo-full-white.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/logos/logo-wordmark-gray.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/logos/logo-wordmark-white.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/sponsors/columbia-college.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/sponsors/moment.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/sponsors/rosenfeld.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/sponsors/simplecast.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/sponsors/uie.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/sponsors/wework.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/updates/2015-schedule-of-events/header.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/updates/all-things-chicago-camps/header.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
+build/assets/img/updates/in-remembrance-will-hacker/will-hacker.jpg: 2017-03-01 21:48:32.000000000
+  -06:00
