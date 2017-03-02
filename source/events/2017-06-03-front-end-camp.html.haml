@@ -10,7 +10,7 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
 ---
 
 - keynotes = []
-- speakers = ["Arlo Bryan Guthrie", "Chris Courtney", "Jessica Bertling", "John Polacek"]
+- speakers = ["Arlo Bryan Guthrie", "Chris Courtney", "Jessica Bertling", "John Polacek", "Stacy Kvernmo"]
 - sponsors = ["Columbia College", "Lead Honestly", "Rosenfeld"]
 
 %nav.event-nav.group(data-js="event-nav")
@@ -112,6 +112,14 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
       %p We can be our own worst enemies when it comes to creating CSS architectures. Functional CSS is a simple approach to creating and following consistent design patterns that lead to performant web applications at scale. If you do it right, the older a project gets, the less CSS you write. The only catch is that you may have to change the way you think.
 
       %p We will look at real world applications of this technique, and show how you can apply it, from prototypes to large scale mature web applications.
+
+    - content_for :talk_stacy_kvernmo do
+
+      %h3 The Great State of Design with CSS Grid Layout &amp; Friends
+
+      %p For far too long we&#8217;ve been forced to reuse layout patterns that have worked in the past, creating a web full of sites that all look the same. Lack of browser support, no true layout system, and designers who are forced to make safe decisions for budget or timeline reasons have led us to create work that is rarely creative nor inspiring.
+
+      %p I&#8217;ve spent years exploring how we can make the web a more unique space. Many CSS properties have been overlooked, but support has grown and many of these features are available now or can be used as enhancements. One of these new features is CSS Grid Layout, which will play a major role in layout design. Having a true, 2 dimensional grid will give our layouts much more flexibility and it is on us to explore the possibilities.
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
