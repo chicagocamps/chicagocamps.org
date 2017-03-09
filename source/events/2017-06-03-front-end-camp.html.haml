@@ -9,7 +9,7 @@ header_image_url: https://flic.kr/p/nQfMy5
 summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit of UX and Design for good measure, Front-end Camp is the event you won&#8217;t want to miss!
 ---
 
-- keynotes = []
+- keynotes = ["Jen Myers"]
 - speakers = ["Arlo Bryan Guthrie", "Chris Courtney", "Don Bora", "Jessica Bertling", "John Polacek", "Stacy Kvernmo"]
 - sponsors = ["Columbia College", "Lead Honestly", "Rosenfeld"]
 
@@ -20,9 +20,8 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
         %a(href="#top" rel="nofollow") Front-end Camp
       %li
         %a(href="#details" rel="nofollow") Details
-      -#
-        %li
-          %a(href="#keynotes" rel="nofollow") Keynotes
+      %li
+        %a(href="#keynotes" rel="nofollow") Keynotes
         %li
           %a(href="#schedule" rel="nofollow") Schedule
       %li
@@ -59,12 +58,17 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
 
     = partial "partials/events/sponsors", locals: {sponsors: sponsors}
 
--#
-  %section#keynotes.main-content.main-bg-alt
-    .container
+%section#keynotes.main-content.main-bg-alt
+  .container
 
-      %h3.h-section Keynotes
-      = partial "partials/events/speakers", locals: {speakers: keynotes}
+    - content_for :talk_jen_myers do
+
+      %h3 Move at a Reasonable Speed and Balance Things
+
+      %p We know that the rapid pace of technology makes a challenging task for its creators and practitioners to keep up with its perpetual innovations. Those of us who inhabit the nebulous front-end design/development world, with its constantly changing tools and complexity, know this truth twice over. All of which suggests that it&#8217;s worthwhile to pause from time to time to think about how we think about it all. Let&#8217;s consider how the speed of technology affects our product quality, our continuing education and our community connection, and whether or not the philosophies we often use to navigate this world are likely lead us to the result we really want.
+
+    %h3.h-section Keynotes
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 -#
   %section#schedule.main-content.main-bg-highlight
