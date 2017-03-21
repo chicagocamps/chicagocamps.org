@@ -257,6 +257,16 @@ Carl Smith:
   bio: |
     <p>Carl Smith is an irreverent ditcher of the nine-to-five and mortal enemy of the overworked lifestyle. Owner and founder of nGen Works, Carl&#8217;s role is that of an advisor, to nGen and other companies, on how to create self-sustaining teams that perform at the highest levels. Carl has made a name for himself by creating a new framework for how we get things done, and by enabling us to realign our creative communities. When he&#8217;s not conducting business experiments with companies around the world, he&#8217;s busy sculpting a new face for the world of work&#8230; and play.</p>
 
+Carmen Medina:
+  alias:   carmen-medina
+  title:   "Heretic, Rebels at Work"
+  twitter: milouness
+  website: rebelsatwork.com
+  bio: |
+    <p>Carmen, a retired Senior Federal Executive with 32 years&#8217; experience in the Intelligence Community, is a recognized national and international expert on intelligence analysis, strategic thinking, diversity of thought, and innovation and intrapreneurs in the public sector. She is the co-author of the new book: Rebels At Work: A Handbook for Leading Change from Within and of the landmark Deloitte University Press paper on Diversity&#8217;s New Fronter: Diversity of Thought and the Future of the Workplace. Her story as a heretic and change agent at CIA is featured in Wharton School professor Adam Grant&#8217;s new bestseller Originals: How Non-Conformists Move the World.</p>
+    <p>From 2005-2007 Carmen was part of the executive team that led the CIA&#8217;s Analysis Directorate; in her last assignment before retiring she oversaw the CIA&#8217;s Lessons Learned program and led the Agency&#8217;s first effort to address the challenges posed by social networks, digital ubiquity, and the emerging culture of collaboration. She was a leader on diversity issues at the CIA, serving on equity boards at all organizational levels and across Directorates. She was the first CIA executive to conceptualize many IT applications now used by analysts, including online production, collaborative tools, and Intellipedia, a project she personally green-lighted; as a senior executive, she began using in 2005 social networking and blogs to reach her diverse workforce. Upon her retirement from CIA, she received the Distinguished Career Intelligence Medal. From 2011—2015, Carmen was a member of Deloitte Federal Consulting where she served as senior advisor and mentor to Deloitte&#8217;s flagship innovation program, GovLab.</p>
+    <p>Carmen describes herself as Puerto Rican by birth and Texan by nationality. She likes to garden and cook things that she has grown.</p>
+
 Carolyn Chandler:
   alias:   carolyn-chandler
   title:   |
@@ -337,6 +347,15 @@ Courtney Roberts:
   title:   "User Research Senior Expert, Market Logic Software"
   bio: |
     <p>Courtney Roberts has over five years of user-centered research experience in a variety of industries including healthcare and mobile. After two years of honing UX research skills as a consultant at GfK UX, she fulfilled a personal goal of living and working abroad by moving to Berlin, Germany. There she found herself on the client side as the sole UX researcher at Market Logic Software, a software company that helps companies plan, execute and reuse their market research.</p>
+
+Dan Brown:
+  alias:   dan-brown
+  title:   "Co-Founder, EightShapes"
+  twitter: brownorama
+  website: eightshapes.com
+  bio: |
+    <p>In 2006, Dan Brown co-founded EightShapes, a design firm based in Washington, DC. EightShapes designs digital products and systematizes design standards for Fortune 500 clients. Most recently, Dan has conducted user research for a higher education product, designed an application for architects seeking a license, and lead the design of a web-based consumer application for a major educational publishing company.</p>
+    <p>Dan&#8217;s two books, Communicating Design and Designing Together, deal with communications and collaboration on design teams, and are widely considered to be essential reading for UX designers. UX teams all over the world have played his game Surviving Design Projects, to improve their conflict management skills. His new book Practical Design Discovery deals with the very first phase of a project, in which the product team seeks to understand the design problem.</p>
 
 Dan Klyn:
   alias:   dan-klyn
@@ -459,6 +478,14 @@ Don Bora:
     <p>A few years ago, Don decided to give back to the Chicago community. He sought out opportunities to lend his experience to those who might benefit. He began mentoring at the Founder Institute and then The Code Academy (now The Starter League). In the summer of 2011, Don co-founded The Mobile Makers Academy and was the Chief Instructor for four years, ushering much needed iOS development talent into new careers.</p>
     <p>Don has been an outspoken advocate for women and girls in tech, seeking to bridge the technology gap by exposing the fun and creative side of programming. He frequently mentors both high school and college students who display an interest in technology and coding.</p>
     <p>Don is also a partner and co-founder of Eight Bit Studios. He loves meeting new developers, seeing their tremendous potential, and giving them the opportunity to be great. At Eight Bit Studios, Don develops software on various studio projects, careful to learn something new with each one.</p>
+
+Donna Lichaw:
+  alias:   donna-lichaw
+  title:   "Author of The User's Journey"
+  twitter: dlichaw
+  website: donnalichaw.com
+  bio: |
+    <p><a href="http://www.donnalichaw.com/" rel="nofollow">Donna Lichaw</a> is the author of <a href="https://www.amazon.com/The-Users-Journey-Storymapping-Products/dp/1933820314/" rel="nofollow">The User&#8217;s Journey: Storymapping Products That People Love</a>. Through her writing, speaking, and much loved <a href="http://www.donnalichaw.com/storymapping-workshop/" rel="nofollow">Storymapping Workshop</a>, Donna guides startups, non-profits, and global brands in optimizing their digital products and services by providing them with a simplified way to drive user engagement. Utilizing her &#8216;story first&#8217; approach, she helps organizations define and refine their value proposition, transform their thinking, and better engage with their core customers. Prior to her career in technology, she refined her talent for storytelling and narrative development as an award-winning documentary filmmaker.</p>
 
 Dustin DiTommaso:
   alias:   dustin-ditommaso
@@ -714,6 +741,13 @@ Jonathan Snook:
   bio: |
     <p>Jonathan Snook writes about tips, tricks, and bookmarks on his blog at <a href="http://snook.ca/" rel="nofollow">Snook.ca</a>. He has also written for A List Apart, 24ways, and .net magazine, and has co-authored two books, The Art and Science of CSS and Accelerated DOM Scripting. He has recently written the book, Scalable and Modular Architecture for CSS, sharing his experience and best practices. Snook currently works on the design team at Shopify.</p>
 
+Julia Keren-Detar:
+  alias:   julia-keren-detar
+  title:   "UX Designer, Untame"
+  twitter: quiltingcrow
+  bio: |
+    <p>Julia Keren-Detar is a game designer and developer based out of Chicago, IL. Currently she is the Creative Director for Untame, a studio shared by her and her husband. She is working on Mushroom 11 with Itay Keren, Simon and Kara Kono, contributing to the game design, UX and marketing. She&#8217;s worked on several casual and indie titles including Untame&#8217;s award-winning mobile game &#8220;Rope Rescue&#8221; and Arkadium&#8217;s hit Facebook game &#8220;Mahjongg Dimensions Blast&#8221;. At Arkadium, she was a senior developer at the R&D department, prototyping and designing dozens of games. Julia is also an avid quilter and a hobby game historian.</p>
+
 Kamaria Campbell:
   alias:   kamaria-campbell
   title:   "User Experience Consultant, IBM"
@@ -838,11 +872,13 @@ Matthew Doty:
 
 Matthew Milan:
   alias:   matthew-milan
-  title:   "CEO &amp; Design Leader,Normative"
+  title:   "CEO, Normative"
   twitter: mmilan
-  website: normative.com/author/matthew
+  website: normative.com
   bio: |
-    <p>Matthew Milan is a designer and entrepreneur with a deep interest in the intersection of software and systems. He has spent the last 15 years exploring the overlap between people, technology and the physical world and has designed everything from spatial technology to ski hills. Matthew is the co-founder and CEO of Normative, a strategic software design firm based in Toronto with clients across North America. In his free time, he obsesses over soft systems theory, maneuver warfare strategy, urban technologies, and the notion of the hacker family.</p>
+    <p>Matthew is a complex systems specialist with a focus on software innovation. He has degrees in Ski Area Management, Geographic Information Systems and Environmental Planning, and has spent most of his career helping organizations make concrete decisions about the future through the integration of strategic design and technology prototyping.</p>
+    <p>Matthew has spent the last decade at Normative leading teams on the fuzzy front end of emerging technologies. Along the way he&#8217;s discovered that when you work at the intersection of people and technology, change is the only constant. Dealing with ambiguity is what gets him up in the morning.</p>
+    <p>Matthew married with three children under 10 years old. They ski a lot.</p>
 
 Max Temkin:
   alias:   max-temkin
@@ -912,11 +948,11 @@ Nathan Hinshaw:
 
 Nicole Maynard:
   alias:   nicole-maynard
-  title:   "Interaction Design Lead, GE Capital"
+  title:   "Head of User Experience, Hyatt"
   twitter: punkynixter
   bio: |
-    <p>Nicole Maynard is a Lead Interaction Designer at GE Capital creating solutions that improve the way commercial lending teams work and use data to manage their growth. She got her start in graphic, information and interaction design and had been performing user research well before realizing it was an actual thing. Her work has been published nationally and has won various design awards.</p>
-    <p>Nicole has recently taken the helm as the president of the <a href="http://www.meetup.com/UXPAChicago/" rel="nofollow">Chicago chapter of UXPA</a> (User Experience Professionals Association) and is a purveyor of health and nutrition. She has a possibly unhealthy love of birds, but don&#8217;t ever tell her that.</p>
+    <p>Nicole Maynard is the Head of User Experience at Hyatt leading a team of researchers, interaction and visual designers, creating solutions that elevate Hyatt&#8217;s digital footprint and enhance the guest experience. She has taken the helm as president of the Chicago chapter of UXPA (User Experience Professionals Association).</p>
+    <p>Nicole is a versatile UX professional; she has a foundation in graphic, information and interaction design and has been performing user research well before realizing it was a profession. She has always found the inner workings of our minds to be a compelling subject of study. Her work has been published nationally and has won various design awards. If you want to get her chatting, ask about her talking budgie or her commitment to health and wellness.</p>
 
 Nikola Ranguelov:
   alias:   nikola-ranguelov

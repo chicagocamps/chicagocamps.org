@@ -9,8 +9,8 @@ summary: Learn design leadership skills from Slack, Etsy, Adaptive Path/Capital 
 ---
 - sponsors = ["Columbia College", "Lead Honestly", "Rosenfeld"]
 - keynotes = []
-- speakers = ["Jay Newton-Small"]
-- lightning = []
+- speakers = ["Carmen Medina", "Dan Brown", "Donna Lichaw", "Jay Newton-Small", "Matthew Milan"]
+- lightning = ["Julia Keren-Detar", "Nicole Maynard"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -340,9 +340,8 @@ summary: Learn design leadership skills from Slack, Etsy, Adaptive Path/Capital 
     %h3 Sessions
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
-    -#
-      %h3 Lightning
-      = partial "partials/events/speakers", locals: {speakers: lightning}
+    %h3 Lightning
+    = partial "partials/events/speakers", locals: {speakers: lightning}
 
     .event-cta
       %a.btn.btn-alt.btn-large(href="https://chicagocamps.ticketleap.com/prototypes-process--play-2017/dates/Aug-10-2017_at_0900AM" rel="nofollow")
