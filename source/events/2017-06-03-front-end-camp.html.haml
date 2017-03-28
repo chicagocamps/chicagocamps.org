@@ -10,7 +10,7 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
 ---
 
 - keynotes = ["Jen Myers"]
-- speakers = ["Arlo Bryan Guthrie", "Brad Larson", "Chris Courtney", "Don Bora", "Jessica Bertling", "John Polacek", "Rudy Rigot", "Stacy Kvernmo"]
+- speakers = ["Arlo Bryan Guthrie", "Brad Larson", "Chris Courtney", "Don Bora", "Jessica Bertling", "John Polacek", "Rudy Rigot", "Stacy Kvernmo", "Taylor Poulost"]
 - sponsors = ["Columbia College", "Lead Honestly", "Rosenfeld"]
 
 %nav.event-nav.group(data-js="event-nav")
@@ -145,6 +145,21 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
       %p For far too long we&#8217;ve been forced to reuse layout patterns that have worked in the past, creating a web full of sites that all look the same. Lack of browser support, no true layout system, and designers who are forced to make safe decisions for budget or timeline reasons have led us to create work that is rarely creative nor inspiring.
 
       %p I&#8217;ve spent years exploring how we can make the web a more unique space. Many CSS properties have been overlooked, but support has grown and many of these features are available now or can be used as enhancements. One of these new features is CSS Grid Layout, which will play a major role in layout design. Having a true, 2 dimensional grid will give our layouts much more flexibility and it is on us to explore the possibilities.
+
+    - content_for :talk_taylor_poulost do
+
+      %h3 Ironing Pixels &ndash; How to Achieve Perfect Type on the Web
+
+      %p Designers are an obsessive group of people, especially where type is concerned. 18th Century type designer John Baskerville famously ironed each sheet of paper and brewed his own ink to achieve darker, more uniform letters. This attention to detail produced books that noticeably advanced the state of the art.
+
+      %p However, as design has become more digital and less tactile, designers have become removed from the process of setting type. Few understand how the bits on their hard drive get turned into letterforms on the screen. As Mig Reyes pointed out, modern interfaces are 90 percent typography, and it is more important than ever to set type effectively. By learning more about the process of how type gets rendered on a screen, we&#8217;ll be equipped to sweat the details and build beautiful, typographically pristine websites.
+
+      %p In this talk, we&#8217;ll get into the nitty gritty of how type is rendered. We&#8217;ll cover:
+
+      %ul.list-ul
+        %li What information goes into a font file, and how to tell if a font has been built to work effectively on a wide variety of screens
+        %li Web font loading and rendering, and how this process is different than what you might be familiar with in Sketch or Illustrator
+        %li Emerging standards—like variable fonts—that will change the way we set type on the web in the upcoming years
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
