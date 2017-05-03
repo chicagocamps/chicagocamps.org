@@ -9,8 +9,8 @@ header_image_url: https://flic.kr/p/nQfMy5
 summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit of UX and Design for good measure, Front-end Camp is the event you won&#8217;t want to miss!
 ---
 
-- keynotes = ["Jen Myers"]
-- speakers = ["Arlo Bryan Guthrie", "Brad Larson", "Chris Courtney", "Don Bora", "Jessica Bertling", "John Polacek", "Kurt Cunningham", "Rebecca Miller-Webster", "Rudy Rigot", "Stacy Kvernmo", "Taylor Poulos"]
+- keynotes = ["Jen Myers", "Jim Remsik"]
+- speakers = ["Arlo Bryan Guthrie", "Brad Larson", "Brian Montana", "Chris Courtney", "Don Bora", "Jessica Bertling", "John Polacek", "Kurt Cunningham", "Rebecca Miller-Webster", "Rudy Rigot", "Stacy Kvernmo", "Taylor Poulos"]
 - sponsors = ["Columbia College", "Lead Honestly", "Rosenfeld"]
 
 %nav.event-nav.group(data-js="event-nav")
@@ -64,33 +64,181 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
 
     - content_for :talk_jen_myers do
 
-      %h3 Move at a Reasonable Speed and Balance Things
+      %h3 Move at a Reasonable Speed &amp; Balance Things
 
       %p We know that the rapid pace of technology makes a challenging task for its creators and practitioners to keep up with its perpetual innovations. Those of us who inhabit the nebulous front-end design/development world, with its constantly changing tools and complexity, know this truth twice over. All of which suggests that it&#8217;s worthwhile to pause from time to time to think about how we think about it all. Let&#8217;s consider how the speed of technology affects our product quality, our continuing education and our community connection, and whether or not the philosophies we often use to navigate this world are likely lead us to the result we really want.
+
+    - content_for :talk_jim_remsik do
+
+      %h3 Trust
+
+      %p As developers we&#8217;re part of a mesh of decisions large and small that impact the world around us. All of us have a set of tools that we use to address problems which is built on our experience. As we act together with others our collection of tools grows as do the expectations on us and those around us.
 
     %h3.h-section Keynotes
     = partial "partials/events/speakers", locals: {speakers: keynotes}
 
--#
-  %section#schedule.main-content.main-bg-highlight
-    .container
+%section#schedule.main-content.main-bg-highlight
+  .container
 
-      %h3.h-section Schedule
+    %h3.h-section Schedule
 
-      %h4 Coming soon!
+    %table.event-schedule
+
+      %tr
+        %th
+          %time(datetime="2017-02-11T08:30") 8:30
+          &#8212;
+          %time(datetime="2017-02-11T09:00") 9:00
+        %td.event-schedule-offset(colspan="3") Registration &amp; Breakfast
+
+      %tr
+        %th
+          %time(datetime="2017-02-11T09:00") 9:00
+          &#8212;
+          %time(datetime="2017-02-11T09:45") 9:45
+        %td(colspan="3")
+          %a(href="#jen-myers" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Jen Myers
+          .event-schedule-offset Move at a Reasonable Speed &amp; Balance Things Keynote
+
+      %tr
+        %th
+          %time(datetime="2017-02-11T09:45") 9:45
+          &#8212;
+          %time(datetime="2017-02-11T10:00") 10:00
+        %td.event-schedule-offset(colspan="3") Morning Break
+
+      %tr
+        %th Rooms
+        %td.event-schedule-distributed
+          %strong Blue
+          %span.event-schedule-offset (Main)
+        %td.event-schedule-distributed
+          %strong Red
+        %td.event-schedule-distributed
+          %strong Yellow
+
+      %tr
+        %th
+          %time(datetime="2017-02-11T10:00") 10:00
+          &#8212;
+          %time(datetime="2017-02-11T10:45") 10:45
+        %td
+          %a(href="#stacy-kvernmo" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Stacy Kvernmo
+          .event-schedule-offset The Great State of Design with CSS Grid Layout &amp; Friends
+        %td
+          %a(href="#jessica-bertling" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Jessica Bertling
+          .event-schedule-offset Tale of Two Redesigns
+        %td
+          %a(href="#taylor-poulos" rel="nofollow")
+            %strong.event-schedule-room(data-room="Yellow") Taylor Poulos
+          .event-schedule-offset Ironing Pixels &ndash; How to Achieve Perfect Type on the Web
+      
+      %tr
+        %th
+          %time(datetime="2017-02-11T10:45") 10:45
+          &#8212;
+          %time(datetime="2017-02-11T11:00") 11:00
+        %td.event-schedule-offset(colspan="3") Break
+      
+      %tr
+        %th
+          %time(datetime="2017-02-11T11:00") 11:00
+          &#8212;
+          %time(datetime="2017-02-11T11:45") 11:45
+        %td
+          %a(href="#kurt-cunningham" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Kurt Cunningham
+          .event-schedule-offset Let&#8217;s Refactor That Sass
+        %td
+          %a(href="#chris-courtney" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Chris Courtney
+          .event-schedule-offset Beyond the Show: The Making of Job-Ready Designers
+        %td
+          %a(href="#arlo-bryan-guthrie" rel="nofollow")
+            %strong.event-schedule-room(data-room="Yellow") Arlo Bryan Guthrie
+          .event-schedule-offset So They Agreed to a Design System. Now What?
+
+      %tr
+        %th
+          %time(datetime="2017-02-11T11:45") 11:45
+          &#8212;
+          %time(datetime="2017-02-11T13:00") 1:00
+        %td.event-schedule-offset(colspan="3") Lunch
+      
+      %tr
+        %th
+          %time(datetime="2017-02-11T13:00") 1:00
+          &#8212;
+          %time(datetime="2017-02-11T13:45") 1:45
+        %td
+          %a(href="#john-polacek" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") John Polacek
+          .event-schedule-offset Rethinking CSS: Go Functional for Scaling, Performance &amp; Simplicity
+        %td
+          %a(href="#don-bora" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Don Bora
+          .event-schedule-offset Hiring &amp; Cultivating Junior Talent
+        %td
+          %a(href="#rudy-rigot" rel="nofollow")
+            %strong.event-schedule-room(data-room="Yellow") Rudy Rigot
+          .event-schedule-offset Human Scaling on the Front-End
+
+      %tr
+        %th
+          %time(datetime="2017-02-11T13:45") 1:45
+          &#8212;
+          %time(datetime="2017-02-11T14:00") 2:00
+        %td.event-schedule-offset(colspan="3") Break
+      
+      %tr
+        %th
+          %time(datetime="2017-02-11T14:00") 2:00
+          &#8212;
+          %time(datetime="2017-02-11T14:45") 2:45
+        %td
+          %a(href="#rebecca-miller-webster" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Rebecca Miller-Webster
+          .event-schedule-offset All About the Client &amp; Server
+        %td
+          %a(href="#brad-larson" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Brad Larson
+          .event-schedule-offset HTML5 Animation &amp; Advertising
+        %td
+          %a(href="#brian-montana" rel="nofollow")
+            %strong.event-schedule-room(data-room="Yellow") Brian Montana
+          .event-schedule-offset Through the Lens of Design as a Developer
+
+      %tr
+        %th
+          %time(datetime="2017-02-11T14:45") 2:45
+          &#8212;
+          %time(datetime="2017-02-11T15:15") 3:15
+        %td.event-schedule-offset(colspan="3") Afternoon Snack
+      
+      %tr
+        %th
+          %time(datetime="2017-02-11T15:15") 3:15
+          &#8212;
+          %time(datetime="2017-02-11T16:00") 4:00
+        %td(colspan="3")
+          %a(href="#jim-remsik" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Jim Remsik
+          .event-schedule-offset Trust Keynote
+
+      %tr
+        %th
+          %time(datetime="2017-02-11T16:00") 4:00
+          &#8212;
+          %time(datetime="2017-02-11T16:15") 4:15
+        %td.event-schedule-offset(colspan="3") Closing Ceremonies
 
 %section#speakers.main-content.main-bg-alt
   .container
 
     %h3.h-section Speakers
-
-    %h3 Call for Speakers
-    
-    %p Are you interested in speaking at Front-End Camp? We sure hope so! <a href="/proposal/">Submit your talk</a> and let us know what&#8217;s on your mind to share.
-
-    %p First time speaker, or have limited experience? Let us know&mdash;we welcome new speakers and have been known to help folks round out their proposals.
-
-    %p <a href="/proposal/">Submit your talk</a>&mdash;come hang out with us in Chicago and share what you&#8217;ve learned!
 
     - content_for :talk_arlo_bryan_guthrie do
 
@@ -103,6 +251,14 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
       %h3 HTML5 Animation &amp; Advertising
 
       %p Brad will be discussing some of the challenges of digital design and animation. He will show how they solve some of those issues at BannerWave. In doing so, he will cover display ads and how BannerWave is innovating advertising on the web.
+
+    - content_for :talk_brian_montana do
+
+      %h3 Through the Lens of Design as a Developer
+
+      %p The discussions in digital workflow have focused on the expectation of the designer communicating and thinking like a developer, an artifact of the waterfall workflow. The dynamic of the emerging workflow, repositions the conversations away from the canon and invites others to use empathy when collaborating on projects. 
+
+      %p The talk will cover how I communicate as a developer through the perspective of designer and how making a designers life easier makes the current and future projects easier to manage.
 
     - content_for :talk_chris_courtney do
 
@@ -124,7 +280,7 @@ summary: If you want to ramp up your HTML, CSS, Javascript, and throw in a bit o
 
     - content_for :talk_john_polacek do
 
-      %h3 Rethinking CSS: Go Functional for Scaling, Performance and Simplicity
+      %h3 Rethinking CSS: Go Functional for Scaling, Performance &amp; Simplicity
 
       %p We can be our own worst enemies when it comes to creating CSS architectures. Functional CSS is a simple approach to creating and following consistent design patterns that lead to performant web applications at scale. If you do it right, the older a project gets, the less CSS you write. The only catch is that you may have to change the way you think.
 
