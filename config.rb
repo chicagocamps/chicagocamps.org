@@ -60,10 +60,18 @@ helpers do
     end
   end
   def event_logo(source)
-    "background-image: url('/assets/img/events/logos/#{source.data.alias}.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}.svg');"
+    if source.data.alias == 'prototypes-process-play' and Date.parse(source.data.date).strftime('%Y') == '2017'
+      "background-image: url('/assets/img/events/logos/#{source.data.alias}-2017.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}-2017.svg');"
+    else
+      "background-image: url('/assets/img/events/logos/#{source.data.alias}.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}.svg');"
+    end
   end
   def event_logo_alt(source)
-    "background-image: url('/assets/img/events/logos/#{source.data.alias}-alt.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}-alt.svg');"
+    if source.data.alias == 'prototypes-process-play' and Date.parse(source.data.date).strftime('%Y') == '2017'
+      "background-image: url('/assets/img/events/logos/#{source.data.alias}-alt-2017.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}-alt-2017.svg');"
+    else
+      "background-image: url('/assets/img/events/logos/#{source.data.alias}-alt.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}-alt.svg');"
+    end
   end
 end
 
