@@ -13,8 +13,8 @@ build/assets/img/events/headers/prototypes-process-play-2015.jpg: 2017-03-01 21:
   -06:00
 build/assets/img/events/headers/prototypes-process-play-2016.jpg: 2017-03-01 21:48:32.000000000
   -06:00
-build/assets/img/events/headers/prototypes-process-play-2017.jpg: 2017-03-01 21:48:32.000000000
-  -06:00
+build/assets/img/events/headers/prototypes-process-play-2017.jpg: 2017-05-04 20:58:15.000000000
+  -05:00
 build/assets/img/events/headers/prototyping-responsive-designs-axure-workshop.jpg: 2017-03-01
   21:48:32.000000000 -06:00
 build/assets/img/events/headers/real-world-responsive-design-workshop.jpg: 2017-03-01
@@ -45,6 +45,10 @@ build/assets/img/events/logos/mobile-camp.png: 2017-03-01 21:48:32.000000000 -06
 build/assets/img/events/logos/prototype-camp-alt.png: 2017-03-01 21:48:32.000000000
   -06:00
 build/assets/img/events/logos/prototype-camp.png: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/logos/prototypes-process-play-2017.png: 2017-05-04 20:58:14.000000000
+  -05:00
+build/assets/img/events/logos/prototypes-process-play-alt-2017.png: 2017-05-04 20:58:15.000000000
+  -05:00
 build/assets/img/events/logos/prototypes-process-play-alt.png: 2017-03-01 21:48:32.000000000
   -06:00
 build/assets/img/events/logos/prototypes-process-play.png: 2017-03-01 21:48:32.000000000
@@ -299,6 +303,8 @@ build/assets/img/events/speakers/matthew-milan.jpg: 2017-03-20 21:37:57.00000000
   -05:00
 build/assets/img/events/speakers/max-temkin.jpg: 2017-03-01 21:48:32.000000000 -06:00
 build/assets/img/events/speakers/michael-lopp.jpg: 2017-03-01 21:48:32.000000000 -06:00
+build/assets/img/events/speakers/mike-davidson.jpg: 2017-05-04 20:58:12.000000000
+  -05:00
 build/assets/img/events/speakers/mike-gibson.jpg: 2017-03-01 21:48:32.000000000 -06:00
 build/assets/img/events/speakers/mike-gorgone.jpg: 2017-03-01 21:48:32.000000000 -06:00
 build/assets/img/events/speakers/mike-kornacki.jpg: 2017-03-01 21:48:32.000000000
