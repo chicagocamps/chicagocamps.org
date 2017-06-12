@@ -9,7 +9,7 @@ summary: Learn design leadership skills from Slack, Etsy, Adaptive Path/Capital 
 ---
 - sponsors = ["Columbia College", "Lead Honestly", "Rosenfeld"]
 - keynotes = ["Jay Newton-Small", "Mike Davidson", "Scott Berkun"]
-- speakers = ["Carmen Medina", "Dan Brown", "Donna Lichaw", "Eli Silva", "Lisa Welchman​", "Matthew Milan", "Sofia Millares", "Dr. Steve Julius", "Tami Evnin"]
+- speakers = ["Carmen Medina", "Dan Brown", "Donna Lichaw", "Eli Silva", "Lisa Welchman​", "Matthew Milan", "Sofia Millares", "Tami Evnin", "Dr. Steve Julius"]
 - lightning = ["Julia Keren-Detar", "Nicole Maynard", "Suzanna Bierwirth"]
 
 %nav.event-nav.group(data-js="event-nav")
@@ -19,9 +19,8 @@ summary: Learn design leadership skills from Slack, Etsy, Adaptive Path/Capital 
         %a(href="#top" rel="nofollow") Prototypes, Process &amp; Play
       %li
         %a(href="#overview" rel="nofollow") Overview
-      -#
-        %li
-          %a(href="#schedule" rel="nofollow") Schedule
+      %li
+        %a(href="#schedule" rel="nofollow") Schedule
       %li
         %a(href="#speakers" rel="nofollow") Speakers
       %li
@@ -74,257 +73,258 @@ summary: Learn design leadership skills from Slack, Etsy, Adaptive Path/Capital 
 
     = partial "partials/events/sponsors", locals: {sponsors: sponsors}
 
--#
-  %section#schedule.main-content.main-bg-highlight
-    .container
+%section#schedule.main-content.main-bg-highlight
+  .container
 
-      %h3.h-section
-        Program
-        %span &amp;
-        Schedule
+    %h3.h-section
+      Program
+      %span &amp;
+      Schedule
 
-      %p Hone your design leadership skills over two days with us at Columbia College Chicago. A carefully curated single-track approach ensures that you can attend every session and have a truly shared experience with other attendees and speakers.
+    %p Hone your design leadership skills over two days with us at Columbia College Chicago. A carefully curated single-track approach ensures that you can attend every session and have a truly shared experience with other attendees and speakers.
 
-      %h3
-        .h-sm-caps-gray Day One
-        Thursday, August 11th
+    %h3
+      .h-sm-caps-gray Day One
+      Thursday, August 10th
 
-      %table.event-schedule
-        %tr
-          %th
-            %time(datetime="08:30") 8:30
-            &#8212;
-            %time(datetime="09:00") 9:00
-          %td
-            %strong Registration
-        %tr
-          %th
-            %time(datetime="09:00") 9:00
-            &#8212;
-            %time(datetime="09:15") 9:15
-          %td
-            %strong Welcome to Prototypes, Process &amp; Play
-        %tr
-          %th
-            %time(datetime="09:15") 9:15
-            &#8212;
-            %time(datetime="10:00") 10:00
-          %td
-            %a(href="#ashleigh-axios" rel="nofollow")
-              %strong Ashleigh Axios
-              .event-schedule-offset Designing for 1600 Penn. (Keynote)
-        %tr
-          %th
-            %time(datetime="10:00") 10:00
-            &#8212;
-            %time(datetime="10:45") 10:45
-          %td
-            %a(href="#erin-l-thomas" rel="nofollow")
-              %strong Erin L. Thomas, PhD
-              .event-schedule-offset The Inclusive Leaders&#8217; Playbook: Everyday Actions to Leverage Diversity &amp; Engage Teams
-        %tr
-          %th
-            %time(datetime="10:45") 10:45
-            &#8212;
-            %time(datetime="11:15") 11:15
-          %td
-            %strong Morning Break
-        %tr
-          %th
-            %time(datetime="11:15") 11:15
-            &#8212;
-            %time(datetime="12:00") 12:00
-          %td
-            %a(href="#kristin-skinner" rel="nofollow")
-              %strong Kristin Skinner
-              .event-schedule-offset Org Design for Design Orgs: Building &amp; Managing In-House Teams
-        %tr
-          %th
-            %time(datetime="12:00") 12:00
-            &#8212;
-            %time(datetime="13:15") 1:15
-          %td
-            %strong Lunch Break
-        %tr
-          %th
-            %time(datetime="13:15") 1:15
-            &#8212;
-            %time(datetime="13:30") 1:30
-          %td
-            %a(href="#amanda-schonfeld" rel="nofollow")
-              %strong Amanda Schonfeld
-              .event-schedule-offset A Human Centered Approach to Talent Acquisition
-        %tr
-          %th
-            %time(datetime="13:30") 1:30
-            &#8212;
-            %time(datetime="13:45") 1:45
-          %td
-            %a(href="#amy-cueva" rel="nofollow")
-              %strong Amy Cueva
-              .event-schedule-offset Purpose Driven Design
-        %tr
-          %th
-            %time(datetime="13:45") 1:45
-            &#8212;
-            %time(datetime="14:30") 2:30
-          %td
-            %a(href="#adam-connor" rel="nofollow")
-              %strong Adam Connor
-              .event-schedule-offset Building Creative, Collaborative Cultures
-        %tr
-          %th
-            %time(datetime="14:30") 2:30
-            &#8212;
-            %time(datetime="15:00") 3:00
-          %td
-            %strong Afternoon Break
-        %tr
-          %th
-            %time(datetime="15:00") 3:00
-            &#8212;
-            %time(datetime="15:45") 3:45
-          %td
-            %a(href="#gail-swanson" rel="nofollow")
-              %strong Gail Swanson
-              .event-schedule-offset Designer in the Machine
-        %tr
-          %th
-            %time(datetime="15:45") 3:45
-            &#8212;
-            %time(datetime="16:30") 4:30
-          %td
-            %a(href="#randy-hunt" rel="nofollow")
-              %strong Randy Hunt
-              .event-schedule-offset Fireside Chat with Randy Hunt (Keynote)
-        %tr
-          %th
-            %time(datetime="16:30") 4:30
-            &#8212;
-            %time(datetime="18:00") 6:00
-          %td
-            %strong Happy Hour
+    %table.event-schedule
+      %tr
+        %th.event-schedule-distributed
+          %time(datetime="08:30") 8:30
+          &#8212;
+          %time(datetime="09:00") 9:00
+        %td
+          %strong Registration
+      %tr
+        %th
+          %time(datetime="09:00") 9:00
+          &#8212;
+          %time(datetime="09:15") 9:15
+        %td
+          %strong Welcome to Prototypes, Process &amp; Play
+      %tr
+        %th
+          %time(datetime="09:15") 9:15
+          &#8212;
+          %time(datetime="10:00") 10:00
+        %td
+          %a(href="#scott-berkun" rel="nofollow")
+            %strong Scott Berkun
+            .event-schedule-offset The Dance of the Possible (Keynote)
+      %tr
+        %th
+          %time(datetime="10:00") 10:00
+          &#8212;
+          %time(datetime="10:45") 10:45
+        %td
+          %a(href="#matthew-milan" rel="nofollow")
+            %strong Matthew Milan
+            .event-schedule-offset Making Moonshots
+      %tr
+        %th
+          %time(datetime="10:45") 10:45
+          &#8212;
+          %time(datetime="11:15") 11:15
+        %td
+          %strong Morning Break
+      %tr
+        %th
+          %time(datetime="11:15") 11:15
+          &#8212;
+          %time(datetime="12:00") 12:00
+        %td
+          %a(href="#carmen-medina" rel="nofollow")
+            %strong Carmen Medina
+            .event-schedule-offset Lead Above Mediocre Thinking
+      %tr
+        %th
+          %time(datetime="12:00") 12:00
+          &#8212;
+          %time(datetime="13:15") 1:15
+        %td
+          %strong Lunch Break
+      %tr
+        %th
+          %time(datetime="13:15") 1:15
+          &#8212;
+          %time(datetime="13:30") 1:30
+        %td
+          %a(href="#julia-keren-detar" rel="nofollow")
+            %strong Julia Keren Detar
+            .event-schedule-offset Talk TBA
+      %tr
+        %th
+          %time(datetime="13:30") 1:30
+          &#8212;
+          %time(datetime="13:45") 1:45
+        %td
+          %a(href="#nicole-maynard" rel="nofollow")
+            %strong Nicole Maynard
+            .event-schedule-offset Cultivating Happiness
+      %tr
+        %th
+          %time(datetime="13:45") 1:45
+          &#8212;
+          %time(datetime="14:30") 2:30
+        %td
+          %a(href="#donna-lichaw" rel="nofollow")
+            %strong Donna Lichaw
+            .event-schedule-offset Leading With Story
+      %tr
+        %th
+          %time(datetime="14:30") 2:30
+          &#8212;
+          %time(datetime="15:00") 3:00
+        %td
+          %strong Afternoon Break
+      %tr
+        %th
+          %time(datetime="15:00") 3:00
+          &#8212;
+          %time(datetime="15:45") 3:45
+        %td
+          %a(href="#lisa-welchman" rel="nofollow")
+            %strong Lisa Welchman
+            .event-schedule-offset Talk TBA
+      %tr
+        %th
+          %time(datetime="15:45") 3:45
+          &#8212;
+          %time(datetime="16:30") 4:30
+        %td
+          %a(href="#foo" rel="nofollow")
+            %strong Mike Davidson
+            .event-schedule-offset Fireside Chat with Mike Davidson (Keynote)
+      %tr
+        %th
+          %time(datetime="16:30") 4:30
+          &#8212;
+          %time(datetime="18:00") 6:00
+        %td
+          %strong Happy Hour
 
-      %h3
-        .h-sm-caps-gray Day Two
-        Friday, August 12th
+    %h3
+      .h-sm-caps-gray Day Two
+      Friday, August 11th
 
-      %table.event-schedule
-        %tr
-          %th
-            %time(datetime="08:30") 8:30
-            &#8212;
-            %time(datetime="09:00") 9:00
-          %td
-            %strong Registration
-        %tr
-          %th
-            %time(datetime="09:00") 9:00
-            &#8212;
-            %time(datetime="09:15") 9:15
-          %td
-            %strong Welcome to Prototypes, Process &amp; Play
-        %tr
-          %th
-            %time(datetime="09:15") 9:15
-            &#8212;
-            %time(datetime="10:00") 10:00
-          %td
-            %a(href="#cennydd-bowles" rel="nofollow")
-              %strong Cennydd Bowles
-              .event-schedule-offset Ethical by Design (Keynote)
-        %tr
-          %th
-            %time(datetime="10:00") 10:00
-            &#8212;
-            %time(datetime="10:45") 10:45
-          %td
-            %a(href="#rebecca-miller-webster" rel="nofollow")
-              %strong Rebecca Miller-Webster
-              .event-schedule-offset Frameworks of Feedback
-        %tr
-          %th
-            %time(datetime="10:45") 10:45
-            &#8212;
-            %time(datetime="11:15") 11:15
-          %td
-            %strong Morning Break
-        %tr
-          %th
-            %time(datetime="11:15") 11:15
-            &#8212;
-            %time(datetime="12:00") 12:00
-          %td
-            %a(href="#xavier-wynn" rel="nofollow")
-              %strong Xavier Wynn
-              .event-schedule-offset Moving Fast with the Ultimate Driving Machine
+    %table.event-schedule
+      %tr
+        %th.event-schedule-distributed
+          %time(datetime="08:30") 8:30
+          &#8212;
+          %time(datetime="09:00") 9:00
+        %td
+          %strong Registration
+      %tr
+        %th
+          %time(datetime="09:00") 9:00
+          &#8212;
+          %time(datetime="09:15") 9:15
+        %td
+          %strong Welcome to Prototypes, Process &amp; Play
+      %tr
+        %th
+          %time(datetime="09:15") 9:15
+          &#8212;
+          %time(datetime="10:00") 10:00
+        %td
+          %a(href="#jay-newton-small" rel="nofollow")
+            %strong Jay Newton-Small
+            .event-schedule-offset Broad Influence &#8211; How Women are Changing the Way America Works (Keynote)
+      %tr
+        %th
+          %time(datetime="10:00") 10:00
+          &#8212;
+          %time(datetime="10:45") 10:45
+        %td
+          %a(href="#steve-julius" rel="nofollow")
+            %strong Dr. Steve Julius
+            .event-schedule-offset Getting a Seat at the Table and Keeping It!
+      %tr
+        %th
+          %time(datetime="10:45") 10:45
+          &#8212;
+          %time(datetime="11:15") 11:15
+        %td
+          %strong Morning Break
+      %tr
+        %th
+          %time(datetime="11:15") 11:15
+          &#8212;
+          %time(datetime="12:00") 12:00
+        %td
+          %a(href="#dan-brown" rel="nofollow")
+            %strong Dan Brown
+            .event-schedule-offset Curiosity, Skepticism, Humility: Achieving the Right Mindset for Design Discovery in Teams
 
-        %tr
-          %th
-            %time(datetime="12:00") 12:00
-            &#8212;
-            %time(datetime="13:15") 1:15
-          %td
-            %strong Lunch Break
-        %tr
-          %th
-            %time(datetime="13:15") 1:15
-            &#8212;
-            %time(datetime="13:30") 1:30
-          %td
-            %a(href="#tanseela-molani" rel="nofollow")
-              %strong Tanseela Molani
-              .event-schedule-offset Design Researcher as (the most) Super (of all) Heroes
-        %tr
-          %th
-            %time(datetime="13:30") 1:30
-            &#8212;
-            %time(datetime="13:45") 1:45
-          %td
-            %a(href="#chris-avore" rel="nofollow")
-              %strong Chris Avore
-              .event-schedule-offset Managing Design Leadership
-        %tr
-          %th
-            %time(datetime="13:45") 1:45
-            &#8212;
-            %time(datetime="14:30") 2:30
-          %td
-            %a(href="#adam-cutler" rel="nofollow")
-              %strong Adam Cutler
-              .event-schedule-offset Scaling Design at IBM
-        %tr
-          %th
-            %time(datetime="14:30") 2:30
-            &#8212;
-            %time(datetime="15:00") 3:00
-          %td
-            %strong Afternoon Break
-        %tr
-          %th
-            %time(datetime="15:00") 3:00
-            &#8212;
-            %time(datetime="15:45") 3:45
-          %td
-            %a(href="#ian-swinson" rel="nofollow")
-              %strong Ian Swinson
-              .event-schedule-offset Careers by Design
-        %tr
-          %th
-            %time(datetime="15:45") 3:45
-            &#8212;
-            %time(datetime="16:30") 4:30
-          %td
-            %a(href="#michael-lopp" rel="nofollow")
-              %strong Michael Lopp
-              .event-schedule-offset Fear is a Liar (Keynote)
-        %tr
-          %th
-            %time(datetime="16:30") 4:30
-            &#8212;
-            %time(datetime="17:00") 5:00
-          %td
-            %strong Closing Ceremonies
+      %tr
+        %th
+          %time(datetime="12:00") 12:00
+          &#8212;
+          %time(datetime="13:15") 1:15
+        %td
+          %strong Lunch Break
+      %tr
+        %th
+          %time(datetime="13:15") 1:15
+          &#8212;
+          %time(datetime="13:30") 1:30
+        %td
+          -#
+            %a(href="#foo" rel="nofollow")
+              %strong Speaker TBA
+          .event-schedule-offset Speaker TBA
+      %tr
+        %th
+          %time(datetime="13:30") 1:30
+          &#8212;
+          %time(datetime="13:45") 1:45
+        %td
+          %a(href="#suzanna-bierwirth" rel="nofollow")
+            %strong Suzanna Bierwirth
+            .event-schedule-offset Managing Up, Down &amp; Sideways
+      %tr
+        %th
+          %time(datetime="13:45") 1:45
+          &#8212;
+          %time(datetime="14:30") 2:30
+        %td
+          %a(href="#sofia-millares" rel="nofollow")
+            %strong ​Sofia Millares &amp; Tami Evnin
+            .event-schedule-offset World&#8217;s Best Boss: Lessons Learned from a New Design Leader
+      %tr
+        %th
+          %time(datetime="14:30") 2:30
+          &#8212;
+          %time(datetime="15:00") 3:00
+        %td
+          %strong Afternoon Break
+      %tr
+        %th
+          %time(datetime="15:00") 3:00
+          &#8212;
+          %time(datetime="15:45") 3:45
+        %td
+          %a(href="#eli silva" rel="nofollow")
+            %strong Eli Silva
+            .event-schedule-offset Designing for Diversity in Organization Design
+      %tr
+        %th
+          %time(datetime="15:45") 3:45
+          &#8212;
+          %time(datetime="16:30") 4:30
+        %td
+          -#
+            %a(href="#foo" rel="nofollow")
+              %strong foo
+          .event-schedule-offset Speaker TBA (Keynote)
+      %tr
+        %th
+          %time(datetime="16:30") 4:30
+          &#8212;
+          %time(datetime="17:00") 5:00
+        %td
+          %strong Closing Ceremonies
 
 %section#speakers.main-content.main-bg-alt
   .container
@@ -332,6 +332,98 @@ summary: Learn design leadership skills from Slack, Etsy, Adaptive Path/Capital 
     %h3.h-section About Our Speakers
 
     %p Great thinking on design leadership is found in many forms in many industries. We&#8217;ve curated an incredible lineup of design experts, mentors, and coaches from diverse fields to help you down your own leadership path. Our single-track format ensures you&#8217;ll get to learn from every one of them.
+
+    - content_for :talk_carmen_medina do
+
+      %h3 Lead Above Mediocre Thinking
+
+      %p When we engage in design thinking for our teams and projects, it&#8217;s easy to emphasize Design over the Thinking. Leaders know that we need to slow down to speed up; plan and think more to prevent rework and waste. Sometimes, we invest more in the work and the artifacts over finding the right ways to work together and create a shared understanding before moving toward a goal. Carmen Medina spent her entire career working with a diverse set of people and she had to find ways to create a shared space for collaboration&#8211;and she&#8217;ll show you how to focus on HOW teams work over WHAT the work is that&#8217;s being done.
+
+      %p All of this, regardless of whether or not you have a security clearance!
+
+    - content_for :talk_dan_brown do
+
+      %h3 Curiosity, Skepticism, Humility: Achieving the Right Mindset for Design Discovery in Teams
+
+      %p Discovery, the first part of the design process, is crucial for aligning teams and leading them to design success. A well-aligned team works toward the same goal, and brings out the best in each other because they all understand what their trying to achieve.
+
+      %p Discovery can take many forms: a multi-month endeavor to prepare for a complex business application, or a four-day &#8220;sprint&#8221; to align the team around a vision for a new product. Whatever the form, however, teams are prepping and priming themselves to do detailed design and development work.
+
+      %p Discovery is complicated, chaotic, and messy. In discovery, teams gather information about the problem and then explore different ways to tackle it. Through critical thinking, they refine their understanding of the problem and zero-in on a concrete plan for execution. Discovery requires participants to shift attitudes and perspectives almost constantly. Team members go from &#8220;tell me more about&#8221; to &#8220;how about this idea&#8221; in the blink of an eye.
+
+      %p To pull this off successfully, team members need to embrace a discovery mindset. This attitude emphasizes learning. It relies on team members maintaining an open mind, questioning everything, and above all not taking themselves too seriously.
+
+      %p In this session, we&#8217;ll look at why this attitude is important, how it affects your team&#8217;s approach to discovery, and ways you can cultivate this mindset in yourself and those you lead.
+
+    - content_for :talk_donna_lichaw do
+
+      %h3 Leading With Story
+
+      %p Getting others to listen to you is hard. Whether those people are your team members, peers across your organization, the c-suite, or a board up above, you need to inspire them and move them to action to be most effective at your job. 
+
+      %p Storytelling is one of the most powerful ways you can get people to listen to you and to move them to action. But in a business context, the stories that you tell are only as effective as the stories that you build&#8230; and get others to build with you. We&#8217;ll look at how story drives some of the most successful product and service&#8211;driven organizations out there. Learn how story sparks systemic design thinking, collaboration, and innovation that enables you to more effectively build successful products and services that people get excited to work on&#8230; and use.
+
+    - content_for :talk_eli_silva do
+
+      %h3 Designing for Diversity in Organization Design
+
+      %p The lack of diversity in design organizations is a fact that we can design for. We can drive innovation and increase creativity, but we have to be honest about what&#8217;s holding us back. Eli Silva will outline ways to design cultures that support design thinking, organizational growth, and diversity in the workplace.
+
+      %p Great design is the result of hard work and cultures that foster empathy, creativity, listening, and honest conversations. These happen to be the groundwork for diversity, so why is diversity still such a challenge in technology and in design organizations in particular?
+
+      %p In this talk you will learn practical steps toward designing for diversity—including quick tips on how to audit your processes and practices today. Learn how to effectively consider minorities and underrepresented groups in your approach to hiring, everyday work, and leadership development. The result of diverse design organizations is products that increasingly reflect actual people, across the age, gender, and income spectrum. That&#8217;s something worth working for.
+
+    - content_for :talk_jay_newton_small do
+
+      %h3 Broad Influence &#8211; How Women are Changing the Way America Works
+
+      %p Executive office has proven the hardest glass ceiling to break. Less than 5% of Fortune 1000 CEOs are women, just 18% of America&#8217;s mayors, 12% of governors and, of course, zero presidents. There&#8217;s a huge body of research that shows, whether it&#8217;s a legislature, a corporate board, a Navy ship, or an appellate court, when women reach between 20-30% of the leadership at any given organization it&#8217;s a tipping point and they begin to change how things are done &#8211; for the better. Jay shows where we&#8217;re reaching that tipping point &#8211; all three branches of the government &#8211; and the areas where we not &#8211; such as Silicon Valley and Wall Street, and why it&#8217;s important for us to get to critical mass across the board.
+
+    - content_for :talk_matthew_milan do
+
+      %h3 Making Moonshots
+
+      %p A critical part of leadership is the reduction of ambiguity for your team. Your job is to make it clear, so the team can work towards the goals you&#8217;ve set. The reality is that many of the goals you&#8217;re setting are make-or-break for the future of your organization. If you work in a field like design or innovation, you&#8217;re probably already sick of hearing the word &#8220;moonshot.&#8221; Maybe you&#8217;ve even been part of one, or more likely, you&#8217;ve unwittingly part of many. As a leader, moonshots are part of the job.
+ 
+      %p There&#8217;s just one problem with the &#8220;moonshot&#8221; approach: the real moonshot wasn&#8217;t a single giant leap forward. It was a series of incremental experiments designed to test the riskiest parts of going to the moon, as soon as possible. This approach put humans on the moon within a decade of Kennedy&#8217;s famous speech, and it&#8217;s the same approach that the best innovators like Elon Musk use to get rapid traction on the hardest and most complex problems of our times.
+
+      %p This session will demystify complex, challenging &#8220;moonshot&#8221; initiatives and give you a set of principles and practices that you can use to wrestle the riskiest innovation challenges to the ground. You&#8217;ve already got the tools: research, prototyping, planning and production. Now, let&#8217;s help you to connect them together with the right questions and perspectives, getting the traction you need make innovation work practical and successful.
+
+    - content_for :talk_nicole_maynard do
+
+      %h3 Cultivating Happiness
+
+      %p Neuroscience explains the delicate sparks that can either create happiness or make it elusive. Happiness has power&#8211;it makes us more productive, engaged and creative. When we&#8217;re feeling good, we are better able to create delightful experiences and have that positivity trickle into everything we touch. Let&#8217;s take a look at methods for cultivating happiness within ourselves so we can propagate it for others.  
+
+    - content_for :talk_scott_berkun do
+
+      %h3 The Dance of the Possible 
+
+      %p You work with ideas, big and small, all day long&#8211;isn&#8217;t it time you learn the deep patterns that explain your successes and failures? This short and fun presentation, based on a new book will share timeless patterns and entertaining insights that can help you be more creative and productive all at the same time. From finding creative confidence to getting better feedback, you&#8217;ll be entertained as you&#8217;re challenged to think differently about thinking. Bring your toughest questions and situations and get useful and entertaining advice during this heavily interactive session. 
+
+    - content_for :talk_steve_julius do
+
+      %h3 Getting a Seat at the Table and Keeping It!
+
+      %p Design is now finding it has a seat at the leadership table, but is it/are you viewed as a practitioner of an arcane science that is called upon to facilitate business processes? Or, are you also routinely called upon to contribute to the overall business strategy at the company&#8211;wide or departmental level? Building strong, domain capability will maintain your status as a design expert, but it won&#8217;t lead to your being trusted as someone who can help build the overall business strategy. That requires a complementary set of skills. 
+
+      %p Talk to any CEO in organizations small and large and she will tell you about the critical role technology—and design&#8211;play in that business&#8217; success. Ask that same CEO to describe how the design functions contribute to the day-to-day operation and it&#8217;s likely she will describe an enabling or support role. Dr. Steve Julius will describe how you can contribute to significant value creation as a strategic business partner, while maintaining and even enhancing your status as a design expert.
+
+    - content_for :talk_suzanna_bierwirth do
+
+      %h3 Managing Up, Down &amp; Sideways
+      
+      %p Congrats&#8211;you finally got promoted! You&#8217;ve gotten your seat at the table and now you&#8217;re learning that it&#8217;s no longer just about the work. It&#8217;s also about the politics within your own organization and the clients. These tips are what I have learned over the years&#8211;from Junior Art Director to Chief Creative Officer&#8211;and none of them involve kissing ass or sucking up. It&#8217;s all about empathy.
+
+    - content_for :talk_tami_evnin do
+
+      %h5.lineup-subtitle.h-sm-caps-gray Sofia &amp; Tami present:
+      
+      %h3 World&#8217;s Best Boss: Lessons Learned from a New Design Leader
+
+      %p What happens when you&#8217;re asked to step-up and lead the work of the design team or to manage your fellow designers for the first time? Most of us envision ourselves sketching ideas, designing solutions, or prototyping our days away, forever in our happy place. And we&#8217;re no different&#8211;we had no idea what to expect, beyond knowing what we saw that we thought was good or&#8230; not so good. We became new design managers and had to learn how to navigate our new responsibilities&#8211;to our boss and to our former peers&#8211;while trying to lead others to be successful as designers.
+
+      %p We faced a lot of challenges, and learned a lot about ourselves, our teams, and our boss. We&#8217;re going to share some tools and techniques that have helped us become better at leading our teams, and delivering to those who count on all of us. And we&#8217;re still working on becoming the best bosses in the world.
 
     %h3 Keynotes
     = partial "partials/events/speakers", locals: {speakers: keynotes}
