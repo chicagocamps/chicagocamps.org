@@ -90,6 +90,10 @@ Mailchimp:
   alias: mailchimp
   url:  http://mailchimp.com/
 
+The Mars Agency:
+  alias: the-mars-agency
+  url:  http://www.themarsagency.com/
+
 MOMENT:
   alias: moment
   url: http://www.momentdesign.com/
