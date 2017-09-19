@@ -48,6 +48,8 @@ helpers do
   def header_image(source)
     if source.data.related_event == 'prototyes-process-play-2015'
       "background-image: url('/assets/img/events/headers/prototypes-process-play-2015.jpg');"
+    elsif source.data.related_event == 'prototyes-process-play-2017'
+      "background-image: url('/assets/img/events/headers/prototypes-process-play-2017.jpg');"
     else
       "background-image: url('/assets/img/updates/#{source.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}/header.jpg');"
     end
