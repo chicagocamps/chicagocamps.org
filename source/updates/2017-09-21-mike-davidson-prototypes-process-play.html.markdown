@@ -21,7 +21,7 @@ Mike most recently spent three years as Vice President of Design for Twitter. Pr
 
 Before the advent of web fonts, Mike invented and open-sourced sIFR, a technique which enabled thousands of individuals and organizations to use custom typography on the web.
 
-For more, keep up with Mike at <a href="htp://mikeindustries.com" rel="nofollow">mikeindustries.com</a> or on Twitter as <a href="https://twitter.com/mikeindustries" rel="nofollow">@mikeindustries</a>.
+For more, keep up with Mike at <a href="https://mikeindustries.com" rel="nofollow">mikeindustries.com</a> or on Twitter as <a href="https://twitter.com/mikeindustries" rel="nofollow">@mikeindustries</a>.
 
 ## Presentation Transcript
 
