@@ -22,7 +22,7 @@ Carmen, a retired Senior Federal Executive with 32 years&#8217; experience in th
 From 2005-2007 Carmen was part of the executive team that led the CIA&#8217;s Analysis Directorate; in her last assignment before retiring she oversaw the CIA&#8217;s Lessons Learned program and led the Agency&#8217;s first effort to address the challenges posed by social networks, digital ubiquity, and the emerging culture of collaboration. She was a leader on diversity issues at the CIA, serving on equity boards at all organizational levels and across Directorates. She was the first CIA executive to conceptualize many IT applications now used by analysts, including online production, collaborative tools, and Intellipedia, a project she personally green-lighted; as a senior executive, she began using in 2005 social networking and blogs to reach her diverse workforce. Upon her retirement from CIA, she received the Distinguished Career Intelligence Medal. From 2011—2015, Carmen was a member of Deloitte Federal Consulting where she served as senior advisor and mentor to Deloitte&#8217;s flagship innovation program, GovLab.
 
 Carmen describes herself as Puerto Rican by birth and Texan by nationality. She likes to garden and cook things that she has grown.
-For more, keep up with Carmen at <a href="rebelsatwork.com" rel="nofollow">rebelsatwork.com</a> or on Twitter as <a href="https://twitter.com/milouness" rel="nofollow">@milouness</a>.
+For more, keep up with Carmen at <a href="http://rebelsatwork.com" rel="nofollow">rebelsatwork.com</a> or on Twitter as <a href="https://twitter.com/milouness" rel="nofollow">@milouness</a>.
 
 #### Lead Above Mediocre Thinking
 
