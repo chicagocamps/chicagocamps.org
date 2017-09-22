@@ -9,7 +9,7 @@ header_image: active
 related_event: prototyes-process-play-2017
 ---
 
-This podcast features Jay Newton-Small, Co-founder of MemoryWell and author of &#8220;Broad Influence: How Women are Changing the Way America Works&#8221;, and her Keynote, &#8220;Broad Influence &ndash; How Women are Changing the Way America Works&#8221; from the design leadership conference Prototypes, Process & Play on August 11th, 2017.
+This podcast features Jay Newton-Small, Co-founder of MemoryWell and author of &#8220;Broad Influence: How Women are Changing the Way America Works&#8221;, and her Keynote, &#8220;Broad Influence &ndash; How Women are Changing the Way America Works&#8221; from the design leadership conference Prototypes, Process &amp; Play on August 11th, 2017.
 
 <a href="/ppp">Prototypes, Process &amp; Play</a> presentation podcasts are sponsored by <a href="https://balsamiq.com/" rel="nofollow">Balsamiq</a> &ndash; with Balsamiq Mockups, anyone can design great software. READMORE
 
