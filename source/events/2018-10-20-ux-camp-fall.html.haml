@@ -1,0 +1,248 @@
+---
+title: UX Camp Fall
+date: 2018-10-20 01:00 CDT
+category: events
+alias: ux-camp
+location: Columbia College Film Row &ndash; Chicago
+header_image_photographer: Anne Worner
+header_image_url: https://flic.kr/p/fhkjZh
+summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics uncovered and you&#8217;ll learn current topics and improved upon standards in one of the hottest fields today!
+---
+
+- sponsors = ["Columbia College", "Lead Honestly",]
+- keynotes = []
+- speakers = []
+
+%nav.event-nav.group(data-js="event-nav")
+  .container
+    %ul.event-nav-content
+      %li.event-nav-title
+        %a(href="#top" rel="nofollow") UX Camp
+      %li
+        %a(href="#details" rel="nofollow") Details
+      -#
+        %li
+          %a(href="#keynotes" rel="nofollow") Keynotes
+      -#
+        %li
+          %a(href="#schedule" rel="nofollow") Schedule
+      %li
+        %a(href="#speakers" rel="nofollow") Speakers
+      %li
+        %a(href="#location" rel="nofollow") Location
+
+    %a.btn.btn-alt.event-nav-btn(href="https://chicagocamps.ticketleap.com/ux-camp-fall-2018/" rel="nofollow")
+      Join Us for
+      %strong Only $60
+
+%section#details.main-content
+  .container
+
+    %h3.h-section Details
+
+    %h2 UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics uncovered and you&#8217;ll learn current topics and improved upon standards in one of the hottest fields today!
+
+    %p If you&#8217;re just getting your start in UX and you&#8217;re hoping to learn more, or you&#8217;ve been in the field awhile and want to stay current, UX Camp is for you. A full day&#8211;3 full tracks&#8211;of UX talks, surrounded by impressive keynotes and all for a great price that includes your lunch. 
+
+    %p Sign up now&#8211;these tickets go fast!
+
+    .event-cta
+      %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/ux-camp-fall-2018/" rel="nofollow")
+        Join Us for Only $60 &#8212; Limited Tickets Available
+
+    %h3 Meet Our Awesome Sponsors
+    
+    %p These fantastic sponsors are helping us bring this great event to you.
+
+    = partial "partials/events/sponsors", locals: {sponsors: sponsors}
+
+    %h3 Interested in Sponsoring UX Camp?
+
+    %p We&#8217;re actively looking for <a href="/contact/">sponsors</a> for UX Camp. If you&#8217;re interested, or if you know someone we should talk to, <a href="/contact/">please let us know</a>!
+
+-#=
+  %section#keynotes.main-content.main-bg-alt
+    .container
+
+      %h3.h-section Keynotes
+      = partial "partials/events/speakers", locals: {speakers: keynotes}
+
+-#
+  %section#schedule.main-content.main-bg-highlight
+    .container
+
+      %h3.h-section Schedule
+
+      %table.event-schedule
+
+        %tr
+          %th
+            %time(datetime="2018-05-19T08:30") 8:30
+            &#8212;
+            %time(datetime="2018-05-19T09:00") 9:00
+          %td.event-schedule-offset(colspan="3") Registration &amp; Breakfast
+
+        %tr
+          %th
+            %time(datetime="2018-05-19T09:00") 9:00
+            &#8212;
+            %time(datetime="2018-05-19T09:45") 9:45
+          %td(colspan="3")
+            %a(href="#gail-swanson" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Gail Swanson
+            .event-schedule-offset Presenting Design Work to Decision Makers Keynote
+
+        %tr
+          %th
+            %time(datetime="2018-05-19T09:45") 9:45
+            &#8212;
+            %time(datetime="2018-05-19T10:00") 10:00
+          %td.event-schedule-offset(colspan="3") Morning Break
+
+        %tr
+          %th Rooms
+          %td.event-schedule-distributed
+            %strong Blue
+            %span.event-schedule-offset (Main)
+          %td.event-schedule-distributed
+            %strong Red
+          %td.event-schedule-distributed
+            %strong Yellow
+
+        %tr
+          %th
+            %time(datetime="2018-05-19T10:00") 10:00
+            &#8212;
+            %time(datetime="2018-05-19T10:45") 10:45
+          %td
+            %a(href="#david-farkas" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") David Farkas
+            .event-schedule-offset UX Field Research Basics
+          %td
+            %a(href="#margot-harrington" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Margot Harrington
+            .event-schedule-offset Design Tools for Political Justice
+          %td
+            %a(href="#garrett-polifka" rel="nofollow")
+              %strong.event-schedule-room(data-room="Yellow") Garrett Polifka &amp; Jayne Spottswood
+            .event-schedule-offset Picking from the Grove, How We Discovered the Citrus Design System &amp; Helped It Flourish
+        
+        %tr
+          %th
+            %time(datetime="2018-05-19T10:45") 10:45
+            &#8212;
+            %time(datetime="2018-05-19T11:00") 11:00
+          %td.event-schedule-offset(colspan="3") Break
+        
+        %tr
+          %th
+            %time(datetime="2018-05-19T11:00") 11:00
+            &#8212;
+            %time(datetime="2018-05-19T11:45") 11:45
+          %td
+            %a(href="#brad-nunnally" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Brad Nunnally
+            .event-schedule-offset See What I Mean &#8212; The Hidden Language of the Body
+          %td
+            %a(href="#zeke-binion" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Zeke Binion
+            .event-schedule-offset Facilitating Google Design Sprints
+          %td
+            %a(href="#mike-gorgone" rel="nofollow")
+              %strong.event-schedule-room(data-room="Yellow") Mike Gorgone
+            .event-schedule-offset ImprovUX: Creating a Culture with Trust, Empathy &amp; Collaboration
+
+        %tr
+          %th
+            %time(datetime="2018-05-19T11:45") 11:45
+            &#8212;
+            %time(datetime="2018-05-19T13:00") 1:00
+          %td.event-schedule-offset(colspan="3") Lunch
+        
+        %tr
+          %th
+            %time(datetime="2018-05-19T13:00") 1:00
+            &#8212;
+            %time(datetime="2018-05-19T13:45") 1:45
+          %td
+            %a(href="#autumn-schultz" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Autumn Schultz
+            .event-schedule-offset Askin&#8217; Aint Easy
+          %td
+            %a(href="#lauren-johnson" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Lauren Johnson
+            .event-schedule-offset The Benefits of Iterative Failure
+          %td
+            %a(href="#wilson-lee" rel="nofollow")
+              %strong.event-schedule-room(data-room="Yellow") Wilson Lee
+            .event-schedule-offset Accessible UI for Color-Blind Users
+
+        %tr
+          %th
+            %time(datetime="2018-05-19T13:45") 1:45
+            &#8212;
+            %time(datetime="2018-05-19T14:00") 2:00
+          %td.event-schedule-offset(colspan="3") Break
+        
+        %tr
+          %th
+            %time(datetime="2018-05-19T14:00") 2:00
+            &#8212;
+            %time(datetime="2018-05-19T14:45") 2:45
+          %td
+            %a(href="#lauren-lucchese" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Lauren Lucchese
+            .event-schedule-offset Real Talk: Designing Content That Builds Trust
+          %td
+            %a(href="#nikola-ranguelov" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Nikola Ranguelov
+            .event-schedule-offset Designing for All the Rs (VR/AR/SR/MR/HR/etc.)
+          %td
+            %a(href="#daniel-orbach" rel="nofollow")
+              %strong.event-schedule-room(data-room="Yellow") Daniel Orbach
+            .event-schedule-offset The Journey to a Better Bar Graph
+
+        %tr
+          %th
+            %time(datetime="2018-05-19T14:45") 2:45
+            &#8212;
+            %time(datetime="2018-05-19T15:15") 3:15
+          %td.event-schedule-offset(colspan="3") Afternoon Snack
+        
+        %tr
+          %th
+            %time(datetime="2018-05-19T15:15") 3:15
+            &#8212;
+            %time(datetime="2018-05-19T16:00") 4:00
+          %td(colspan="3")
+            %a(href="#jeff-eaton" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Jeff Eaton
+            .event-schedule-offset The Map Is Not The Territory: Collaborative Content Modeling for Digital Teams Keynote
+
+        %tr
+          %th
+            %time(datetime="2018-05-19T16:00") 4:00
+            &#8212;
+            %time(datetime="2018-05-19T16:15") 4:15
+          %td.event-schedule-offset(colspan="3") Closing Ceremonies
+
+%section#speakers.main-content.main-bg-alt
+  .container
+    
+    %h3.h-section Speakers
+
+    %h3 Call for Speakers
+    
+    %p Are you interested in speaking at UX Camp? We sure hope so! <a href="/proposal/">Submit your talk</a> and let us know what&#8217;s on your mind to share.
+
+    %p First time speaker, or have limited experience? Let us know&mdash;we welcome new speakers and have been known to help folks round out their proposals.
+
+    %p <a href="/proposal/">Submit your talk</a>&mdash;come hang out with us in Chicago and share what you&#8217;ve learned!
+
+    = partial "partials/events/speakers", locals: {speakers: speakers}
+
+    .event-cta
+      %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/ux-camp-fall-2018/" rel="nofollow")
+        Join Us for Only $60 &#8212; Limited Tickets Available
+
+= partial "partials/events/location-columbia-film-row"

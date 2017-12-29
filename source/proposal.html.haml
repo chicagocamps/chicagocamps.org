@@ -35,17 +35,19 @@ title: Submit a Talk
 
         .grid
 
-          .form-col
-            .form-choice
-              %label
-                %input(name="entry.656477003" role="checkbox" type="checkbox" value="Front-end Camp")
-                Front-end Camp
+          -#
+            .form-col
+              .form-choice
+                %label
+                  %input(name="entry.656477003" role="checkbox" type="checkbox" value="Front-end Camp")
+                  Front-end Camp
 
-          .form-col
-            .form-choice
-              %label
-                %input(name="entry.656477003" role="checkbox" type="checkbox" value="Mobile Camp")
-                Mobile Camp
+          -#
+            .form-col
+              .form-choice
+                %label
+                  %input(name="entry.656477003" role="checkbox" type="checkbox" value="Mobile Camp")
+                  Mobile Camp
 
           -#
             .form-col
@@ -99,7 +101,7 @@ title: Submit a Talk
 
       .form-group
         %label.form-label(for="form-comments") Anything Else/Comments?
-        %textarea#form-comments.form-area(name="entry.1958185669")
+        %textarea#form-comments.form-area(name="entry.1958185669" placeholder="If you're proposing a talk for UX Camp, please let us know if you're interested in the Spring or Fall date.")
 
       .form-group
         %button.btn.btn-default(name="submit" type="submit") Send Proposal
