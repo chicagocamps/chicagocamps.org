@@ -28,6 +28,8 @@
       %meta(property="og:description" content="#{current_page.data.summary}")
     - if current_page.data.alias == 'prototypes-process-play' and Date.parse(current_page.data.date).strftime('%Y') == '2017'
       %meta(property="og:image" content="http://chicagocamps.org/assets/img/events/logos/#{current_page.data.alias}-2017.png")
+    - elsif current_page.data.alias == 'proposal'
+      %meta(property="og:image" content="http://chicagocamps.org/assets/img/proposal.png")
     - elsif current_page.data.alias
       %meta(property="og:image" content="http://chicagocamps.org/assets/img/events/logos/#{current_page.data.alias}.png")
     - else
@@ -36,16 +38,8 @@
     -# Twitter card
 
     %meta(name="twitter:card" content="summary")
+    %meta(name="twitter:site" content="@chicagocamps")
     %meta(name="twitter:title" content="#{current_page.data.title} - Chicago Camps")
-    %meta(name="twitter:site" content="Chicago Camps")
-    - if current_page.data.summary
-      %meta(name="twitter:description" content="#{current_page.data.summary}")
-    - if current_page.data.alias == 'prototypes-process-play' and Date.parse(current_page.data.date).strftime('%Y') == '2017'
-      %meta(property="twitter:image" content="http://chicagocamps.org/assets/img/events/logos/#{current_page.data.alias}-2017.png")
-    - elsif current_page.data.alias
-      %meta(property="twitter:image" content="http://chicagocamps.org/assets/img/events/logos/#{current_page.data.alias}.png")
-    - else
-      %meta(property="twitter:image" content="http://chicagocamps.org/assets/img/logos/logo-wordmark-gray.png")
 
   %body#top(class="#{page_classes}")
     
