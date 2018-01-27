@@ -1,0 +1,39 @@
+---
+title: "2018 Events Update"
+date: 2018-01-27 01:00 CDT
+category: posts
+tags: chicago
+---
+
+<strong>Feel free to <a href="/proposal/">submit a talk to UX Camp</a> or purchase tickets to UX Camp and/or <a href="/events/2018/prototypes-process-play/">Prototypes, Process &amp; Play</a>. (Really great early rates right now!)</strong>
+
+Howdy friends of Chicago Camps!
+
+We&#8217;ve got our confirmed 2018 events dates, and here is our updated, final schedule:
+
+<ul class="list-ul">
+  <li><strong><a href="/events/2018/ux-camp-spring/">UX Camp Spring</a></strong> &#8212; Saturday, May 19, 2018</li>
+  <li><strong><a href="/events/2018/prototypes-process-play/">Prototypes, Process &amp; Play</a></strong> &#8212; Thursday &amp; Friday, August 9-10, 2018</li>
+  <li><strong><a href="/events/2018/ux-camp-fall/">UX Camp Fall</a></strong> &#8212; Saturday, October 13, 2018</li>
+</ul>
+
+READMORE
+
+Here are some fun facts about our dates:
+
+<ul class="list-ul">
+  <li><strong>Yes! There are 2 UX Camps!</strong> We&#8217;d rather go a little broad and give ourselves the ability to accept all kinds of presentations! We want to see your material on VR, Graphic / Visual Design, Interaction Design, Information Architecture, Front-end Design, Design Systems, Pattern Libraries, Design Portfolios / Case Studies, and all the other things you can think of!</li>
+  <li><strong>And we want to see those ideas now!</strong> <a href="/proposal/">Submit your presentation idea today.</a> First timers are absolutely, open-arms welcomed!</li>
+</ul>
+
+Finally, we&#8217;re seeking sponsors for our 2018 events. We&#8217;ve got one of the most attractive sponsorship packages around, and we keep them really simple:
+
+<ul class="list-ul">
+  <li><strong>Annual sponsorship</strong> &#8212; $1,000</li>
+  <li><strong>Camp sponsorship</strong> &#8212; $500 for all sponsorships (tables, lunch, happy hour, etc.)</li>
+  <li><strong>Prototypes, Process &amp; Play sponsorship</strong> &#8212; $1,500 for all sponsorships (tables, lunch, happy hour, etc.)</li>
+</ul>
+
+We want to be the easiest organization you work with when it comes to sponsorship so we&#8217;ve reduced the way we handle the process. You can learn more in <a href="/sponsorship/">our sponsorship packet</a> and if you don&#8217;t find something that fits what you&#8217;re looking for, please let us know!
+
+We&#8217;re looking forward to a great year!

@@ -5,13 +5,6 @@ category: posts
 tags: chicago
 ---
 
-
-Feel free to <a href="/proposal/">submit a talk to UX Camp</a> or purchase tickets to UX Camp and/or Prototypes, Process &amp; Play. (Really great early rates right now!)
-
-
-
-
-
 Howdy friends of Chicago Camps and wayward internet travelers! With 2017 achieving its final days and 2018 upon us, we want to share our schedule with you.
 
 In 2018, we&#8217;re planning on holding 3 events and we&#8217;d love to see you at all of them! Here&#8217;s the schedule:
