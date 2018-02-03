@@ -35,8 +35,11 @@ build/assets/img/events/speakers/adam-mccrimmon.jpg: 2017-12-29 12:01:27.1476291
 build/assets/img/events/speakers/ryan-wynia.jpg: 2017-12-29 12:01:25.698382250 -06:00
 build/assets/img/events/speakers/katie-swindler.jpg: 2017-12-29 12:01:25.639185031
   -06:00
+build/assets/img/events/speakers/kara-defrias.jpg: 2018-02-02 22:08:15.471540761 -06:00
 build/assets/img/events/speakers/adam-connor.jpg: 2017-12-29 12:01:27.144663020 -06:00
 build/assets/img/events/speakers/russ-unger.jpg: 2017-12-29 12:01:25.696571634 -06:00
+build/assets/img/events/speakers/elizabeth-goodman.jpg: 2018-02-02 22:08:15.493259928
+  -06:00
 build/assets/img/events/speakers/mike-davidson.jpg: 2017-12-29 12:01:25.677257417
   -06:00
 build/assets/img/events/speakers/taylor-poulos.jpg: 2017-12-29 12:01:25.721795346
@@ -120,6 +123,8 @@ build/assets/img/events/speakers/kristin-skinner.jpg: 2017-12-29 12:01:25.641924
   -06:00
 build/assets/img/events/speakers/samantha-starmer.jpg: 2017-12-29 12:01:25.704104931
   -06:00
+build/assets/img/events/speakers/karmen-kaufmann.jpg: 2018-02-02 22:08:15.532857275
+  -06:00
 build/assets/img/events/speakers/daniel-orbach.jpg: 2017-12-29 12:01:25.576783322
   -06:00
 build/assets/img/events/speakers/bridget-weis-urbain.jpg: 2017-12-29 12:01:25.538188433
@@ -130,6 +135,7 @@ build/assets/img/events/speakers/ryan-singer.jpg: 2017-12-29 12:01:25.697228496 
 build/assets/img/events/speakers/shay-howe.jpg: 2017-12-29 12:01:25.709988723 -06:00
 build/assets/img/events/speakers/brittanie-crain.jpg: 2017-12-29 12:01:25.539773976
   -06:00
+build/assets/img/events/speakers/tanya-snook.jpg: 2018-02-02 22:08:15.479221259 -06:00
 build/assets/img/events/speakers/julia-keren-detar.jpg: 2017-12-29 12:01:25.623441720
   -06:00
 build/assets/img/events/speakers/daniel-zarick.jpg: 2017-12-29 12:01:25.577453489
@@ -157,7 +163,7 @@ build/assets/img/events/speakers/jason-kunesh.jpg: 2017-12-29 12:01:25.598982579
 build/assets/img/events/speakers/dan-klyn.jpg: 2017-12-29 12:01:25.570686506 -06:00
 build/assets/img/events/speakers/danny-schuman.jpg: 2017-12-29 12:01:25.578175568
   -06:00
-build/assets/img/events/speakers/peter-merholz.jpg: 2017-12-29 12:01:25.688011600
+build/assets/img/events/speakers/peter-merholz.jpg: 2018-02-02 22:08:16.115200028
   -06:00
 build/assets/img/events/speakers/sofia-millares.jpg: 2017-12-29 12:01:25.712441418
   -06:00
@@ -173,6 +179,7 @@ build/assets/img/events/speakers/jonathan-ozeran.jpg: 2017-12-29 12:01:25.616031
   -06:00
 build/assets/img/events/speakers/jeff-eaton.jpg: 2017-12-29 12:01:25.605505020 -06:00
 build/assets/img/events/speakers/marc-maleh.jpg: 2017-12-29 12:01:25.658578141 -06:00
+build/assets/img/events/speakers/andy-budd.jpg: 2018-02-02 22:08:16.195315395 -06:00
 build/assets/img/events/speakers/philip-likens.jpg: 2017-12-29 12:01:25.690665666
   -06:00
 build/assets/img/events/speakers/kathi-kaiser.jpg: 2017-12-29 12:01:25.630464948 -06:00
@@ -197,6 +204,7 @@ build/assets/img/events/speakers/cindy-chastain.jpg: 2017-12-29 12:01:25.5609609
 build/assets/img/events/speakers/ben-lister.jpg: 2017-12-29 12:01:25.524935191 -06:00
 build/assets/img/events/speakers/jonathan-snook.jpg: 2017-12-29 12:01:25.622732131
   -06:00
+build/assets/img/events/speakers/fei-ren.jpg: 2018-02-02 22:08:16.040629316 -06:00
 build/assets/img/events/speakers/andrea-mignolo.jpg: 2017-12-29 12:01:27.154217561
   -06:00
 build/assets/img/events/speakers/phil-balagtas.jpg: 2017-12-29 12:01:25.688664427
@@ -257,6 +265,8 @@ build/assets/img/events/speakers/laralyn-mcwilliams.jpg: 2017-12-29 12:01:25.648
   -06:00
 build/assets/img/events/speakers/sharon-bautista.jpg: 2017-12-29 12:01:25.709484042
   -06:00
+build/assets/img/events/speakers/amy-jimenez-marquez.jpg: 2018-02-02 22:08:16.185074996
+  -06:00
 build/assets/img/events/speakers/phil-sharp.jpg: 2017-12-29 12:01:25.689239154 -06:00
 build/assets/img/events/speakers/mark-meeker.jpg: 2017-12-29 12:01:25.673145004 -06:00
 build/assets/img/events/speakers/jen-myers.jpg: 2017-12-29 12:01:25.606235605 -06:00
@@ -290,9 +300,11 @@ build/assets/img/events/speakers/katherine-walker.jpg: 2017-12-29 12:01:25.62959
 build/assets/img/events/speakers/abi-jones.jpg: 2017-12-29 12:01:27.143788117 -06:00
 build/assets/img/events/speakers/dan-leboeuf.jpg: 2017-12-29 12:01:25.573343288 -06:00
 build/assets/img/events/speakers/jim-remsik.jpg: 2017-12-29 12:01:25.612513696 -06:00
+build/assets/img/events/meta/prototypes-process-play-2018.jpg: 2018-02-02 22:08:17.599040781
+  -06:00
 build/assets/img/events/logos/prototype-camp-alt.png: 2017-12-29 12:01:27.076963209
   -06:00
-build/assets/img/events/logos/prototypes-process-play-alt.png: 2017-12-29 12:01:27.084548728
+build/assets/img/events/logos/prototypes-process-play-alt.png: 2018-02-02 22:08:19.984830999
   -06:00
 build/assets/img/events/logos/real-world-responsive-design-workshop.png: 2017-12-29
   12:01:27.101356897 -06:00
@@ -320,7 +332,7 @@ build/assets/img/events/logos/speaker-camp-alt.png: 2017-12-29 12:01:27.10632444
   -06:00
 build/assets/img/events/logos/prototyping-responsive-designs-axure-workshop.png: 2017-12-29
   12:01:27.099602088 -06:00
-build/assets/img/events/logos/prototypes-process-play.png: 2017-12-29 12:01:27.091620769
+build/assets/img/events/logos/prototypes-process-play.png: 2018-02-02 22:08:19.968904457
   -06:00
 build/assets/img/events/logos/prototypes-process-play-alt-2017.png: 2017-12-29 12:01:27.082271549
   -06:00
@@ -464,7 +476,7 @@ build/assets/img/events/headers/workshop-workshop.jpg: 2017-12-29 12:01:25.46208
   -06:00
 build/assets/img/events/headers/prototyping-responsive-designs-axure-workshop.jpg: 2017-12-29
   12:01:25.455548253 -06:00
-build/assets/img/events/headers/prototypes-process-play-2018.jpg: 2017-12-29 12:03:51.453350925
+build/assets/img/events/headers/prototypes-process-play-2018.jpg: 2018-02-02 22:08:18.877082304
   -06:00
 build/assets/img/events/headers/front-end-camp.jpg: 2017-12-29 12:01:25.417137686
   -06:00
