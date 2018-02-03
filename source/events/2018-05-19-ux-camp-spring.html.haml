@@ -11,7 +11,7 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
 - sponsors = ["Columbia College", "Lead Honestly",]
 - keynotes = []
-- speakers = []
+- speakers = ["Fei Ren", "Karmen Kaufmann"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -229,6 +229,24 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 %section#speakers.main-content.main-bg-alt
   .container
     
+    - content_for :talk_fei_ren do
+
+      %h3 Understanding &amp; Improving Information Architecture
+
+      %p Information architecture is the art and science of organizing information in the digital world. A lot of times, UX designers and researchers take the responsibility of understanding and improving information architecture of a product. However, it is tricky because users may categorize information differently. This presentation will cover the research methodologies, tools, and skills to study and refine information architecture. Also I will cover the common biases on IA research methodologies.
+
+    - content_for :talk_karmen_kaufmann do
+
+      %h3 How to Shut Up &amp; Listen
+
+      %p When conducting research with users, designers are always thinking one step ahead. &#8220;Should I take them down that thought path? How much more time do I have? What&#8217;s the next question I should ask?&#8221;
+
+      %p Unfortunately, this is how most people have conversations in their daily life as well—completely one-sided, selfish, and focused on the next time they get to talk. That just doesn&#8217;t work when you&#8217;re trying to get genuine stories out of people.
+
+      %p Using the Constructivist Listening Dyad (a tool developed for educators), design researchers can uncover greater insights through listening, and not just thinking one step ahead to guide the conversation. By forcing yourself to remain silent and fully dedicate yourself to listening to your users, you will empower them to speak their truth. In the end you'll have honest insights from your users that will guide your design.
+
+      %p In this session, participants (anyone from designers, researchers, and strategists) will walk away with a refreshed empathy for their research subjects, a new method to apply to their generative research, and refined skills in active listening.
+
     %h3.h-section Speakers
 
     %h3 Call for Speakers
@@ -236,8 +254,6 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
     %p Are you interested in speaking at UX Camp? We sure hope so! <a href="/proposal/">Submit your talk</a> and let us know what&#8217;s on your mind to share.
 
     %p First time speaker, or have limited experience? Let us know&mdash;we welcome new speakers and have been known to help folks round out their proposals.
-
-    %p <a href="/proposal/">Submit your talk</a>&mdash;come hang out with us in Chicago and share what you&#8217;ve learned!
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
