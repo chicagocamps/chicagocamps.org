@@ -26,7 +26,9 @@
     %meta(property="og:site_name" content="Chicago Camps")
     - if current_page.data.summary
       %meta(property="og:description" content="#{current_page.data.summary}")
-    - if current_page.data.alias == 'prototypes-process-play' and Date.parse(current_page.data.date).strftime('%Y') == '2017'
+    - if current_page.data.alias == 'prototypes-process-play' and Date.parse(current_page.data.date).strftime('%Y') == '2018'
+      %meta(property="og:image" content="http://chicagocamps.org/assets/img/events/meta/#{current_page.data.alias}-2018.png")
+    - elsif current_page.data.alias == 'prototypes-process-play' and Date.parse(current_page.data.date).strftime('%Y') == '2017'
       %meta(property="og:image" content="http://chicagocamps.org/assets/img/events/logos/#{current_page.data.alias}-2017.png")
     - elsif current_page.data.alias == 'proposal'
       %meta(property="og:image" content="http://chicagocamps.org/assets/img/proposal.png")
