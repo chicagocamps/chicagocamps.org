@@ -45,12 +45,18 @@
           </li>
         </ul>
       </nav>
-      <form action='//chicagocamps.us6.list-manage.com/subscribe/post?u=785f2733c9312c559087febe9&amp;amp;id=492b931a09' class='primary-newsletter' method='post' name='mc-embedded-subscribe-form' target='_blank'>
+      <form action='https://chicagocamps.activehosted.com/proc.php' class='primary-newsletter' method='post' target='_blank'>
+        <input name='u' type='hidden' value='1'>
+        <input name='f' type='hidden' value='1'>
+        <input name='s' type='hidden'>
+        <input name='c' type='hidden' value='0'>
+        <input name='m' type='hidden' value='0'>
+        <input name='act' type='hidden' value='sub'>
+        <input name='v' type='hidden' value='2'>
         <label class='newsletter-label' for='newsletter-email'>Join Our Mailing List</label>
         <div class='primary-newsletter-form-container'>
           <div class='primary-newsletter-form form-row'>
-            <input class='form-control' id='newsletter-email' name='EMAIL' placeholder='Email address' required type='email'>
-            <input class='primary-newsletter-spam' name='b_785f2733c9312c559087febe9_492b931a09' tabindex='-1' type='text'>
+            <input class='form-control' id='newsletter-email' name='email' placeholder='Email address' required type='email'>
             <div class='form-btn'>
               <input class='btn btn-default' name='subscribe' type='submit' value='Join'>
             </div>
