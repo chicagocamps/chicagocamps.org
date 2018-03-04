@@ -8,8 +8,8 @@ location: Columbia College Film Row &ndash; Chicago
 summary: Learn design leadership skills from Twitter, Pivotal Labs, Nasdaq, and Hyatt - just to name a few!
 ---
 - sponsors = ["Columbia College", "Lead Honestly", ]
-- keynotes = []
-- speakers = ["Amy Jiménez Marquez", "Andy Budd", "Elizabeth Goodman", "Kara DeFrias", "Peter Merholz", "Tanya Snook"]
+- keynotes = ["Antionette Carroll", "Kim Goodwin"]
+- speakers = ["Amy Jiménez Marquez", "Andy Budd", "Bennett King", "Elizabeth Goodman", "Kara DeFrias", "Meg Lewis", "Peter Merholz", "Tanya Snook"]
 - lightning = []
 
 %nav.event-nav.group(data-js="event-nav")
@@ -362,6 +362,27 @@ summary: Learn design leadership skills from Twitter, Pivotal Labs, Nasdaq, and 
 
         %p Teams, and the humans that comprise them, are fascinatingly complex and complicated. In a snapshot, we can fool ourselves into believing all kinds of things about them. And yet, we can&#8217;t really know for sure unless we dive in deeper and learn about their health, their needs, and try to help them optimize for their individual successes. In this presentation, Kara shares her approach to the care and feeding of humans, sharing lessons gleaned from working at the highest echelons of sports, entertainment, government, and technology.
 
+      - content_for :talk_kim_goodwin do
+
+        %h3 Context/Leader Fit
+
+        %p Any seasoned designer or PM knows the importance of context: users, goals, environments, and business needs all shape the &#8220;best&#8221; solution to a given problem. And yet, designers and leaders frequently assume that a process, skill set, or attitude that worked in one place is the one right answer. Kim will discuss:
+
+        %ul.list-ul
+          %li What characteristics of organizations demand different things from leaders
+          %li How to assess your leadership effectiveness within a given context
+          %li How to find your own context/leader fit
+
+      - content_for :talk_meg_lewis do
+
+        %h3 Full Time You
+
+        %p There&#8217;s no one like you on this planet, so why have a career like anyone else? Traditional career paths, like fitting into a one-size-fits-all job description and letting higher-ups determine our success, don&#8217;t work for everyone. What if there was a new path that was paved just for you? Let&#8217;s ditch the separation of work/life and embrace a new life where you get paid to be yourself! Champion your unique personality, strengths, and values to grow your life and career!
+
+        %p During this fun and interactive talk, we&#8217;ll cut deep into your squishy core and find what makes you, you! Grab your metaphorical lantern and head into the depths of your true self as we create an actionable plan for your future life and career as a leader.
+
+        %p This talk will help you identify the qualities that make you unique and translate them to a career only you can have. Meg will coach you through defining a life&#8217;s purpose that will drive your career and life decisions. At the end, she&#8217;ll guide you through creating team and relationship guidelines that help fulfill your purpose and advance your career. You&#8217;ll leave feeling confident and excited knowing your team needs your unique abilities.
+
       - content_for :talk_peter_merholz do
 
         %h3 Coach, Diplomat, Advocate, Architect: The Complete Design Leader
@@ -370,9 +391,8 @@ summary: Learn design leadership skills from Twitter, Pivotal Labs, Nasdaq, and 
 
         %p In this talk, Peter will outline the four archetypes of the Complete Design Leader. This leader grows their design team, provides clear expectations, and does everything they can to ensure the team&#8217;s effectiveness. These leaders must broaden their purview beyond creative matters, into the managerial and operational activities that will enable their team to succeed.
 
-    -#
-      %h3 Keynotes
-      = partial "partials/events/speakers", locals: {speakers: keynotes}
+    %h3 Keynotes
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
     %h3 Sessions
     = partial "partials/events/speakers", locals: {speakers: speakers}
