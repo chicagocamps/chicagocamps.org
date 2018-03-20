@@ -10,8 +10,8 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 ---
 
 - sponsors = ["Columbia College", "Lead Honestly",]
-- keynotes = []
-- speakers = ["Alina Cvetkova", "Brian Montana", "Colleen Pellissier", "Neil Jacobsen", "Dale Sande", "Eva PenzeyMoog", "Fei Ren", "Karmen Kaufmann", "Katie Swindler"]
+- keynotes = ["Don Bora"]
+- speakers = ["Alina Cvetkova", "Brian Montana", "Claire Mallory", "Colleen Pellissier", "Neil Jacobsen", "Dale Sande", "Eva PenzeyMoog", "Fei Ren", "Karmen Kaufmann", "Katie Swindler"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -20,9 +20,8 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
         %a(href="#top" rel="nofollow") UX Camp
       %li
         %a(href="#details" rel="nofollow") Details
-      -#
-        %li
-          %a(href="#keynotes" rel="nofollow") Keynotes
+      %li
+        %a(href="#keynotes" rel="nofollow") Keynotes
       -#
         %li
           %a(href="#schedule" rel="nofollow") Schedule
@@ -60,12 +59,11 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
     %p We&#8217;re actively looking for <a href="/contact/">sponsors</a> for UX Camp. If you&#8217;re interested, or if you know someone we should talk to, <a href="/contact/">please let us know</a>!
 
--#=
-  %section#keynotes.main-content.main-bg-alt
-    .container
+%section#keynotes.main-content.main-bg-alt
+  .container
 
-      %h3.h-section Keynotes
-      = partial "partials/events/speakers", locals: {speakers: keynotes}
+    %h3.h-section Keynotes
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 -#
   %section#schedule.main-content.main-bg-highlight
@@ -247,6 +245,14 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
       %p There will be animation, code and friendship!
 
+    - content_for :talk_claire_mallory do
+
+      %h3 Don&#8217;t Fear the Recruit!
+
+      %p A solid recruit is essential for good research—UX cannot exist without research, and research requires participants. And yet, recruiting can seem like a daunting or insurmountable task. As the foundation of successful user research, recruitment deserves careful attention. 
+
+      %p In this talk, we will focus on the many possible (and varied) ways to secure research participants. We’ll share the pros and cons of each approach, from scrappy DIY methods to outsourcing your recruit to the professionals. We will also discuss best practices for defining your target audience, writing a screener, and compensating participants. You will leave with an understanding of the tools and techniques necessary for a successful recruit, putting you in the best position to conduct successful UX research.
+    
     - content_for :talk_dale_sande do
 
       %h3 Empowering Your UI Design Systems
