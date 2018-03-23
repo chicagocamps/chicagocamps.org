@@ -12,7 +12,7 @@ In 2018, we&#8217;re planning on holding 3 events and we&#8217;d love to see you
 <ul class="list-ul">
   <li><strong><a href="/events/2018/ux-camp-spring/">UX Camp Spring</a></strong> &#8212; May 19, 2018</li>
   <li><strong><a href="/events/2018/prototypes-process-play/">Prototypes, Process &amp; Play</a></strong> &#8212; July 26-27, August 2-3, or August 9-10, 2018</li>
-  <li><strong><a href="/events/2018/ux-camp-fall/">UX Camp Fall</a></strong> &#8212; October 20, 2018</li>
+  <li><strong><a href="/events/2018/ux-camp-fall/">UX Camp Fall</a></strong> &#8212; November 10, 2018</li>
 </ul>
 
 READMORE
