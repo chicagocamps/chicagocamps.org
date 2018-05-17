@@ -11,7 +11,7 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
 - sponsors = ["Columbia College", "Lead Honestly",]
 - keynotes = []
-- speakers = []
+- speakers = ["Eva PenzeyMoog"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -238,6 +238,15 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
     %p First time speaker, or have limited experience? Let us know&mdash;we welcome new speakers and have been known to help folks round out their proposals.
 
     %p <a href="/proposal/">Submit your talk</a>&mdash;come hang out with us in Chicago and share what you&#8217;ve learned!
+
+    - content_for :talk_eva_penzeymoog do
+
+      %h3 Designing Against Domestic Violence
+
+      %p The reality of domestic violence doesn&#8217;t disappear when people leave enter the digital world. Abusers use technology to exploit and control their victims, meaning that technologists have a responsibility to ensure that users of our products are empowered to protect their safety. How can we prevent people with violent intentions from forms of abuse and control that are digital, such as browsing a victim&#8217;s computer, finding sensitive information about them online, or creating fake content in their name? How can our products that involve real people, such as software for building managers, protect against an abuser talking their way past a building&#8217;s doorman whose uses software to track approved guests? While there&#8217;s no simple answer and ultimately no way to ensure our users&#8217; safety in all situations, thoughtful considerations and small changes while designing and building products can and does result in meaningful contributions to people&#8217;s safety. This talk will explore how to think through a lens of safety, create those thoughtful considerations, and advocate for an emphasis on safety.
+
+      %p
+        %em This presentation will deal explicitly with domestic violence and may be triggering for some attendees. Please do not hesitate to leave the room at any time should you need to.
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
