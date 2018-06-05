@@ -6,19 +6,23 @@ tags: 2018, ppp, chicago
 related_event: prototyes-process-play-2018
 ---
 
+## Improving Your Design Leadership Skills
+
 Here at Chicago Camps, we&#8217;ve scoured the internet to review a whole bunch of the best (and frankly, the worst) &#8220;<a href="https://www.google.com/search?q=convince+your+boss+conference" rel="nofollow">Convince Your &lt;Boss&gt;</a>&#8221; posts so that we could not start our first one from scratch. Then we refined that to be more specific toward <a href="https://www.google.com/search?q=convince+your+boss+design+conference" rel="nofollow">Design</a>, and we found some results that considered a lot of things we would be remiss if we overlooked, so we&#8217;ve mashed together a bunch of the key themes from all of those other posts to make this one better.
 
 #### BLUF / TLDR (Bottom Line Up Front / Too Long Didn&#8217;t Read):
 
 <ul class="list-ul">
   <li>If you don&#8217;t live in Chicago, it can cost you $917 - $1,504ish to attend our design leadership conference <a href="/events/2018/prototypes-process-play/">Prototypes, Process &amp; Play</a>.</li>
-  <li>You&#8217;re going to learn from deeply experienced professionals leading the design field, learn practical approaches to solving the problems you face today, network with others who can help you after the event, and save a lot of money over other events.</li>
+  <li>You&#8217;re going to learn and enhance your design leadership skills from deeply experienced professionals leading the design field, learn practical approaches to solving the problems you face today, network with others who can help you after the event, and save a lot of money over other events.</li>
   <li>Our <a href="/events/2018/prototypes-process-play/#schedule">schedule</a> is amazing and says a lot on its own!</li>
   <li>There&#8217;s a letter that you can copy/paste and update to send to whomever you need to convince at the bottom, if you need it.</li>
   <li>There&#8217;s a discount code at the bottom, too!</li>
 </ul>
 
 READMORE
+
+<div id="the-event"></div>
 
 ## The Event: Prototypes, Process &amp; Play
 
@@ -27,6 +31,8 @@ That&#8217;s a unique name, right? Our design leadership conference is a curated
 This sets us up with a great set of lenses to identify the best folks to provide you with the best information needed to do your job&ndash;and to do it better! We work non-stop, constant looking, listening, and reviewing the work of others to find the proven, experienced voices from inside the design industry and from outside of it to help us all gain much-needed perspective. 
 
 Our schedule of speakers is a direct result of that, and they&#8217;re all folks who understand that we work extra hard to provide high-value, low-cost events so that we can be as accessible as possible to as many people as possible.
+
+<div id="the-cost"></div>
 
 ## First &amp; Foremost: The Cost
 
@@ -52,6 +58,8 @@ We also do our best to feed you well at our events. We work hard to provide cate
 
 Also: We know that the other cost here is Time Away From Work. We&#8217;ve made arrangements for wifi at the venue, and we&#8217;re working out spaces to allow you to take phone calls, have a little privacy, and/or some quiet. We&#8217;ll do our best to be helpful in that regard!
 
+<div id="the-value"></div>
+
 ## Second: The Value
 
 The value is pretty straight forward, fortunately!
@@ -63,6 +71,8 @@ The value is pretty straight forward, fortunately!
   <li><strong>There&#8217;s networking opportunities with like-minded, like-challenged individuals and brilliant speakers from all over the industry.</strong> Sure, you can network for your next role or to fill the vacancy you have on your team&ndash;everyone understands that. Our audiences are pretty kind and cool, and we&#8217;ve heard tale of people making new friends from across the globe. It&#8217;s great to have the email of someone else going through similar challenges so you can share your experiences&ndash;you&#8217;ll get that chance!</li>
   <li><strong>The cost is part of the value.</strong> We keep our costs low, and we know that makes it a little bit easier to make the case for going because it makes your costs low, too. We&#8217;ve had companies send entire teams to make attending the conference part of a bigger retreat or other team activity.</li>
 </ul>
+
+<div id="the-content"></div>
 
 ## Third: The Content
 
@@ -91,6 +101,8 @@ That&#8217;s two whole days of amazing right there, and that&#8217;s probably an
 In addition to all of this design leadership, we&#8217;re bringing you some post-lunch lightning talks that are all about learning how others do their work. We&#8217;re going to learn how a DJ designs music, how an artist takes her ideas and turns them into photorealistic, gigantic pieces of chalk art, and then makes this magic into a business for herself, how a game maker has successfully run 1, maybe 2, Kickstarter projects, depending upon how the second one goes, and we&#8217;ll have one more coming soon that&#8217;ll be every bit as interesting as the ones described.
 
 We&#8217;ve got a lot for your brain to devour!
+
+<div id="a-letter"></div>
 
 ## Fourth: A Letter, If You Need It
 
