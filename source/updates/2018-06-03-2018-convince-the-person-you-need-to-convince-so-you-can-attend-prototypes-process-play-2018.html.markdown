@@ -116,7 +116,7 @@ Writing is hard. Writing an email or preparing a script for someone who you need
 
 <ul class="list-ul">
   <li><em>It&#8217;s only $375, and they&#8217;ve offered a 10% discount. This makes it one of the least expensive events in the industry, several times over.</em></li>
-  <li><em>They speakers are impressive professionals who not only lead at major organizations, they&#8217;re also authors, community leaders, and individuals who have worked hard to bring change to the design community and the world.</em></li>
+  <li><em>The speakers are impressive professionals who not only lead at major organizations, they&#8217;re also authors, community leaders, and individuals who have worked hard to bring change to the design community and the world.</em></li>
   <li><em>I&#8217;ll be able to grow my leadership skills and apply that to the team immediately.</em></li>
   <li><em>I&#8217;ll be able to identify new ways of thinking and working that I can share with the design team, and your leadership team.</em></li>
   <li><em>I&#8217;ll gain from decades of experience over the course of just two short days.</em></li>
