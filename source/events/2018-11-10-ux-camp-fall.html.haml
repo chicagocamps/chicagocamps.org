@@ -11,7 +11,7 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
 - sponsors = ["Columbia College", "Lead Honestly",]
 - keynotes = []
-- speakers = ["Eva PenzeyMoog"]
+- speakers = ["Eva PenzeyMoog", "Gabby Hon"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -247,6 +247,12 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
       %p
         %em This presentation will deal explicitly with domestic violence and may be triggering for some attendees. Please do not hesitate to leave the room at any time should you need to.
+
+    - content_for :talk_gabby_hon do
+
+      %h3 The Map Is Not The Territory: Against UX Portfolios, and For Rational Hiring
+
+      %p Mired in deliverable purgatory, and possessed of strategic skills that are continually undervalued, UX professionals are further humiliated by hiring requirements that include portfolios. I will explain why portfolios are entirely wrong for evaluating the worth of a UX professional, why hiring managers can&#8217;t seem to stop demanding them, and propose a path out of this quagmire.
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
