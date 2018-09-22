@@ -106,6 +106,15 @@ Amy Jiménez Marquez:
     <p>Amy Jim&#233;nez Marquez is the manager of the Alexa Personality Experience team at Amazon in Seattle, WA. She&#8217;s also one of the publishers of Boxes and Arrows, an online publication devoted to the practice, innovation, and discussion of design.</p>
     <p>She&#8217;s been a UX professional since the late 1990s, working in both corporate and freelance settings. With a Master&#8217;s degree in Directing, Amy has also been performing improvisational comedy for over 20 years, and enjoys applying improv collaboration techniques to her daily work.</p>
 
+Amy Johnson:
+  alias:   amy-johnson
+  title:   "Senior Mobile UI Designer, Allstate Insurance Company"
+  twitter: J_Justified
+  website: johnsonjustified.com
+  bio: |
+    <p>Amy Johnson is a Senior Mobile Visual Designer at Allstate Insurance Company. At Allstate, she designs exclusively native mobile experiences for Allstate Mobile and works closely with UX architects, Developers and Researchers. She has worked in many different environments from start-ups to large corporate companies.</p>
+    <p>She was diagnosed with Autism Spectrum Disorder after being misdiagnosed for most of her life. With a newer understanding of how her mind works, she has new a doggy companion and is challenging what is a &#8220;normal&#8221; working environment. She strives to raise awareness of neurodiversity and hopefully start conversations that create more productive and inclusive working environments.</p>
+
 Andrea Mignolo:
   alias:   andrea-mignolo
   title:   "Chief Design Officer, SimpleReach"
@@ -297,6 +306,14 @@ Brian Montana:
   bio: |
     <p>Brian Montana has an MFA in New Media and works as a Creative Technologist at Conversant. He&#8217;s a former Marine, cancer survivor, organizer of CodePen Chicago and museum adventurer.</p>
 
+Brian Santiago:
+  alias:   brian-santiago
+  title:   "Senior Product Designer, Fastly"
+  twitter: thebsantiago
+  website: brian-santiago.com
+  bio: |
+    <p>Brian has 15+ years of experience across all design disciplines from a wide range of industries including supply-chain, data science, and internet infrastructure. He currently is helping his colleagues at Fastly, an edge cloud platform that powers fast, secure, and scalable digital experiences for the world&#8217;s most popular businesses, including Airbnb, the New York Times, and Vimeo. You can usually find Brian in Northern California where he enjoys overreacting to the Chicago Cubs, trying to lower his golf handicap, and searching for the perfect croissant.</p>
+
 Bridget Weis-Urbain:
   alias:   bridget-weis-urbain
   title:   "Chef &amp; Owner, Cook From Scratch"
@@ -433,6 +450,14 @@ Courtney Roberts:
   bio: |
     <p>Courtney Roberts has over five years of user-centered research experience in a variety of industries including healthcare and mobile. After two years of honing UX research skills as a consultant at GfK UX, she fulfilled a personal goal of living and working abroad by moving to Berlin, Germany. There she found herself on the client side as the sole UX researcher at Market Logic Software, a software company that helps companies plan, execute and reuse their market research.</p>
 
+Cynthia Gelper:
+  alias:   cynthia-gelper
+  title:   "UX Content Strategist &amp; Storyteller"
+  twitter: ContentLama
+  website: contentstrategyanswers.com
+  bio: |
+    <p>I&#8217;m a content strategist and practitioner of human-centered content design. Based in Chicago, I got my start as a marketing and technical writer for digital agencies but was drawn to the usability side of things when I saw the sometimes profound disconnect between marketing goals and user objectives. In my blog on <a href="https://contentstrategyanswers.com/" rel="nofollow:>content strategy and UX</a> I interview thought leaders about challenges, where they see the field going and how they got their start.</p>
+
 Dale Sande:
   alias:   dale-sande
   title:   "Senior Web UI Developer, Spiria"
@@ -440,7 +465,7 @@ Dale Sande:
   website: dalesande.com
   bio: |
     <p>Dale Sande has worked as a senior UX Engineer with companies like Getty Images, BestBuy, Microsoft, REI, AppDirect, and others. He currently leads UI development for front-end projects and manages a development technical education platform with Spiria. Dale is very involved in the front-end community, both locally and nationally. He and a colleague were the inspiration behind SassMeister, he has co-authored two books on Sass and continues to write endless instructional tutorials.</p>
-    <p>In those rare moments when Dale can actually put the computer down, he enjoys spending time with this wife and two daughters biking, hiking and generally being outdoors in the Pacific North West</p>
+    <p>In those rare moments when Dale can actually put the computer down, he enjoys spending time with this wife and two daughters biking, hiking and generally being outdoors in the Pacific North West.</p>
 
 Dan Brown:
   alias:   dan-brown
@@ -564,6 +589,14 @@ Dennis Kardys:
   website: robotregime.com
   bio: |
     <p>Dennis Kardys is a Chicago based UX designer and author with an affinity for all things mobile. He&#8217;s the author of the recently published Mobile Web Triage, and a contributing author to Smashing Magazine&#8217;s The Mobile Book. As Design Director at WSOL, Dennis leads a team of wisecrackin&#8217; designers and developers in helping universities, hospitals and corporations alike take the plunge into mobile and responsive design.</p>
+
+Diana Deibel:
+  alias:   diana-deibel
+  title:   "Lead Designer, Grand Studio"
+  twitter: dianadoesthis
+  website: grandstudio.com
+  bio: |
+    <p>Diana Deibel is a Lead Designer at Grand Studio in Chicago, a multidisciplinary product design consultancy where she focuses on VUI design, UX strategy and research. Her favorite work combines behavior theory, dialogue writing, and creating a useful, enjoyable experience &ndash; while hopefully avoiding breaking any UX laws. </p>
 
 Dimple Rao:
   alias:   dimple-rao
@@ -880,6 +913,14 @@ Jon Hadden:
   bio: |
     <p>Jon Hadden is the founder of NiceUX, a user experience design and development consultancy in Minneapolis, Minnesota. In his 12 years of designing, coding, speaking, and writing, Jon has produced usable products and services for millions across the globe. He&#8217;s a volunteer with Boxes and Arrows, guest speaker with the University of Minnesota Design program, and has been lucky enough to have worked with Happy Cog, Yahoo!, and space150.</p>
 
+Jon Yablonski:
+  alias:   jon-yablonski
+  title:   "Interactive Design Lead, Vectorform"
+  twitter: JonYablonski
+  website: jonyablonski.com
+  bio: |
+    <p>Jon is a Interactive Design Lead at <a href="https://www.vectorform.com/" rel="nofollow">Vectorform</a>, where he invents digital products and experiences. His passion lies in exploring the intersection of design and development, and often merges these two disciplines into a hybrid approach for solving digital problems. When he&#8217;s not building wireframes or style sheets, Jon is curating <a href="https://lawsofux.com/" rel="nofollow">Laws of UX</a> and the <a href="https://webfieldmanual.com/" rel="nofollow">Web Field Manual</a>.</p>
+
 Jonathan Ozeran:
   alias:   jonathan-ozeran
   title:   "VP Product, Zest Health"
@@ -902,6 +943,13 @@ Julia Keren-Detar:
   twitter: quiltingcrow
   bio: |
     <p>Julia Keren-Detar is a game designer and developer based out of Chicago, IL. Currently she is the Creative Director for Untame, a studio shared by her and her husband. She is working on Mushroom 11 with Itay Keren, Simon and Kara Kono, contributing to the game design, UX and marketing. She&#8217;s worked on several casual and indie titles including Untame&#8217;s award-winning mobile game &#8220;Rope Rescue&#8221; and Arkadium&#8217;s hit Facebook game &#8220;Mahjongg Dimensions Blast&#8221;. At Arkadium, she was a senior developer at the R&D department, prototyping and designing dozens of games. Julia is also an avid quilter and a hobby game historian.</p>
+
+Julie Morycz:
+  alias:   julie-morycz
+  title:   "Senior Designer, Grand Studio"
+  website: juliemoryczdesign.com
+  bio: |
+    <p>Julie Morycz is a Senior Designer at Grand Studio where she focuses on visual/UI design and digital UX. She is an adaptive, inquisitive designer, and is passionate about creating human-centered solutions to common problems&hellip; with a side interest in all the crime shows.</p>
 
 Kamaria Campbell:
   alias:   kamaria-campbell
@@ -1273,7 +1321,7 @@ Romke de Haan:
   title:   "Business Development Officer, i.c.stars"
   website: www.romkedehaan.com
   bio: |
-    <p>Romke de Haan has been in the DJ world since he was 13 years old. First under DJ greats like DJ QuickMixx and Opie Cuttingham of Illinois Mixx Mob. Romke became more of a performing DJing in his late 20s after the passing of his friend DJ Roc Dee. Today Romke has DJ'd for thousands all over the country in bars and venues in Milwaukee, Chicago, New York, Atlanta, and DC. He blends various mixes of genres and styles sure to get a party going. By day Romke works as a consultant in technology and business, helping organizations transform into modern companies.</p>
+    <p>Romke de Haan has been in the DJ world since he was 13 years old. First under DJ greats like DJ QuickMixx and Opie Cuttingham of Illinois Mixx Mob. Romke became more of a performing DJing in his late 20s after the passing of his friend DJ Roc Dee. Today Romke has DJ&#8217;d for thousands all over the country in bars and venues in Milwaukee, Chicago, New York, Atlanta, and DC. He blends various mixes of genres and styles sure to get a party going. By day Romke works as a consultant in technology and business, helping organizations transform into modern companies.</p>
 
 Ross Belmont:
   alias:   ross-belmont

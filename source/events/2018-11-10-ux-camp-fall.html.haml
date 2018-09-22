@@ -11,7 +11,7 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
 - sponsors = ["Columbia College", "Lead Honestly",]
 - keynotes = []
-- speakers = ["Eva PenzeyMoog", "Gabby Hon"]
+- speakers = ["Amy Johnson", "Brian Santiago", "Cynthia Gelper", "Diana Deibel", "Julie Morycz", "Eva PenzeyMoog", "Gabby Hon", "Jon Yablonski"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -239,6 +239,45 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
     %p <a href="/proposal/">Submit your talk</a>&mdash;come hang out with us in Chicago and share what you&#8217;ve learned!
 
+    - content_for :talk_amy_johnson do
+
+      %h3 Neurodiversity at Work: Valuing Teammates Who are Wired Differently
+
+      %p I am a Visual Designer in corporate America; I am also on the Autism Spectrum. I&#8217;ve thrived in my career using self-awareness as a tool for bringing out my best work and approaching design from a different direction. Growing a neurodiverse design team has its hurdles, but the pros far outweigh the cons. I will talk about improving work environments, identifying communication styles, and being a great team mate to those that are wired a bit different.
+
+      %p Key Takeaways:
+
+      %ul.list-ul
+        %li Discover the benefits of hiring those with atypical brains
+        %li Learn how to best collaborate with individuals that have ADD, ADHD, Autism and more
+        %li Make your team work environment healthier and more flexible for all employees; both neurotypical and atypical
+    
+    - content_for :talk_brian_santiago do
+
+      %h3 Creating User-Centered Organizations Through Rapid Usability Testing
+
+      %p Few will argue the benefits of usability testing, but regardless if you are a seasoned UX professional or new to the field, traditional usability testing can be extremely time consuming. Often times many will completely skip testing because the friction is so high. In my talk, I will share the lessons I learned from when I introduced a low-friction and light-weight testing framework to my colleagues at Fastly, a company that powers over 10% of all internet traffic. This new approach increased our usability testing frequency by 4x in 8 months, gave teams greater insights into their products, and gained greater adoption of the testing process throughout the organization.
+
+    - content_for :talk_cynthia_gelper do
+      
+      %h3 What Content Strategy Can Teach UX
+      
+      %p In my talk, I&#8217;ll discuss the role of content strategy in a project and how usability, no matter how researched and executed, stands and falls on the shoulders of content. This includes what user experience designers need to know to perform content strategy functions &ndash; even if the project doesn&#8217;t have the budget to hire a dedicated content strategist. 
+
+      %p I&#8217;ll describe how content strategy contributes to a project, including a structure for creating a project goal and plan, from message architecture through editorial calendar to style guidelines. I&#8217;ll give examples of how content strategy can help accomplish business goals without leaving the users behind and help you think about how content will be sourced, managed and measured. 
+
+      %p I&#8217;ll also give cautionary examples of what happens when you don&#8217;t include content strategy in your planning and when you put content last, instead of first. 
+
+      %p Finally, I&#8217;ll talk about how UX and content strategy folks can help enhance the other&#8217;s work and collaborate for better results. 
+
+    - content_for :talk_julie_morycz do
+
+      %h5.lineup-subtitle.h-sm-caps-gray Diana &amp; Julie present:
+
+      %h3 The True Crime of Bad Design
+      
+      %p Much like true crime shows look at the notorious criminals in our culture, we will look at the notorious (and some not-so-notorious but equally &#8220;criminal&#8221;) UX/UI snafus in the recent years, including mistakes from our own work and what we&#8217;ve learned as individuals and a community about why certain tactics or styles don&#8217;t work in digital and conversational interfaces.
+
     - content_for :talk_eva_penzeymoog do
 
       %h3 Designing Against Domestic Violence
@@ -253,6 +292,14 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
       %h3 The Map Is Not The Territory: Against UX Portfolios, and For Rational Hiring
 
       %p Mired in deliverable purgatory, and possessed of strategic skills that are continually undervalued, UX professionals are further humiliated by hiring requirements that include portfolios. I will explain why portfolios are entirely wrong for evaluating the worth of a UX professional, why hiring managers can&#8217;t seem to stop demanding them, and propose a path out of this quagmire.
+
+    - content_for :talk_jon_yablonski do
+
+      %h3 The Intersection of Psychology &amp; UX Design
+
+      %p The human brain is so complex that understanding it has proven to be arguably the greatest challenge of modern science. It exhibits patterns that are integral to how we perceive and process information, which we’ve evolved for survival over thousands of years. 
+
+      %p An understanding of these patterns is fundamental to designing human-centered experiences, and we can use established principles from psychology to guide us. Instead of forcing users to conform to the design of a product or experience, we can use this knowledge to design for how people actually are.
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
