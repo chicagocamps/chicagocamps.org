@@ -1,0 +1,225 @@
+---
+title: UX Camp Spring
+date: 2019-04-16 01:00 CDT
+category: events
+alias: ux-camp
+location: Columbia College Film Row &ndash; Chicago
+header_image_photographer: Anne Worner
+header_image_url: https://flic.kr/p/fhkjZh
+summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics uncovered and you&#8217;ll learn current topics and improved upon standards in one of the hottest fields today!
+---
+
+- sponsors = ["Columbia College", "Lead Honestly"]
+- keynotes = []
+- speakers = []
+
+%nav.event-nav.group(data-js="event-nav")
+  .container
+    %ul.event-nav-content
+      %li.event-nav-title
+        %a(href="#top" rel="nofollow") UX Camp
+      %li
+        %a(href="#details" rel="nofollow") Details
+      -#
+        %li
+          %a(href="#keynotes" rel="nofollow") Keynotes
+        %li
+          %a(href="#schedule" rel="nofollow") Schedule
+      %li
+        %a(href="#speakers" rel="nofollow") Speakers
+      %li
+        %a(href="#location" rel="nofollow") Location
+
+    %a.btn.btn-alt.event-nav-btn(href="https://chicagocamps.ticketleap.com/ux-camp-spring-2019/dates/Apr-06-2019_at_0830AM" rel="nofollow")
+      Join Us for
+      %strong Only $60
+
+%section#details.main-content
+  .container
+
+    %h3.h-section Details
+
+    %h2 UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics uncovered and you&#8217;ll learn current topics and improved upon standards in one of the hottest fields today!
+
+    %p If you&#8217;re just getting your start in UX and you&#8217;re hoping to learn more, or you&#8217;ve been in the field awhile and want to stay current, UX Camp is for you. A full day&#8211;2 full tracks&#8211;of UX talks, surrounded by impressive keynotes and all for a great price that includes your lunch. 
+
+    %p Sign up now&#8211;these tickets go fast!
+
+    .event-cta
+      %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/ux-camp-spring-2019/dates/Apr-06-2019_at_0830AM" rel="nofollow")
+        Join Us for Only $60 &#8212; Limited Tickets Available
+
+    %h3 Meet Our Awesome Sponsors
+    
+    %p These fantastic sponsors are helping us bring this great event to you.
+
+    = partial "partials/events/sponsors", locals: {sponsors: sponsors}
+
+-#
+  %section#keynotes.main-content.main-bg-alt
+    .container
+
+      %h3.h-section Keynotes
+      = partial "partials/events/speakers", locals: {speakers: keynotes}
+
+-#
+  %section#schedule.main-content.main-bg-highlight
+    .container
+
+      %h3.h-section Schedule
+
+      %table.event-schedule
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T08:30") 8:30
+            &#8212;
+            %time(datetime="2018-11-10T09:00") 9:00
+          %td.event-schedule-offset(colspan="2") Registration &amp; Breakfast
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T09:00") 9:00
+            &#8212;
+            %time(datetime="2018-11-10T09:45") 9:45
+          %td(colspan="2")
+            %a(href="#natalie-hanson" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Natalie Hanson
+            .event-schedule-offset Keynote
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T09:45") 9:45
+            &#8212;
+            %time(datetime="2018-11-10T10:00") 10:00
+          %td.event-schedule-offset(colspan="2") Morning Break
+
+        %tr
+          %th Rooms
+          %td
+            %strong Blue
+            %span.event-schedule-offset (Main)
+          %td
+            %strong Red
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T10:00") 10:00
+            &#8212;
+            %time(datetime="2018-11-10T10:45") 10:45
+          %td
+            %a(href="#amy-johnson" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Amy Johnson
+            .event-schedule-offset Neurodiversity at Work: Valuing Teammates Who are Wired Differently
+          %td
+            %a(href="#brian-santiago" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Brian Santiago
+            .event-schedule-offset Creating User-Centered Organizations Through Rapid Usability Testing
+        
+        %tr
+          %th
+            %time(datetime="2018-11-10T10:45") 10:45
+            &#8212;
+            %time(datetime="2018-11-10T11:00") 11:00
+          %td.event-schedule-offset(colspan="2") Break
+        
+        %tr
+          %th
+            %time(datetime="2018-11-10T11:00") 11:00
+            &#8212;
+            %time(datetime="2018-11-10T11:45") 11:45
+          %td
+            %a(href="#cynthia-gelper" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Cynthia Gelper
+            .event-schedule-offset What Content Strategy Can Teach UX
+          %td
+            %a(href="#diana-deibel" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Diana Deibel &amp; Julie Morycz
+            .event-schedule-offset The True Crime of Bad Design
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T11:45") 11:45
+            &#8212;
+            %time(datetime="2018-11-10T13:00") 1:00
+          %td.event-schedule-offset(colspan="2") Lunch
+        
+        %tr
+          %th
+            %time(datetime="2018-11-10T13:00") 1:00
+            &#8212;
+            %time(datetime="2018-11-10T13:45") 1:45
+          %td
+            %a(href="#eva-penzeymoog" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Eva PenzeyMoog
+            .event-schedule-offset Designing Against Domestic Violence
+          %td
+            %a(href="#garrett-polifka" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Garrett Polifka
+            .event-schedule-offset EQ + Design: Elevating the Design Process
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T13:45") 1:45
+            &#8212;
+            %time(datetime="2018-11-10T14:00") 2:00
+          %td.event-schedule-offset(colspan="2") Break
+        
+        %tr
+          %th
+            %time(datetime="2018-11-10T14:00") 2:00
+            &#8212;
+            %time(datetime="2018-11-10T14:45") 2:45
+          %td
+            %a(href="#gabby-hon" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Gabby Hon
+            .event-schedule-offset The Map Is Not The Territory: Against UX Portfolios, and For Rational Hiring
+          %td
+            %a(href="#jon-yablonski" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Jon Yablonski
+            .event-schedule-offset The Intersection of Psychology &amp; UX Design
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T14:45") 2:45
+            &#8212;
+            %time(datetime="2018-11-10T15:15") 3:15
+          %td.event-schedule-offset(colspan="2") Afternoon Snack
+        
+        %tr
+          %th
+            %time(datetime="2018-11-10T15:15") 3:15
+            &#8212;
+            %time(datetime="2018-11-10T16:00") 4:00
+          %td(colspan="2")
+            %a(href="#ryan-page" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Ryan Page
+            .event-schedule-offset Keynote
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T16:00") 4:00
+            &#8212;
+            %time(datetime="2018-11-10T16:15") 4:15
+          %td.event-schedule-offset(colspan="2") Closing Ceremonies
+
+%section#speakers.main-content.main-bg-alt
+  .container
+    
+    %h3.h-section Speakers
+
+    %h3 Call for Speakers
+    
+    %p Are you interested in speaking at UX Camp? We sure hope so! <a href="/proposal/">Submit your talk</a> and let us know what&#8217;s on your mind to share.
+
+    %p First time speaker, or have limited experience? Let us know&mdash;we welcome new speakers and have been known to help folks round out their proposals.
+
+    %p <a href="/proposal/">Submit your talk</a>&mdash;come hang out with us in Chicago and share what you&#8217;ve learned!
+
+    = partial "partials/events/speakers", locals: {speakers: speakers}
+
+    .event-cta
+      %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/ux-camp-spring-2019/dates/Apr-06-2019_at_0830AM" rel="nofollow")
+        Join Us for Only $60 &#8212; Limited Tickets Available
+
+= partial "partials/events/location-columbia-film-row"
