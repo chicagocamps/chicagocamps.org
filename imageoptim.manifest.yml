@@ -17,6 +17,7 @@ build/assets/img/sponsors/lead-honestly.png: 2017-12-29 12:32:33.938144453 -06:0
 build/assets/img/sponsors/columbia-college.png: 2017-12-29 12:01:25.771486532 -06:00
 build/assets/img/sponsors/rosenfeld.png: 2017-12-29 12:01:25.772120534 -06:00
 build/assets/img/headers/home.jpg: 2017-12-29 12:01:25.764988283 -06:00
+build/assets/img/headers/home-winter.jpg: 2019-01-27 12:10:16.886472224 -06:00
 build/assets/img/headers/default.jpg: 2017-12-29 12:01:25.763086409 -06:00
 build/assets/img/icons/i-menu.png: 2017-12-29 12:01:25.766578158 -06:00
 build/assets/img/icons/i-chevron-left.png: 2017-12-29 12:01:25.765568481 -06:00
@@ -353,15 +354,21 @@ build/assets/img/events/logos/front-end-camp-alt.png: 2017-12-29 12:02:37.287278
   -06:00
 build/assets/img/events/logos/prototypes-process-play-2017.png: 2017-12-29 12:01:27.080009990
   -06:00
+build/assets/img/events/logos/ux-camp-spring.png: 2019-01-27 12:11:19.011535906 -06:00
 build/assets/img/events/logos/prototyping-responsive-designs-axure-workshop-alt.png: 2017-12-29
   12:01:27.098424044 -06:00
 build/assets/img/events/logos/sketch-camp.png: 2017-12-29 12:01:27.105497494 -06:00
 build/assets/img/events/logos/axure-rp-7-workshop-alt.png: 2017-12-29 12:01:25.469133616
   -06:00
+build/assets/img/events/logos/ux-camp-fall-alt.png: 2019-01-27 12:11:18.378227062
+  -06:00
 build/assets/img/events/logos/speaker-camp.png: 2017-12-29 12:01:27.107777246 -06:00
 build/assets/img/events/logos/sketch-camp-alt.png: 2017-12-29 12:01:27.104263134 -06:00
+build/assets/img/events/logos/ux-camp-spring-alt.png: 2019-01-27 12:11:18.283857071
+  -06:00
 build/assets/img/events/logos/workshop-workshop.png: 2017-12-29 12:01:27.112529782
   -06:00
+build/assets/img/events/logos/ux-camp-fall.png: 2019-01-27 12:11:19.900856246 -06:00
 build/assets/img/events/logos/real-world-responsive-design-workshop-alt.png: 2017-12-29
   12:01:27.100643279 -06:00
 build/assets/img/events/logos/mobile-camp-alt.png: 2017-12-29 12:01:27.075052930 -06:00
@@ -373,6 +380,8 @@ build/assets/img/events/logos/prototyping-responsive-designs-axure-workshop.png:
   12:01:27.099602088 -06:00
 build/assets/img/events/logos/prototypes-process-play.png: 2018-02-02 22:08:19.968904457
   -06:00
+build/assets/img/events/logos/leadership-by-design-alt.png: 2019-01-27 12:12:04.701321468
+  -06:00
 build/assets/img/events/logos/prototypes-process-play-alt-2017.png: 2017-12-29 12:01:27.082271549
   -06:00
 build/assets/img/events/logos/ux-camp.png: 2017-12-29 12:01:27.110053460 -06:00
@@ -380,6 +389,8 @@ build/assets/img/events/logos/prototype-camp.png: 2017-12-29 12:01:27.079215037 
 build/assets/img/events/logos/front-end-camp.png: 2017-12-29 12:01:25.470704127 -06:00
 build/assets/img/events/logos/mobile-camp.png: 2017-12-29 12:01:27.076008213 -06:00
 build/assets/img/events/logos/ux-camp-alt.png: 2017-12-29 12:01:27.109067370 -06:00
+build/assets/img/events/logos/leadership-by-design.png: 2019-01-27 12:12:07.864064730
+  -06:00
 build/assets/img/events/sponsors/rga.png: 2017-12-29 12:01:25.751592293 -06:00
 build/assets/img/events/sponsors/fluid-ui.png: 2017-12-29 12:01:25.737890235 -06:00
 build/assets/img/events/sponsors/new-riders.png: 2017-12-29 12:01:25.743178790 -06:00
@@ -511,10 +522,13 @@ build/assets/img/events/headers/prototypes-process-play-2015.jpg: 2017-12-29 12:
   -06:00
 build/assets/img/events/headers/prototypes-process-play-2017.jpg: 2017-12-29 12:01:25.452421683
   -06:00
+build/assets/img/events/headers/ux-camp-spring.jpg: 2019-01-27 12:11:36.357698060
+  -06:00
 build/assets/img/events/headers/prototypes-process-play-2016.jpg: 2017-12-29 12:01:25.423327919
   -06:00
 build/assets/img/events/headers/sketch-camp.jpg: 2017-12-29 12:01:25.458596848 -06:00
 build/assets/img/events/headers/speaker-camp.jpg: 2017-12-29 12:01:25.459927414 -06:00
+build/assets/img/events/headers/ux-camp-fall.jpg: 2019-01-27 12:11:36.950550685 -06:00
 build/assets/img/events/headers/workshop-workshop.jpg: 2017-12-29 12:01:25.462087632
   -06:00
 build/assets/img/events/headers/prototyping-responsive-designs-axure-workshop.jpg: 2017-12-29
@@ -527,6 +541,8 @@ build/assets/img/events/headers/ux-camp.jpg: 2017-12-29 12:01:25.461407428 -06:0
 build/assets/img/events/headers/prototype-camp.jpg: 2017-12-29 12:01:25.420941124
   -06:00
 build/assets/img/events/headers/mobile-camp.jpg: 2017-12-29 12:01:25.419580603 -06:00
+build/assets/img/events/headers/leadership-by-design.jpg: 2019-01-27 12:11:37.237554129
+  -06:00
 build/assets/img/events/locations/harrington.jpg: 2017-12-29 12:01:25.464710949 -06:00
 build/assets/img/events/locations/big-nerd-ranch.jpg: 2017-12-29 12:01:25.462772198
   -06:00
