@@ -117,11 +117,13 @@ Amy Johnson:
 
 Andrea Mignolo:
   alias:   andrea-mignolo
-  title:   "Chief Design Officer, SimpleReach"
+  title:   "Head of Design &amp; UX, Movable Ink"
   twitter: pnts
   website: pnts.us
   bio: |
-    <p>Andrea Mignolo is the Chief Design Officer at SimpleReach, an analytics startup based in New York City. Previously she was the Creative Director at Nabewise, a neighborhood-centric startup that was aquired by Airbnb in 2012. An interaction designer by trade, she is currently obsessed with bringing design-centered practices to enterprise SaaS and building a kick-ass team of full-stack designers. In addition to design, Andrea loves gaming, hiking, beer, and funny hats.</p>
+    <p>Andrea is a designer who has been exploring interactions between humans and technology for the last fifteen years. Her research interests center around the role of reflective practices in organizational design and development.Andrea is currently the Head of Design and UX at <a href="https://movableink.com/" rel="nofollow">Movable Ink</a> where she helps craft product strategy, innovation, creative direction, and development. She holds an MBA from the Weatherhead School of Management where she concentrated on enhancing mutual intelligibility between the realms of design and business. She also holds a BA in <a href="https://en.wikipedia.org/wiki/Technoculture" rel="nofollow">Technocultural Studies</a> from Oberlin College.</p>
+    <p>Prior to Movable Ink she was the Chief Design Officer at SimpleReach, a local leader for both the Vancouver and New York branches of the Interaction Design Association, and the Creative Director of NabeWise, a neighborhood-centric start-up acquired by Airbnb in 2012.</p>
+    <p>In previous lives she&#8217;s been a video game tester, an English teacher at the Japanese Air Self-Defense Force, and was the developer of the once-popular <a href="https://en.blog.wordpress.com/2010/08/16/new-theme-oulipo/" rel="nofollow">Oulipo Wordpress Theme</a>.</p>
 
 Andy Budd:
   alias:   andy-budd
@@ -665,6 +667,15 @@ Elizabeth Goodman:
   bio: |
     <p>Elizabeth&#8217;s writing, design and research focus on product, service, and interaction design for organizationally complex products and services. Currently, she is the acting Director of Design at <a href="https://18f.gsa.gov/" rel="nofollow">18F</a>, a technology consultancy within the US Government&#8217;s General Services Administration. Previously, she worked with exploratory research and design teams at Intel, Fuji-Xerox, and Yahoo! Elizabeth has a masters degree in interaction design from the Interactive Telecommunications Program at New York University, and  a PhD from the School of Information at the University of California, Berkeley. She is also a co-author of the widely used design research handbook, <em><a href="https://www.amazon.com/Observing-User-Experience-Second-Edition/dp/0123848695/" rel="nofollow">Observing the User Experience</a></em>, published by Morgan Kaufmann, and <em><a href="http://shop.oreilly.com/product/0636920031109.do" rel="nofollow">Designing Connected Products</a></em>, from O&#8217;Reilly Media.</p>
 
+Emileigh Barnes:
+  alias:   emileigh-barnes
+  title:   "Design Manager, Capital One"
+  twitter: emileighoutlaw
+  website: emileighbarnes.com
+  bio: |
+    <p>Emileigh Barnes is a poet and design strategist. These days, she leads financial empowerment projects at Capital One, where she&#8217;s a member of the Bank Design Senior Leadership Team. Before that, she worked at 18F and in the Department of Justice.</p>
+    <p>Emileigh is a lover of plain language and the Oxford comma, Emileigh led the content strategy for everykidinapark.gov and the Federal Election Commission&#8217;s digital transformation. She&#8217;s spoken about her work at conferences like UX Week, IA Summit, and Confab.</p>
+
 Erin L. Thomas, PhD:
   alias:   erin-l-thomas
   title:   Diversity Manager, Grant Thornton
@@ -724,7 +735,7 @@ Garrett Polifka:
   twitter: garrettpolifka
   website: garrettpolifka.com
   bio: |
-    <p>Garrett Polifka is a User Experience Team Lead with fifteen years experience in the creative industry; ranging from marketing to front-end development as well as software design. At Paylocity, Garrett is responsible for contributing to the organization’s design system, Citrus, while leading a design team. His team is involved with the evolution of their industry-leading, cloud-based payroll, and human capital management software, within their Talent suite. Garrett prides himself on his desire to consume more information than an average 1984 computer could handle each day.</p>
+    <p>Garrett Polifka is a User Experience Team Lead with fifteen years experience in the creative industry; ranging from marketing to front-end development as well as software design. At Paylocity, Garrett is responsible for contributing to the organization&#8217;s design system, Citrus, while leading a design team. His team is involved with the evolution of their industry-leading, cloud-based payroll, and human capital management software, within their Talent suite. Garrett prides himself on his desire to consume more information than an average 1984 computer could handle each day.</p>
 
 Golli Hashemian:
   alias:   golli-hashemian
@@ -862,6 +873,15 @@ Jen Myers:
   website: jenmyers.net
   bio: |
     <p>Jen Myers is a technologist, speaker and educator, and currently a Curriculum Director of Software Developer Content at Pluralsight. She has been involved with Girl Develop It, an organization that provides introductory programming classes for women, as a chapter leader, instructor and advisor since 2011 and founded a series of mother/daughter coding workshops called Code and Cupcakes Chicago. She has spoken widely about design, development and diversity, and focuses on finding new ways to make both technology and technology education accessible to everyone.</p>
+
+Jen Tress:
+  alias:   jen-tress
+  title:   "Senior Advisor, FAS Office of Systems Management, GSA"
+  twitter: jdtress
+  website: yourenotprettyenough.com
+  bio: |
+    <p>Jen Tress loves helping people and organizations realize their potential. She&#8217;s the author of <strong>You&#8217;re Not Pretty Enough</strong>, which sparked a self-esteem movement for women and girls, and was featured in <em>Marie Claire</em>, <em>The Washington Post</em>, and the Netflix series <em>The Mortified Guide</em>.</p>
+    <p>As a long time practitioner in organizational development and talent management, Jen has guided countless organizations through high growth cycles and significant change, including at FedEx, Nationwide Insurance, The Nature Conservancy and most recently at 18F, Ad Hoc and digitalundivided. </p>
 
 Jesse James Garrett:
   alias:   jesse-james-garrett
@@ -1250,6 +1270,14 @@ Param Rengaiah:
   bio: |
     <p>Param Rengaiah&#8217;s LinkedIn title is Solutions Architect/Experience Architect, but he considers himself a developer and a hacker. He is currently employed by Aspire Systems. In his quest to find the ingredients for creating useful software products, his technical interests revolves around scalable enterprise systems, digital media, mobile, cloud, enterprise social media, open source innovations and user experience. If he is not in front of his laptop or iPad hacking some code or reading, he spends rest of his time either sleeping, watching old movies on Netflix or playing with his two boys.</p>
 
+Pasha Moore:
+  alias:   pasha-moore
+  title:   "Founder &amp; Principal, Holland Taucher Consulting Group (HTCG)"
+  bio: |
+    <p>Pasha Moore is the founder of Holland Taucher Consulting Group (HTCG), a full-service political and not-for-profit fundraising and event planning firm. Pasha covers all aspects of fundraising and strategy, with a focus on major donor cultivation and corporate partnerships; event production and execution; public affairs and advocacy in various roles.</p>
+    <p>With over 15 years of political experience, Pasha has previously worked in various roles with over 120 campaigns, political organizations, tech organizations, and not-for-profits.  Under the HTCG masthead, Pasha has directed the fundraising and development of numerous national, state, and local campaigns and political organizations in Texas and beyond, including state judicial campaigns, legislative races, and congressional races; national campaigns and PACs; and state-based political GOTV organizations.  Outside of development, Pasha has produced scores of multi-day corporate, political, and tech conferences as well as hackathons and symposiums.</p>
+    <p>Additionally, Pasha is a member of the Advisory Council of the Annette Strauss Institute for Civic Life at The University of Texas at Austin, where she has taught at the ASI Campaign Bootcamp for the last eight years; as well as engaged in the Austin community via memberships in the Junior League of Austin and the Women&#8217;s Symphony League.</p> 
+
 Peter Merholz:
   alias:   peter-merholz
   title:   "Design &amp; Product Management Executive"
@@ -1546,12 +1574,11 @@ Dr. Temple Grandin:
 
 Todd Zaki Warfel:
   alias:   todd-zaki-warfel
-  title:   "Design Leader, Author, Speaker"
+  title:   "Executive Coach"
   twitter: zakiwarfel
   website: zakiwarfel.com
   bio: |
-    <p>Todd Zaki Warfel is a designer, maker, and craftsman. He loves designing with data and is passionate about grid systems, typography, and designing for mobile.</p>
-    <p>He&#8217;s currently tackling big data design challenges for mobile, tablet, and desktop applications. He designed Reframer, the industry&#8217;s first collaborative research and analytics application for qualitative data. He also founded and lead the UX design consultancy messagefirst for over a decade. He wrote the book on prototyping, <a href="http://rosenfeldmedia.com/books/prototyping/" rel="nofollow">Prototyping: A Practitioner&#8217;s Guide</a>, and is co-authoring a book on Guerrilla Methods with Russ Unger.</p>
+    <p>As an executive coach, Todd Zaki Warfel works with individuals and companies who are interested in personal growth, leadership development, and organisational transformation. Having held leadership roles at Twitter, Cisco, and Workday, he&#8217;s learned a lot about building teams, developing purpose-driven leaders, and navigating the seas of change.</p>
 
 Tom Greever:
   alias:   tom-greever

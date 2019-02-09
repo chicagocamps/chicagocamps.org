@@ -9,7 +9,7 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 ---
 - sponsors = ["Columbia College", "Lead Honestly"]
 - keynotes = []
-- speakers = []
+- speakers = ["Andrea Mignolo", "Emileigh Barnes", "Jen Tress", "Pasha Moore", "Todd Zaki Warfel"]
 - lightning = []
 
 %nav.event-nav.group(data-js="event-nav")
@@ -329,16 +329,24 @@ summary: Join us in Chicago to up your design leadership skills to drive product
     .event-cta
       %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/leadership-by-design-2019/dates/Aug-07-2019_at_0830AM" rel="nofollow")
         Join Us for Only $225 &#8212; Limited Tickets Available
-        
-    %h3 Speakers coming soon!
-    
+
+    -#
+      - content_for :talk_todd_zaki_warfel do
+
+        %h3 The Design Career Journey
+
+        %p Everyone wants to hire great talent. But how do we define great? Does that change over time? How do you know you&#8217;re recruiting and hiring the right people? How do you retain and develop talent, giving your team meaning, purpose, and ownership? 
+
+        %p In the Design Career Journey, we&#8217;ll explore a framework for recruiting, retaining, and developing top talent—including the common question of &#8220;Should I go into management?&#8221;
+
     -#
       %h3 Keynotes
       = partial "partials/events/speakers", locals: {speakers: keynotes}
 
-      %h3 Sessions
-      = partial "partials/events/speakers", locals: {speakers: speakers}
+    %h3 Sessions
+    = partial "partials/events/speakers", locals: {speakers: speakers}
 
+    -#
       %h3 Lightning
       = partial "partials/events/speakers", locals: {speakers: lightning}
 
