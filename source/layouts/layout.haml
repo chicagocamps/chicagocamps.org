@@ -7,7 +7,10 @@
     %meta(http-equiv="X-UA-Compatible" content="IE=edge")
     %meta(name="viewport" content="width=device-width, initial-scale=1")
 
-    %title= current_page.data.title + " - Chicago Camps" || "Chicago Camps"
+    - if current_page.data.title == 'Chicago Camps'
+      %title Chicago Camps
+    - else
+      %title= current_page.data.title + " - Chicago Camps" || "Chicago Camps" unless current_page.data.title == "Home"
 
     %link(rel="stylesheet" href="/assets/css/styles.css")
     %link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:300,700")
