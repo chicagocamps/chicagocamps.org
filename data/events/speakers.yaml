@@ -462,11 +462,11 @@ Cynthia Gelper:
 
 Dale Sande:
   alias:   dale-sande
-  title:   "Senior Web UI Developer, Spiria"
+  title:   "Senior Design Technologist, Alaska Airlines"
   twitter: anotheruiguy
-  website: dalesande.com
+  website: blog.anotheruiguy.com
   bio: |
-    <p>Dale Sande has worked as a senior UX Engineer with companies like Getty Images, BestBuy, Microsoft, REI, AppDirect, and others. He currently leads UI development for front-end projects and manages a development technical education platform with Spiria. Dale is very involved in the front-end community, both locally and nationally. He and a colleague were the inspiration behind SassMeister, he has co-authored two books on Sass and continues to write endless instructional tutorials.</p>
+    <p>Dale Sande has worked as a Senior UX Engineer with companies like Getty Images, BestBuy, Microsoft, REI, AppDirect, and others. He currently leads UI development for the Orion Design System as a Senior Design Technologist with Alaska Airlines in Seattle. Dale continues to be involved in the front-end community, both locally and nationally. He and a colleague were the inspiration behind SassMeister, co-authored two books on Sass, appeared twice as a guest instructor with Treehouse and continues to write instructional tutorials.</p>
     <p>In those rare moments when Dale can actually put the computer down, he enjoys spending time with this wife and two daughters biking, hiking and generally being outdoors in the Pacific North West.</p>
 
 Dan Brown:
@@ -1155,6 +1155,13 @@ Mark Meeker:
   bio: |
         <p>Mark is a Principal Front-End Developer for Hyatt Hotels. He is a client-side developer at heart, but spends a lot of his time finding better ways for front-end code and UX to play well within large web applications and the teams that build them. Mark was previously at Orbitz where he led the development of the presentation layer for their international platform and got his start on the web at Encyclopaedia Britannica helping launch Britannica.com.</p>
 
+Mark Yoon:
+  alias:   mark-yoon
+  title:   "Senior Software Developer, Table XI"
+  twitter: wimyoon
+  bio: |
+        <p>Mark (he/him) is a designer and developer, and for the past few years served in a talent leadership role at a growing agency. He believes that experience design and creativity are essential to people and organizational growth, and that technology is just a small part of addressing the diversity of human need. He is an amateur woodworker, metalworker, sailor, and father.</p>
+
 Matthew Doty:
   alias:   matthew-doty
   title:   "UX Director, RBA"
@@ -1198,6 +1205,20 @@ Michael Lopp:
     <p>Michael Lopp is a Silicon Valley-based engineering leader who builds both people and product at companies such as Borland, Netscape, Palantir, and Apple. While he&#8217;s not worrying about staying relevant, he writes about pens, bridges, people, poker, and werewolves at the popular weblog, Rands in Repose. He works as the head of engineering at Pinterest in San Francisco where he&#8217;s furiously working on helping humans curate their inspiration.</p>
     <p>Michael has written two books. His first book &#8220;Managing Humans, 2nd Edition&#8221; is a popular guide to the art of engineering leadership and clearly explains that while you be rewarded for what you build, you will only be successful because of your people. His second book &#8220;Being Geek&#8221; is a career handbook for geeks and nerds alike.</p>
     <p>Michael plays mountain bikes, tinkers with drones, and drinks red wine in the redwoods of Northern California whenever he can because staying sane is more important than staying busy.</p>
+
+Michelle Dash:
+  alias:   michelle-dash
+  title:   "Engagement Director, Avians"
+  bio: |
+        <p>Michelle is a former User Experience Designer and current Engagement Manager with 15+ years of experience in digital marketing. She has worked with several Fortune 500 companies and diverse project teams to improve website efficiency and implement new online functionality. Her experience spans many areas of user-centered design, process optimization, search optimization, technical implementation and team management. Michelle became passionate about personal finance after helping an investment company conduct focus groups, create education portals and design interactive money management tools. She continued her education by completing the Certified Financial Planner program at Northwestern University and is currently a volunteer financial coach and educator.</p>
+
+Michelle Schulp:
+  alias:   michelle-schulp
+  title:   "Independent Digital Designer &amp; Developer"
+  twitter: marktimemedia
+  website: marktimemedia.com
+  bio: |
+    <p>Michelle is an independent graphic designer and frontend developer who grew up in Chicagoland and now resides in Minneapolis. Prior to beginning her career, she studied Visual Communications, with minors in Psychology and Sociology. As her work progressed, she also branched into front-end development and user experience design to round our her skillset. This combination of disciplines led her to adopt a strategy-based approach to design, focused on solving tangible problems and achieving real goals based on how people think.</p>
 
 Mike Davidson:
   alias:   mike-davidson

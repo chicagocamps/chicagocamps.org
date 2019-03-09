@@ -11,7 +11,7 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
 - sponsors = ["Columbia College", "Lead Honestly"]
 - keynotes = []
-- speakers = []
+- speakers = ["Dale Sande", "Mark Yoon", "Michelle Dash", "Michelle Schulp"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -215,6 +215,36 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
     %p First time speaker, or have limited experience? Let us know&mdash;we welcome new speakers and have been known to help folks round out their proposals.
 
     %p <a href="/proposal/">Submit your talk</a>&mdash;come hang out with us in Chicago and share what you&#8217;ve learned!
+    
+    - content_for :talk_dale_sande do
+
+      %h3 Web Components &amp; Design Systems
+
+      %p HTML Web Components&hellip; the holy grail of building web-based UIs. Progress has been slow, but 2018 saw an explosion for support across all major browsers. Polymer released it&#8217;s 3.0 version and Angular Elements were introduced. Without a doubt, HTML Web Components are no longer a pipe-dream, but a reality ready and waiting for use.
+
+      %p What does this have to do with Design Systems? Everything! In parallel with the hunt for framework agnostic reusable UIs is the capturing of repeatable styles and interaction patterns. While there are some amazing examples in the wild to reference, there has been limited success in really delivering on the dream, until now. Until Web Components. 
+
+      %p In this talk, I want to address much of the confusion surrounding Web Components and bust many of the myths that surround a technology that is only just coming of age. How well does it play with others? Accessibility? What about pre/post processing of CSS? How is performance? What are emerging best practices for building and deploying an encapsulated Web Component in an enterprise application development setting? 
+
+      %p While there is much work yet to be done, so much has been done that it would be a shame to not take advantage of the next generation of web development tools.
+
+    - content_for :talk_mark_yoon do
+
+      %h3 Designing the Employee Experience
+
+      %p Every workplace abounds with opportunities for understanding and improving the experience of employees. It is measurable and has real costs and consequences, especially in a competitive recruiting landscape. Especially considering diversity, inclusion, and equity, we want to do the right thing not just incidentally, but intentionally, by design. This presentation will focus on how UX principles and activities can be applied to improve organizations from within. Audience members can expect to leave this presentation with practical applications of their UX skills to their work experience.
+
+    - content_for :talk_michelle_dash do
+
+      %h3 Experience Design Your Financial Life
+
+      %p Money is the #1 cause of stress among Americans, ranking more problematic than personal relationships and work! (Per Northwestern Mutual&#8217;s 2018 Planning &amp; Progress Study.) As a User Experience Designer your job is to help companies solve big problems, but have you thought about applying design method processes to your personal life? This talk will highlight ways to apply experience design principles to your financial life so that dealing with your family can go back to being your number one stressor!
+
+    - content_for :talk_michelle_schulp do
+
+      %h3 Squash &amp; Stretch &amp; Good UX: Using Animation To Enhance User Experience
+
+      %p Modern browsers, JavaScript libraries, and CSS3 have made it easier than ever to create exciting, dynamic animated experiences within web interfaces. But we have also seen the unfortunate side effect of trying to do too much: websites that are resource hogs, eating up bandwidth and slowing load times to a crawl, all for effects that are ultimately just there for the &#8220;show&#8221; factor. This talk will discuss how to use these animation skills for good: to establish context, convey status, give feedback, and yes, even add a little delight. Along the way, we&#8217;ll discuss the principles of animation that guide everything from your favorite feature films to the actions of a button on your screen, and learn how deliberate animation choices can improve the experience for your user. 
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
