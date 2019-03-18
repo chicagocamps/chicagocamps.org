@@ -7,7 +7,7 @@ tags: chicago
 
 Howdy Chicago Camps friends! 
 
-2019 is upon us and we&#8217;re super excited to share our schedule for this year with you. As you may know, we have &#8220;<strong>Camps</strong>&#8221; which typically are 1-day mini-conferences on a Saturday. In 2019, we&#8217;re going to have 2 of these&mdash;on Saturday, April 6th and Saturday, October 12th, following the &#8220;Spring&#8221; and &#8220;Fall&#8221; model of 2018.
+2019 is upon us and we&#8217;re super excited to share our schedule for this year with you. As you may know, we have &#8220;<strong>Camps</strong>&#8221; which typically are 1-day mini-conferences on a Saturday. In 2019, we&#8217;re going to have one of these&mdash;Saturday, October 12th.
 
 In addition, we also host an annual design leadership conference. We <em>used</em> to call it <strong>Prototypes, Process &amp; Play</strong>. This conference typically has happened in early August on a Thursday and Friday and that&#8217;s worked really well for us (and a lot of you! However, the name, well, it didn&#8217;t quite land where we had hoped. 
 
@@ -22,7 +22,6 @@ We&#8217;re really excited, and we can&#8217;t wait to see you, so without any d
 <strong>Our 2019 schedule is as follows:</strong>
 
 <ul class="list-ul">
-  <li><strong><a href="/events/2019/ux-camp-spring/">UX Camp Spring</a></strong> &mdash; Saturday, April 6th</li>
   <li><strong><a href="/events/2019/leadership-by-design/">Leadership by Design</a></strong> &mdash; Thursday &amp; Friday, August 8th &amp; 9th (with bonus 1/2 day workshop on Wednesday, August 7th)</li>
   <li><strong><a href="/events/2019/ux-camp-fall/">UX Camp Fall</a></strong> &mdash; Saturday, October 12th</li>
 </ul>
