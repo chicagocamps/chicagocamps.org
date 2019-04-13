@@ -19,6 +19,7 @@ build/assets/img/sponsors/rosenfeld.png: 2017-12-29 12:01:25.772120534 -06:00
 build/assets/img/headers/home.jpg: 2017-12-29 12:01:25.764988283 -06:00
 build/assets/img/headers/home-winter.jpg: 2019-01-27 12:10:16.886472224 -06:00
 build/assets/img/headers/default.jpg: 2017-12-29 12:01:25.763086409 -06:00
+build/assets/img/headers/home-summer.jpg: 2019-04-13 10:46:55.785716209 -05:00
 build/assets/img/icons/i-menu.png: 2017-12-29 12:01:25.766578158 -06:00
 build/assets/img/icons/i-chevron-left.png: 2017-12-29 12:01:25.765568481 -06:00
 build/assets/img/icons/i-chevron-right.png: 2017-12-29 12:01:25.766236698 -06:00
@@ -29,7 +30,7 @@ build/assets/img/events/speakers/matthew-milan.jpg: 2017-12-29 12:01:25.67547390
   -06:00
 build/assets/img/events/speakers/danielle-dumerer.jpg: 2018-04-18 19:42:39.377963452
   -05:00
-build/assets/img/events/speakers/chris-avore.jpg: 2017-12-29 12:01:25.543977902 -06:00
+build/assets/img/events/speakers/chris-avore.jpg: 2019-04-13 10:46:54.652237793 -05:00
 build/assets/img/events/speakers/adam-mccrimmon.jpg: 2017-12-29 12:01:27.147629116
   -06:00
 build/assets/img/events/speakers/emileigh-barnes.jpg: 2019-02-08 21:16:58.646509970
@@ -233,6 +234,8 @@ build/assets/img/events/speakers/jay-newton-small.jpg: 2017-12-29 12:01:25.60272
 build/assets/img/events/speakers/margot-harrington.jpg: 2017-12-29 12:01:25.660066224
   -06:00
 build/assets/img/events/speakers/john-polacek.jpg: 2017-12-29 12:01:25.613621741 -06:00
+build/assets/img/events/speakers/anne-hjortshoj.jpg: 2019-04-13 10:46:54.354702016
+  -05:00
 build/assets/img/events/speakers/clay-parker-jones.jpg: 2017-12-29 12:01:25.563839539
   -06:00
 build/assets/img/events/speakers/temple-grandin.jpg: 2017-12-29 12:01:25.722902599
@@ -244,8 +247,8 @@ build/assets/img/events/speakers/jonathan-snook.jpg: 2017-12-29 12:01:25.6227321
   -06:00
 build/assets/img/events/speakers/fei-ren.jpg: 2018-02-02 22:08:16.040629316 -06:00
 build/assets/img/events/speakers/dale-sande.jpg: 2018-03-17 12:11:05.191052943 -05:00
-build/assets/img/events/speakers/andrea-mignolo.jpg: 2019-02-08 21:16:58.407428619
-  -06:00
+build/assets/img/events/speakers/andrea-mignolo.jpg: 2019-04-13 10:46:54.528968060
+  -05:00
 build/assets/img/events/speakers/phil-balagtas.jpg: 2017-12-29 12:01:25.688664427
   -06:00
 build/assets/img/events/speakers/hannah-donovan.jpg: 2017-12-29 12:01:25.593091406
