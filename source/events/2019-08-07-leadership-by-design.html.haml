@@ -10,7 +10,7 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 - sponsors = ["Balsamiq", "Columbia College", "Lead Honestly"]
 - keynotes = ["Maggie Hsu Wagner", "Scott Berkun", "Todd Zaki Warfel"]
 - speakers = ["Andrea Mignolo", "Anne Hjortshoj", "Chris Avore", "Eduardo Ortiz", "Emileigh Barnes", "Jen Tress", "Karen VanHouten", "Pasha Moore"]
-- lightning = ["Helen Keighron"]
+- lightning = ["Helen Keighron", "Maria Pereda"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -28,7 +28,7 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 
     %a.btn.btn-alt.event-nav-btn(href="https://chicagocamps.ticketleap.com/leadership-by-design-2019/dates/Aug-07-2019_at_0830AM" rel="nofollow")
       Join Us for
-      %strong Only $300
+      %strong Only $325
 
 %section#overview.main-content
   .container
@@ -54,7 +54,7 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 
     .event-cta
       %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/leadership-by-design-2019/dates/Aug-07-2019_at_0830AM" rel="nofollow")
-        Join Us for Only $300 &#8212; Limited Tickets Available
+        Join Us for Only $325 &#8212; Limited Tickets Available
 
     %h3 Meet Our Awesome Sponsors
     
@@ -74,7 +74,7 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 
     .event-cta
       %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/leadership-by-design-2019/dates/Aug-07-2019_at_0830AM" rel="nofollow")
-        Join Us for Only $300 &#8212; Limited Tickets Available
+        Join Us for Only $325 &#8212; Limited Tickets Available
 
     %h3
       .h-sm-caps-gray Day Zero &mdash; Wednesday, August 7th
@@ -82,18 +82,20 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 
     %table.event-schedule
       %tr
-        %th.event-schedule-distributed
+        %th
           %time(datetime="08:15") 8:15
           &#8212;
           %time(datetime="09:00") 9:00
-        %td(colspan="2")
+        %td(colspan="3")
           %strong Registration
       %tr
         %th Room
-        %td.event-schedule-distributed-2-col
+        %td.event-schedule-distributed-3-col
           %strong 1
-        %td.event-schedule-distributed-2-col
+        %td.event-schedule-distributed-3-col
           %strong 2
+        %td.event-schedule-distributed-3-col
+          %strong 3
       %tr
         %th
           %time(datetime="09:00") 9:00
@@ -107,12 +109,16 @@ summary: Join us in Chicago to up your design leadership skills to drive product
           %a(href="#karen-vanhouten" rel="nofollow")
             %strong.event-schedule-room(data-room="2") Karen VanHouten
           .event-schedule-offset Healthier Teams by Design
+        %td
+          %a(href="#helen-keighron" rel="nofollow")
+            %strong.event-schedule-room(data-room="3") Helen Keighron &amp; Maria Pereda
+          .event-schedule-offset Hiring Consciously: Designing an Inclusive Hiring Practice
       %tr
         %th
           %time(datetime="12:00") 12:00
           &#8212;
           %time(datetime="13:00") 1:00
-        %td(colspan="2")
+        %td(colspan="3")
           %strong Lunch Break
       %tr
         %th
@@ -127,6 +133,10 @@ summary: Join us in Chicago to up your design leadership skills to drive product
           %a(href="#karen-vanhouten" rel="nofollow")
             %strong.event-schedule-room(data-room="2") Karen VanHouten
           .event-schedule-offset Healthier Teams by Design
+        %td
+          %a(href="#helen-keighron" rel="nofollow")
+            %strong.event-schedule-room(data-room="3") Helen Keighron &amp; Maria Pereda
+          .event-schedule-offset Hiring Consciously: Designing an Inclusive Hiring Practice
 
     %h3
       .h-sm-caps-gray Day One &mdash; Thursday, August 8th
@@ -379,7 +389,7 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 
     .event-cta
       %a.btn.btn-alt(href="https://chicagocamps.ticketleap.com/leadership-by-design-2019/dates/Aug-07-2019_at_0830AM" rel="nofollow")
-        Join Us for Only $300 &#8212; Limited Tickets Available
+        Join Us for Only $325 &#8212; Limited Tickets Available
 
     - content_for :talk_anne_hjortshoj do
 
@@ -421,11 +431,23 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 
     - content_for :talk_helen_keighron do
 
+      %h5.lineup-subtitle.h-sm-caps-gray Lightning talk:
+
       %h3 Designing Your Leadership Career Search
 
       %p When we interview for a new role, design leaders frequently are not screened and evaluated the way other leaders in a company might be. In my most recent search, I tapped into a vast network of other design leaders and solicited their best advice. I leveraged their advice so effectively that well-known companies fought for me based on my skills as a leader, not a maker.
 
       %p When design leaders search for new opportunities we are confronted with a market that doesn&#8217;t know where to place us internally or how to hire us. We face well-intentioned yet naïve requests for artifacts and exercises, all while being evaluated by people who don&#8217;t know what good design leadership looks like. I&#8217;ll regale you with tales from my experiences so we can all learn to elevate the design leadership hiring process!
+
+    - content_for :talk_maria_pereda do
+      
+      %h5.lineup-subtitle.h-sm-caps-gray Helen Keighron &amp; Maria Pereda Workshop:
+
+      %h3 Hiring Consciously: Designing an Inclusive Hiring Practice 
+
+      %p We owe it to our teams (and our orgs) to recruit diverse, high performing talent, but we often get in our own way thanks to bureaucracy, creaky technology, lack of end-to-end insight into the process, and the myopia of our own network.  Worst of all, we might fail to account for how our process impacts underrepresented groups and create inadvertent attrition.
+
+      %p This workshop will have you examining current hiring processes, identifying pain points through a variety of lenses, and collaboratively work to understand how to approach and remove blockers in key aspects of the hiring process: talent sourcing, skills evaluation, and onboarding. We&#8217;ll explore, through a crawl-walk-run approach, how to take immediate action toward the most attainable changes in your organization, while making way for a more inclusive practice over the long term.
 
     - content_for :talk_karen_vanhouten do
 
