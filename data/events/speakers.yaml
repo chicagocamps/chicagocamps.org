@@ -441,6 +441,22 @@ Clay Parker Jones:
   bio: |
     <p>Clay is the Managing Director of Undercurrent, an organizational design unit of Quirky, where he and his team work to restructure organizations for an uncertain world. Undercurrent lives at the edge of organizational theory, applying experimental patterns and behaviors to their internal practices while applying the most successful designs to their customers&#8217; cultures. Through this practice, Clay is developing an Organizational Pattern Language to allow groups of any scale or purpose to move toward more adaptive, more engaging ways of working.</p>
 
+Clifton Simmons:
+  alias:   clifton-simmons
+  title:   "UX Content Lead, Allstate"
+  twitter: ProfessorAdMan
+  website: professoradman.com
+  bio: |
+    <p>For over 20 years, Clifton has worked at large ad agencies creating campaigns for USAA, Chevy, Coke and McDonald&#8217;s. Five years ago, he never considered a career in UX. Yet, it feels like his experience as a creative supervisor has led him to this.</p>
+
+Colin MacArthur:
+  alias:   colin-macarthur
+  title:   "Head of Design Research, Canadian Digital Service"
+  twitter: colinpmacarthur
+  website: colinmacarthur.org
+  bio: |
+    <p>Colin MacArthur is the head of design research at the Canadian Digital Service. CDS is a digital consultancy inside the Canadian government. There, he coaches government teams conducting research under tight timelines with no budget. He&#8217;s also conducted fast-paced research at the U.S. government&#8217;s 18F, the Center for Civic Design and start-ups. Colin&#8217;s a proud methodology geek, with bachelor and graduate degrees in research. But he loves working with teams to ship software the helps people.</p>
+
 Colleen Pellissier:
   alias:   colleen-pellissier
   title:   "Podcast Producer, Cards Against Humanity"
@@ -550,6 +566,13 @@ Danny Schuman:
     <p>Danny founded innovation and marketing consultancy Twist in January 2009, reflecting his boundless sense of optimism and a healthy amount of bIissful ignorance. Twist helps brands like Pepsi, Discover, Wrigley, and MillerCoors solve creative and strategic challenges.</p>
     <p>The Joy of Solving, the problem-solving framework that Danny created, helps people come up with brilliant ideas to solve tough challenges. It&#8217;s been featured in FastCompany and at Chicago Ideas Week. He&#8217;s also spoken, taught and mentored at Techweek and 1871.</p>
 
+Danyell Jones:
+  alias:   danyell-jones
+  title:   "User Experience Research Lead, ZS Associates"
+  website: danyelljones.com
+  bio: |
+    <p>Danyell is the UX Research Lead at ZS Associates in Evanston, IL, where she oversees and conducts research across 5 different verticals in the Software Development group that helps teams develop software applications that support pharmaceutical clients. She works with teams to develop reusable and efficient processes for conducting and analyzing research while increasing the visibility of the research practice and user experience team. Previously, Danyell established and led the research practice at Relativity, a software firm in Chicago, where she conducted user research to support teams with data-driven product development. In addition to working in user research, she teaches graduate-level classes in the HCI program at DePaul University. Danyell is also a runner, an avid reader, a Whovian, and a video game lover.</p>
+
 Darby Frey:
   alias:   darby-frey
   title:   "Software Engineer &amp; Consultant"
@@ -565,6 +588,14 @@ Dave Kiss:
   bio: |
     <p>Dave Kiss branches from the designer/developer model and is interested in shifting the paradigm that learning always has to be from the top down. He currently writes code and love-emails at <a href="http://greyscalegorilla.com/" rel="nofollow">Greyscalegorilla</a>. In his free-time, Dave works on making stuff that he and other people use. He enjoys bitter beers, hiking amongst cedar trees, and writing biographies in third person.</p>
 
+David Antognoli:
+  alias:   david-antognoli
+  title:   "Assistant Professor of Game Design, Columbia College Chicago"
+  twitter: DavidAntognoli
+  website: davidantognoli.com
+  bio: |
+    <p>David Antognoli is a game developer and professor of game design at Columbia College Chicago. A game industry veteran with experience in both programming and game design roles, he has worked on projects with companies like Microsoft, Sega, 2K Games, and Nickelodeon. Now he finds creative refuge in independent game development and teaching others how to create amazing games.</p>
+
 David Farkas:
   alias:   david-farkas
   title:   "Sr. UX Designer, EPAM"
@@ -572,6 +603,12 @@ David Farkas:
   website: dfarkasdesign.com
   bio: |
     <p>David is a User Experience Designer in Philadelphia, PA and co-author of UX Research: Practical Techniques for Designing Better Products. David started his career in-house, has worked in consultancies of all sizes, has had opportunities to craft the design process within an organization, and has also adopted and evolved existing paradigms. His experience includes a range of financial services systems, business systems, and e-commerce and cross-channel platforms.</p>
+
+David Gerding:
+  alias:   david-gerding
+  title:   "Associate Professor, Columbia College Chicago"
+  bio: |
+    <p>Dave Gerding has been called a &#8220;gifted motivational speaker&#8221; and &#8220;energizer bunny&#8221; by his consulting clients. Dave is an Associate Professor in Interactive Arts and Media at Columbia College Chicago where he teaches both media theory and advanced software development courses. He&#8217;s lectured at the University of Vienna, been principal investigator on federally funded UX research, and is also a certified McCarthy Core Protocols Instructor, ScrumMaster and Xamarin Developer and is working on Unity-related certifications, too. &#8216;Cause we do need stinkin&#8217; badges!</p>
 
 Debra Gelman:
   alias:   debra-gelman
@@ -742,12 +779,11 @@ Gabby Hon:
 
 Gail Swanson:
   alias:   gail-swanson
-  title:   "Director of Strategy, 18F"
+  title:   "Design Lead, Ascension Digital Studio"
   twitter: practicallyUX
   website: practicallyux.com
   bio: |
-    <p>Finding a better way, a happier way to do something is in Gail&#8217;s DNA. She couldn&#8217;t stop if she wanted to. She guides teams to look deeper, and learn about the people they serve to create technology that helps.</p>
-    <p>Gail has applied her strategy focused approach to design in a wide range of industries; molding technology into usable systems for humans. She is currently serving her country as Director of Strategy at 18F.</p>
+    <p>Gail Swanson helps people solve their problems without blowing themselves up. Throughout her career designing for glowing screens, she&#8217;s been dedicated to helping talented folks be more successful at their jobs. Gail built the strategy practice at 18F,  and integrated agile design into product teams in several organizations. She now works as Design Lead in Ascension&#8217;s Digital Studio, revolutionizing the technology clinicians use with their patients every day. Gail speaks and writes about all manners of design, strategy, and digital innovation.</p>
 
 Garrett Polifka:
   alias:   garrett-polifka
@@ -756,6 +792,20 @@ Garrett Polifka:
   website: garrettpolifka.com
   bio: |
     <p>Garrett Polifka is a User Experience Team Lead with fifteen years experience in the creative industry; ranging from marketing to front-end development as well as software design. At Paylocity, Garrett is responsible for contributing to the organization&#8217;s design system, Citrus, while leading a design team. His team is involved with the evolution of their industry-leading, cloud-based payroll, and human capital management software, within their Talent suite. Garrett prides himself on his desire to consume more information than an average 1984 computer could handle each day.</p>
+
+Gina DeConti:
+  alias:   gina-deconti
+  title:   "Senior Visual Designer, Allstate"
+  twitter: GinaDeConti
+  website: ginadeconti.design
+  bio: |
+    <p>Gina started her art training early in life when her mother taught her to draw before she could barely hold a pencil. Since then she&#8217;s continued to love all things related to art and design.</p>
+
+    <p>Her formal education includes photography and design studies at the University of Massachusetts, with multiple Bachelor of Fine Arts degrees in Photography, Electronic Imaging, and Illustration. She also achieved magna cum laude in Photography and Electronic Imaging (which made her mother very proud).</p>
+
+    <p>Gina considers herself a life-long learner and recently completed a master&#8217;s degree in Human and Computer Interaction at Iowa State University&#8217;s School of Engineering.</p>
+
+    <p>In her spare time, she enjoys gardening, yoga, and spending time sitting on her patio drinking craft beer with friends and family.</p>
 
 Golli Hashemian:
   alias:   golli-hashemian
@@ -1236,6 +1286,13 @@ Megan Kellie:
   bio: |
     <p>Megan Kellie is a writer, actor, improviser and illustrator. She lives in Chicago where she regularly repurposes cardboard and goes to Blick. She performs all around the city, and has just started showing her art things in places. You can find her <a href="https://twitter.com/flipflipflap">@flipflipflap</a> very sporadically on Twitter and less sporadically <a href="https://instagram.com/imdrawinghere">@imdrawinghere</a> on Instagram.</p>
 
+Megan Machamer:
+  alias:   megan-machamer
+  title:   "Senior Lead UX Specialist, Ipsos"
+  twitter: MMMeganmelissa
+  bio: |
+    <p>UX lead research specialist and ethnographer with 8 years of social science research experience in both professional and academic contexts. A highly dedicated applied anthropologist who is enthusiastic about culture and technology, and specializes in: research design, discovery, ethnography, project management and international research.</p>
+
 Michael Lopp:
   alias:   michael-lopp
   title:   "VP of Engineering, Slack"
@@ -1435,6 +1492,12 @@ Rizwan Javaid:
   website: rizwanjavaid.com
   bio: |
     <p>Rizwan is a UX Designer at Closed Loop in Roseville, CA. He creates intuitive, persuasive, and profitable user experiences. His passion lies in solving design problems and sharing his knowledge with others. He is the creator of the <a href="https://itunes.apple.com/us/app/ux-alphabet/id983479193?mt=8" rel="nofollow">UX Alphabet app</a>, a handy reference app of UX concepts.</p>
+
+Rocio Werner:
+  alias:   rocio-werner
+  title:   "Senior User Experience Researcher, ZS Associates"
+  bio: |
+    <p>Rocio is a Senior User Experience Researcher at ZS Associates, conducting studies and collaborating on strategic initiatives across 5 product verticals in the Software Development Group. What excites her about her role is implementing UX benchmarking to inform product prioritization decisions. Before ZS, Rocio was a UX generalist at an agency, responsible for UX research and design. Prior to that, she provided UX consulting services to tech and small business founders, leveraging over a decade of collaboration with cross-functional teams to build software products to mitigate financial risk and optimize operational efficiency. Her research career began in academic and nonprofit sectors, studying work hazards of immigrant Latino farmworkers and laborers. When Rocio is not conducting research, she also enjoys dance training, running, traveling, and a good cup of chai.</p>
 
 Romke de Haan:
   alias:   romke-de-haan

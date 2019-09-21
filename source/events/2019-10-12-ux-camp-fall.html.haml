@@ -10,8 +10,8 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 ---
 
 - sponsors = ["Columbia College", "Lead Honestly"]
-- keynotes = []
-- speakers = []
+- keynotes = ["Gail Swanson"]
+- speakers = ["Clifton Simmons", "Colin MacArthur", "Danyell Jones", "Rocio Werner", "David Antognoli", "David Gerding", "Gina DeConti", "Megan Machamer"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -20,9 +20,9 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
         %a(href="#top" rel="nofollow") UX Camp
       %li
         %a(href="#details" rel="nofollow") Details
+      %li
+        %a(href="#keynotes" rel="nofollow") Keynotes
       -#
-        %li
-          %a(href="#keynotes" rel="nofollow") Keynotes
         %li
           %a(href="#schedule" rel="nofollow") Schedule
       %li
@@ -55,12 +55,11 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
     = partial "partials/events/sponsors", locals: {sponsors: sponsors}
 
--#
-  %section#keynotes.main-content.main-bg-alt
-    .container
+%section#keynotes.main-content.main-bg-alt
+  .container
 
-      %h3.h-section Keynotes
-      = partial "partials/events/speakers", locals: {speakers: keynotes}
+    %h3.h-section Keynotes
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 -#
   %section#schedule.main-content.main-bg-highlight
@@ -215,6 +214,53 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
     %p First time speaker, or have limited experience? Let us know&mdash;we welcome new speakers and have been known to help folks round out their proposals.
 
     %p <a href="/proposal/">Submit your talk</a>&mdash;come hang out with us in Chicago and share what you&#8217;ve learned!
+
+    - content_for :talk_clifton_simmons do
+
+      %h3 Taking the (Em)Path to Human-Centered Design
+
+      %p In UX design, empathy is a critical skill to creating user satisfaction. No one tells us how to develop empathy! Finding that connection starts with drawing from personal resources. 
+
+      %p Many people in UX careers started in positions not even remotely connected to UX design—and that&#8217;s been their benefit. These non-traditional, if not all, experiences provide unique insight when it comes to improving our empathetic approach to human-centered design. Diversity is also key to collaborating with and understanding unique voices and problem solving to meet the needs of others not like us. Along with consumer data and journeys, empathy helps design teams deeply analyze user situations to create solutions.
+
+    - content_for :talk_colin_macarthur do
+
+      %h3 Fast, Cheap or Good Research: Pick All Three!
+
+      %p Have you ever had too little time or money to do good UX research? Trying to fit research into your tight budget, agile sprints or fast-moving project? Feel like giving up? You can do good research under quick timelines and little budget.
+
+      %p I&#8217;ll share tricks for fast moving and cheap research that doesn&#8217;t compromise quality:
+
+      %ul.list-ul
+        %li Using the Goldilocks method to scope doable, but impactful research
+        %li Writing a useful research plan that isn&#8217;t ten pages long
+        %li Recruiting participants in under 24 hours with no money
+        %li Building data collection process that surfaces insights as you conduct research
+        %li &#8220;Make-in-an-afternoon&#8221; deliverables that are just detailed enough to compel your team
+
+      %p I&#8217;ll share examples from my experience coaching designers and researchers in lean environments. I&#8217;ll also share some of my fast moving research fails, and how you can avoid them. Hopefully, you can learn from my past mistakes and do research quickly, cheaply and well.
+
+    - content_for :talk_david_antognoli do
+
+      %h3 Bad Game Design: Learning to Create Clear Interactions by Studying Bad Games
+
+      %p Most mainstream games are so good at interaction design that the complexity of these interactions is almost invisible. But when you start stripping away the elements that make them sing, it becomes obvious that something is wrong. In this session we&#8217;ll investigate some &#8220;bad&#8221; games, and use their failures to glean takeaways on creating clear interactions in mediated experiences.
+
+    - content_for :talk_david_gerding do
+
+      %h3 McCarthy Protocols: Social, Emotional &amp; Virtue-Centered Ninja Skills for Individuals &amp; Teams
+
+      %p The &#8220;Core Protocols&#8221; are an ever-evolving set of team and personal practices, in ongoing- development for 25 years, the Core Protocols predicted both Agile-style iterative development and the central role of social and emotional competencies for effective teams. Best of all: They&#8217;re open source and freely shared. This talk will give attendees 5 easy-to-use practices that can transform their effectiveness with team-members, managers and, most importantly, clients. The Core Protocols have been taught to and are in use by professional teams on 4 continents. Plus they are fun just might prevent cavities.
+
+    - content_for :talk_megan_machamer do
+
+      %h3 Delivering a Stand-Out User Experience: UX Ethnography &amp; a (not-so) Quick Trip to the Post Office
+
+      %p Join me on a package delivery gone wrong and get a better sense on why User Experience needs ethnography and why technology needs UX. 
+
+      %p As humans we live in a world where daily actions and decisions are closely linked to technology. We are presented with an array of technological options for completing a simple task and the choices we make can either enhance or inhibit our experience completing those basic tasks. Opportunities for businesses to consider human-centered design are everywhere, and often the most relatable and frustrating experiences with technology are missed opportunities to consider context of use, social norms, and human culture. With technology becoming increasingly automated, ethnography provides a unique opportunity to understand how tech augments an experience rather than replaces the user&#8217;s role. 
+
+      %p From the narrative perspective of a cultural anthropologist and UX researcher, this presentation will cover how UX approaches ethnography differently, and how its focus on interaction and design marks a departure from other qualitative ethnography. From startups to tech giants, every business can benefit from understanding their customers in their real use environment, as well as all the nuance that context brings in developing and designing a product or service. 
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
