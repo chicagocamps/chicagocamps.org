@@ -10,8 +10,8 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 ---
 
 - sponsors = ["Columbia College", "Lead Honestly"]
-- keynotes = ["Gail Swanson"]
-- speakers = ["Clifton Simmons", "Danyell Jones", "Rocio Werner", "David Antognoli", "David Gerding", "Gina DeConti", "Megan Machamer"]
+- keynotes = ["Colin MacArthur", "Gail Swanson"]
+- speakers = ["Alex W. Castellanos", "Clifton Simmons", "Danyell Jones", "Rocio Werner", "David Antognoli", "David Gerding", "Gabby Hon", "Gina DeConti", "Megan Machamer"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -22,9 +22,8 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
         %a(href="#details" rel="nofollow") Details
       %li
         %a(href="#keynotes" rel="nofollow") Keynotes
-      -#
-        %li
-          %a(href="#schedule" rel="nofollow") Schedule
+      %li
+        %a(href="#schedule" rel="nofollow") Schedule
       %li
         %a(href="#speakers" rel="nofollow") Speakers
       %li
@@ -61,159 +60,167 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
     %h3.h-section Keynotes
     = partial "partials/events/speakers", locals: {speakers: keynotes}
 
--#
-  %section#schedule.main-content.main-bg-highlight
-    .container
+%section#schedule.main-content.main-bg-highlight
+  .container
 
-      %h3.h-section Schedule
+    %h3.h-section Schedule
 
-      %table.event-schedule
+    %table.event-schedule
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T08:30") 8:30
-            &#8212;
-            %time(datetime="2018-11-10T09:00") 9:00
-          %td.event-schedule-offset(colspan="2") Registration &amp; Breakfast
+      %tr
+        %th
+          %time(datetime="2010-10-12T08:30") 8:30
+          &#8212;
+          %time(datetime="2010-10-12T09:00") 9:00
+        %td.event-schedule-offset(colspan="2") Registration &amp; Breakfast
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T09:00") 9:00
-            &#8212;
-            %time(datetime="2018-11-10T09:45") 9:45
-          %td(colspan="2")
-            %a(href="#natalie-hanson" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Natalie Hanson
-            .event-schedule-offset Keynote
+      %tr
+        %th
+          %time(datetime="2010-10-12T09:00") 9:00
+          &#8212;
+          %time(datetime="2010-10-12T09:45") 9:45
+        %td(colspan="2")
+          %a(href="#colin-macarthur" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Colin MacArthur
+          .event-schedule-offset Keynote
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T09:45") 9:45
-            &#8212;
-            %time(datetime="2018-11-10T10:00") 10:00
-          %td.event-schedule-offset(colspan="2") Morning Break
+      %tr
+        %th
+          %time(datetime="2010-10-12T09:45") 9:45
+          &#8212;
+          %time(datetime="2010-10-12T10:00") 10:00
+        %td.event-schedule-offset(colspan="2") Morning Break
 
-        %tr
-          %th Rooms
-          %td
-            %strong Blue
-            %span.event-schedule-offset (Main)
-          %td
-            %strong Red
+      %tr
+        %th Rooms
+        %td
+          %strong Blue
+          %span.event-schedule-offset (Main)
+        %td
+          %strong Red
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T10:00") 10:00
-            &#8212;
-            %time(datetime="2018-11-10T10:45") 10:45
-          %td
-            %a(href="#amy-johnson" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Amy Johnson
-            .event-schedule-offset Neurodiversity at Work: Valuing Teammates Who are Wired Differently
-          %td
-            %a(href="#brian-santiago" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Brian Santiago
-            .event-schedule-offset Creating User-Centered Organizations Through Rapid Usability Testing
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T10:45") 10:45
-            &#8212;
-            %time(datetime="2018-11-10T11:00") 11:00
-          %td.event-schedule-offset(colspan="2") Break
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T11:00") 11:00
-            &#8212;
-            %time(datetime="2018-11-10T11:45") 11:45
-          %td
-            %a(href="#cynthia-gelper" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Cynthia Gelper
-            .event-schedule-offset What Content Strategy Can Teach UX
-          %td
-            %a(href="#diana-deibel" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Diana Deibel &amp; Julie Morycz
-            .event-schedule-offset The True Crime of Bad Design
+      %tr
+        %th
+          %time(datetime="2010-10-12T10:00") 10:00
+          &#8212;
+          %time(datetime="2010-10-12T10:45") 10:45
+        %td
+          %a(href="#danyell-jones" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Danyell Jones &amp; Rocio Werner
+          .event-schedule-offset Implementing Usability &amp; Satisfaction Metrics in Your Organization
+        %td
+          %a(href="#david-antognoli" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") David Antognoli
+          .event-schedule-offset Bad Game Design: Learning to Create Clear Interactions by Studying Bad Games
+      
+      %tr
+        %th
+          %time(datetime="2010-10-12T10:45") 10:45
+          &#8212;
+          %time(datetime="2010-10-12T11:00") 11:00
+        %td.event-schedule-offset(colspan="2") Break
+      
+      %tr
+        %th
+          %time(datetime="2010-10-12T11:00") 11:00
+          &#8212;
+          %time(datetime="2010-10-12T11:45") 11:45
+        %td
+          %a(href="#clifton-simmons" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Clifton Simmons
+          .event-schedule-offset Taking the (Em)Path to Human-Centered Design
+        %td
+          %a(href="#gabby-hon" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Gabby Hon
+          .event-schedule-offset The Map Is Not the Territory: Against UX Portfolios, &amp; for Rational Hiring
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T11:45") 11:45
-            &#8212;
-            %time(datetime="2018-11-10T13:00") 1:00
-          %td.event-schedule-offset(colspan="2") Lunch
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T13:00") 1:00
-            &#8212;
-            %time(datetime="2018-11-10T13:45") 1:45
-          %td
-            %a(href="#eva-penzeymoog" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Eva PenzeyMoog
-            .event-schedule-offset Designing Against Domestic Violence
-          %td
-            %a(href="#garrett-polifka" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Garrett Polifka
-            .event-schedule-offset EQ + Design: Elevating the Design Process
+      %tr
+        %th
+          %time(datetime="2010-10-12T11:45") 11:45
+          &#8212;
+          %time(datetime="2010-10-12T13:00") 1:00
+        %td.event-schedule-offset(colspan="2") Lunch
+      
+      %tr
+        %th
+          %time(datetime="2010-10-12T13:00") 1:00
+          &#8212;
+          %time(datetime="2010-10-12T13:45") 1:45
+        %td
+          %a(href="#megan-machamer" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Megan Machamer
+          .event-schedule-offset Delivering a Stand-Out User Experience: UX Ethnography &amp; a (not-so) Quick Trip to the Post Office
+        %td
+          %a(href="#alex-w-castellanos" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Alex W. Castellanos
+          .event-schedule-offset Elevating User Experience in the Organization
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T13:45") 1:45
-            &#8212;
-            %time(datetime="2018-11-10T14:00") 2:00
-          %td.event-schedule-offset(colspan="2") Break
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T14:00") 2:00
-            &#8212;
-            %time(datetime="2018-11-10T14:45") 2:45
-          %td
-            %a(href="#gabby-hon" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Gabby Hon
-            .event-schedule-offset The Map Is Not The Territory: Against UX Portfolios, and For Rational Hiring
-          %td
-            %a(href="#jon-yablonski" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Jon Yablonski
-            .event-schedule-offset The Intersection of Psychology &amp; UX Design
+      %tr
+        %th
+          %time(datetime="2010-10-12T13:45") 1:45
+          &#8212;
+          %time(datetime="2010-10-12T14:00") 2:00
+        %td.event-schedule-offset(colspan="2") Break
+      
+      %tr
+        %th
+          %time(datetime="2010-10-12T14:00") 2:00
+          &#8212;
+          %time(datetime="2010-10-12T14:45") 2:45
+        %td
+          %a(href="#david-gerding" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") David Gerding
+          .event-schedule-offset McCarthy Protocols: Social, Emotional &amp; Virtue-Centered Ninja Skills for Individuals &amp; Teams
+        %td
+          %a(href="#gina-deconti" rel="nofollow")
+            %strong.event-schedule-room(data-room="Red") Gina DeConti
+          .event-schedule-offset UX: Curating a Career for the Chronically Curious
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T14:45") 2:45
-            &#8212;
-            %time(datetime="2018-11-10T15:15") 3:15
-          %td.event-schedule-offset(colspan="2") Afternoon Snack
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T15:15") 3:15
-            &#8212;
-            %time(datetime="2018-11-10T16:00") 4:00
-          %td(colspan="2")
-            %a(href="#ryan-page" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Ryan Page
-            .event-schedule-offset Keynote
+      %tr
+        %th
+          %time(datetime="2010-10-12T14:45") 2:45
+          &#8212;
+          %time(datetime="2010-10-12T15:15") 3:15
+        %td.event-schedule-offset(colspan="2") Afternoon Snack
+      
+      %tr
+        %th
+          %time(datetime="2010-10-12T15:15") 3:15
+          &#8212;
+          %time(datetime="2010-10-12T16:00") 4:00
+        %td(colspan="2")
+          %a(href="#gail-swanson" rel="nofollow")
+            %strong.event-schedule-room(data-room="Blue") Gail Swanson
+          .event-schedule-offset Keynote
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T16:00") 4:00
-            &#8212;
-            %time(datetime="2018-11-10T16:15") 4:15
-          %td.event-schedule-offset(colspan="2") Closing Ceremonies
+      %tr
+        %th
+          %time(datetime="2010-10-12T16:00") 4:00
+          &#8212;
+          %time(datetime="2010-10-12T16:15") 4:15
+        %td.event-schedule-offset(colspan="2") Closing Ceremonies
 
 %section#speakers.main-content.main-bg-alt
   .container
-    
+
     %h3.h-section Speakers
-
-    %h3 Call for Speakers
     
-    %p Are you interested in speaking at UX Camp? We sure hope so! <a href="/proposal/">Submit your talk</a> and let us know what&#8217;s on your mind to share.
+    -#
+      %h3 Call for Speakers
+      
+      %p Are you interested in speaking at UX Camp? We sure hope so! <a href="/proposal/">Submit your talk</a> and let us know what&#8217;s on your mind to share.
 
-    %p First time speaker, or have limited experience? Let us know&mdash;we welcome new speakers and have been known to help folks round out their proposals.
+      %p First time speaker, or have limited experience? Let us know&mdash;we welcome new speakers and have been known to help folks round out their proposals.
 
-    %p <a href="/proposal/">Submit your talk</a>&mdash;come hang out with us in Chicago and share what you&#8217;ve learned!
+      %p <a href="/proposal/">Submit your talk</a>&mdash;come hang out with us in Chicago and share what you&#8217;ve learned!
+
+    - content_for :talk_alex_w_castellanos do
+
+      %h3 Elevating User Experience in the Organization
+
+      %p In the early 1900s the CMO position was created, and ever since it has been one of the most heavily resourced departments in almost every major organization. The Chief Marketing Officer &#8220;controls the brand.&#8221; But over the past decade the tectonic plates of business have shifted. Earthquake after earthquake has shaped a new world in which Users sit at the Brand control panels. And broad online conversations prevented companies from using flashy marketing to cover up product problems.
+
+      %p With all this User power, why do leading business schools still teach that &#8220;Marketing drives the business&#8221; when we all know it is the User? And why do so many organizations still struggle to &#8220;control&#8221; their brand without investing in the User up-front?  In this talk, Alex digs into the &#8220;why&#8220; AND what you can do to help shift the balance towards the User in your organization.
 
     - content_for :talk_clifton_simmons do
 
@@ -252,6 +259,12 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
       %p The &#8220;Core Protocols&#8221; are an ever-evolving set of team and personal practices, in ongoing- development for 25 years, the Core Protocols predicted both Agile-style iterative development and the central role of social and emotional competencies for effective teams. Best of all: They&#8217;re open source and freely shared. This talk will give attendees 5 easy-to-use practices that can transform their effectiveness with team-members, managers and, most importantly, clients. The Core Protocols have been taught to and are in use by professional teams on 4 continents. Plus they are fun just might prevent cavities.
 
+    - content_for :talk_gabby_hon do
+
+      %h3 The Map Is Not the Territory: Against UX Portfolios, &amp; for Rational Hiring
+
+      %p Mired in deliverable purgatory, and possessed of strategic skills that are continually undervalued, UX professionals are further humiliated by hiring requirements that include portfolios. I will explain why portfolios are entirely wrong for evaluating the worth of a UX professional, why hiring managers can&#8217;t seem to stop demanding them, and propose a path out of this quagmire.
+
     - content_for :talk_gina_deconti do
 
       %h3 UX: Curating a Career for the Chronically Curious
@@ -269,6 +282,16 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
       %p As humans we live in a world where daily actions and decisions are closely linked to technology. We are presented with an array of technological options for completing a simple task and the choices we make can either enhance or inhibit our experience completing those basic tasks. Opportunities for businesses to consider human-centered design are everywhere, and often the most relatable and frustrating experiences with technology are missed opportunities to consider context of use, social norms, and human culture. With technology becoming increasingly automated, ethnography provides a unique opportunity to understand how tech augments an experience rather than replaces the user&#8217;s role. 
 
       %p From the narrative perspective of a cultural anthropologist and UX researcher, this presentation will cover how UX approaches ethnography differently, and how its focus on interaction and design marks a departure from other qualitative ethnography. From startups to tech giants, every business can benefit from understanding their customers in their real use environment, as well as all the nuance that context brings in developing and designing a product or service. 
+
+    - content_for :talk_rocio_werner do
+
+      %h5.lineup-subtitle.h-sm-caps-gray Danyell &amp; Rocio present:
+
+      %h3 Implementing Usability &amp; Satisfaction Metrics in Your Organization
+
+      %p Establishing a cohesive UX strategy is a challenge when your organization lacks a measurement framework. We&#8217;re constantly striving to make great products, but it&#8217;s difficult to get stakeholder buy-in and make product decisions when you can&#8217;t state the impact on the user experience. 
+
+      %p We understand &ndash; this happens to us too! During this session, we&#8217;ll share how we addressed this gap by exploring the framework we used for measuring UX impact across different audiences. We&#8217;ll discuss how we approached gathering usability and customer satisfaction metrics, establishing benchmarks, and applying this data to improve products. Not only will you learn about tools to help you make informed decisions on your products, but you&#8217;ll also come away with the ability to demonstrate the value of UX to your stakeholders.
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
