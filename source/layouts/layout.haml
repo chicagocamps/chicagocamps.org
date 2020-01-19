@@ -13,30 +13,30 @@
       %title= current_page.data.title + " - Chicago Camps" || "Chicago Camps" unless current_page.data.title == "Home"
 
     %link(rel="stylesheet" href="/assets/css/styles.css")
-    %link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:300,700")
+    %link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:300,700")
 
     %script(src="/assets/js/vendor/modernizr-2.8.3.min.js")
 
     - if current_page.data.redirect == "ppp" || current_page.data.redirect == "lbd"
-      %meta(http-equiv="refresh" content="0; url=http://chicagocamps.org/events/2020/leadership-by-design/")
-      %link(rel="canonical" href="http://chicagocamps.org/events/2020/leadership-by-design/")
+      %meta(http-equiv="refresh" content="0; url=http:https://chicagocamps.org/events/2020/leadership-by-design/")
+      %link(rel="canonical" href="https://chicagocamps.org/events/2020/leadership-by-design/")
 
     -# Facebook open graph
 
-    %meta(property="og:url" content="http://chicagocamps.org#{current_page.url}")
+    %meta(property="og:url" content="https://chicagocamps.org#{current_page.url}")
     %meta(property="og:type" content="article")
     %meta(property="og:title" content="#{current_page.data.title} - Chicago Camps")
     %meta(property="og:site_name" content="Chicago Camps")
     - if current_page.data.summary
       %meta(property="og:description" content="#{current_page.data.summary}")
     - if current_page.data.alias == 'prototypes-process-play' and Date.parse(current_page.data.date).strftime('%Y') == '2017'
-      %meta(property="og:image" content="http://chicagocamps.org/assets/img/events/logos/#{current_page.data.alias}-2017.png")
+      %meta(property="og:image" content="https://chicagocamps.org/assets/img/events/logos/#{current_page.data.alias}-2017.png")
     - elsif current_page.data.alias == 'proposal'
-      %meta(property="og:image" content="http://chicagocamps.org/assets/img/proposal.png")
+      %meta(property="og:image" content="https://chicagocamps.org/assets/img/proposal.png")
     - elsif current_page.data.alias
-      %meta(property="og:image" content="http://chicagocamps.org/assets/img/events/logos/#{current_page.data.alias}.png")
+      %meta(property="og:image" content="https://chicagocamps.org/assets/img/events/logos/#{current_page.data.alias}.png")
     - else
-      %meta(property="og:image" content="http://chicagocamps.org/assets/img/logos/logo-wordmark-gray.png")
+      %meta(property="og:image" content="https://chicagocamps.org/assets/img/logos/logo-wordmark-gray.png")
 
     -# Twitter card
 

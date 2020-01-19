@@ -268,4 +268,4 @@ With that, it&#8217;s time to eat. Thank you very much for your attention.
 
 ### About Chicago Camps
 
-Chicago Camps, LLC (<a href="http://chicagocamps.org">chicagocamps.org</a>) was founded in 2012. They plan multiple low cost, high-value events primarily in Chicago.
+Chicago Camps, LLC (<a href="https://chicagocamps.org">chicagocamps.org</a>) was founded in 2012. They plan multiple low cost, high-value events primarily in Chicago.

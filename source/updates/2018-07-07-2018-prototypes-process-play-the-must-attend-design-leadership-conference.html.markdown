@@ -20,7 +20,7 @@ These folks are helping to make the world a better place. Period.
 
 Whatever the challenges you face as you become a leader, the speakers at [Prototypes, Process &amp; Play 2018](/ppp) will undoubtedly provide insights that you can apply to your own situation you find yourself in. And if all the knowledge being delivered to you isn&#8217;t enough, true to Chicago Camps form, you will be well-fed, plenty of snacks (we have a tendency to over do it) and a suprise from Jawhole to round out an exceptional two days of nourishing the mind, body and soul.
 
-Please join us this August 9th and 10th and experience learnings from seasoned professionals that pay-it-forward to the help you on becoming the leader that we all need. Head to [http://chicagocamps.org/ppp](/ppp) and get your ticket to the event that will help you navigate your design leadership future.
+Please join us this August 9th and 10th and experience learnings from seasoned professionals that pay-it-forward to the help you on becoming the leader that we all need. Head to [https://chicagocamps.org/ppp](/ppp) and get your ticket to the event that will help you navigate your design leadership future.
 
 For us, it&#8217;s a privilege to be part of group that brings people the opportunity to gain deep learning about true mentorship, insights into the leadership experience of others, and an ability to learn about what a design leadership career can grow into as careers progress.
 

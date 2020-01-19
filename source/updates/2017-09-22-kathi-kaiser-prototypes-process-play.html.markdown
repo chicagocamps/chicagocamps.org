@@ -87,4 +87,4 @@ I&#8217;m almost out of time here. But I do want to encourage you to think about
 
 ### About Chicago Camps
 
-Chicago Camps, LLC (<a href="http://chicagocamps.org">chicagocamps.org</a>) was founded in 2012. They plan multiple low cost, high-value events primarily in Chicago.
+Chicago Camps, LLC (<a href="https://chicagocamps.org">chicagocamps.org</a>) was founded in 2012. They plan multiple low cost, high-value events primarily in Chicago.
