@@ -8,8 +8,8 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 ---
 
 - sponsors = ["Columbia College", "Lead Honestly"]
-- keynotes = []
-- speakers = []
+- keynotes = ["Carolyn Chandler"]
+- speakers = ["Matthew Eng"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -18,9 +18,9 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
         %a(href="#top" rel="nofollow") UX Camp
       %li
         %a(href="#details" rel="nofollow") Details
+      %li
+        %a(href="#keynotes" rel="nofollow") Keynotes
       -#
-        %li
-          %a(href="#keynotes" rel="nofollow") Keynotes
         %li
           %a(href="#schedule" rel="nofollow") Schedule
       %li
@@ -57,12 +57,11 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
     %p We&#8217;re actively looking for <a href="/contact/">sponsors</a> for UX Camp. If you&#8217;re interested, or if you know someone we should talk to, <a href="/contact/">please let us know</a>!
 
--# 
-  %section#keynotes.main-content.main-bg-alt
-    .container
+%section#keynotes.main-content.main-bg-alt
+  .container
 
-      %h3.h-section Keynotes
-      = partial "partials/events/speakers", locals: {speakers: keynotes}
+    %h3.h-section Keynotes
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 -# 
   %section#schedule.main-content.main-bg-highlight
@@ -233,6 +232,14 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
     %p First time speaker, or have limited experience? Let us know&mdash;we welcome new speakers and have been known to help folks round out their proposals.
 
     %p <a href="/proposal/">Submit your talk</a>&mdash;come hang out with us in Chicago and share what you&#8217;ve learned!
+
+    - content_for :talk_matthew_eng do
+
+      %h3 Research your Team First: Key Communication Techniques to Build Trust &amp; Clarity in Product Teams
+
+      %p Instead of trying to &#8220;win&#8221; an argument, what if we invested in understanding our counterparts&#8217; and stakeholders&#8217; needs first with the goal of building their trust? We are passionate about our work, and in collaborative environments, we need to align our differing views of user needs, innovative ideas, and product vision across disciplines and management levels. This often means we spend a lot of time pitching our concepts for adoption into a product roadmap.
+
+      %p In this talk, you will learn communication techniques to uncover the key problems that cross-functional teams can rally around. We will also cover how to apply these techniques to help our teams feel more prepared for conversations about project scope, priority shifts, and even work-place conflicts.
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
