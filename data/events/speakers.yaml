@@ -66,7 +66,13 @@ Alissa Ampezzan:
   twitter: alissaampezzan
   bio: |
     <p>Alissa is Director of Design at Tempus. Her work has always been driven my impact—currently it&#8217;s cancer, but before it was progressive politics, K12 educational technologies, and non-profit marketing. She&#8217;s taught at Startup Institute (also an alumna) and General Assembly. She spends free time reading Fleetwood Mac biographies and trying to understand the human genome. Oh, and giggling to <a href="https://twitter.com/weratedogs" rel="nofollow">@weratedogs</a>.</p>
-    
+
+Alyssa Boehm:
+  alias:   alyssa-boehm
+  title:   "Vice President of User Experience, Forrester"
+  bio: |
+    <p>Alyssa is the Vice President of User Experience at Forrester. She has established UX practices, career ladders, and built high-performing, cross-functional teams in a variety of spaces including customer science, healthcare, financial services, and education. She is based near Boston with her family and some pushy house cats.</p>
+
 Alyssa Burke:
   alias:   alyssa-burke
   title:   "User Interface Designer, &Auml;KTA"
@@ -1339,6 +1345,14 @@ Michael Lopp:
     <p>Michael has written two books. His first book &#8220;Managing Humans, 2nd Edition&#8221; is a popular guide to the art of engineering leadership and clearly explains that while you be rewarded for what you build, you will only be successful because of your people. His second book &#8220;Being Geek&#8221; is a career handbook for geeks and nerds alike.</p>
     <p>Michael plays mountain bikes, tinkers with drones, and drinks red wine in the redwoods of Northern California whenever he can because staying sane is more important than staying busy.</p>
 
+Michelle Y. Bess:
+  alias:   michelle-y-bess
+  title:   "Diversity, Equity, and Inclusion Director, Sprout Social"
+  twitter: michellebess
+  bio: |
+        <p>Michelle Y. Bess serves as the Diversity, Equity, and Inclusion Director at Sprout Social, focusing on efforts to ensure all people feel a sense of belonging and that their voices are heard. Prior to Sprout Social, Michelle worked in college persistence at OneGoal and Posse Chicago.</p>
+        <p>Michelle attended Whitworth University, earning a B.A. in Biology and completed Georgetown University&#8217;s Executive Certificate in Strategic Diversity & Inclusion Management. She was recognized as a 2018 AdWeek Rising Brand Star, serves as a Board Director of Degrees of Change, and is the Founder and Co-Lead of The Brave Space.</p>
+
 Michelle Dash:
   alias:   michelle-dash
   title:   "Engagement Director, Avians"
@@ -1640,11 +1654,19 @@ Sharlene King:
 
 Shay Howe:
   alias:   shay-howe
-  title:   "Product Designer &amp; Front-end Engineer"
+  title:   |
+    Co-founder, <a href="https://leadhonestly.com">Lead Honestly</a>
   twitter: shayhowe
   website: shayhowe.com
   bio: |
     <p>As a designer and front end developer, Shay Howe has a passion for solving problems while building creative and intuitive products. He specializes in user interface design and front end development, working inside HTML, CSS, and JavaScript on a daily basis. Additionally, Shay <a href="http://learn.shayhowe.com/">teaches a front end design and development</a> and helps co-organize Chicago Camps, Refresh Chicago, and UX Happy Hour.</p>
+
+Shelby Bower:
+  alias:   shelby-bower
+  title:   "Discovery &amp; Service Design Lead, Morningstar"
+  bio: |
+    <p>Shelby is currently working at Morningstar, using skills picked up over the years in service design, product management, business design, and yes, user experience, not to improve the veggie burger but to improve how people invest their money and the outcomes they achieve from it.</p>
+    <p>With nearly 20 years in the tech industry, Shelby&#8217;s seen a lot of things come and go and believes that we have an opportunity we must seize, as people who work in technology: the opportunity to repair, fix and sometimes start over what we&#8217;ve created so far, so that we can build an internet that serves everyone and makes lives better.</p>
 
 Simon King:
   alias:   simon-king
