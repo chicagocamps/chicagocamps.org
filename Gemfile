@@ -12,7 +12,7 @@ gem "middleman-livereload"
 gem "middleman-autoprefixer"
 
 # For blog summaries
-gem "nokogiri", "~> 1.9"
+gem "nokogiri"
 
 # GH pages
 gem "middleman-gh-pages"

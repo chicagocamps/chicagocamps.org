@@ -162,7 +162,7 @@ DEPENDENCIES
   middleman-gh-pages
   middleman-imageoptim
   middleman-livereload
-  nokogiri (~> 1.9)
+  nokogiri
 
 BUNDLED WITH
    1.17.2
