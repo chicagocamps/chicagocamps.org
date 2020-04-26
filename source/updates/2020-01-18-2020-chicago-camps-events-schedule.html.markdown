@@ -12,7 +12,7 @@ Welcome to 2020! We hope the new year is off to a great start for you&ndash;and 
 We have ​<strong>three events​</strong> on the docket for this year, with our awesome host at Columbia College:
 
 <ul class="list-ul">
-  <li>May 30th &ndash; <strong><a href="/events/2020/ux-camp-spring/">UX Camp Spring</a></strong>, now accepting <a href="/proposal/">submissions to present</a>!</li>
+  <li>May 30th &ndash; <strong><a href="/events/2020/ux-camp-spring/">UX Camp Spring</a></strong>, canceled due to COVID-19</li>
   <li>August 5-7th &ndash; <strong><a href="/events/2020/leadership-by-design/">Leadership By Design​</a></strong>, ​workshops on August 5th will be available soon!</li>
   <li>October 17th &ndash; <strong><a href="/events/2020/ux-camp-fall/">UX Camp Fall</a></strong>, now accepting <a href="/proposal/">submissions to present</a>!</li>
 </ul>
