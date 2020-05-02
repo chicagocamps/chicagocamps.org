@@ -218,6 +218,10 @@ thoughtbot:
   alias: thoughtbot
   url: https://thoughtbot.com/
 
+U.Group:
+  alias: ugroup
+  url: https://u.group/
+
 UIE:
   alias: uie
   url: https://www.uie.com/
