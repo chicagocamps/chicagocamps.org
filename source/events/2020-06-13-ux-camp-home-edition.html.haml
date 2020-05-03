@@ -8,7 +8,7 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 ---
 
 - sponsors = ["Balsamiq", "Columbia College", "Lead Honestly", "Rosenfeld", "U.Group"]
-- keynotes = []
+- keynotes = ["Kim Goodwin"]
 - speakers = ["Billy Carlson", "Jabali Williams", "Sunny Steuve", "Matthew Eng", "Michelle Schulp"]
 
 %nav.event-nav.group(data-js="event-nav")
@@ -18,9 +18,9 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
         %a(href="#top" rel="nofollow") UX Camp: Home Edition
       %li
         %a(href="#details" rel="nofollow") Details
+      %li
+        %a(href="#keynotes" rel="nofollow") Keynotes
       -#
-        %li
-          %a(href="#keynotes" rel="nofollow") Keynotes
         %li
           %a(href="#schedule" rel="nofollow") Schedule
       %li
@@ -82,12 +82,11 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 
     %p We also have options for <a href="https://chicagocamps.ticketspice.com/ux-camp-home-edition-june-2020" rel="nofollow">immediate purchase at registration</a>.
 
--#
-  %section#keynotes.main-content.main-bg-alt
-    .container
+%section#keynotes.main-content.main-bg-alt
+  .container
 
-      %h3.h-section Keynotes
-      = partial "partials/events/speakers", locals: {speakers: keynotes}
+    %h3.h-section Keynotes
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 -# 
   %section#schedule.main-content.main-bg-highlight
