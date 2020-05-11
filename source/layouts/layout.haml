@@ -21,6 +21,10 @@
       %meta(http-equiv="refresh" content="0; url=https://chicagocamps.org/events/2020/leadership-by-design/")
       %link(rel="canonical" href="https://chicagocamps.org/events/2020/leadership-by-design/")
 
+    - if current_page.data.redirect == "uxc"
+      %meta(http-equiv="refresh" content="0; url=https://chicagocamps.org/events/2020/ux-camp-home-edition/")
+      %link(rel="canonical" href="https://chicagocamps.org/events/2020/ux-camp-home-edition/")
+      
     -# Facebook open graph
 
     %meta(property="og:url" content="https://chicagocamps.org#{current_page.url}")
