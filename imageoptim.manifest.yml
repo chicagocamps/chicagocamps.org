@@ -419,6 +419,8 @@ build/assets/img/events/logos/prototyping-responsive-designs-axure-workshop-alt.
 build/assets/img/events/logos/sketch-camp.png: 2017-12-29 12:01:27.105497494 -06:00
 build/assets/img/events/logos/axure-rp-7-workshop-alt.png: 2017-12-29 12:01:25.469133616
   -06:00
+build/assets/img/events/logos/leadership-by-design-home.png: 2020-06-12 19:58:40.668300788
+  -05:00
 build/assets/img/events/logos/ux-camp-fall-alt.png: 2020-01-05 18:13:35.786001037
   -06:00
 build/assets/img/events/logos/speaker-camp.png: 2017-12-29 12:01:27.107777246 -06:00
@@ -451,6 +453,8 @@ build/assets/img/events/logos/prototype-camp.png: 2017-12-29 12:01:27.079215037 
 build/assets/img/events/logos/front-end-camp.png: 2017-12-29 12:01:25.470704127 -06:00
 build/assets/img/events/logos/mobile-camp.png: 2017-12-29 12:01:27.076008213 -06:00
 build/assets/img/events/logos/ux-camp-alt.png: 2017-12-29 12:01:27.109067370 -06:00
+build/assets/img/events/logos/leadership-by-design-home-alt.png: 2020-06-12 19:58:21.847737101
+  -05:00
 build/assets/img/events/logos/leadership-by-design.png: 2020-01-05 18:13:35.780707638
   -06:00
 build/assets/img/events/sponsors/rga.png: 2017-12-29 12:01:25.751592293 -06:00
@@ -597,6 +601,8 @@ build/assets/img/events/headers/ux-camp-spring.jpg: 2020-01-19 07:57:00.52849039
 build/assets/img/events/headers/prototypes-process-play-2016.jpg: 2017-12-29 12:01:25.423327919
   -06:00
 build/assets/img/events/headers/sketch-camp.jpg: 2017-12-29 12:01:25.458596848 -06:00
+build/assets/img/events/headers/leadership-by-design-home.jpg: 2020-06-12 19:57:55.790196764
+  -05:00
 build/assets/img/events/headers/speaker-camp.jpg: 2017-12-29 12:01:25.459927414 -06:00
 build/assets/img/events/headers/ux-camp-fall.jpg: 2020-01-19 07:57:00.524005911 -06:00
 build/assets/img/events/headers/workshop-workshop.jpg: 2017-12-29 12:01:25.462087632
@@ -623,5 +629,11 @@ build/assets/img/events/locations/columbia-college.jpg: 2017-12-29 12:01:25.4639
 build/assets/img/events/locations/university-of-minnesota.jpg: 2017-12-29 12:01:25.468652728
   -06:00
 build/assets/img/events/locations/madpow.jpg: 2017-12-29 12:01:25.465566975 -06:00
+build/assets/img/events/lbd-home-edition-tshirt-pink.png: 2020-06-12 19:58:27.574623104
+  -05:00
+build/assets/img/events/lbd-home-edition-tshirt-blue.png: 2020-06-12 19:59:08.820341631
+  -05:00
 build/assets/img/events/ux-camp-home-edition-tshirt.png: 2020-05-02 10:37:07.372120186
+  -05:00
+build/assets/img/events/lbd-home-edition-tshirt-black.png: 2020-06-12 19:59:04.876604400
   -05:00
