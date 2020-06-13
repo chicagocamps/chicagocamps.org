@@ -3,7 +3,7 @@ title: Events
 blog: events
 ---
 
-- next_event = blog.articles.reverse.find {|a| a.data.date > Time.now.strftime("%Y-%m-%d %H:%M %Z")}
+- next_event = blog.articles.reverse.find {|a| a.data.date >= (Time.now - 86400).strftime("%Y-%m-%d %H:%M %Z")}
 
 %section
 
@@ -18,7 +18,7 @@ blog: events
 
         %h3.h-section Upcoming Events
 
-        - blog.articles.reverse.select {|a| a.data.date > Time.now.strftime("%Y-%m-%d %H:%M %Z")}.group_by {|a| a.date.year }.each do |year, articles|
+        - blog.articles.reverse.select {|a| a.data.date >= (Time.now - 86400).strftime("%Y-%m-%d %H:%M %Z")}.group_by {|a| a.date.year }.each do |year, articles|
 
           %h2= year
 
@@ -45,7 +45,7 @@ blog: events
 
       %h3.h-section Past Events
 
-      - blog.articles.select {|a| a.data.date < Time.now.strftime("%Y-%m-%d %H:%M %Z")}.group_by {|a| a.date.year }.each do |year, articles|
+      - blog.articles.select {|a| a.data.date < (Time.now - 86400).strftime("%Y-%m-%d %H:%M %Z")}.group_by {|a| a.date.year }.each do |year, articles|
 
         %h2= year
 
