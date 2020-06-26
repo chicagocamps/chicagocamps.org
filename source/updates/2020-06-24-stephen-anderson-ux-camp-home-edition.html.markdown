@@ -5,7 +5,7 @@ category: posts
 tags: 2020, ux-camp
 ---
 
-###  Simple Tools for Complex Times
+### Simple Tools for Complex Times
 
 <figure class="update-video">
   <iframe src="https://player.vimeo.com/video/430578123" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
