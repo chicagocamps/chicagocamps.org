@@ -8,8 +8,8 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 ---
 
 - sponsors = ["Columbia College", "Demio", "Lead Honestly", "Nerditees"]
-- keynotes = []
-- speakers = []
+- keynotes = ["Carolyn Chandler"]
+- speakers = ["Amanda Weller", "Megan Machamer"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -18,9 +18,9 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
         %a(href="#top" rel="nofollow") UX Camp
       %li
         %a(href="#details" rel="nofollow") Details
+      %li
+        %a(href="#keynotes" rel="nofollow") Keynotes
       -#
-        %li
-          %a(href="#keynotes" rel="nofollow") Keynotes
         %li
           %a(href="#schedule" rel="nofollow") Schedule
       %li
@@ -61,13 +61,12 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 
     %p We&#8217;re actively looking for <a href="/contact/">sponsors</a> for UX Camp: Home Edition. If you&#8217;re interested, or if you know someone we should talk to, <a href="/contact/">please let us know!</a>
 
--#
-  %section#keynotes.main-content.main-bg-alt
-    .container
+%section#keynotes.main-content.main-bg-alt
+  .container
 
-      %h3.h-section Keynotes
+    %h3.h-section Keynotes
 
-      = partial "partials/events/speakers", locals: {speakers: keynotes}
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 -#
   %section#schedule.main-content.main-bg-highlight
@@ -215,7 +214,7 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
     
     %h3.h-section Speakers
 
-    .card.group
+    .group.card(style="margin-bottom: 60px;")
 
       %h3 Call for Speakers
       
@@ -228,6 +227,15 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
       .event-cta
         %a.btn.btn-alt(href="/proposal/") Submit your talk
 
+    - content_for :talk_megan_machamer do
+
+      %h5.lineup-subtitle.h-sm-caps-gray Amanda &amp; Megan present:
+
+      %h3 Remote Digital Ethnography: Understand Online Dating Behaviors Within the Digital Environment
+      
+      %p Observing participants can present several challenges, yet still turns out invaluable data that informs our designs—so how in the heck can we observe thoroughly while still maintaining a remote posture? The digital layers of a users&#8217; ecosystem interact to impact their experiences in user experience research today, ethnography should combine the physical and digital planes to understand multiple influences on any one interaction.  
+
+      %p In online dating, there are many contextual elements to consider, including: virtual profiles, messaging, filters to find appropriate matches, use of multiple competitor apps, and geolocation, which create the user&#8217;s online environment. The UX digital landscape combines the context of the physical world plus in-app environment and connected ecosystems. The user&#8217;s environment is primarily digital. The surrounding world is just one plane/layer of consideration in these interactions and digital ethnography can help us understand how to design for these different layers of experience.
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
