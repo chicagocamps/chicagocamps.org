@@ -1,0 +1,243 @@
+---
+title: UX Camp Summer Home Edition
+date: 2021-06-05 01:00 CDT
+category: events
+alias: ux-camp-home
+location: Online &mdash; Everywhere &mdash; 10AM CT
+summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll leave few topics uncovered and you&#8217;ll learn current topics and improved upon standards in one of the hottest fields today!
+---
+
+- sponsors = ["Columbia College", "Demio", "Lead Honestly", "Nerditees"]
+- keynotes = []
+- speakers = []
+
+%nav.event-nav.group(data-js="event-nav")
+  .container
+    %ul.event-nav-content
+      %li.event-nav-title
+        %a(href="#top" rel="nofollow") UX Camp
+      %li
+        %a(href="#details" rel="nofollow") Details
+      -#
+        %li
+          %a(href="#keynotes" rel="nofollow") Keynotes
+        %li
+          %a(href="#schedule" rel="nofollow") Schedule
+      %li
+        %a(href="#speakers" rel="nofollow") Speakers
+      %li
+        %a(href="#location" rel="nofollow") Location
+
+    -#
+      %a.btn.btn-alt.event-nav-btn(href="https://chicagocamps.ticketspice.com/ux-camp-fall-home-edition-2020" rel="nofollow")
+        Join Us for
+        %strong Only $10
+
+%section#details.main-content
+  .container
+
+    %h3.h-section Details
+
+    %h2 UX Camp: Home Edition is a 1-day mini-conference delivering design goodness to you, where ever you may be.
+
+    %p <strong>On Saturday, June 5, 2021 at 10AM CT, from where ever you are</strong>&mdash;we&#8217;re serving up 2 awesome keynotes that bookend up to 12 (3 tracks) really great presentations!
+
+    %p <strong>Interested in getting on a virtual stage?</strong> <a href="/proposal">Submit your talk idea!</a>
+
+    %p <strong>Normally, we&#8217;d all be heading to downtown Chicago</strong> for some (hopefully) nice weather, great views, city sounds, and then the abundant food and snacks that we like to provide from the comfort of Columbia College Film Row.
+
+    %p <strong>Things are different now, and we want to do something that is great for our community</strong>, spreads to the broader community, and still provides opportunity for presenters to present and attendees to learn. We&#8217;re giving this a shot, and we hope you&#8217;ll give us a shot, too!
+
+    -#
+      .event-cta
+        %a.btn.btn-alt(href="https://chicagocamps.ticketspice.com/ux-camp-fall-home-edition-2020" rel="nofollow")
+          Join Us for Only $10
+
+    %h3 Meet Our Awesome Sponsors
+    
+    %p Our sponsors are helping to make this event special and paying it forward by showing support for UX Camp: Home Edition.
+
+    = partial "partials/events/sponsors", locals: {sponsors: sponsors}
+
+    %p We&#8217;re actively looking for <a href="/contact/">sponsors</a> for UX Camp: Home Edition. If you&#8217;re interested, or if you know someone we should talk to, <a href="/contact/">please let us know!</a>
+
+-#
+  %section#keynotes.main-content.main-bg-alt
+    .container
+
+      %h3.h-section Keynotes
+
+      = partial "partials/events/speakers", locals: {speakers: keynotes}
+
+-#
+  %section#schedule.main-content.main-bg-highlight
+    .container
+
+      %h3.h-section Schedule
+
+      %table.event-schedule
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T08:30") 8:30
+            &#8212;
+            %time(datetime="2018-11-10T09:00") 9:00
+          %td.event-schedule-offset(colspan="2") Registration &amp; Breakfast
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T09:00") 9:00
+            &#8212;
+            %time(datetime="2018-11-10T09:45") 9:45
+          %td(colspan="2")
+            %a(href="#natalie-hanson" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Natalie Hanson
+            .event-schedule-offset Keynote
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T09:45") 9:45
+            &#8212;
+            %time(datetime="2018-11-10T10:00") 10:00
+          %td.event-schedule-offset(colspan="2") Morning Break
+
+        %tr
+          %th Rooms
+          %td
+            %strong Blue
+            %span.event-schedule-offset (Main)
+          %td
+            %strong Red
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T10:00") 10:00
+            &#8212;
+            %time(datetime="2018-11-10T10:45") 10:45
+          %td
+            %a(href="#amy-johnson" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Amy Johnson
+            .event-schedule-offset Neurodiversity at Work: Valuing Teammates Who are Wired Differently
+          %td
+            %a(href="#brian-santiago" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Brian Santiago
+            .event-schedule-offset Creating User-Centered Organizations Through Rapid Usability Testing
+        
+        %tr
+          %th
+            %time(datetime="2018-11-10T10:45") 10:45
+            &#8212;
+            %time(datetime="2018-11-10T11:00") 11:00
+          %td.event-schedule-offset(colspan="2") Break
+        
+        %tr
+          %th
+            %time(datetime="2018-11-10T11:00") 11:00
+            &#8212;
+            %time(datetime="2018-11-10T11:45") 11:45
+          %td
+            %a(href="#cynthia-gelper" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Cynthia Gelper
+            .event-schedule-offset What Content Strategy Can Teach UX
+          %td
+            %a(href="#diana-deibel" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Diana Deibel &amp; Julie Morycz
+            .event-schedule-offset The True Crime of Bad Design
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T11:45") 11:45
+            &#8212;
+            %time(datetime="2018-11-10T13:00") 1:00
+          %td.event-schedule-offset(colspan="2") Lunch
+        
+        %tr
+          %th
+            %time(datetime="2018-11-10T13:00") 1:00
+            &#8212;
+            %time(datetime="2018-11-10T13:45") 1:45
+          %td
+            %a(href="#eva-penzeymoog" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Eva PenzeyMoog
+            .event-schedule-offset Designing Against Domestic Violence
+          %td
+            %a(href="#garrett-polifka" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Garrett Polifka
+            .event-schedule-offset EQ + Design: Elevating the Design Process
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T13:45") 1:45
+            &#8212;
+            %time(datetime="2018-11-10T14:00") 2:00
+          %td.event-schedule-offset(colspan="2") Break
+        
+        %tr
+          %th
+            %time(datetime="2018-11-10T14:00") 2:00
+            &#8212;
+            %time(datetime="2018-11-10T14:45") 2:45
+          %td
+            %a(href="#gabby-hon" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Gabby Hon
+            .event-schedule-offset The Map Is Not The Territory: Against UX Portfolios, and For Rational Hiring
+          %td
+            %a(href="#jon-yablonski" rel="nofollow")
+              %strong.event-schedule-room(data-room="Red") Jon Yablonski
+            .event-schedule-offset The Intersection of Psychology &amp; UX Design
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T14:45") 2:45
+            &#8212;
+            %time(datetime="2018-11-10T15:15") 3:15
+          %td.event-schedule-offset(colspan="2") Afternoon Snack
+        
+        %tr
+          %th
+            %time(datetime="2018-11-10T15:15") 3:15
+            &#8212;
+            %time(datetime="2018-11-10T16:00") 4:00
+          %td(colspan="2")
+            %a(href="#ryan-page" rel="nofollow")
+              %strong.event-schedule-room(data-room="Blue") Ryan Page
+            .event-schedule-offset Keynote
+
+        %tr
+          %th
+            %time(datetime="2018-11-10T16:00") 4:00
+            &#8212;
+            %time(datetime="2018-11-10T16:15") 4:15
+          %td.event-schedule-offset(colspan="2") Closing Ceremonies
+
+%section#speakers.main-content.main-bg-alt
+  .container
+    
+    %h3.h-section Speakers
+
+    .card.group
+
+      %h3 Call for Speakers
+      
+      %p Are you interested in speaking at UX Camp? We sure hope so! <a href="/proposal/">Submit your talk</a> and let us know what&#8217;s on your mind to share.
+
+      %p First time speaker, or have limited experience? Let us know&mdash;we welcome new speakers and have been known to help folks round out their proposals.
+
+      %p <a href="/proposal/">Submit your talk</a>&mdash;come hang out with us in Chicago and share what you&#8217;ve learned!
+      
+      .event-cta
+        %a.btn.btn-alt(href="/proposal/") Submit your talk
+
+    = partial "partials/events/speakers", locals: {speakers: speakers}
+
+    -#
+      .event-cta
+        %a.btn.btn-alt(href="https://chicagocamps.ticketspice.com/ux-camp-fall-home-edition-2020" rel="nofollow")
+          Join Us for Only $10
+
+%section#location.main-content
+  .container
+
+    %h3.h-section Location
+
+    %p UX Camp: Home Edition will be 100% online and from where each of us are. And then, later, we&#8217;ll share on Vimeo so you can watch and learn again, watch what you&#8217;ve missed, or share with your internet pals.
