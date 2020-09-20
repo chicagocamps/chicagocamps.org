@@ -61,7 +61,7 @@ Alesha Arp:
   bio: |
     <p>Alesha Arp is a Senior User Experience Researcher whose work has informed the design of software platforms, digital and physical spaces, and business processes.</p>
     <p>At MIND Research Institute, her plate and heart are full with UX research, CX strategy and impactful design of digital, physical, and experiential products for Kindergarten through high school students and educators.</p>
-    <p>Alesha earned her Master’s in User Experience Design, Information Architecture and Knowledge Management from Kent State. She has presented at World IA Day, Information Architecture Conference, and Big Design.</p>
+    <p>Alesha earned her Master&#8217;s in User Experience Design, Information Architecture and Knowledge Management from Kent State. She has presented at World IA Day, Information Architecture Conference, and Big Design.</p>
 
 Alex W. Castellanos:
   alias:   alex-w-castellanos
@@ -570,7 +570,7 @@ Dani Nordin:
   twitter: danigrrl
   website: daninordin.com
   bio: |
-    <p>Dani Nordin is an experienced UX strategist, designer and researcher, who&#8217;s been working in the design industry for over 20 years, most of it on digital products. She’s currently Director of Experience Design at athenahealth, heading up the Orders and Results zone for the athenaClinicals EHR. She&#8217;s also a part-time lecturer at Northeastern University&#8217;s College of Professional Studies, where she teaches design thinking for emerging technologies.</p>
+    <p>Dani Nordin is an experienced UX strategist, designer and researcher, who&#8217;s been working in the design industry for over 20 years, most of it on digital products. She&#8217;s currently Director of Experience Design at athenahealth, heading up the Orders and Results zone for the athenaClinicals EHR. She&#8217;s also a part-time lecturer at Northeastern University&#8217;s College of Professional Studies, where she teaches design thinking for emerging technologies.</p>
     <p>Prior to joining athenahealth, she built out a UX practice and design system for Pegasystems&#8217; digital experiences, and she helped to build a user research and design practice for Harvard Business Review (hbr.org).</p>
     <p>She lives in Watertown MA with her husband, two daughters, and a dapper golden retriever named Larry.</p>
 
@@ -1417,6 +1417,13 @@ Megan Machamer:
   twitter: MMMeganmelissa
   bio: |
     <p>UX lead research specialist and ethnographer with 8 years of social science research experience in both professional and academic contexts. A highly dedicated applied anthropologist who is enthusiastic about culture and technology, and specializes in: research design, discovery, ethnography, project management and international research.</p>
+
+Melinda Kilner:
+  alias:   melinda-kilner
+  title:   "Senior Product Designer, Gem"
+  website: melindakilner.com
+  bio: |
+    <p>Melinda is a Senior Product Designer at Gem, helping teams nurture top talent. With a background in front-end development, she also has extensive experience designing for the learning and training space, and helping worldwide organizations build their digital content design systems. When she&#8217;s not working, you can find her in San Francisco, baking sourdough and catching up on podcasts.</p>
 
 Michael Lopp:
   alias:   michael-lopp
