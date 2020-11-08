@@ -5,13 +5,13 @@ category: posts
 tags: 2020, ux-camp
 ---
 
-### Stop Planning Your Career &amp; Start Taking Action
+### How to Make the Right Turn
 
 <figure class="update-video">
   <iframe src="https://player.vimeo.com/video/474873792" allowfullscreen></iframe>
 </figure>
 
-Abi Jones presented the closing keynote &#8220;Stop Planning Your Career &amp; Start Taking Action&#8221; at UX Camp Fall 2020. Enjoy! READMORE
+Abi Jones presented the closing keynote &#8220;How to Make the Right Turn&#8221; at UX Camp Fall 2020. Enjoy! READMORE
 
 5-year career plans are supposed to align you and your manager on a path to a bright and shiny future, one where you&#8217;ve achieved your goals through a combination of skill and perseverance. Instead, they set you up for failure by closing your mind to the opportunities right in front of you.
 
