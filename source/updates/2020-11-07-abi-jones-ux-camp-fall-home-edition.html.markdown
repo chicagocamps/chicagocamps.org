@@ -8,7 +8,7 @@ tags: 2020, ux-camp
 ### Stop Planning Your Career &amp; Start Taking Action
 
 <figure class="update-video">
-  <iframe src="https://player.vimeo.com/video/474875174" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/474873792" allowfullscreen></iframe>
 </figure>
 
 Abi Jones presented the closing keynote &#8220;Stop Planning Your Career &amp; Start Taking Action&#8221; at UX Camp Fall 2020. Enjoy! READMORE
