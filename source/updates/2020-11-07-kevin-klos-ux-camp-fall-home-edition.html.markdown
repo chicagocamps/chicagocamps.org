@@ -1,5 +1,5 @@
 ---
-title: Kevin Klos at Leadership by Design Home Edition 2020 (Video)
+title: Kevin Klos at UX Camp Fall Home Edition 2020 (Video)
 date: 2020-11-07 07:00 CDT
 category: posts
 tags: 2020, ux-camp

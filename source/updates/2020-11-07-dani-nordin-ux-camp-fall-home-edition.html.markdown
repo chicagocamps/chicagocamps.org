@@ -1,5 +1,5 @@
 ---
-title: Dani Nordin at Leadership by Design Home Edition 2020 (Video)
+title: Dani Nordin at UX Camp Fall Home Edition 2020 (Video)
 date: 2020-11-07 02:00 CDT
 category: posts
 tags: 2020, ux-camp

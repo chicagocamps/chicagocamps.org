@@ -1,5 +1,5 @@
 ---
-title: Abi Jones at Leadership by Design Home Edition 2020 (Video)
+title: Abi Jones at UX Camp Fall Home Edition 2020 (Video)
 date: 2020-11-07 05:00 CDT
 category: posts
 tags: 2020, ux-camp
