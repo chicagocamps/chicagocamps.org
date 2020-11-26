@@ -425,10 +425,6 @@ build/assets/img/events/speakers/dan-leboeuf.jpg: 2017-12-29 12:01:25.573343288 
 build/assets/img/events/speakers/megan-machamer.jpg: 2019-09-20 20:42:36.626532229
   -05:00
 build/assets/img/events/speakers/jim-remsik.jpg: 2017-12-29 12:01:25.612513696 -06:00
-build/assets/img/events/shirts/ux-camp-fall-2020-gold.jpg: 2020-08-01 10:36:55.358888383
-  -05:00
-build/assets/img/events/shirts/ux-camp-fall-2020-blue.jpg: 2020-08-01 10:36:55.361914104
-  -05:00
 build/assets/img/events/meta/prototypes-process-play-2018.jpg: 2018-02-02 22:08:17.599040781
   -06:00
 build/assets/img/events/logos/prototype-camp-alt.png: 2017-12-29 12:01:27.076963209
@@ -662,11 +658,14 @@ build/assets/img/events/locations/columbia-college.jpg: 2017-12-29 12:01:25.4639
 build/assets/img/events/locations/university-of-minnesota.jpg: 2017-12-29 12:01:25.468652728
   -06:00
 build/assets/img/events/locations/madpow.jpg: 2017-12-29 12:01:25.465566975 -06:00
-build/assets/img/events/lbd-home-edition-tshirt-pink.png: 2020-06-13 09:03:05.301893013
-  -05:00
-build/assets/img/events/lbd-home-edition-tshirt-blue.png: 2020-06-13 09:03:36.108538377
-  -05:00
-build/assets/img/events/ux-camp-home-edition-tshirt.png: 2020-05-02 10:37:07.372120186
-  -05:00
-build/assets/img/events/lbd-home-edition-tshirt-black.png: 2020-06-13 09:03:13.405788572
-  -05:00
+build/assets/img/events/swag/lbd-2020-black.png: 2020-11-26 10:49:43.410008651 -06:00
+build/assets/img/events/swag/lbd-2020-blue.png: 2020-11-26 10:50:22.990028852 -06:00
+build/assets/img/events/swag/lbd-2020-pink.png: 2020-11-26 10:49:30.474133329 -06:00
+build/assets/img/events/swag/ux-camp-winter-2020.png: 2020-11-26 10:49:30.365467990
+  -06:00
+build/assets/img/events/swag/ux-camp-fall-2020-gold.jpg: 2020-11-26 10:50:12.304862200
+  -06:00
+build/assets/img/events/swag/ux-camp-spring-2020.png: 2020-11-26 10:51:33.448041434
+  -06:00
+build/assets/img/events/swag/ux-camp-fall-2020-blue.jpg: 2020-11-26 10:50:14.765762713
+  -06:00
