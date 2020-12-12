@@ -407,6 +407,15 @@ Carolyn Chandler:
   bio: |
     <p>Carolyn Chandler has been working in the field of User Experience Design for over 20 years, after finding it due to a driving interest in psychology and anthropology. As Director of UX at Eight Bit Studios, her areas of specialty include design strategy and leadership, interaction design, and user research and modeling. She co-authored A Project Guide to UX Design with Russ Unger (now in its second edition) and Adventures in Experience Design with Anna van Slee. Due to her work in teaching and mentoring students and start-ups, Carolyn was named one of &#8220;Chicago&#8217;s Tech 50&#8221; by Crain&#8217;s Magazine. She appreciates cheesy puns and words like spork.</p>
 
+Casey Hald:
+  alias:   casey-hald
+  title:   "UX Design, Experian"
+  twitter: solllve
+  website: casey.carrd.co
+  bio: |
+    <p>Casey has been doing web design and user experience since 2008. He&#8217;s worked extensively on enterprise software—developing rapid prototypes and conducting usability sessions to determine usability for designs.</p>
+    <p>Casey has worn multiple hats in j career, mostly pertaining to workflow design and front-end development. On the side, I mostly play the roll as a front-end developer for designers. Full-time&mdash;however&mdash;my passion is user experience and workflow design for enterprise software.</p>
+
 Cennydd Bowles:
   alias:   cennydd-bowles
   title:   "Digital Product Designer, Writer"
@@ -1036,12 +1045,12 @@ Jayne Spottswood:
 
 Jeff Eaton:
   alias:   jeff-eaton
-  title:   "Digital Strategist, Lullabot"
+  title:   "Partner, Autogram"
   twitter: eaton
   website: angrylittletree.com
   bio: |
-    <p>Jeff Eaton brings nearly two decades of web development experience to his role as Digital Strategist at Lullabot. He&#8217;s designed and implemented large-scale web platforms for clients including Sony/BMG Music, Fast Company and Inc. Magazine, World Wrestling Entertainment, Verizon Wireless, and more.</p>
-    <p>Today he&#8217;s the author of the popular Voting API, EVA, and Token projects as well as dozens of other plugin modules; a co-author of the first edition of O&#8217;Reilly Media&#8217;s Using Drupal; primary developer of Drupal&#8217;s core TokenAPI and a co-developer of FormAPI; an active participant in the core Drupal project; and a prolific teacher and speaker at Drupal and general technology conferences.</p>
+    <p>Jeff Eaton helps large organizations understand, model, and manage their content. For 25 years, he&#2817;s tackled digital publishing, web development, and content strategy problems for organizations large and small.</p>
+    <p>Whether he&#8217;s fixing problems with CMS architecture or editorial workflow, his work sits in the overlap between design, communications, and technology. Today, he&#2817;s a partner at Autogram, a strategic consultancy focused on the intersection of design systems and high-variance content.</p>
 
 Jen Myers:
   alias:   jen-myers
