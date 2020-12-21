@@ -8,8 +8,8 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 ---
 
 - sponsors = ["Columbia College", "Demio", "Lead Honestly", "Nerditees"]
-- keynotes = ["Carolyn Chandler"]
-- speakers = ["Amanda Weller", "Megan Machamer", "Billy Carlson", "Casey Hald", "Ian Fenn", "Jatin Gupta", "Jeff Eaton", "Lindsey Gates-Markel", "Maria Pereda", "Nikki Espartinez"]
+- keynotes = ["Carolyn Chandler", "Margot Bloomstein"]
+- speakers = ["Amanda Weller", "Megan Machamer", "Barkha Sharma", "Billy Carlson", "Casey Hald", "Diana Sonis", "Lis Hubert", "Ian Fenn", "Jatin Gupta", "Jeff Eaton", "Lindsey Gates-Markel", "Maria Pereda", "Meena Kothandaraman", "Nikki Espartinez"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -81,6 +81,12 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
   .container
 
     %h3.h-section Keynotes
+
+    - content_for :talk_margot_bloomstein do
+
+      %h3 Design for Trust: Our Opportunity, Our Responsibility
+
+      %p Cynicism is easy. Hope takes work. Trust bridges the distance between them, and designers have a unique opportunity to foster it. In today&#8217;s economy, we need new strategies to earn trust and help consumers and citizens alike make more confident decisions. But undermining confidence is cynicism: it erodes trust in the media, government, science, and consumer brands. To regain trust, we&#8217;ll go beyond the buzzwords of empathy, transparency, and authenticity. Drawing on examples from publishing, retail, government, and beyond, we&#8217;ll discuss how a new framework for content and design can empower people and renew their confidence—and even strengthen society itself.
 
     = partial "partials/events/speakers", locals: {speakers: keynotes}
 
@@ -253,6 +259,14 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 
       %p In online dating, there are many contextual elements to consider, including: virtual profiles, messaging, filters to find appropriate matches, use of multiple competitor apps, and geolocation, which create the user&#8217;s online environment. The UX digital landscape combines the context of the physical world plus in-app environment and connected ecosystems. The user&#8217;s environment is primarily digital. The surrounding world is just one plane/layer of consideration in these interactions and digital ethnography can help us understand how to design for these different layers of experience.
 
+    - content_for :talk_barkha_sharma do
+
+      %h3 Usability: The Subset of UX
+
+      %p UX and Usability are two words that are often used interchangeably and without much regard to their differences. Since usability is an important aspect of UX, we need to understand the differentiation, and make sure that those around us understand, as well.
+
+      %p We&#8217;ll evaluate the similarities and differences of UX and usability, and help make sure we&#8217;re all able to communicate them effectively. It&#8217;s valuable to not only understand what makes a product or service usable, it&#8217;s also important to know how to evaluate usability using standard heuristic principles.
+
     - content_for :talk_billy_carlson do
 
       %h3 Revisiting Wireframes &mdash; Techniques &amp; Principles for the Whole Team
@@ -268,6 +282,18 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
       %p Rapid prototyping is quick, often rigged workflows built for the purpose of proving or disproving an idea or assumption. It&#8217;s important to keep in mind that design and rapid prototyping are two very different things. When you think design, you think pixel-perfect, time consuming layouts. 
 
       %p We&#8217;ll work through how these two very different actions play an important part in user experience design. Learn how rethinking your approach to usability sessions as a rapid prototyper will allow you to either prove or kill an idea in record time.
+
+    - content_for :talk_lis_hubert do
+
+      %h5.lineup-subtitle.h-sm-caps-gray ​Dina &amp; Lis present:
+      
+      %h3 Leave a Trail of Breadcrumbs: Designing Navigation with Customer Intentions
+      
+      %p Navigation in complex websites and products is&hellip; well, complex. How do you help your users go from A &#8594; B &#8594; H when you&#8217;re putting an intricate product line online or managing thousands of pages within a digital ecosystem? We believe that answer lies in designing for customer intentions. 
+
+      %p In this session, Lis and Diana will cover why designing for customer intentions throughout your digital ecosystem empowers your team to build a bridge between what customers need and what your business provides. We&#8217;ll dive into how to design an organic flow that carries the user through your site with intuitive ease rarely found in more traditional, hierarchy-heavy IA structures.
+
+      %p Many teams miss these important steps in their rush to implement new designs, leaving users confused, and business stakeholders frustrated. Come ready to jump in!
 
     - content_for :talk_ian_fenn do
 
