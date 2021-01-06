@@ -20,9 +20,8 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
         %a(href="#details" rel="nofollow") Details
       %li
         %a(href="#keynotes" rel="nofollow") Keynotes
-      -#
-        %li
-          %a(href="#schedule" rel="nofollow") Schedule
+      %li
+        %a(href="#schedule" rel="nofollow") Schedule
       %li
         %a(href="#speakers" rel="nofollow") Speakers
       %li
@@ -98,146 +97,153 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 
     = partial "partials/events/speakers", locals: {speakers: keynotes}
 
--#
-  %section#schedule.main-content.main-bg-highlight
-    .container
+%section#schedule.main-content.main-bg-highlight
+  .container
 
-      %h3.h-section Schedule
+    %h3.h-section Schedule
 
-      %table.event-schedule
+    %table.event-schedule
+      
+      %tr
+        %th
+          %time(datetime="2021-01-23T10:00") 10:00
+          &#8212;
+          %time(datetime="2021-01-23T010:15") 10:15 CT
+        %td.event-schedule-offset(colspan="3") Kick-off
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T08:30") 8:30
-            &#8212;
-            %time(datetime="2018-11-10T09:00") 9:00
-          %td.event-schedule-offset(colspan="2") Registration &amp; Breakfast
+      %tr
+        %th
+          %time(datetime="2021-01-23T10:15") 10:15
+          &#8212;
+          %time(datetime="2021-01-23T11:00") 11:00 CT
+        %td(colspan="3")
+          %a(href="#margot-bloomstein" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Margot Bloomstein
+          .event-schedule-offset Opening Keynote &mdash; Design for Trust: Our Opportunity, Our Responsibility
+      
+      %tr
+        %th
+          %time(datetime="2021-01-23T11:00") 11:00
+          &#8212;
+          %time(datetime="2021-01-23T11:15") 11:15 CT
+        %td.event-schedule-offset(colspan="3") Break
+      
+      %tr
+        %th
+          %time(datetime="2021-01-23T11:15") 11:15
+          &#8212;
+          %time(datetime="2021-01-23T11:45") 11:45 CT
+        %td.event-schedule-distributed
+          %a(href="#ian-fenn" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Ian Fenn
+          .event-schedule-offset 8 Ways People Screw Up Their UX Portfolio
+        %td.event-schedule-distributed
+          %a(href="#barkha-sharma" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Barkha Sharma
+          .event-schedule-offset Usability: The Subset of UX
+        %td.event-schedule-distributed  
+          %a(href="#billy-carlson" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Billy Carlson
+          .event-schedule-offset Revisiting Wireframes &mdash; Techniques &amp; Principles for the Whole Team
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T09:00") 9:00
-            &#8212;
-            %time(datetime="2018-11-10T09:45") 9:45
-          %td(colspan="2")
-            %a(href="#natalie-hanson" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Natalie Hanson
-            .event-schedule-offset Keynote
+      %tr
+        %th
+          %time(datetime="2021-01-23T11:45") 11:45
+          &#8212;
+          %time(datetime="2021-01-23T12:00") 12:00 CT
+        %td.event-schedule-offset(colspan="3") Break
+      
+      %tr
+        %th
+          %time(datetime="2021-01-23T12:00") 12:00
+          &#8212;
+          %time(datetime="2021-01-23T12:30") 12:30 CT
+        %td
+          %a(href="#maria-pereda" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Maria Pereda
+          .event-schedule-offset Don&#8217;t Let Ambiguity Be the Death of Your Design Project
+        %td
+          %a(href="#amanda-weller" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Amanda Weller &amp; Megan Machamer
+          .event-schedule-offset Remote Digital Ethnography: Understand Online Dating Behaviors Within the Digital Environment
+        %td
+          %a(href="#nikki-espartinez" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Nikki Espartinez
+          .event-schedule-offset Mapping the Journey of a Design Career
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T09:45") 9:45
-            &#8212;
-            %time(datetime="2018-11-10T10:00") 10:00
-          %td.event-schedule-offset(colspan="2") Morning Break
+      %tr
+        %th
+          %time(datetime="2021-01-23T12:30") 12:30
+          &#8212;
+          %time(datetime="2021-01-23T13:00") 1:00 CT
+        %td.event-schedule-offset(colspan="3") Lunch
 
-        %tr
-          %th Rooms
-          %td
-            %strong Blue
-            %span.event-schedule-offset (Main)
-          %td
-            %strong Red
+      %tr
+        %th
+          %time(datetime="2021-01-23T13:00") 1:00
+          &#8212;
+          %time(datetime="2021-01-23T13:30") 1:30 CT
+        %td
+          %a(href="#jeff-eaton" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Jeff Eaton
+          .event-schedule-offset Your System is a Language
+        %td
+          %a(href="#diana-sonis" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Diana Sonis &amp; Lis Hubert
+          .event-schedule-offset Leave a Trail of Breadcrumbs: Designing Navigation with Customer Intentions
+        %td
+          %a(href="#lindsey-gates-markel" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Lindsey Gates-Markel
+          .event-schedule-offset Think Like a Developer to Design Better Structured Content
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T10:00") 10:00
-            &#8212;
-            %time(datetime="2018-11-10T10:45") 10:45
-          %td
-            %a(href="#amy-johnson" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Amy Johnson
-            .event-schedule-offset Neurodiversity at Work: Valuing Teammates Who are Wired Differently
-          %td
-            %a(href="#brian-santiago" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Brian Santiago
-            .event-schedule-offset Creating User-Centered Organizations Through Rapid Usability Testing
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T10:45") 10:45
-            &#8212;
-            %time(datetime="2018-11-10T11:00") 11:00
-          %td.event-schedule-offset(colspan="2") Break
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T11:00") 11:00
-            &#8212;
-            %time(datetime="2018-11-10T11:45") 11:45
-          %td
-            %a(href="#cynthia-gelper" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Cynthia Gelper
-            .event-schedule-offset What Content Strategy Can Teach UX
-          %td
-            %a(href="#diana-deibel" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Diana Deibel &amp; Julie Morycz
-            .event-schedule-offset The True Crime of Bad Design
+      %tr
+        %th
+          %time(datetime="2021-01-23T13:30") 1:30
+          &#8212;
+          %time(datetime="2021-01-23T13:45") 1:45 CT
+        %td.event-schedule-offset(colspan="3") Break
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T11:45") 11:45
-            &#8212;
-            %time(datetime="2018-11-10T13:00") 1:00
-          %td.event-schedule-offset(colspan="2") Lunch
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T13:00") 1:00
-            &#8212;
-            %time(datetime="2018-11-10T13:45") 1:45
-          %td
-            %a(href="#eva-penzeymoog" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Eva PenzeyMoog
-            .event-schedule-offset Designing Against Domestic Violence
-          %td
-            %a(href="#garrett-polifka" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Garrett Polifka
-            .event-schedule-offset EQ + Design: Elevating the Design Process
+      %tr
+        %th
+          %time(datetime="2021-01-23T13:45") 1:45
+          &#8212;
+          %time(datetime="2021-01-23T14:15") 2:15 CT
+        %td
+          %a(href="#meena-kothandaraman" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Meena Kothandaraman
+          .event-schedule-offset Unpacking Context During a Pandemic: Reflections &amp; Tips
+        %td
+          %a(href="#casey-hald" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Casey Hald
+          .event-schedule-offset Rapid Prototyping in the Design Process
+        %td
+          %a(href="#jatin-gupta" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Jatin Gupta
+          .event-schedule-offset A Digital Designer&#8217;s Carbon Footprint
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T13:45") 1:45
-            &#8212;
-            %time(datetime="2018-11-10T14:00") 2:00
-          %td.event-schedule-offset(colspan="2") Break
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T14:00") 2:00
-            &#8212;
-            %time(datetime="2018-11-10T14:45") 2:45
-          %td
-            %a(href="#gabby-hon" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Gabby Hon
-            .event-schedule-offset The Map Is Not The Territory: Against UX Portfolios, and For Rational Hiring
-          %td
-            %a(href="#jon-yablonski" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Jon Yablonski
-            .event-schedule-offset The Intersection of Psychology &amp; UX Design
+      %tr
+        %th
+          %time(datetime="2021-01-23T14:15") 2:15
+          &#8212;
+          %time(datetime="2021-01-23T14:30") 2:30 CT
+        %td.event-schedule-offset(colspan="3") Break
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T14:45") 2:45
-            &#8212;
-            %time(datetime="2018-11-10T15:15") 3:15
-          %td.event-schedule-offset(colspan="2") Afternoon Snack
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T15:15") 3:15
-            &#8212;
-            %time(datetime="2018-11-10T16:00") 4:00
-          %td(colspan="2")
-            %a(href="#ryan-page" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Ryan Page
-            .event-schedule-offset Keynote
+      %tr
+        %th
+          %time(datetime="2021-01-23T14:30") 2:30
+          &#8212;
+          %time(datetime="2021-01-23T15:15") 3:15 CT
+        %td(colspan="3")
+          %a(href="#carolyn-chandler" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Carolyn Chandler
+          .event-schedule-offset Closing Keynote: Remotely Human
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T16:00") 4:00
-            &#8212;
-            %time(datetime="2018-11-10T16:15") 4:15
-          %td.event-schedule-offset(colspan="2") Closing Ceremonies
+      %tr
+        %th
+          %time(datetime="2021-01-23T15:15") 3:15
+          &#8212;
+          %time(datetime="2021-01-23T15:30") 3:30 CT
+        %td.event-schedule-offset(colspan="3") Closing Ceremonies
 
 %section#speakers.main-content.main-bg-alt
   .container.group
