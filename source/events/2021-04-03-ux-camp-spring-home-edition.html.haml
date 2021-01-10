@@ -8,7 +8,7 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 ---
 
 - sponsors = ["Columbia College", "Demio", "Lead Honestly", "Nerditees"]
-- keynotes = []
+- keynotes = ["Adam Connor", "Karen VanHouten"]
 - speakers = []
 
 %nav.event-nav.group(data-js="event-nav")
@@ -59,13 +59,22 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 
     %p We&#8217;re actively looking for <a href="/contact/">sponsors</a> for UX Camp: Home Edition. If you&#8217;re interested, or if you know someone we should talk to, <a href="/contact/">please let us know!</a>
 
--#
-  %section#keynotes.main-content.main-bg-alt
-    .container
+%section#keynotes.main-content.main-bg-alt
+  .container
 
-      %h3.h-section Keynotes
+    %h3.h-section Keynotes
 
-      = partial "partials/events/speakers", locals: {speakers: keynotes}
+    - content_for :talk_adam_connor do
+
+      %h3 Building Character: Creating Unique, Consistent Experiences with Design Principles
+    
+      %p Inconsistency is one of the most common points of breakdown and frustration in the interactions and experiences we have. Whether we&#8217;re interacting with other people, apps, our bank, our doctor, our government, anyone&mdash;we form expectations of what someone or something will do based on our previous experiences and their past behaviors. When something happens that doesn&#8217;t measure up to those expectations–that seems out of character–we&#8217;re caught off guard. What do we do next? What should we expect now?
+
+      %p Conversations about consistency in design often focus on topics like content and interface design, ensuring that we use the same labels, controls, patterns throughout our creations. But what if we thought about  consistency in the relationship between users and our products or services?
+     
+      %p Principles act as rules that guide how we think and act. Formed by our motivations, values and beliefs, we use them as &#8220;lenses&#8221; through which we examine information in order to make decisions on what to do. And because of their persistent influence on our behavior, they influence other&#8217;s views and expectations of us. Using these same kinds of constructs throughout the design process we can design unique content, valuable  interactions and consistent behaviors that set and live up to expectations for our audiences.
+
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 -#
   %section#schedule.main-content.main-bg-highlight
