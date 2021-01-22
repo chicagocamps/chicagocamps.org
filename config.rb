@@ -45,6 +45,7 @@ activate :livereload
 
 # Methods defined in the helpers block are available in templates
 helpers do
+
   def header_image(source)
     if source.data.related_event == 'prototyes-process-play-2018'
       "background-image: url('/assets/img/events/headers/prototypes-process-play-2018.jpg');"
@@ -58,6 +59,7 @@ helpers do
       "background-image: url('/assets/img/updates/#{source.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}/header.jpg');"
     end
   end
+  
   def event_header(source)
     if source.data.alias == 'prototypes-process-play'
       "background-image: url('/assets/img/events/headers/#{source.data.alias}-#{Date.parse(source.data.date).strftime('%Y')}.jpg');"
@@ -65,20 +67,27 @@ helpers do
       "background-image: url('/assets/img/events/headers/#{source.data.alias}.jpg');"
     end
   end
+  
   def event_logo(source)
     if source.data.alias == 'prototypes-process-play' and Date.parse(source.data.date).strftime('%Y') == '2017'
       "background-image: url('/assets/img/events/logos/#{source.data.alias}-2017.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}-2017.svg');"
+    elsif source.data.alias == 'ux-camp-home' and Date.parse(source.data.date).strftime('%Y') == '2021'
+      "background-image: url('/assets/img/events/logos/#{source.data.alias}-2021.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}-2021.svg');"
     else
       "background-image: url('/assets/img/events/logos/#{source.data.alias}.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}.svg');"
     end
   end
+  
   def event_logo_alt(source)
     if source.data.alias == 'prototypes-process-play' and Date.parse(source.data.date).strftime('%Y') == '2017'
       "background-image: url('/assets/img/events/logos/#{source.data.alias}-alt-2017.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}-alt-2017.svg');"
+    elsif source.data.alias == 'ux-camp-home' and Date.parse(source.data.date).strftime('%Y') == '2021'
+      "background-image: url('/assets/img/events/logos/#{source.data.alias}-alt-2021.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}-alt-2021.svg');"
     else
       "background-image: url('/assets/img/events/logos/#{source.data.alias}-alt.png'); background-image: url('/assets/img/events/logos/#{source.data.alias}-alt.svg');"
     end
   end
+
 end
 
 activate :directory_indexes
