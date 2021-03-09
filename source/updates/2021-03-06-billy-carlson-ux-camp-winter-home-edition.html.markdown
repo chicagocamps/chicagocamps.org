@@ -13,8 +13,6 @@ tags: 2021, ux-camp
 
 Billy Carlson presented &#8220;Revisiting Wireframes &mdash; Techniques &amp; Principles for the Whole Team&#8221; at UX Camp Winter 2021. Enjoy! READMORE
 
-*​We regret that, due to technical difficulties, Barkha was unable to complete the presentation.*
-
 ### Billy Carlson
 
 #### Design Education, Balsamiq

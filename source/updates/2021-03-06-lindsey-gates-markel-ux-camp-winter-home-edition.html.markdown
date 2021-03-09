@@ -13,8 +13,6 @@ tags: 2021, ux-camp
 
 Lindsey Gates-Markel presented &#8220;Think Like a Developer to Design Better Structured Content&#8221; at UX Camp Winter 2021. Enjoy! READMORE
 
-*​We regret that, due to technical difficulties, Barkha was unable to complete the presentation.*
-
 ### Lindsey Gates-Markel
 
 #### Senior Content Strategist, Pixo

@@ -13,8 +13,6 @@ tags: 2021, ux-camp
 
 Casey Hald presented &#8220;Rapid Prototyping in the Design Process&#8221; at UX Camp Winter 2021. Enjoy! READMORE
 
-*​We regret that, due to technical difficulties, Barkha was unable to complete the presentation.*
-
 ### Casey Hald
 
 #### UX Design, Experian

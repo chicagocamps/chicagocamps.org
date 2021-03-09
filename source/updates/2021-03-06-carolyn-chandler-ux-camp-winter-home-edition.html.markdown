@@ -13,8 +13,6 @@ tags: 2021, ux-camp
 
 Carolyn Chandler closed UX Camp Winter 2021 with the keynote &#8220;Remotely Human.&#8221; Enjoy! READMORE
 
-*​We regret that, due to technical difficulties, Barkha was unable to complete the presentation.*
-
 ### Carolyn Chandler
 
 #### ​​Director of User Experience, Eight Bit Studios

@@ -13,8 +13,6 @@ tags: 2021, ux-camp
 
 Jatin Gupta presented &#8220;A Digital Designer&#8217;s Carbon Footprint&#8221; at UX Camp Winter 2021. Enjoy! READMORE
 
-*​We regret that, due to technical difficulties, Barkha was unable to complete the presentation.*
-
 ### Jatin Gupta
 
 #### ​Product Designer, T-Mobile

@@ -13,8 +13,6 @@ tags: 2021, ux-camp
 
 Diana Sonis &amp; Lis Hubert presented &#8220;Leave a Trail of Breadcrumbs: Designing Navigation with Customer Intentions&#8221; at UX Camp Winter 2021. Enjoy! READMORE
 
-*​We regret that, due to technical difficulties, Barkha was unable to complete the presentation.*
-
 ### Diana Sonis
 
 #### Founding Partner, CX By Design

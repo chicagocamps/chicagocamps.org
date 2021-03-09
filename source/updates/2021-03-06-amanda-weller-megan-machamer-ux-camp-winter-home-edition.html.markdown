@@ -13,8 +13,6 @@ tags: 2021, ux-camp
 
 Amanda Weller &amp; Megan Machamer presented &#8220;Remote Digital Ethnography: Understand Online Dating Behaviors Within the Digital Environment&#8221; at UX Camp Winter 2021. Enjoy! READMORE
 
-*​We regret that, due to technical difficulties, Barkha was unable to complete the presentation.*
-
 ### Amanda Weller
 
 #### Senior UX Director, Ipsos

@@ -13,8 +13,6 @@ tags: 2021, ux-camp
 
 Nikki Espartinez presented &#8220;Mapping the Journey of a Design Career&#8221; at UX Camp Winter 2021. Enjoy! READMORE
 
-*​We regret that, due to technical difficulties, Barkha was unable to complete the presentation.*
-
 ### Nikki Espartinez
 
 #### Independent Product Design &amp; UX Strategist
