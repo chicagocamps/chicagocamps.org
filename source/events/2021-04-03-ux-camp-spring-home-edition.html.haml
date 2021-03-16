@@ -9,7 +9,7 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 
 - sponsors = ["Boxes and Arrows", "Columbia College", "Demio", "Lead Honestly", "Nerditees"]
 - keynotes = ["Adam Connor", "Karen VanHouten"]
-- speakers = ["Betsy Freeman", "Cliff Seal", "Cristina Simonetto", "Julia Beauchamp Kraft", "Kathy Wang", "Loriah Pope"]
+- speakers = ["Betsy Freeman", "Cliff Seal", "Colleen Pellissier", "Cristina Simonetto", "Dean Schuster", "Julia Beauchamp Kraft", "Kathy Wang", "Loriah Pope"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -20,9 +20,8 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
         %a(href="#details" rel="nofollow") Details
       %li
         %a(href="#keynotes" rel="nofollow") Keynotes
-      -#
-        %li
-          %a(href="#schedule" rel="nofollow") Schedule
+      %li
+        %a(href="#schedule" rel="nofollow") Schedule
       %li
         %a(href="#speakers" rel="nofollow") Speakers
       %li
@@ -84,146 +83,137 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 
     = partial "partials/events/speakers", locals: {speakers: keynotes}
 
--#
-  %section#schedule.main-content.main-bg-highlight
-    .container
+%section#schedule.main-content.main-bg-highlight
+  .container
 
-      %h3.h-section Schedule
+    %h3.h-section Schedule
 
-      %table.event-schedule
+    %table.event-schedule
+      
+      %tr
+        %th
+          %time(datetime="2021-04-03T10:00") 10:00
+          &#8212;
+          %time(datetime="2021-04-03T010:15") 10:15 CT
+        %td.event-schedule-offset(colspan="2") Kick-off
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T08:30") 8:30
-            &#8212;
-            %time(datetime="2018-11-10T09:00") 9:00
-          %td.event-schedule-offset(colspan="2") Registration &amp; Breakfast
+      %tr
+        %th
+          %time(datetime="2021-04-03T10:15") 10:15
+          &#8212;
+          %time(datetime="2021-04-03T11:00") 11:00 CT
+        %td(colspan="2")
+          %a(href="#adam-connor" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Adam Connor
+          .event-schedule-offset Opening Keynote &mdash; Building Character: Creating Unique, Consistent Experiences with Design Principles
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T09:00") 9:00
-            &#8212;
-            %time(datetime="2018-11-10T09:45") 9:45
-          %td(colspan="2")
-            %a(href="#natalie-hanson" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Natalie Hanson
-            .event-schedule-offset Keynote
+      %tr
+        %th
+          %time(datetime="2021-04-03T11:00") 11:00
+          &#8212;
+          %time(datetime="2021-04-03T11:15") 11:15 CT
+        %td.event-schedule-offset(colspan="2") Break
+      
+      %tr
+        %th
+          %time(datetime="2021-04-03T11:15") 11:15
+          &#8212;
+          %time(datetime="2021-04-03T11:45") 11:45 CT
+        %td.grid-2-5
+          %a(href="#cliff-seal" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Cliff Seal
+          .event-schedule-offset Building Confident Users in the Space Between
+        %td.grid-2-5
+          %a(href="#kathy-wang" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Kathy Wang
+          .event-schedule-offset Using Maslow&#8217;s Hierarchy to Design for Minorities
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T09:45") 9:45
-            &#8212;
-            %time(datetime="2018-11-10T10:00") 10:00
-          %td.event-schedule-offset(colspan="2") Morning Break
+      %tr
+        %th
+          %time(datetime="2021-04-03T11:45") 11:45
+          &#8212;
+          %time(datetime="2021-04-03T12:00") 12:00 CT
+        %td.event-schedule-offset(colspan="2") Break
+      
+      %tr
+        %th
+          %time(datetime="2021-04-03T12:00") 12:00
+          &#8212;
+          %time(datetime="2021-04-03T12:30") 12:30 CT
+        %td
+          %a(href="#dean-schuster" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Dean Schuster
+          .event-schedule-offset Understanding the Mysterious Behavior of Complex Digital Product Users
+        %td
+          %a(href="#loriah-pope" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Loriah Pope
+          .event-schedule-offset Designing Through Imposter Syndrome: Using a Goal-based Framework to Navigate Career Growth in Design
 
-        %tr
-          %th Rooms
-          %td
-            %strong Blue
-            %span.event-schedule-offset (Main)
-          %td
-            %strong Red
+      %tr
+        %th
+          %time(datetime="2021-04-03T12:30") 12:30
+          &#8212;
+          %time(datetime="2021-04-03T13:00") 1:00 CT
+        %td.event-schedule-offset(colspan="2") Lunch
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T10:00") 10:00
-            &#8212;
-            %time(datetime="2018-11-10T10:45") 10:45
-          %td
-            %a(href="#amy-johnson" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Amy Johnson
-            .event-schedule-offset Neurodiversity at Work: Valuing Teammates Who are Wired Differently
-          %td
-            %a(href="#brian-santiago" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Brian Santiago
-            .event-schedule-offset Creating User-Centered Organizations Through Rapid Usability Testing
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T10:45") 10:45
-            &#8212;
-            %time(datetime="2018-11-10T11:00") 11:00
-          %td.event-schedule-offset(colspan="2") Break
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T11:00") 11:00
-            &#8212;
-            %time(datetime="2018-11-10T11:45") 11:45
-          %td
-            %a(href="#cynthia-gelper" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Cynthia Gelper
-            .event-schedule-offset What Content Strategy Can Teach UX
-          %td
-            %a(href="#diana-deibel" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Diana Deibel &amp; Julie Morycz
-            .event-schedule-offset The True Crime of Bad Design
+      %tr
+        %th
+          %time(datetime="2021-04-03T13:00") 1:00
+          &#8212;
+          %time(datetime="2021-04-03T13:30") 1:30 CT
+        %td
+          %a(href="#betsy-freeman" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Betsy Freeman
+          .event-schedule-offset Making Creativity Out of Masked Air: How To Stay Relentlessly Creative Through a Pandemic &amp; Beyond
+        %td
+          %a(href="#colleen-pellissier" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Colleen Pellissier
+          .event-schedule-offset May We Be Compassionate Warriors
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T11:45") 11:45
-            &#8212;
-            %time(datetime="2018-11-10T13:00") 1:00
-          %td.event-schedule-offset(colspan="2") Lunch
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T13:00") 1:00
-            &#8212;
-            %time(datetime="2018-11-10T13:45") 1:45
-          %td
-            %a(href="#eva-penzeymoog" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Eva PenzeyMoog
-            .event-schedule-offset Designing Against Domestic Violence
-          %td
-            %a(href="#garrett-polifka" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Garrett Polifka
-            .event-schedule-offset EQ + Design: Elevating the Design Process
+      %tr
+        %th
+          %time(datetime="2021-04-03T13:30") 1:30
+          &#8212;
+          %time(datetime="2021-04-03T13:45") 1:45 CT
+        %td.event-schedule-offset(colspan="2") Break
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T13:45") 1:45
-            &#8212;
-            %time(datetime="2018-11-10T14:00") 2:00
-          %td.event-schedule-offset(colspan="2") Break
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T14:00") 2:00
-            &#8212;
-            %time(datetime="2018-11-10T14:45") 2:45
-          %td
-            %a(href="#gabby-hon" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Gabby Hon
-            .event-schedule-offset The Map Is Not The Territory: Against UX Portfolios, and For Rational Hiring
-          %td
-            %a(href="#jon-yablonski" rel="nofollow")
-              %strong.event-schedule-room(data-room="Red") Jon Yablonski
-            .event-schedule-offset The Intersection of Psychology &amp; UX Design
+      %tr
+        %th
+          %time(datetime="2021-04-03T13:45") 1:45
+          &#8212;
+          %time(datetime="2021-04-03T14:15") 2:15 CT
+        %td
+          %a(href="#cristina-simonetto" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Cristina Simonetto
+          .event-schedule-offset Content Design for Non-content Folks
+        %td
+          %a(href="#julia-beauchamp-kraft" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Julia Beauchamp Kraft
+          .event-schedule-offset Speak to Inspire: Confident Communication in the Distributed World
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T14:45") 2:45
-            &#8212;
-            %time(datetime="2018-11-10T15:15") 3:15
-          %td.event-schedule-offset(colspan="2") Afternoon Snack
-        
-        %tr
-          %th
-            %time(datetime="2018-11-10T15:15") 3:15
-            &#8212;
-            %time(datetime="2018-11-10T16:00") 4:00
-          %td(colspan="2")
-            %a(href="#ryan-page" rel="nofollow")
-              %strong.event-schedule-room(data-room="Blue") Ryan Page
-            .event-schedule-offset Keynote
+      %tr
+        %th
+          %time(datetime="2021-04-03T14:15") 2:15
+          &#8212;
+          %time(datetime="2021-04-03T14:30") 2:30 CT
+        %td.event-schedule-offset(colspan="2") Break
 
-        %tr
-          %th
-            %time(datetime="2018-11-10T16:00") 4:00
-            &#8212;
-            %time(datetime="2018-11-10T16:15") 4:15
-          %td.event-schedule-offset(colspan="2") Closing Ceremonies
+      %tr
+        %th
+          %time(datetime="2021-04-03T14:30") 2:30
+          &#8212;
+          %time(datetime="2021-04-03T15:15") 3:15 CT
+        %td(colspan="2")
+          %a(href="#karen-vanhouten" rel="nofollow")
+            %strong.event-schedule-room(data-room="Online") Karen VanHouten
+          .event-schedule-offset Closing Keynote: How We Get Wicked Good
+
+      %tr
+        %th
+          %time(datetime="2021-04-03T15:15") 3:15
+          &#8212;
+          %time(datetime="2021-04-03T15:30") 3:30 CT
+        %td.event-schedule-offset(colspan="2") Closing Ceremonies
 
 %section#speakers.main-content.main-bg-alt
   .container.group
@@ -245,7 +235,7 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 
     - content_for :talk_betsy_freeman do
 
-      %h3 Making Creativity Out of Masked Air: How To Stay Relentlessly Creative Through a Pandemic And Beyond
+      %h3 Making Creativity Out of Masked Air: How To Stay Relentlessly Creative Through a Pandemic &amp; Beyond
     
       %p So many of the things we used to rely on to fuel our creativity before the pandemic&mdash;meeting new people, traveling, visiting museums&mdash;have been off-limits for many of us over the past year. Staying creative can feel nearly impossible—and fear not: there&#8217;s hope.
 
@@ -261,6 +251,16 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 
       %p I&#8217;ll show how we&#8217;ve managed these efforts at Salesforce: how we built momentum internally, enlisted stakeholders, co-created, made decisions, and set ourselves up for constant improvement.
 
+    - content_for :talk_colleen_pellissier do
+
+      %h3 May We Be Compassionate Warriors
+      
+      %p Have you ever screwed up at work? This can be a big or small thing; it&#8217;s a terrible feeling. This happens to everyone at every level in our career. We make mistakes, we&#8217;re trying our best but work hard, people are harder, and sometimes it all just goes to shit. I think that&#8217;s ok, that&#8217;s human and being human is the best we can do. 
+
+      %p I&#8217;ve spent the last couple of years learning, cultivating, and honing a superpower: mindful self-compassion. These are small things I do every day to be kinder to myself, forgive myself, and reminding myself of common humanity. This practice has made me a better teammate and employee. I&#8217;ve gained better focus and balance at work. 
+
+      %p By sharing some of my own "failure"/mess-up stories I&#8217;d like to illustrate how I used self-compassion tools to navigate the situation. These tools and methods are super accessible and informal that anyone can try, and I&#8217;d love to give the audience some things to try out.
+    
     - content_for :talk_cristina_simonetto do
       
       %h3 Content Design for Non-content Folks
@@ -271,17 +271,27 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 
       %p We&#8217;ll go over what content design is, how to incorporate it into every stage of the double diamond process, and mainly some concrete tips to make your UX writing a little better.
 
+    - content_for :talk_dean_schuster do
+
+      %h3 Understanding the Mysterious Behavior of Complex Digital Product Users
+    
+      %p Workhorse, data-dense digital products pose serious challenges, requiring compact UI focused on productivity and efficiency. To make better complex apps and software, we must deeply understand the domain expert power user, whose behavior and preferences confound the best digital product designers.
+
+      %p Because mission-critical app users demand compact, crowded interfaces that only a master Excel ninja could love (or use), it can be brutally difficult to make user-friendly products for them. Our UX instincts often lead us to design products hese users rebel against.
+
+      %p But you CAN do it. The best place to start is understanding the user of complex interfaces. In this session, you&#8217;ll learn the tips, tricks, and indispensable secrets to help you come to terms with their needs. These principles will change the way you think about constrained interface design. And your power users will love you for it.
+
     - content_for :talk_julia_beauchamp_kraft do
 
       %h3 Speak to Inspire: Confident Communication in the Distributed World
       
       %p On-camera anxiety and Zoom fatigue can make it challenging to be and present your best self. Being a confident communicator is not just the way you act, talk, and look. It&#8217;s a habitual way of thinking and reacting to various life situations. There are steps you can take to transform your mindset and nervous system so that you can be fully expressed on camera and in your whole life (and hopefully in-person again someday). 
 
-      %p You can learn how to become an engaging and influential leader and cultivate the communication tools needed to effectively share your ideas. In this talk we'll explore how to break down the barriers, misconceptions, and fears that prevent people from being fully heard.
+      %p You can learn how to become an engaging and influential leader and cultivate the communication tools needed to effectively share your ideas. In this talk we&#8217;ll explore how to break down the barriers, misconceptions, and fears that prevent people from being fully heard.
 
-      %p And, you'll become aware of small changes to your words, tone, and non-verbal communication to improve how you interact in high-stakes personal and professional communications. 
+      %p And, you&#8217;ll become aware of small changes to your words, tone, and non-verbal communication to improve how you interact in high-stakes personal and professional communications. 
       
-      %p And, you'll learn some virtual speaking basics to shine in our new virtual communication world.
+      %p And, you&#8217;ll learn some virtual speaking basics to shine in our new virtual communication world.
 
     - content_for :talk_kathy_wang do
 
