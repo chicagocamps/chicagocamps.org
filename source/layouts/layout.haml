@@ -35,6 +35,8 @@
       %meta(property="og:description" content="#{current_page.data.summary}")
     - if current_page.data.alias == 'prototypes-process-play' and Date.parse(current_page.data.date).strftime('%Y') == '2017'
       %meta(property="og:image" content="https://chicagocamps.org/assets/img/events/logos/#{current_page.data.alias}-2017.png")
+    - elsif current_page.data.alias == 'ux-camp-home' and Date.parse(current_page.data.date).strftime('%Y') == '2021'
+      %meta(property="og:image" content="https://chicagocamps.org/assets/img/events/logos/#{current_page.data.alias}-2021.png")
     - elsif current_page.data.alias == 'proposal'
       %meta(property="og:image" content="https://chicagocamps.org/assets/img/proposal.png")
     - elsif current_page.data.alias
