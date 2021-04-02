@@ -1,698 +1,698 @@
 ---
-build/assets/img/logos/logo-wordmark-gray.png: 2020-09-20 13:19:48.437318173 -05:00
-build/assets/img/logos/logo-full-white.png: 2020-09-20 13:19:48.437078058 -05:00
-build/assets/img/logos/logo-wordmark-white.png: 2020-09-20 13:19:48.437585037 -05:00
-build/assets/img/about/brad.jpg: 2020-09-20 13:19:48.220372406 -05:00
-build/assets/img/about/russ.jpg: 2020-09-20 13:19:48.220622674 -05:00
-build/assets/img/about/shay.jpg: 2020-09-20 13:19:48.220941072 -05:00
-build/assets/img/updates/in-remembrance-will-hacker/will-hacker.jpg: 2020-09-20 13:19:48.442196729
+build/assets/img/logos/logo-wordmark-gray.png: 2017-12-29 12:01:25.770792272 -06:00
+build/assets/img/logos/logo-full-white.png: 2017-12-29 12:01:25.769508960 -06:00
+build/assets/img/logos/logo-wordmark-white.png: 2017-12-29 12:01:25.771079149 -06:00
+build/assets/img/about/brad.jpg: 2017-12-29 12:01:25.413768204 -06:00
+build/assets/img/about/russ.jpg: 2017-12-29 12:01:25.414140121 -06:00
+build/assets/img/about/shay.jpg: 2017-12-29 12:01:25.414427463 -06:00
+build/assets/img/updates/in-remembrance-will-hacker/will-hacker.jpg: 2017-12-29 12:01:25.777595528
+  -06:00
+build/assets/img/updates/all-things-chicago-camps/header.jpg: 2017-12-29 12:01:25.775766649
+  -06:00
+build/assets/img/updates/2015-schedule-of-events/header.jpg: 2017-12-29 12:01:25.774510936
+  -06:00
+build/assets/img/proposal.png: 2018-01-03 19:07:17.027017326 -06:00
+build/assets/img/sponsors/simplecast.png: 2017-12-29 12:02:08.522050731 -06:00
+build/assets/img/sponsors/lead-honestly.png: 2020-09-30 20:19:00.630812103 -05:00
+build/assets/img/sponsors/columbia-college.png: 2017-12-29 12:01:25.771486532 -06:00
+build/assets/img/sponsors/rosenfeld.png: 2017-12-29 12:01:25.772120534 -06:00
+build/assets/img/headers/home.jpg: 2017-12-29 12:01:25.764988283 -06:00
+build/assets/img/headers/home-winter.jpg: 2019-01-27 12:10:16.886472224 -06:00
+build/assets/img/headers/default.jpg: 2017-12-29 12:01:25.763086409 -06:00
+build/assets/img/headers/home-summer.jpg: 2020-01-05 18:13:35.942944491 -06:00
+build/assets/img/icons/i-menu.png: 2017-12-29 12:01:25.766578158 -06:00
+build/assets/img/icons/i-chevron-left.png: 2017-12-29 12:01:25.765568481 -06:00
+build/assets/img/icons/i-chevron-right.png: 2017-12-29 12:01:25.766236698 -06:00
+build/assets/img/events/speakers/zeke-binion.jpg: 2017-12-29 12:01:25.729326996 -06:00
+build/assets/img/events/speakers/lindsey-latiolais.jpg: 2020-09-04 07:06:50.212339312
+  -05:00
+build/assets/img/events/speakers/j-cornelius.jpg: 2017-12-29 12:01:25.594822255 -06:00
+build/assets/img/events/speakers/natalie-kurz.jpg: 2017-12-29 12:01:25.681311294 -06:00
+build/assets/img/events/speakers/matthew-milan.jpg: 2017-12-29 12:01:25.675473905
+  -06:00
+build/assets/img/events/speakers/danielle-dumerer.jpg: 2020-01-05 18:13:35.851076253
+  -06:00
+build/assets/img/events/speakers/chris-avore.jpg: 2020-01-05 18:13:35.821812050 -06:00
+build/assets/img/events/speakers/adam-mccrimmon.jpg: 2017-12-29 12:01:27.147629116
+  -06:00
+build/assets/img/events/speakers/emileigh-barnes.jpg: 2020-01-05 18:13:35.866331296
+  -06:00
+build/assets/img/events/speakers/ryan-wynia.jpg: 2017-12-29 12:01:25.698382250 -06:00
+build/assets/img/events/speakers/katie-swindler.jpg: 2020-01-05 18:13:35.890407386
+  -06:00
+build/assets/img/events/speakers/kara-defrias.jpg: 2020-02-01 19:16:05.910961495 -06:00
+build/assets/img/events/speakers/adam-connor.jpg: 2017-12-29 12:01:27.144663020 -06:00
+build/assets/img/events/speakers/russ-unger.jpg: 2017-12-29 12:01:25.696571634 -06:00
+build/assets/img/events/speakers/elizabeth-goodman.jpg: 2020-01-05 18:13:35.863755102
+  -06:00
+build/assets/img/events/speakers/mike-davidson.jpg: 2017-12-29 12:01:25.677257417
+  -06:00
+build/assets/img/events/speakers/taylor-poulos.jpg: 2017-12-29 12:01:25.721795346
+  -06:00
+build/assets/img/events/speakers/adam-lupu.jpg: 2017-12-29 12:01:27.146603125 -06:00
+build/assets/img/events/speakers/todd-zaki-warfel.jpg: 2020-01-05 18:13:35.927770527
+  -06:00
+build/assets/img/events/speakers/mike-kornacki.jpg: 2017-12-29 12:01:25.680108932
+  -06:00
+build/assets/img/events/speakers/ross-belmont.jpg: 2017-12-29 12:01:25.695298821 -06:00
+build/assets/img/events/speakers/carmen-medina.jpg: 2017-12-29 12:01:25.542195639
+  -06:00
+build/assets/img/events/speakers/jatin-gupta.jpg: 2020-11-21 17:16:22.874160373 -06:00
+build/assets/img/events/speakers/darby-frey.jpg: 2017-12-29 12:01:25.578759908 -06:00
+build/assets/img/events/speakers/shelby-bower.jpg: 2020-02-04 06:51:07.727679217 -06:00
+build/assets/img/events/speakers/mike-gibson.jpg: 2017-12-29 12:01:25.678059239 -06:00
+build/assets/img/events/speakers/randy-hunt.jpg: 2017-12-29 12:01:25.692880867 -06:00
+build/assets/img/events/speakers/michael-lopp.jpg: 2017-12-29 12:01:25.676697938 -06:00
+build/assets/img/events/speakers/matthew-doty.jpg: 2017-12-29 12:01:25.673878043 -06:00
+build/assets/img/events/speakers/beth-zwolski-tobias.jpg: 2018-05-22 21:54:57.973000059
   -05:00
-build/assets/img/updates/all-things-chicago-camps/header.jpg: 2020-09-20 13:19:48.440649388
+build/assets/img/events/speakers/cornelius-rachieru.jpg: 2017-12-29 12:01:25.565132018
+  -06:00
+build/assets/img/events/speakers/braden-kowitz.jpg: 2017-12-29 12:01:25.531584637
+  -06:00
+build/assets/img/events/speakers/ashleigh-axios.jpg: 2017-12-29 12:01:25.521951653
+  -06:00
+build/assets/img/events/speakers/eva-penzeymoog.jpg: 2018-03-13 21:38:50.749610602
   -05:00
-build/assets/img/updates/2015-schedule-of-events/header.jpg: 2020-09-20 13:19:48.439750345
+build/assets/img/events/speakers/smith-schwartz.jpg: 2017-12-29 12:01:25.711890769
+  -06:00
+build/assets/img/events/speakers/maria-pereda.jpg: 2020-12-20 18:22:17.087579712 -06:00
+build/assets/img/events/speakers/saskia-videler.jpg: 2020-09-30 20:19:00.628571201
   -05:00
-build/assets/img/proposal.png: 2020-11-07 11:58:52.251977073 -06:00
-build/assets/img/sponsors/simplecast.png: 2020-09-20 13:19:48.438573200 -05:00
-build/assets/img/sponsors/lead-honestly.png: 2020-09-20 13:19:59.499863920 -05:00
-build/assets/img/sponsors/columbia-college.png: 2020-09-20 13:19:48.438127015 -05:00
-build/assets/img/sponsors/rosenfeld.png: 2020-09-20 13:19:48.438361332 -05:00
-build/assets/img/headers/home.jpg: 2020-09-20 13:19:48.436058864 -05:00
-build/assets/img/headers/home-winter.jpg: 2020-09-20 13:19:48.435048846 -05:00
-build/assets/img/headers/default.jpg: 2020-09-20 13:19:48.430562288 -05:00
-build/assets/img/headers/home-summer.jpg: 2020-09-20 13:19:48.433951892 -05:00
-build/assets/img/icons/i-menu.png: 2020-09-20 13:19:48.436708912 -05:00
-build/assets/img/icons/i-chevron-left.png: 2020-09-20 13:19:48.436260914 -05:00
-build/assets/img/icons/i-chevron-right.png: 2020-09-20 13:19:48.436518060 -05:00
-build/assets/img/events/speakers/zeke-binion.jpg: 2020-11-07 11:58:52.248888020 -06:00
-build/assets/img/events/speakers/lindsey-latiolais.jpg: 2020-11-07 11:58:52.175786263
+build/assets/img/events/speakers/andy-hullinger.jpg: 2017-12-29 12:01:27.155280307
+  -06:00
+build/assets/img/events/speakers/carl-beien.jpg: 2017-12-29 12:01:25.540364560 -06:00
+build/assets/img/events/speakers/margo-stern.jpg: 2020-02-01 19:16:05.721851706 -06:00
+build/assets/img/events/speakers/zac-siegel.jpg: 2017-12-29 12:01:25.728792324 -06:00
+build/assets/img/events/speakers/milissa-tarquini.jpg: 2017-12-29 12:01:25.680770179
+  -06:00
+build/assets/img/events/speakers/rebecca-miller-webster.jpg: 2017-12-29 12:01:25.693854046
+  -06:00
+build/assets/img/events/speakers/brandon-satrom.jpg: 2017-12-29 12:01:25.532108132
+  -06:00
+build/assets/img/events/speakers/kaitlin-yapchaian.jpg: 2017-12-29 12:01:25.624129304
+  -06:00
+build/assets/img/events/speakers/alyssa-boehm.jpg: 2020-02-04 06:51:07.717011033 -06:00
+build/assets/img/events/speakers/antionette-carroll.jpg: 2020-01-05 18:13:35.817208847
   -06:00
-build/assets/img/events/speakers/j-cornelius.jpg: 2020-11-07 11:58:52.135240178 -06:00
-build/assets/img/events/speakers/natalie-kurz.jpg: 2020-11-07 11:58:52.203281536 -06:00
-build/assets/img/events/speakers/matthew-milan.jpg: 2020-11-07 11:58:52.188962945
+build/assets/img/events/speakers/nikola-ranguelov.jpg: 2017-12-29 12:01:25.686766748
   -06:00
-build/assets/img/events/speakers/danielle-dumerer.jpg: 2020-11-07 11:58:52.102873428
+build/assets/img/events/speakers/carl-smith.jpg: 2017-12-29 12:01:25.541425310 -06:00
+build/assets/img/events/speakers/aaron-irizarry.jpg: 2020-07-20 21:37:11.482036242
+  -05:00
+build/assets/img/events/speakers/simon-king.jpg: 2017-12-29 12:01:25.710704842 -06:00
+build/assets/img/events/speakers/mari-luangrath.jpg: 2017-12-29 12:01:25.660650116
   -06:00
-build/assets/img/events/speakers/chris-avore.jpg: 2020-11-07 11:58:52.079738078 -06:00
-build/assets/img/events/speakers/adam-mccrimmon.jpg: 2020-11-07 11:58:52.030808888
+build/assets/img/events/speakers/mark-yoon.jpg: 2020-01-05 18:13:35.901583341 -06:00
+build/assets/img/events/speakers/alex-w-castellanos.jpg: 2019-10-04 19:43:37.917477250
+  -05:00
+build/assets/img/events/speakers/brandy-agerbeck.jpg: 2017-12-29 12:01:25.535934258
   -06:00
-build/assets/img/events/speakers/emileigh-barnes.jpg: 2020-11-07 11:58:52.121073893
+build/assets/img/events/speakers/anthony-armendariz.jpg: 2017-12-29 12:01:27.157449088
   -06:00
-build/assets/img/events/speakers/ryan-wynia.jpg: 2020-11-07 11:58:52.221957562 -06:00
-build/assets/img/events/speakers/katie-swindler.jpg: 2020-11-07 11:58:52.164793145
+build/assets/img/events/speakers/diana-deibel.jpg: 2020-01-05 18:13:35.859949830 -06:00
+build/assets/img/events/speakers/rizwan-javaid.jpg: 2017-12-29 12:01:25.694665838
   -06:00
-build/assets/img/events/speakers/kara-defrias.jpg: 2020-11-07 11:58:52.160553010 -06:00
-build/assets/img/events/speakers/adam-connor.jpg: 2020-11-07 11:58:52.028960795 -06:00
-build/assets/img/events/speakers/russ-unger.jpg: 2020-11-07 11:58:52.219625021 -06:00
-build/assets/img/events/speakers/elizabeth-goodman.jpg: 2020-11-07 11:58:52.119860789
+build/assets/img/events/speakers/victoria-pater.jpg: 2017-12-29 12:01:25.726350288
   -06:00
-build/assets/img/events/speakers/mike-davidson.jpg: 2020-11-07 11:58:52.198969270
+build/assets/img/events/speakers/svetlin-denkov.jpg: 2017-12-29 12:01:25.717165980
   -06:00
-build/assets/img/events/speakers/taylor-poulos.jpg: 2020-11-07 11:58:52.241483558
+build/assets/img/events/speakers/betsy-freeman.jpg: 2021-01-14 20:04:13.210002143
   -06:00
-build/assets/img/events/speakers/adam-lupu.jpg: 2020-11-07 11:58:52.029921873 -06:00
-build/assets/img/events/speakers/todd-zaki-warfel.jpg: 2020-11-07 11:58:52.242940405
+build/assets/img/events/speakers/tanner-christensen.jpg: 2020-07-20 21:37:11.472339026
+  -05:00
+build/assets/img/events/speakers/helen-keighron.jpg: 2020-02-01 19:16:05.797959358
   -06:00
-build/assets/img/events/speakers/mike-kornacki.jpg: 2020-11-07 11:58:52.201481881
+build/assets/img/events/speakers/beth-mckeever.jpg: 2017-12-29 12:01:25.529318257
   -06:00
-build/assets/img/events/speakers/ross-belmont.jpg: 2020-11-07 11:58:52.218539300 -06:00
-build/assets/img/events/speakers/carmen-medina.jpg: 2020-11-07 11:58:52.076678752
+build/assets/img/events/speakers/eli-silva.jpg: 2017-12-29 12:01:25.588238600 -06:00
+build/assets/img/events/speakers/anna-van-slee.jpg: 2017-12-29 12:01:27.156148997
   -06:00
-build/assets/img/events/speakers/jatin-gupta.jpg: 2020-11-07 11:59:00.248118497 -06:00
-build/assets/img/events/speakers/darby-frey.jpg: 2020-11-07 11:58:52.105942996 -06:00
-build/assets/img/events/speakers/shelby-bower.jpg: 2020-11-07 11:58:52.229779804 -06:00
-build/assets/img/events/speakers/mike-gibson.jpg: 2020-11-07 11:58:52.199703241 -06:00
-build/assets/img/events/speakers/randy-hunt.jpg: 2020-11-07 11:58:52.213247580 -06:00
-build/assets/img/events/speakers/michael-lopp.jpg: 2020-11-07 11:58:52.195032547 -06:00
-build/assets/img/events/speakers/matthew-doty.jpg: 2020-11-07 11:58:52.187369890 -06:00
-build/assets/img/events/speakers/beth-zwolski-tobias.jpg: 2020-11-07 11:58:52.065440792
+build/assets/img/events/speakers/jared-spool.jpg: 2017-12-29 12:01:25.597620632 -06:00
+build/assets/img/events/speakers/lisa-welchman.jpg: 2017-12-29 12:01:25.657344949
   -06:00
-build/assets/img/events/speakers/cornelius-rachieru.jpg: 2020-11-07 11:58:52.094614335
+build/assets/img/events/speakers/sunny-stueve.jpg: 2020-05-11 17:32:41.081276607 -05:00
+build/assets/img/events/speakers/lauren-lucchese.jpg: 2017-12-29 12:01:25.656025263
   -06:00
-build/assets/img/events/speakers/braden-kowitz.jpg: 2020-11-07 11:58:52.069506053
+build/assets/img/events/speakers/dean-schuster.jpg: 2021-04-02 08:14:56.182138448
+  -05:00
+build/assets/img/events/speakers/will-hacker.jpg: 2017-12-29 12:01:25.726900827 -06:00
+build/assets/img/events/speakers/julie-morycz.jpg: 2020-01-05 18:13:35.884062497 -06:00
+build/assets/img/events/speakers/casey-hald.jpg: 2020-12-20 18:22:17.085934006 -06:00
+build/assets/img/events/speakers/adam-tramposh.jpg: 2017-12-29 12:01:27.149206020
   -06:00
-build/assets/img/events/speakers/ashleigh-axios.jpg: 2020-11-07 11:58:52.061378751
+build/assets/img/events/speakers/alina-cvetkova.jpg: 2018-03-07 19:08:29.787344651
   -06:00
-build/assets/img/events/speakers/eva-penzeymoog.jpg: 2020-11-07 11:58:52.122210277
+build/assets/img/events/speakers/cynthia-gelper.jpg: 2020-01-05 18:13:35.846193869
   -06:00
-build/assets/img/events/speakers/smith-schwartz.jpg: 2020-11-07 11:58:52.231395648
+build/assets/img/events/speakers/brian-montana.jpg: 2018-03-13 21:38:50.776460096
+  -05:00
+build/assets/img/events/speakers/stephen-p-anderson.jpg: 2019-06-17 19:57:27.914044023
+  -05:00
+build/assets/img/events/speakers/denise-jacobs.jpg: 2017-12-29 12:01:25.581182474
   -06:00
-build/assets/img/events/speakers/maria-pereda.jpg: 2020-12-14 20:04:48.705811683 -06:00
-build/assets/img/events/speakers/saskia-videler.jpg: 2020-11-07 11:58:52.224691018
+build/assets/img/events/speakers/kim-goodwin.jpg: 2020-01-05 18:13:35.892220929 -06:00
+build/assets/img/events/speakers/fred-beecher.jpg: 2017-12-29 12:01:25.589096572 -06:00
+build/assets/img/events/speakers/rocio-werner.jpg: 2020-01-05 18:13:35.917133376 -06:00
+build/assets/img/events/speakers/arlo-bryan-guthrie.jpg: 2017-12-29 12:01:27.158548848
   -06:00
-build/assets/img/events/speakers/andy-hullinger.jpg: 2020-11-07 11:58:52.046751026
+build/assets/img/events/speakers/kevin-klos.jpg: 2020-09-04 07:06:50.220894673 -05:00
+build/assets/img/events/speakers/scott-berkun.jpg: 2017-12-29 12:01:25.705184581 -06:00
+build/assets/img/events/speakers/ryan-page.jpg: 2020-01-05 18:13:35.922486967 -06:00
+build/assets/img/events/speakers/dave-kiss.jpg: 2017-12-29 12:01:25.579518747 -06:00
+build/assets/img/events/speakers/eduardo-ortiz.jpg: 2020-01-05 18:13:35.862227843
   -06:00
-build/assets/img/events/speakers/carl-beien.jpg: 2020-11-07 11:58:52.075707055 -06:00
-build/assets/img/events/speakers/margo-stern.jpg: 2020-11-07 11:58:52.181290250 -06:00
-build/assets/img/events/speakers/zac-siegel.jpg: 2020-11-07 11:58:52.248181877 -06:00
-build/assets/img/events/speakers/milissa-tarquini.jpg: 2020-11-07 11:58:52.201859657
+build/assets/img/events/speakers/mark-mceahern.jpg: 2017-12-29 12:01:25.672058362
   -06:00
-build/assets/img/events/speakers/rebecca-miller-webster.jpg: 2020-11-07 11:58:52.214239481
+build/assets/img/events/speakers/jon-hadden.jpg: 2017-12-29 12:01:25.614760699 -06:00
+build/assets/img/events/speakers/debra-gelman.jpg: 2018-03-13 21:38:50.688147479 -05:00
+build/assets/img/events/speakers/wilson-lee.jpg: 2017-12-29 12:01:25.727632422 -06:00
+build/assets/img/events/speakers/kristin-skinner.jpg: 2017-12-29 12:01:25.641924482
   -06:00
-build/assets/img/events/speakers/brandon-satrom.jpg: 2020-11-07 11:58:52.070188850
+build/assets/img/events/speakers/david-antognoli.jpg: 2020-01-05 18:13:35.855501454
   -06:00
-build/assets/img/events/speakers/kaitlin-yapchaian.jpg: 2020-11-07 11:58:52.158768883
+build/assets/img/events/speakers/samantha-starmer.jpg: 2017-12-29 12:01:25.704104931
   -06:00
-build/assets/img/events/speakers/alyssa-boehm.jpg: 2020-11-07 11:58:52.035175403 -06:00
-build/assets/img/events/speakers/antionette-carroll.jpg: 2020-11-07 11:58:52.058952526
+build/assets/img/events/speakers/karmen-kaufmann.jpg: 2020-01-05 18:13:35.888146157
   -06:00
-build/assets/img/events/speakers/nikola-ranguelov.jpg: 2020-11-07 11:58:52.206515171
+build/assets/img/events/speakers/daniel-orbach.jpg: 2017-12-29 12:01:25.576783322
   -06:00
-build/assets/img/events/speakers/carl-smith.jpg: 2020-11-07 11:58:52.076057721 -06:00
-build/assets/img/events/speakers/aaron-irizarry.jpg: 2020-11-07 11:58:52.027551449
+build/assets/img/events/speakers/bridget-weis-urbain.jpg: 2017-12-29 12:01:25.538188433
   -06:00
-build/assets/img/events/speakers/simon-king.jpg: 2020-11-07 11:58:52.230763966 -06:00
-build/assets/img/events/speakers/mari-luangrath.jpg: 2020-11-07 11:58:52.183108666
+build/assets/img/events/speakers/natalie-hanson.jpg: 2018-09-28 19:19:47.698587621
+  -05:00
+build/assets/img/events/speakers/sharlene-king.jpg: 2017-12-29 12:01:25.708839726
   -06:00
-build/assets/img/events/speakers/mark-yoon.jpg: 2020-11-07 11:58:52.187099437 -06:00
-build/assets/img/events/speakers/alex-w-castellanos.jpg: 2020-11-07 11:58:52.032897054
+build/assets/img/events/speakers/ryan-singer.jpg: 2017-12-29 12:01:25.697228496 -06:00
+build/assets/img/events/speakers/shay-howe.jpg: 2017-12-29 12:01:25.709988723 -06:00
+build/assets/img/events/speakers/sup-suh.jpg: 2020-09-04 07:06:50.205456895 -05:00
+build/assets/img/events/speakers/brittanie-crain.jpg: 2017-12-29 12:01:25.539773976
   -06:00
-build/assets/img/events/speakers/brandy-agerbeck.jpg: 2020-11-07 11:58:52.070847082
+build/assets/img/events/speakers/tanya-snook.jpg: 2020-01-05 18:13:35.925407901 -06:00
+build/assets/img/events/speakers/julia-keren-detar.jpg: 2017-12-29 12:01:25.623441720
   -06:00
-build/assets/img/events/speakers/anthony-armendariz.jpg: 2020-11-07 11:58:52.049415305
+build/assets/img/events/speakers/claire-mallory.jpg: 2020-01-05 18:13:35.833143993
   -06:00
-build/assets/img/events/speakers/diana-deibel.jpg: 2020-11-07 11:58:52.113884039 -06:00
-build/assets/img/events/speakers/rizwan-javaid.jpg: 2020-11-07 11:58:52.215390722
+build/assets/img/events/speakers/daniel-zarick.jpg: 2017-12-29 12:01:25.577453489
   -06:00
-build/assets/img/events/speakers/victoria-pater.jpg: 2020-11-07 11:58:52.245364784
+build/assets/img/events/speakers/jesse-james-garrett.jpg: 2017-12-29 12:01:25.609152404
   -06:00
-build/assets/img/events/speakers/svetlin-denkov.jpg: 2020-11-07 11:58:52.238669616
+build/assets/img/events/speakers/brad-nunnally.jpg: 2017-12-29 12:01:25.531064722
   -06:00
-build/assets/img/events/speakers/betsy-freeman.jpg: 2021-01-30 12:28:04.117931933
+build/assets/img/events/speakers/kurt-cunningham.jpg: 2017-12-29 12:01:25.647011807
   -06:00
-build/assets/img/events/speakers/tanner-christensen.jpg: 2020-11-07 11:58:52.239898218
+build/assets/img/events/speakers/bennett-king.jpg: 2020-01-05 18:13:35.819578983 -06:00
+build/assets/img/events/speakers/quite-strong.jpg: 2017-12-29 12:01:25.691245330 -06:00
+build/assets/img/events/speakers/pasha-moore.jpg: 2020-01-05 18:13:35.913440024 -06:00
+build/assets/img/events/speakers/ashley-phillips.jpg: 2017-12-29 12:01:25.522342413
   -06:00
-build/assets/img/events/speakers/helen-keighron.jpg: 2020-11-07 11:58:52.131031253
+build/assets/img/events/speakers/jessica-bertling.jpg: 2017-12-29 12:01:25.610867465
   -06:00
-build/assets/img/events/speakers/beth-mckeever.jpg: 2020-11-07 11:58:52.064680749
+build/assets/img/events/speakers/gail-swanson.jpg: 2020-01-05 18:13:35.873652250 -06:00
+build/assets/img/events/speakers/karen-vanhouten.jpg: 2020-01-05 18:13:35.886842899
   -06:00
-build/assets/img/events/speakers/eli-silva.jpg: 2020-11-07 11:58:52.119131635 -06:00
-build/assets/img/events/speakers/anna-van-slee.jpg: 2020-11-07 11:58:52.047865353
+build/assets/img/events/speakers/michelle-schulp.jpg: 2020-01-05 18:13:35.907346793
   -06:00
-build/assets/img/events/speakers/jared-spool.jpg: 2020-11-07 11:58:52.140123605 -06:00
-build/assets/img/events/speakers/lisa-welchman.jpg: 2020-11-07 11:58:52.176551988
+build/assets/img/events/speakers/maggie-hsu.jpg: 2020-02-01 19:16:05.732116774 -06:00
+build/assets/img/events/speakers/param-rengaiah.jpg: 2017-12-29 12:01:25.687326429
   -06:00
-build/assets/img/events/speakers/sunny-stueve.jpg: 2020-11-07 11:58:52.236389926 -06:00
-build/assets/img/events/speakers/lauren-lucchese.jpg: 2020-11-07 11:58:52.172535699
+build/assets/img/events/speakers/jabali-williams.jpg: 2020-04-28 19:40:05.228006541
+  -05:00
+build/assets/img/events/speakers/barkha-sharma.jpg: 2020-12-20 18:23:09.024049057
   -06:00
-build/assets/img/events/speakers/dean-schuster.jpg: 2021-03-16 12:15:29.366358917
+build/assets/img/events/speakers/dan-brown.jpg: 2017-12-29 12:01:25.569788990 -06:00
+build/assets/img/events/speakers/susan-salvi.jpg: 2019-07-29 07:50:33.713345810 -05:00
+build/assets/img/events/speakers/scott-sullivan.jpg: 2020-06-04 17:48:08.920615564
   -05:00
-build/assets/img/events/speakers/will-hacker.jpg: 2020-11-07 11:58:52.246053307 -06:00
-build/assets/img/events/speakers/julie-morycz.jpg: 2020-11-07 11:58:52.157986778 -06:00
-build/assets/img/events/speakers/casey-hald.jpg: 2020-12-12 10:37:10.602300524 -06:00
-build/assets/img/events/speakers/adam-tramposh.jpg: 2020-11-07 11:58:52.031416326
+build/assets/img/events/speakers/kamaria-campbell.jpg: 2017-12-29 12:01:25.626246287
   -06:00
-build/assets/img/events/speakers/alina-cvetkova.jpg: 2020-11-07 11:58:52.033642440
+build/assets/img/events/speakers/jason-kunesh.jpg: 2020-01-05 18:13:35.881082574 -06:00
+build/assets/img/events/speakers/dan-klyn.jpg: 2017-12-29 12:01:25.570686506 -06:00
+build/assets/img/events/speakers/danny-schuman.jpg: 2017-12-29 12:01:25.578175568
   -06:00
-build/assets/img/events/speakers/cynthia-gelper.jpg: 2020-11-07 11:58:52.096141699
+build/assets/img/events/speakers/lindsey-gates-markel.jpg: 2020-11-21 17:16:22.875066575
   -06:00
-build/assets/img/events/speakers/brian-montana.jpg: 2020-11-07 11:58:52.072614074
+build/assets/img/events/speakers/peter-merholz.jpg: 2020-01-05 18:13:35.915247795
   -06:00
-build/assets/img/events/speakers/stephen-p-anderson.jpg: 2020-11-07 11:58:52.234831347
+build/assets/img/events/speakers/sofia-millares.jpg: 2017-12-29 12:01:25.712441418
   -06:00
-build/assets/img/events/speakers/denise-jacobs.jpg: 2020-11-07 11:58:52.111168989
+build/assets/img/events/speakers/amy-johnson.jpg: 2020-01-05 18:13:35.800137657 -06:00
+build/assets/img/events/speakers/hillary-hartley.jpg: 2017-12-29 12:01:25.593715919
   -06:00
-build/assets/img/events/speakers/kim-goodwin.jpg: 2020-11-07 11:58:52.167374284 -06:00
-build/assets/img/events/speakers/fred-beecher.jpg: 2020-11-07 11:58:52.123273716 -06:00
-build/assets/img/events/speakers/rocio-werner.jpg: 2020-11-07 11:58:52.216509612 -06:00
-build/assets/img/events/speakers/arlo-bryan-guthrie.jpg: 2020-11-07 11:58:52.060150788
+build/assets/img/events/speakers/lou-rosenfeld.jpg: 2020-01-05 18:13:35.895318074
   -06:00
-build/assets/img/events/speakers/kevin-klos.jpg: 2020-11-07 11:58:52.166484558 -06:00
-build/assets/img/events/speakers/scott-berkun.jpg: 2020-11-07 11:58:52.225402573 -06:00
-build/assets/img/events/speakers/ryan-page.jpg: 2020-11-07 11:58:52.220446866 -06:00
-build/assets/img/events/speakers/dave-kiss.jpg: 2020-11-07 11:58:52.106393564 -06:00
-build/assets/img/events/speakers/eduardo-ortiz.jpg: 2020-11-07 11:58:52.118492100
+build/assets/img/events/speakers/don-bora.jpg: 2017-12-29 12:01:25.586198468 -06:00
+build/assets/img/events/speakers/jamie-mcatee.jpg: 2017-12-29 12:01:25.596485436 -06:00
+build/assets/img/events/speakers/mike-gorgone.jpg: 2017-12-29 12:01:25.679422591 -06:00
+build/assets/img/events/speakers/dani-nordin.jpg: 2020-09-04 07:06:50.212951246 -05:00
+build/assets/img/events/speakers/colleen-pellissier.jpg: 2021-04-02 08:14:56.177809622
+  -05:00
+build/assets/img/events/speakers/megan-kellie.jpg: 2019-07-29 07:50:33.876736584 -05:00
+build/assets/img/events/speakers/brian-lee.jpg: 2017-12-29 12:01:25.537144643 -06:00
+build/assets/img/events/speakers/lauren-liss.jpg: 2020-09-04 07:06:50.641119337 -05:00
+build/assets/img/events/speakers/amy-cueva.jpg: 2017-12-29 12:01:27.153352503 -06:00
+build/assets/img/events/speakers/michaela-hackner.jpg: 2020-06-04 17:48:08.804739755
+  -05:00
+build/assets/img/events/speakers/max-temkin.jpg: 2017-12-29 12:01:25.676137331 -06:00
+build/assets/img/events/speakers/jamila-parham.jpg: 2020-01-05 18:13:35.878248611
   -06:00
-build/assets/img/events/speakers/mark-mceahern.jpg: 2020-11-07 11:58:52.185360424
+build/assets/img/events/speakers/loriah-pope.jpg: 2021-04-02 08:14:56.187137187 -05:00
+build/assets/img/events/speakers/jonathan-ozeran.jpg: 2017-12-29 12:01:25.616031861
   -06:00
-build/assets/img/events/speakers/jon-hadden.jpg: 2020-11-07 11:58:52.153766848 -06:00
-build/assets/img/events/speakers/debra-gelman.jpg: 2020-11-07 11:58:52.110424686 -06:00
-build/assets/img/events/speakers/wilson-lee.jpg: 2020-11-07 11:58:52.246842366 -06:00
-build/assets/img/events/speakers/kristin-skinner.jpg: 2020-11-07 11:58:52.168149037
+build/assets/img/events/speakers/meg-lewis.jpg: 2020-01-05 18:13:35.903634750 -06:00
+build/assets/img/events/speakers/michelle-y-bess.jpg: 2020-02-04 06:51:07.676991281
   -06:00
-build/assets/img/events/speakers/david-antognoli.jpg: 2020-11-07 11:58:52.107274721
+build/assets/img/events/speakers/jeff-eaton.jpg: 2017-12-29 12:01:25.605505020 -06:00
+build/assets/img/events/speakers/marc-maleh.jpg: 2017-12-29 12:01:25.658578141 -06:00
+build/assets/img/events/speakers/andy-budd.jpg: 2020-01-05 18:13:35.803575453 -06:00
+build/assets/img/events/speakers/christian-spinillo.jpg: 2019-07-29 18:55:49.797207572
+  -05:00
+build/assets/img/events/speakers/jennifer-tress.jpg: 2019-05-11 15:19:19.825239742
+  -05:00
+build/assets/img/events/speakers/philip-likens.jpg: 2017-12-29 12:01:25.690665666
   -06:00
-build/assets/img/events/speakers/samantha-starmer.jpg: 2020-11-07 11:58:52.222673879
+build/assets/img/events/speakers/kathi-kaiser.jpg: 2017-12-29 12:01:25.630464948 -06:00
+build/assets/img/events/speakers/brett-schilke.jpg: 2017-12-29 12:01:25.536602136
   -06:00
-build/assets/img/events/speakers/karmen-kaufmann.jpg: 2020-11-07 11:58:52.162292017
+build/assets/img/events/speakers/dimple-rao.jpg: 2017-12-29 12:01:25.582811145 -06:00
+build/assets/img/events/speakers/dylan-richard.jpg: 2017-12-29 12:01:25.587793905
   -06:00
-build/assets/img/events/speakers/daniel-orbach.jpg: 2020-11-07 11:58:52.101136097
+build/assets/img/events/speakers/nathan-hinshaw.jpg: 2017-12-29 12:01:25.682213026
   -06:00
-build/assets/img/events/speakers/bridget-weis-urbain.jpg: 2020-11-07 11:58:52.074394397
+build/assets/img/events/speakers/jay-newton-small.jpg: 2017-12-29 12:01:25.602729730
   -06:00
-build/assets/img/events/speakers/natalie-hanson.jpg: 2020-11-07 11:58:52.202648927
+build/assets/img/events/speakers/margot-harrington.jpg: 2017-12-29 12:01:25.660066224
   -06:00
-build/assets/img/events/speakers/sharlene-king.jpg: 2020-11-07 11:58:52.227393920
+build/assets/img/events/speakers/john-polacek.jpg: 2017-12-29 12:01:25.613621741 -06:00
+build/assets/img/events/speakers/colin-macarthur.jpg: 2020-01-05 18:13:35.842752459
   -06:00
-build/assets/img/events/speakers/ryan-singer.jpg: 2020-11-07 11:58:52.221250948 -06:00
-build/assets/img/events/speakers/shay-howe.jpg: 2020-11-07 11:58:52.228724205 -06:00
-build/assets/img/events/speakers/sup-suh.jpg: 2020-11-07 11:58:52.237355791 -06:00
-build/assets/img/events/speakers/brittanie-crain.jpg: 2020-11-07 11:58:52.075045308
+build/assets/img/events/speakers/de-nichols.jpg: 2020-07-19 11:59:13.541432107 -05:00
+build/assets/img/events/speakers/anne-hjortshoj.jpg: 2020-01-05 18:13:35.805399256
   -06:00
-build/assets/img/events/speakers/tanya-snook.jpg: 2020-11-07 11:58:52.240867556 -06:00
-build/assets/img/events/speakers/julia-keren-detar.jpg: 2020-11-07 11:58:52.156854131
+build/assets/img/events/speakers/nikki-espartinez.jpg: 2020-11-21 17:16:22.876440488
   -06:00
-build/assets/img/events/speakers/claire-mallory.jpg: 2020-11-07 11:58:52.090213027
+build/assets/img/events/speakers/david-gerding.jpg: 2020-01-05 18:13:35.857259525
   -06:00
-build/assets/img/events/speakers/daniel-zarick.jpg: 2020-11-07 11:58:52.101985598
+build/assets/img/events/speakers/clay-parker-jones.jpg: 2017-12-29 12:01:25.563839539
   -06:00
-build/assets/img/events/speakers/jesse-james-garrett.jpg: 2020-11-07 11:58:52.149019050
+build/assets/img/events/speakers/temple-grandin.jpg: 2017-12-29 12:01:25.722902599
   -06:00
-build/assets/img/events/speakers/brad-nunnally.jpg: 2020-11-07 11:58:52.068864772
+build/assets/img/events/speakers/gina-deconti.jpg: 2020-01-05 18:13:35.875298940 -06:00
+build/assets/img/events/speakers/ian-fenn.jpg: 2020-11-21 17:16:22.873081954 -06:00
+build/assets/img/events/speakers/cindy-chastain.jpg: 2017-12-29 12:01:25.560960954
   -06:00
-build/assets/img/events/speakers/kurt-cunningham.jpg: 2020-11-07 11:58:52.169394788
+build/assets/img/events/speakers/justin-dauer.jpg: 2021-04-02 08:14:56.185847735 -05:00
+build/assets/img/events/speakers/ben-lister.jpg: 2017-12-29 12:01:25.524935191 -06:00
+build/assets/img/events/speakers/jonathan-snook.jpg: 2017-12-29 12:01:25.622732131
   -06:00
-build/assets/img/events/speakers/bennett-king.jpg: 2020-11-07 11:58:52.064006567 -06:00
-build/assets/img/events/speakers/quite-strong.jpg: 2020-11-07 11:58:52.211826654 -06:00
-build/assets/img/events/speakers/pasha-moore.jpg: 2020-11-07 11:58:52.207915263 -06:00
-build/assets/img/events/speakers/ashley-phillips.jpg: 2020-11-07 11:58:52.061639316
+build/assets/img/events/speakers/fei-ren.jpg: 2020-01-05 18:13:35.867625261 -06:00
+build/assets/img/events/speakers/jasmine-friedl.jpg: 2020-07-19 11:59:13.559101689
+  -05:00
+build/assets/img/events/speakers/kathy-wang.jpg: 2021-01-14 20:04:32.174504111 -06:00
+build/assets/img/events/speakers/dale-sande.jpg: 2020-01-05 18:13:35.848156865 -06:00
+build/assets/img/events/speakers/diana-sonis.jpg: 2020-12-20 18:23:16.366336590 -06:00
+build/assets/img/events/speakers/andrea-mignolo.jpg: 2020-01-05 18:13:35.802225483
   -06:00
-build/assets/img/events/speakers/jessica-bertling.jpg: 2020-11-07 11:58:52.150594610
+build/assets/img/events/speakers/phil-balagtas.jpg: 2017-12-29 12:01:25.688664427
   -06:00
-build/assets/img/events/speakers/gail-swanson.jpg: 2020-11-07 11:58:52.126017707 -06:00
-build/assets/img/events/speakers/karen-vanhouten.jpg: 2020-11-07 11:58:52.161920554
+build/assets/img/events/speakers/hannah-donovan.jpg: 2017-12-29 12:01:25.593091406
   -06:00
-build/assets/img/events/speakers/michelle-schulp.jpg: 2020-11-07 11:58:52.197281770
+build/assets/img/events/speakers/tricia-okin.jpg: 2020-09-04 07:06:50.791663579 -05:00
+build/assets/img/events/speakers/marcin-treder.jpg: 2017-12-29 12:01:25.659296461
   -06:00
-build/assets/img/events/speakers/maggie-hsu.jpg: 2020-11-07 11:58:52.178711419 -06:00
-build/assets/img/events/speakers/param-rengaiah.jpg: 2020-11-07 11:58:52.207115666
+build/assets/img/events/speakers/erin-l-thomas.jpg: 2017-12-29 12:01:25.588694647
   -06:00
-build/assets/img/events/speakers/jabali-williams.jpg: 2020-11-07 11:58:52.136458743
+build/assets/img/events/speakers/nicole-maynard.jpg: 2017-12-29 12:01:25.683138882
   -06:00
-build/assets/img/events/speakers/barkha-sharma.jpg: 2021-01-08 08:08:19.412010518
+build/assets/img/events/speakers/arthur-kay.jpg: 2017-12-29 12:01:25.521290640 -06:00
+build/assets/img/events/speakers/ameeda-chowdhury.jpg: 2017-12-29 12:01:27.152103328
   -06:00
-build/assets/img/events/speakers/dan-brown.jpg: 2020-11-07 11:58:52.097027336 -06:00
-build/assets/img/events/speakers/susan-salvi.jpg: 2020-11-07 11:58:52.237661908 -06:00
-build/assets/img/events/speakers/scott-sullivan.jpg: 2020-11-07 11:58:52.226360068
+build/assets/img/events/speakers/romke-de-haan.jpg: 2020-01-05 18:13:35.919614546
   -06:00
-build/assets/img/events/speakers/kamaria-campbell.jpg: 2020-11-07 11:58:52.159558913
+build/assets/img/events/speakers/chris-webb.jpg: 2017-12-29 12:01:25.546041623 -06:00
+build/assets/img/events/speakers/steve-julius.jpg: 2017-12-29 12:01:25.715014770 -06:00
+build/assets/img/events/speakers/carolyn-chandler.jpg: 2020-02-01 19:16:06.380212158
   -06:00
-build/assets/img/events/speakers/jason-kunesh.jpg: 2020-11-07 11:58:52.143400025 -06:00
-build/assets/img/events/speakers/dan-klyn.jpg: 2020-11-07 11:58:52.097682709 -06:00
-build/assets/img/events/speakers/danny-schuman.jpg: 2020-11-07 11:58:52.104080479
+build/assets/img/events/speakers/dan-shipton.jpg: 2017-12-29 12:01:25.575052131 -06:00
+build/assets/img/events/speakers/doc-waller.jpg: 2017-12-29 12:01:25.585467694 -06:00
+build/assets/img/events/speakers/lena-e-trudeau.jpg: 2020-07-19 11:59:13.509093481
+  -05:00
+build/assets/img/events/speakers/clifton-simmons.jpg: 2020-01-05 18:13:35.838848696
   -06:00
-build/assets/img/events/speakers/lindsey-gates-markel.jpg: 2020-11-07 11:58:52.174901465
+build/assets/img/events/speakers/cennydd-bowles.jpg: 2017-12-29 12:01:25.543370099
   -06:00
-build/assets/img/events/speakers/peter-merholz.jpg: 2020-11-07 11:58:52.208263088
+build/assets/img/events/speakers/sean-johnson.jpg: 2017-12-29 12:01:25.708031150 -06:00
+build/assets/img/events/speakers/jared-caponi.jpg: 2017-12-29 12:01:25.596957777 -06:00
+build/assets/img/events/speakers/autumn-schultz.jpg: 2017-12-29 12:01:25.524332459
   -06:00
-build/assets/img/events/speakers/sofia-millares.jpg: 2020-11-07 11:58:52.232464000
+build/assets/img/events/speakers/golli-hashemian.jpg: 2017-12-29 12:01:25.592133073
   -06:00
-build/assets/img/events/speakers/amy-johnson.jpg: 2020-11-07 11:58:52.044787923 -06:00
-build/assets/img/events/speakers/hillary-hartley.jpg: 2020-11-07 11:58:52.131899714
+build/assets/img/events/speakers/garrett-polifka.jpg: 2017-12-29 12:01:25.591555170
   -06:00
-build/assets/img/events/speakers/lou-rosenfeld.jpg: 2020-11-07 11:58:52.177586383
+build/assets/img/events/speakers/jason-ulaszek.jpg: 2017-12-29 12:01:25.599935839
   -06:00
-build/assets/img/events/speakers/don-bora.jpg: 2020-11-07 11:58:52.115841164 -06:00
-build/assets/img/events/speakers/jamie-mcatee.jpg: 2020-11-07 11:58:52.138008476 -06:00
-build/assets/img/events/speakers/mike-gorgone.jpg: 2020-11-07 11:58:52.200521239 -06:00
-build/assets/img/events/speakers/dani-nordin.jpg: 2020-11-07 11:58:52.099756557 -06:00
-build/assets/img/events/speakers/colleen-pellissier.jpg: 2021-03-16 12:15:29.293229713
+build/assets/img/events/speakers/cliff-seal.jpg: 2021-04-02 08:14:56.168977918 -05:00
+build/assets/img/events/speakers/amanda-weller.jpg: 2020-09-30 20:19:00.626608674
   -05:00
-build/assets/img/events/speakers/megan-kellie.jpg: 2020-11-07 11:58:52.191889469 -06:00
-build/assets/img/events/speakers/brian-lee.jpg: 2020-11-07 11:58:52.071815259 -06:00
-build/assets/img/events/speakers/lauren-liss.jpg: 2020-11-07 11:58:52.171282116 -06:00
-build/assets/img/events/speakers/amy-cueva.jpg: 2020-11-07 11:58:52.042094269 -06:00
-build/assets/img/events/speakers/michaela-hackner.jpg: 2020-11-07 11:58:52.195563041
+build/assets/img/events/speakers/alissa-ampezzan.jpg: 2020-01-05 18:13:35.792900253
   -06:00
-build/assets/img/events/speakers/max-temkin.jpg: 2020-11-07 11:58:52.189761120 -06:00
-build/assets/img/events/speakers/jamila-parham.jpg: 2020-11-07 11:58:52.138917535
+build/assets/img/events/speakers/cristina-simonetto.jpg: 2021-04-02 08:14:56.179550544
+  -05:00
+build/assets/img/events/speakers/christian-crumlish.jpg: 2017-12-29 12:01:25.546734626
   -06:00
-build/assets/img/events/speakers/loriah-pope.jpg: 2021-02-27 11:15:30.354944775 -06:00
-build/assets/img/events/speakers/jonathan-ozeran.jpg: 2020-11-07 11:58:52.155436503
+build/assets/img/events/speakers/dustin-ditommaso.jpg: 2017-12-29 12:01:25.587296793
   -06:00
-build/assets/img/events/speakers/meg-lewis.jpg: 2020-11-07 11:58:52.190705591 -06:00
-build/assets/img/events/speakers/michelle-y-bess.jpg: 2020-11-07 11:58:52.198265898
+build/assets/img/events/speakers/xavier-wynn.jpg: 2017-12-29 12:01:25.728306949 -06:00
+build/assets/img/events/speakers/brad-larson.jpg: 2017-12-29 12:01:25.530350910 -06:00
+build/assets/img/events/speakers/david-farkas.jpg: 2017-12-29 12:01:25.580100315 -06:00
+build/assets/img/events/speakers/margot-bloomstein.jpg: 2020-12-20 18:23:20.835024278
   -06:00
-build/assets/img/events/speakers/jeff-eaton.jpg: 2020-11-07 11:58:52.146045074 -06:00
-build/assets/img/events/speakers/marc-maleh.jpg: 2020-11-07 11:58:52.179449520 -06:00
-build/assets/img/events/speakers/andy-budd.jpg: 2020-11-07 11:58:52.046117251 -06:00
-build/assets/img/events/speakers/christian-spinillo.jpg: 2020-11-07 11:58:52.082324589
+build/assets/img/events/speakers/brian-santiago.jpg: 2018-09-22 16:45:17.659095127
+  -05:00
+build/assets/img/events/speakers/tom-greever.jpg: 2017-12-29 12:01:25.724044774 -06:00
+build/assets/img/events/speakers/chris-courtney.jpg: 2017-12-29 12:01:25.544439752
   -06:00
-build/assets/img/events/speakers/jennifer-tress.jpg: 2020-11-07 11:58:52.147903544
+build/assets/img/events/speakers/lis-hubert.jpg: 2020-12-20 18:23:21.273872314 -06:00
+build/assets/img/events/speakers/kavitha-krishnan.jpg: 2017-12-29 12:01:25.640199800
   -06:00
-build/assets/img/events/speakers/philip-likens.jpg: 2020-11-07 11:58:52.210935626
+build/assets/img/events/speakers/tami-evnin.jpg: 2017-12-29 12:01:25.720424853 -06:00
+build/assets/img/events/speakers/alyssa-burke.jpg: 2017-12-29 12:01:27.150032545 -06:00
+build/assets/img/events/speakers/donna-lichaw.jpg: 2020-07-14 21:10:49.077110454 -05:00
+build/assets/img/events/speakers/billy-carlson.jpg: 2020-11-21 17:16:22.872093484
   -06:00
-build/assets/img/events/speakers/kathi-kaiser.jpg: 2020-11-07 11:58:52.163867772 -06:00
-build/assets/img/events/speakers/brett-schilke.jpg: 2020-11-07 11:58:52.071487900
+build/assets/img/events/speakers/adam-cutler.jpg: 2017-12-29 12:01:27.145405921 -06:00
+build/assets/img/events/speakers/jon-buda.jpg: 2017-12-29 12:01:25.614176896 -06:00
+build/assets/img/events/speakers/rudy-rigot.jpg: 2017-12-29 12:01:25.696010660 -06:00
+build/assets/img/events/speakers/jacey-gulden.jpg: 2017-12-29 12:01:25.595840952 -06:00
+build/assets/img/events/speakers/greg-nudelman.jpg: 2017-12-29 12:01:25.592527166
   -06:00
-build/assets/img/events/speakers/dimple-rao.jpg: 2020-11-07 11:58:52.114686111 -06:00
-build/assets/img/events/speakers/dylan-richard.jpg: 2020-11-07 11:58:52.118151035
+build/assets/img/events/speakers/suzanna-bierwirth.jpg: 2017-12-29 12:01:25.716099085
   -06:00
-build/assets/img/events/speakers/nathan-hinshaw.jpg: 2020-11-07 11:58:52.203926638
+build/assets/img/events/speakers/laralyn-mcwilliams.jpg: 2017-12-29 12:01:25.648163145
   -06:00
-build/assets/img/events/speakers/jay-newton-small.jpg: 2020-11-07 11:58:52.144529222
+build/assets/img/events/speakers/sharon-bautista.jpg: 2017-12-29 12:01:25.709484042
   -06:00
-build/assets/img/events/speakers/margot-harrington.jpg: 2020-11-07 11:58:52.182304326
+build/assets/img/events/speakers/julia-beauchamp-kraft.jpg: 2021-04-02 08:14:56.184134427
+  -05:00
+build/assets/img/events/speakers/meena-kothandaraman.jpg: 2020-12-20 18:23:23.061216152
   -06:00
-build/assets/img/events/speakers/john-polacek.jpg: 2020-11-07 11:58:52.152376943 -06:00
-build/assets/img/events/speakers/colin-macarthur.jpg: 2020-11-07 11:58:52.093047505
+build/assets/img/events/speakers/michelle-dash.jpg: 2020-01-05 18:13:35.905526516
   -06:00
-build/assets/img/events/speakers/de-nichols.jpg: 2020-11-07 11:58:52.109636855 -06:00
-build/assets/img/events/speakers/anne-hjortshoj.jpg: 2020-11-07 11:58:52.048351988
+build/assets/img/events/speakers/amy-jimenez-marquez.jpg: 2020-07-19 11:59:13.454250305
+  -05:00
+build/assets/img/events/speakers/phil-sharp.jpg: 2017-12-29 12:01:25.689239154 -06:00
+build/assets/img/events/speakers/mark-meeker.jpg: 2017-12-29 12:01:25.673145004 -06:00
+build/assets/img/events/speakers/jen-myers.jpg: 2017-12-29 12:01:25.606235605 -06:00
+build/assets/img/events/speakers/tanseela-molani.jpg: 2017-12-29 12:01:25.721120000
   -06:00
-build/assets/img/events/speakers/nikki-espartinez.jpg: 2020-11-07 11:59:03.638126756
+build/assets/img/events/speakers/ian-swinson.jpg: 2017-12-29 12:01:25.594348219 -06:00
+build/assets/img/events/speakers/stacey-james.jpg: 2017-12-29 12:01:25.713087823 -06:00
+build/assets/img/events/speakers/dennis-kardys.jpg: 2017-12-29 12:01:25.582070457
   -06:00
-build/assets/img/events/speakers/david-gerding.jpg: 2020-11-07 11:58:52.108835188
+build/assets/img/events/speakers/danyell-jones.jpg: 2020-01-05 18:13:35.853622611
   -06:00
-build/assets/img/events/speakers/clay-parker-jones.jpg: 2020-11-07 11:58:52.091148534
+build/assets/img/events/speakers/dennis-ellis.jpg: 2017-12-29 12:01:25.581686011 -06:00
+build/assets/img/events/speakers/alesha-arp.jpg: 2020-09-04 07:06:50.836543616 -05:00
+build/assets/img/events/speakers/courtney-roberts.jpg: 2017-12-29 12:01:25.568710074
   -06:00
-build/assets/img/events/speakers/temple-grandin.jpg: 2020-11-07 11:58:52.242157533
+build/assets/img/events/speakers/jason-cranford-teague.jpg: 2017-12-29 12:01:25.598475878
   -06:00
-build/assets/img/events/speakers/gina-deconti.jpg: 2020-11-07 11:58:52.127861467 -06:00
-build/assets/img/events/speakers/ian-fenn.jpg: 2020-11-07 11:58:52.133530030 -06:00
-build/assets/img/events/speakers/cindy-chastain.jpg: 2020-11-07 11:58:52.083445508
+build/assets/img/events/speakers/neil-jacobsen.jpg: 2020-01-05 18:13:35.910803236
   -06:00
-build/assets/img/events/speakers/justin-dauer.jpg: 2021-03-16 12:15:29.308022645 -05:00
-build/assets/img/events/speakers/ben-lister.jpg: 2020-11-07 11:58:52.063136274 -06:00
-build/assets/img/events/speakers/jonathan-snook.jpg: 2020-11-07 11:58:52.156109245
+build/assets/img/events/speakers/marina-lin.jpg: 2017-12-29 12:01:25.662631009 -06:00
+build/assets/img/events/speakers/stacy-kvernmo.jpg: 2017-12-29 12:01:25.714350644
   -06:00
-build/assets/img/events/speakers/fei-ren.jpg: 2020-11-07 11:58:52.122916203 -06:00
-build/assets/img/events/speakers/jasmine-friedl.jpg: 2020-11-07 11:58:52.141458486
+build/assets/img/events/speakers/rachel-mcclung.jpg: 2017-12-29 12:01:25.692290391
   -06:00
-build/assets/img/events/speakers/kathy-wang.jpg: 2021-01-30 12:28:04.118209522 -06:00
-build/assets/img/events/speakers/dale-sande.jpg: 2020-11-07 11:58:52.096411644 -06:00
-build/assets/img/events/speakers/diana-sonis.jpg: 2021-01-08 08:08:19.412388232 -06:00
-build/assets/img/events/speakers/andrea-mignolo.jpg: 2020-11-07 11:58:52.045701345
+build/assets/img/events/speakers/gabby-hon.jpg: 2020-01-05 18:13:35.871122863 -06:00
+build/assets/img/events/speakers/jayne-spottswood.jpg: 2017-12-29 12:01:25.603252561
   -06:00
-build/assets/img/events/speakers/phil-balagtas.jpg: 2020-11-07 11:58:52.209464928
+build/assets/img/events/speakers/melinda-kilner.jpg: 2020-09-30 20:19:00.627500739
+  -05:00
+build/assets/img/events/speakers/snigdha-sah.jpg: 2020-01-05 18:13:35.923957057 -06:00
+build/assets/img/events/speakers/jon-yablonski.jpg: 2018-09-22 16:45:17.721633143
+  -05:00
+build/assets/img/events/speakers/matthew-eng.jpg: 2020-02-01 19:16:06.303848944 -06:00
+build/assets/img/events/speakers/amanda-schonfeld.jpg: 2017-12-29 12:01:27.150964787
   -06:00
-build/assets/img/events/speakers/hannah-donovan.jpg: 2020-11-07 11:58:52.129710492
+build/assets/img/events/speakers/travis-lafleur.jpg: 2017-12-29 12:01:25.725533060
   -06:00
-build/assets/img/events/speakers/tricia-okin.jpg: 2020-11-07 11:58:52.244694503 -06:00
-build/assets/img/events/speakers/marcin-treder.jpg: 2020-11-07 11:58:52.179823651
+build/assets/img/events/speakers/lauren-johnson.jpg: 2017-12-29 12:01:25.653919494
   -06:00
-build/assets/img/events/speakers/erin-l-thomas.jpg: 2020-11-07 11:58:52.121470321
+build/assets/img/events/speakers/katherine-walker.jpg: 2017-12-29 12:01:25.629595521
   -06:00
-build/assets/img/events/speakers/nicole-maynard.jpg: 2020-11-07 11:58:52.205492147
+build/assets/img/events/speakers/abi-jones.jpg: 2020-08-20 18:57:09.481387017 -05:00
+build/assets/img/events/speakers/dan-leboeuf.jpg: 2017-12-29 12:01:25.573343288 -06:00
+build/assets/img/events/speakers/megan-machamer.jpg: 2019-09-20 20:42:36.626532229
+  -05:00
+build/assets/img/events/speakers/jim-remsik.jpg: 2017-12-29 12:01:25.612513696 -06:00
+build/assets/img/events/meta/prototypes-process-play-2018.jpg: 2018-02-02 22:08:17.599040781
   -06:00
-build/assets/img/events/speakers/arthur-kay.jpg: 2020-11-07 11:58:52.060758844 -06:00
-build/assets/img/events/speakers/ameeda-chowdhury.jpg: 2020-11-07 11:58:52.040871005
+build/assets/img/events/logos/prototype-camp-alt.png: 2017-12-29 12:01:27.076963209
   -06:00
-build/assets/img/events/speakers/romke-de-haan.jpg: 2020-11-07 11:58:52.217752398
+build/assets/img/events/logos/prototypes-process-play-alt.png: 2020-09-30 20:19:00.623997965
+  -05:00
+build/assets/img/events/logos/real-world-responsive-design-workshop.png: 2017-12-29
+  12:01:27.101356897 -06:00
+build/assets/img/events/logos/axure-rp-7-workshop.png: 2017-12-29 12:01:25.469766182
   -06:00
-build/assets/img/events/speakers/chris-webb.jpg: 2020-11-07 11:58:52.080782359 -06:00
-build/assets/img/events/speakers/steve-julius.jpg: 2020-11-07 11:58:52.235462497 -06:00
-build/assets/img/events/speakers/carolyn-chandler.jpg: 2020-11-07 11:58:52.078061959
+build/assets/img/events/logos/ux-camp-home-alt-2021.png: 2021-04-02 08:16:20.670280282
+  -05:00
+build/assets/img/events/logos/front-end-camp-alt.png: 2020-01-05 18:13:35.778694753
   -06:00
-build/assets/img/events/speakers/dan-shipton.jpg: 2020-11-07 11:58:52.098644305 -06:00
-build/assets/img/events/speakers/doc-waller.jpg: 2020-11-07 11:58:52.115450456 -06:00
-build/assets/img/events/speakers/lena-e-trudeau.jpg: 2020-11-07 11:58:52.173595141
+build/assets/img/events/logos/prototypes-process-play-2017.png: 2017-12-29 12:01:27.080009990
   -06:00
-build/assets/img/events/speakers/clifton-simmons.jpg: 2020-11-07 11:58:52.092084486
+build/assets/img/events/logos/ux-camp-spring.png: 2020-01-05 18:13:35.790934732 -06:00
+build/assets/img/events/logos/prototyping-responsive-designs-axure-workshop-alt.png: 2017-12-29
+  12:01:27.098424044 -06:00
+build/assets/img/events/logos/sketch-camp.png: 2017-12-29 12:01:27.105497494 -06:00
+build/assets/img/events/logos/axure-rp-7-workshop-alt.png: 2017-12-29 12:01:25.469133616
   -06:00
-build/assets/img/events/speakers/cennydd-bowles.jpg: 2020-11-07 11:58:52.078497280
+build/assets/img/events/logos/leadership-by-design-home.png: 2020-06-12 19:58:40.668300788
+  -05:00
+build/assets/img/events/logos/ux-camp-fall-alt.png: 2020-01-05 18:13:35.786001037
   -06:00
-build/assets/img/events/speakers/sean-johnson.jpg: 2020-11-07 11:58:52.227071214 -06:00
-build/assets/img/events/speakers/jared-caponi.jpg: 2020-11-07 11:58:52.139261061 -06:00
-build/assets/img/events/speakers/autumn-schultz.jpg: 2020-11-07 11:58:52.062780764
+build/assets/img/events/logos/speaker-camp.png: 2017-12-29 12:01:27.107777246 -06:00
+build/assets/img/events/logos/ux-camp-home-2021.png: 2021-04-02 08:16:40.257796823
+  -05:00
+build/assets/img/events/logos/sketch-camp-alt.png: 2017-12-29 12:01:27.104263134 -06:00
+build/assets/img/events/logos/ux-camp-spring-alt.png: 2020-01-05 18:13:35.789203150
   -06:00
-build/assets/img/events/speakers/golli-hashemian.jpg: 2020-11-07 11:58:52.128502661
+build/assets/img/events/logos/workshop-workshop.png: 2017-12-29 12:01:27.112529782
   -06:00
-build/assets/img/events/speakers/garrett-polifka.jpg: 2020-11-07 11:58:52.127017544
+build/assets/img/events/logos/ux-camp-fall.png: 2020-01-05 18:13:35.787709499 -06:00
+build/assets/img/events/logos/real-world-responsive-design-workshop-alt.png: 2017-12-29
+  12:01:27.100643279 -06:00
+build/assets/img/events/logos/mobile-camp-alt.png: 2017-12-29 12:01:27.075052930 -06:00
+build/assets/img/events/logos/workshop-workshop-alt.png: 2017-12-29 12:01:27.111620955
   -06:00
-build/assets/img/events/speakers/jason-ulaszek.jpg: 2020-11-07 11:58:52.143777821
+build/assets/img/events/logos/speaker-camp-alt.png: 2017-12-29 12:01:27.106324444
   -06:00
-build/assets/img/events/speakers/cliff-seal.jpg: 2021-02-27 11:15:30.399460966 -06:00
-build/assets/img/events/speakers/amanda-weller.jpg: 2020-11-07 11:58:52.039578043
+build/assets/img/events/logos/prototyping-responsive-designs-axure-workshop.png: 2017-12-29
+  12:01:27.099602088 -06:00
+build/assets/img/events/logos/prototypes-process-play.png: 2020-09-30 20:19:00.624470109
+  -05:00
+build/assets/img/events/logos/leadership-by-design-alt.png: 2020-01-05 18:13:35.779850421
   -06:00
-build/assets/img/events/speakers/alissa-ampezzan.jpg: 2020-11-07 11:58:52.034346163
+build/assets/img/events/logos/ux-camp-home-alt.png: 2020-05-03 11:15:13.866100066
+  -05:00
+build/assets/img/events/logos/ux-camp-home.png: 2020-05-03 11:15:13.826776820 -05:00
+build/assets/img/events/logos/prototypes-process-play-alt-2017.png: 2017-12-29 12:01:27.082271549
   -06:00
-build/assets/img/events/speakers/cristina-simonetto.jpg: 2021-03-14 10:06:21.160899604
+build/assets/img/events/logos/ux-camp.png: 2017-12-29 12:01:27.110053460 -06:00
+build/assets/img/events/logos/prototype-camp.png: 2017-12-29 12:01:27.079215037 -06:00
+build/assets/img/events/logos/front-end-camp.png: 2017-12-29 12:01:25.470704127 -06:00
+build/assets/img/events/logos/mobile-camp.png: 2017-12-29 12:01:27.076008213 -06:00
+build/assets/img/events/logos/ux-camp-alt.png: 2017-12-29 12:01:27.109067370 -06:00
+build/assets/img/events/logos/leadership-by-design-home-alt.png: 2020-06-12 19:58:21.847737101
   -05:00
-build/assets/img/events/speakers/christian-crumlish.jpg: 2020-11-07 11:58:52.081494145
+build/assets/img/events/logos/leadership-by-design.png: 2020-01-05 18:13:35.780707638
   -06:00
-build/assets/img/events/speakers/dustin-ditommaso.jpg: 2020-11-07 11:58:52.117494163
+build/assets/img/events/sponsors/rga.png: 2017-12-29 12:01:25.751592293 -06:00
+build/assets/img/events/sponsors/fluid-ui.png: 2017-12-29 12:01:25.737890235 -06:00
+build/assets/img/events/sponsors/modus.png: 2019-05-07 07:06:52.440882349 -05:00
+build/assets/img/events/sponsors/new-riders.png: 2017-12-29 12:01:25.743178790 -06:00
+build/assets/img/events/sponsors/moment.png: 2017-12-29 12:01:25.742169163 -06:00
+build/assets/img/events/sponsors/harrington.png: 2017-12-29 12:01:25.739018374 -06:00
+build/assets/img/events/sponsors/mailchimp.png: 2017-12-29 12:01:25.741762567 -06:00
+build/assets/img/events/sponsors/parkwhiz.png: 2017-12-29 12:01:25.744167361 -06:00
+build/assets/img/events/sponsors/justinmind.png: 2017-12-29 12:01:25.741174986 -06:00
+build/assets/img/events/sponsors/software-for-good.png: 2017-12-29 12:01:25.753331747
   -06:00
-build/assets/img/events/speakers/xavier-wynn.jpg: 2020-11-07 11:58:52.247845010 -06:00
-build/assets/img/events/speakers/brad-larson.jpg: 2020-11-07 11:58:52.068073658 -06:00
-build/assets/img/events/speakers/david-farkas.jpg: 2020-11-07 11:58:52.108057921 -06:00
-build/assets/img/events/speakers/margot-bloomstein.jpg: 2021-01-08 08:08:19.413209068
+build/assets/img/events/sponsors/the-mars-agency.png: 2017-12-29 12:01:25.755721969
   -06:00
-build/assets/img/events/speakers/brian-santiago.jpg: 2020-11-07 11:58:52.074055956
+build/assets/img/events/sponsors/simplecast.png: 2017-12-29 12:01:25.752914626 -06:00
+build/assets/img/events/sponsors/field-notes.png: 2017-12-29 12:01:25.737627350 -06:00
+build/assets/img/events/sponsors/wework.png: 2017-12-29 12:01:25.761904896 -06:00
+build/assets/img/events/sponsors/grand-studio.png: 2020-01-05 18:13:35.931763214 -06:00
+build/assets/img/events/sponsors/hope-for-the-day.png: 2019-06-02 09:01:18.825186670
+  -05:00
+build/assets/img/events/sponsors/webvisions.png: 2017-12-29 12:01:25.761289146 -06:00
+build/assets/img/events/sponsors/jockey.png: 2017-12-29 12:01:25.740793029 -06:00
+build/assets/img/events/sponsors/user-testing.png: 2017-12-29 12:01:25.760814809 -06:00
+build/assets/img/events/sponsors/indigo-studio.png: 2017-12-29 12:01:25.740257158
   -06:00
-build/assets/img/events/speakers/tom-greever.jpg: 2020-11-07 11:58:52.243637347 -06:00
-build/assets/img/events/speakers/chris-courtney.jpg: 2020-11-07 11:58:52.080404118
+build/assets/img/events/sponsors/rosenfeld-media.png: 2017-12-29 12:01:25.752262965
   -06:00
-build/assets/img/events/speakers/lis-hubert.jpg: 2021-01-08 08:08:19.412759262 -06:00
-build/assets/img/events/speakers/kavitha-krishnan.jpg: 2020-11-07 11:58:52.165533068
+build/assets/img/events/sponsors/8th-light.png: 2017-12-29 12:01:25.730363445 -06:00
+build/assets/img/events/sponsors/funsize.png: 2017-12-29 12:01:25.738361425 -06:00
+build/assets/img/events/sponsors/1-dollar-prototype.png: 2017-12-29 12:01:25.730110640
   -06:00
-build/assets/img/events/speakers/tami-evnin.jpg: 2020-11-07 11:58:52.239299895 -06:00
-build/assets/img/events/speakers/alyssa-burke.jpg: 2020-11-07 11:58:52.035914429 -06:00
-build/assets/img/events/speakers/donna-lichaw.jpg: 2020-11-07 11:58:52.116731064 -06:00
-build/assets/img/events/speakers/billy-carlson.jpg: 2020-11-07 11:58:52.067300395
+build/assets/img/events/sponsors/nerdery.png: 2017-12-29 12:01:25.742991640 -06:00
+build/assets/img/events/sponsors/bakery.png: 2017-12-29 12:01:25.730971159 -06:00
+build/assets/img/events/sponsors/moo.png: 2017-12-29 12:01:25.742366770 -06:00
+build/assets/img/events/sponsors/konrad-king.png: 2020-05-11 17:32:42.714737019 -05:00
+build/assets/img/events/sponsors/boxes-and-arrows.png: 2021-04-02 08:14:56.187905309
+  -05:00
+build/assets/img/events/sponsors/west-town-bakery.png: 2020-01-05 18:13:35.934322126
   -06:00
-build/assets/img/events/speakers/adam-cutler.jpg: 2020-11-07 11:58:52.029628706 -06:00
-build/assets/img/events/speakers/jon-buda.jpg: 2020-11-07 11:58:52.153192435 -06:00
-build/assets/img/events/speakers/rudy-rigot.jpg: 2020-11-07 11:58:52.219270430 -06:00
-build/assets/img/events/speakers/jacey-gulden.jpg: 2020-11-07 11:58:52.137160491 -06:00
-build/assets/img/events/speakers/greg-nudelman.jpg: 2020-11-07 11:58:52.129276735
+build/assets/img/events/sponsors/agents-of-experience.png: 2020-01-05 18:13:35.928747012
   -06:00
-build/assets/img/events/speakers/suzanna-bierwirth.jpg: 2020-11-07 11:58:52.238387989
+build/assets/img/events/sponsors/loop11.png: 2017-12-29 12:01:25.741581504 -06:00
+build/assets/img/events/sponsors/hotgloo.png: 2017-12-29 12:01:25.739232383 -06:00
+build/assets/img/events/sponsors/tesla-amazing.png: 2017-12-29 12:01:25.755531662
   -06:00
-build/assets/img/events/speakers/laralyn-mcwilliams.jpg: 2020-11-07 11:58:52.170200643
+build/assets/img/events/sponsors/creative-dose.png: 2017-12-29 12:01:25.737177256
   -06:00
-build/assets/img/events/speakers/sharon-bautista.jpg: 2020-11-07 11:58:52.228135482
+build/assets/img/events/sponsors/uie-aycl.png: 2017-12-29 12:01:25.756173353 -06:00
+build/assets/img/events/sponsors/terminus-threads.png: 2017-12-29 12:01:25.755338800
   -06:00
-build/assets/img/events/speakers/julia-beauchamp-kraft.jpg: 2021-03-14 10:06:21.167831826
+build/assets/img/events/sponsors/lead-honestly.png: 2020-09-30 20:19:00.629813983
   -05:00
-build/assets/img/events/speakers/meena-kothandaraman.jpg: 2021-01-08 08:08:19.413685872
+build/assets/img/events/sponsors/ugroup.png: 2020-05-02 10:35:51.859847198 -05:00
+build/assets/img/events/sponsors/columbia-college.png: 2017-12-29 12:01:25.732093974
   -06:00
-build/assets/img/events/speakers/michelle-dash.jpg: 2020-11-07 11:58:52.196429031
+build/assets/img/events/sponsors/gravity-tank.png: 2017-12-29 12:01:25.738738168 -06:00
+build/assets/img/events/sponsors/uie.png: 2017-12-29 12:01:25.760198916 -06:00
+build/assets/img/events/sponsors/ux-plus.png: 2020-07-30 13:04:48.214999502 -05:00
+build/assets/img/events/sponsors/artisan.png: 2018-07-31 20:47:22.867524115 -05:00
+build/assets/img/events/sponsors/belly-up.png: 2017-12-29 12:01:25.731365326 -06:00
+build/assets/img/events/sponsors/oreilly.png: 2017-12-29 12:01:25.743798130 -06:00
+build/assets/img/events/sponsors/tcg.png: 2017-12-29 12:01:25.755181750 -06:00
+build/assets/img/events/sponsors/united-pixelworkers.png: 2017-12-29 12:01:25.760593150
   -06:00
-build/assets/img/events/speakers/amy-jimenez-marquez.jpg: 2020-11-07 11:58:52.043811041
+build/assets/img/events/sponsors/stolen.png: 2020-01-05 18:13:35.933680097 -06:00
+build/assets/img/events/sponsors/jawhole.png: 2017-12-29 12:01:25.740542352 -06:00
+build/assets/img/events/sponsors/sapient-nitro.png: 2017-12-29 12:01:25.752471492
   -06:00
-build/assets/img/events/speakers/phil-sharp.jpg: 2020-11-07 11:58:52.209972033 -06:00
-build/assets/img/events/speakers/mark-meeker.jpg: 2020-11-07 11:58:52.186130425 -06:00
-build/assets/img/events/speakers/jen-myers.jpg: 2020-11-07 11:58:52.146974876 -06:00
-build/assets/img/events/speakers/tanseela-molani.jpg: 2020-11-07 11:58:52.240174215
+build/assets/img/events/sponsors/protoshare.png: 2017-12-29 12:01:25.750390663 -06:00
+build/assets/img/events/sponsors/uxpin.png: 2017-12-29 12:01:25.761022042 -06:00
+build/assets/img/events/sponsors/demio.png: 2020-05-22 17:51:32.808923178 -05:00
+build/assets/img/events/sponsors/protoio.png: 2017-12-29 12:01:25.744716033 -06:00
+build/assets/img/events/sponsors/synecore.png: 2017-12-29 12:01:25.754985908 -06:00
+build/assets/img/events/sponsors/op-taylor-brewing.png: 2020-01-05 18:13:35.932621214
   -06:00
-build/assets/img/events/speakers/ian-swinson.jpg: 2020-11-07 11:58:52.134394510 -06:00
-build/assets/img/events/speakers/stacey-james.jpg: 2020-11-07 11:58:52.233357331 -06:00
-build/assets/img/events/speakers/dennis-kardys.jpg: 2020-11-07 11:58:52.112820656
+build/assets/img/events/sponsors/sketch.png: 2020-01-05 18:13:35.933235465 -06:00
+build/assets/img/events/sponsors/sticker-mule.png: 2017-12-29 12:01:25.753699654 -06:00
+build/assets/img/events/sponsors/thoughtbot.png: 2017-12-29 12:01:25.755921187 -06:00
+build/assets/img/events/sponsors/prettyprettyponies.png: 2017-12-29 12:01:25.744504533
   -06:00
-build/assets/img/events/speakers/danyell-jones.jpg: 2020-11-07 11:58:52.105237882
+build/assets/img/events/sponsors/learning-ninjas.png: 2020-08-04 08:57:35.625149775
+  -05:00
+build/assets/img/events/sponsors/optimal-workshop.png: 2017-12-29 12:01:25.743593291
   -06:00
-build/assets/img/events/speakers/dennis-ellis.jpg: 2020-11-07 11:58:52.111746562 -06:00
-build/assets/img/events/speakers/alesha-arp.jpg: 2020-11-07 11:58:52.032207323 -06:00
-build/assets/img/events/speakers/courtney-roberts.jpg: 2020-11-07 11:58:52.095369749
+build/assets/img/events/sponsors/resource.png: 2017-12-29 12:01:25.750661316 -06:00
+build/assets/img/events/sponsors/diagram.png: 2020-01-05 18:13:35.930612054 -06:00
+build/assets/img/events/sponsors/balsamiq.png: 2018-04-20 10:07:54.578474212 -05:00
+build/assets/img/events/sponsors/axure.png: 2018-07-02 20:42:00.910261765 -05:00
+build/assets/img/events/sponsors/nerditees.png: 2020-05-11 17:40:45.742850422 -05:00
+build/assets/img/events/sponsors/foiled-cupcakes.png: 2017-12-29 12:01:25.738186041
   -06:00
-build/assets/img/events/speakers/jason-cranford-teague.jpg: 2020-11-07 11:58:52.142278029
+build/assets/img/events/sponsors/binth.png: 2020-01-05 18:13:35.929498681 -06:00
+build/assets/img/events/mentors/rose-robinson.jpg: 2017-12-29 12:01:27.139813823 -06:00
+build/assets/img/events/mentors/j-cornelius.jpg: 2017-12-29 12:01:27.126710635 -06:00
+build/assets/img/events/mentors/kalpita-kothary.jpg: 2017-12-29 12:01:27.130277933
   -06:00
-build/assets/img/events/speakers/neil-jacobsen.jpg: 2020-11-07 11:58:52.204855047
+build/assets/img/events/mentors/marianne-sweeny.jpg: 2017-12-29 12:01:27.136877329
   -06:00
-build/assets/img/events/speakers/marina-lin.jpg: 2020-11-07 11:58:52.184423822 -06:00
-build/assets/img/events/speakers/stacy-kvernmo.jpg: 2020-11-07 11:58:52.234084034
+build/assets/img/events/mentors/nick-finck.jpg: 2017-12-29 12:01:27.138132306 -06:00
+build/assets/img/events/mentors/andy-hullinger.jpg: 2017-12-29 12:01:27.116255983
   -06:00
-build/assets/img/events/speakers/rachel-mcclung.jpg: 2020-11-07 11:58:52.212488209
+build/assets/img/events/mentors/dana-chisnell.jpg: 2017-12-29 12:01:27.122884877 -06:00
+build/assets/img/events/mentors/tim-frick.jpg: 2017-12-29 12:01:27.141620861 -06:00
+build/assets/img/events/mentors/dennis-schleicher.jpg: 2017-12-29 12:01:27.124280054
   -06:00
-build/assets/img/events/speakers/gabby-hon.jpg: 2020-11-07 11:58:52.125011631 -06:00
-build/assets/img/events/speakers/jayne-spottswood.jpg: 2020-11-07 11:58:52.145295888
+build/assets/img/events/mentors/christine-perfetti.jpg: 2017-12-29 12:01:27.120768170
   -06:00
-build/assets/img/events/speakers/melinda-kilner.jpg: 2020-11-07 11:58:52.194316338
+build/assets/img/events/mentors/boon-sheridan.jpg: 2017-12-29 12:01:27.117008188 -06:00
+build/assets/img/events/mentors/kyle-soucy.jpg: 2017-12-29 12:01:27.130843909 -06:00
+build/assets/img/events/mentors/scott-berkun.jpg: 2017-12-29 12:01:27.140861815 -06:00
+build/assets/img/events/mentors/jon-hadden.jpg: 2017-12-29 12:01:27.129506237 -06:00
+build/assets/img/events/mentors/amanda-costello.jpg: 2017-12-29 12:01:27.113938380
   -06:00
-build/assets/img/events/speakers/snigdha-sah.jpg: 2020-11-07 11:58:52.232103138 -06:00
-build/assets/img/events/speakers/jon-yablonski.jpg: 2020-11-07 11:58:52.154971974
+build/assets/img/events/mentors/amy-ellis.jpg: 2017-12-29 12:01:27.114926757 -06:00
+build/assets/img/events/mentors/brad-nunnally.jpg: 2017-12-29 12:01:27.118530827 -06:00
+build/assets/img/events/mentors/jessica-cherok.jpg: 2017-12-29 12:01:27.128237678
   -06:00
-build/assets/img/events/speakers/matthew-eng.jpg: 2020-11-07 11:58:52.188154765 -06:00
-build/assets/img/events/speakers/amanda-schonfeld.jpg: 2020-11-07 11:58:52.036749542
+build/assets/img/events/mentors/christian-manzella.jpg: 2017-12-29 12:01:27.120020870
   -06:00
-build/assets/img/events/speakers/travis-lafleur.jpg: 2020-11-07 11:58:52.244020963
+build/assets/img/events/mentors/andy-crestodina.jpg: 2017-12-29 12:01:27.115572491
   -06:00
-build/assets/img/events/speakers/lauren-johnson.jpg: 2020-11-07 11:58:52.170962843
+build/assets/img/events/mentors/tonia-bartz.jpg: 2017-12-29 12:01:27.142237243 -06:00
+build/assets/img/events/mentors/nishant-kothary.jpg: 2017-12-29 12:01:27.139000270
   -06:00
-build/assets/img/events/speakers/katherine-walker.jpg: 2020-11-07 11:58:52.163074435
+build/assets/img/events/mentors/dustin-ditommaso.jpg: 2017-12-29 12:01:27.125417731
   -06:00
-build/assets/img/events/speakers/abi-jones.jpg: 2020-11-07 11:58:52.028336731 -06:00
-build/assets/img/events/speakers/dan-leboeuf.jpg: 2020-11-07 11:58:52.097917936 -06:00
-build/assets/img/events/speakers/megan-machamer.jpg: 2020-11-07 11:58:52.192342530
+build/assets/img/events/mentors/margot-bloomstein.jpg: 2017-12-29 12:01:27.134358302
   -06:00
-build/assets/img/events/speakers/jim-remsik.jpg: 2020-11-07 11:58:52.151611387 -06:00
-build/assets/img/events/meta/prototypes-process-play-2018.jpg: 2020-09-20 13:19:48.293540293
-  -05:00
-build/assets/img/events/logos/prototype-camp-alt.png: 2020-09-20 13:19:48.268463862
-  -05:00
-build/assets/img/events/logos/prototypes-process-play-alt.png: 2020-09-20 13:20:07.523350213
-  -05:00
-build/assets/img/events/logos/real-world-responsive-design-workshop.png: 2020-09-20
-  13:19:48.271757483 -05:00
-build/assets/img/events/logos/axure-rp-7-workshop.png: 2020-09-20 13:19:48.264405812
-  -05:00
-build/assets/img/events/logos/ux-camp-home-alt-2021.png: 2021-01-30 12:28:04.117377129
+build/assets/img/events/mentors/brad-weaver.jpg: 2017-12-29 12:01:27.119399371 -06:00
+build/assets/img/events/mentors/laura-creekmore.jpg: 2017-12-29 12:01:27.131485634
   -06:00
-build/assets/img/events/logos/front-end-camp-alt.png: 2020-09-20 13:19:48.264734286
-  -05:00
-build/assets/img/events/logos/prototypes-process-play-2017.png: 2020-09-20 13:19:48.268957421
-  -05:00
-build/assets/img/events/logos/ux-camp-spring.png: 2020-09-20 13:19:48.277401575 -05:00
-build/assets/img/events/logos/prototyping-responsive-designs-axure-workshop-alt.png: 2020-09-20
-  13:19:48.270903707 -05:00
-build/assets/img/events/logos/sketch-camp.png: 2020-09-20 13:19:48.272503287 -05:00
-build/assets/img/events/logos/axure-rp-7-workshop-alt.png: 2020-09-20 13:19:48.264009192
-  -05:00
-build/assets/img/events/logos/leadership-by-design-home.png: 2020-09-20 13:19:48.266796869
-  -05:00
-build/assets/img/events/logos/ux-camp-fall-alt.png: 2020-09-20 13:19:48.274314569
-  -05:00
-build/assets/img/events/logos/speaker-camp.png: 2020-09-20 13:19:48.273193219 -05:00
-build/assets/img/events/logos/ux-camp-home-2021.png: 2021-01-30 12:28:04.117148980
+build/assets/img/events/mentors/misty-weaver.jpg: 2017-12-29 12:01:27.137525998 -06:00
+build/assets/img/events/mentors/dennis-kardys.jpg: 2017-12-29 12:01:27.123632325 -06:00
+build/assets/img/events/mentors/jenn-downs.jpg: 2017-12-29 12:01:27.127306079 -06:00
+build/assets/img/events/mentors/loren-norman.jpg: 2017-12-29 12:01:27.132320264 -06:00
+build/assets/img/events/mentors/gabby-hon.jpg: 2017-12-29 12:01:27.126099121 -06:00
+build/assets/img/events/mentors/clark-sell.jpg: 2017-12-29 12:01:27.121588005 -06:00
+build/assets/img/events/headers/real-world-responsive-design-workshop.jpg: 2017-12-29
+  12:01:25.456489747 -06:00
+build/assets/img/events/headers/axure-rp-7-workshop.jpg: 2017-12-29 12:01:25.415411466
   -06:00
-build/assets/img/events/logos/sketch-camp-alt.png: 2020-09-20 13:19:48.272083971 -05:00
-build/assets/img/events/logos/ux-camp-spring-alt.png: 2020-09-20 13:19:48.276576524
-  -05:00
-build/assets/img/events/logos/workshop-workshop.png: 2020-09-20 13:19:48.278408107
-  -05:00
-build/assets/img/events/logos/ux-camp-fall.png: 2020-09-20 13:19:48.275294882 -05:00
-build/assets/img/events/logos/real-world-responsive-design-workshop-alt.png: 2020-09-20
-  13:19:48.271426523 -05:00
-build/assets/img/events/logos/mobile-camp-alt.png: 2020-09-20 13:19:48.267610645 -05:00
-build/assets/img/events/logos/workshop-workshop-alt.png: 2020-09-20 13:19:48.278180882
-  -05:00
-build/assets/img/events/logos/speaker-camp-alt.png: 2020-09-20 13:19:48.272794088
-  -05:00
-build/assets/img/events/logos/prototyping-responsive-designs-axure-workshop.png: 2020-09-20
-  13:19:48.271112671 -05:00
-build/assets/img/events/logos/prototypes-process-play.png: 2020-09-20 13:20:09.771495290
-  -05:00
-build/assets/img/events/logos/leadership-by-design-alt.png: 2020-09-20 13:19:48.265758802
-  -05:00
-build/assets/img/events/logos/ux-camp-home-alt.png: 2020-09-20 13:19:48.275778429
-  -05:00
-build/assets/img/events/logos/ux-camp-home.png: 2020-09-20 13:19:48.276016700 -05:00
-build/assets/img/events/logos/prototypes-process-play-alt-2017.png: 2020-09-20 13:19:48.269457517
-  -05:00
-build/assets/img/events/logos/ux-camp.png: 2020-09-20 13:19:48.277899709 -05:00
-build/assets/img/events/logos/prototype-camp.png: 2020-09-20 13:19:48.268745935 -05:00
-build/assets/img/events/logos/front-end-camp.png: 2020-09-20 13:19:48.265156609 -05:00
-build/assets/img/events/logos/mobile-camp.png: 2020-09-20 13:19:48.268108663 -05:00
-build/assets/img/events/logos/ux-camp-alt.png: 2020-09-20 13:19:48.273575680 -05:00
-build/assets/img/events/logos/leadership-by-design-home-alt.png: 2020-09-20 13:19:48.266311862
-  -05:00
-build/assets/img/events/logos/leadership-by-design.png: 2020-09-20 13:19:48.267256354
-  -05:00
-build/assets/img/events/sponsors/rga.png: 2020-09-20 13:19:48.423435765 -05:00
-build/assets/img/events/sponsors/fluid-ui.png: 2020-09-20 13:19:48.420272721 -05:00
-build/assets/img/events/sponsors/modus.png: 2020-09-20 13:19:48.421880666 -05:00
-build/assets/img/events/sponsors/new-riders.png: 2020-09-20 13:19:48.422371471 -05:00
-build/assets/img/events/sponsors/moment.png: 2020-09-20 13:19:48.421967131 -05:00
-build/assets/img/events/sponsors/harrington.png: 2020-09-20 13:19:48.420810757 -05:00
-build/assets/img/events/sponsors/mailchimp.png: 2020-09-20 13:19:48.421792783 -05:00
-build/assets/img/events/sponsors/parkwhiz.png: 2020-09-20 13:19:48.422745115 -05:00
-build/assets/img/events/sponsors/justinmind.png: 2020-09-20 13:19:48.421359251 -05:00
-build/assets/img/events/sponsors/software-for-good.png: 2020-09-20 13:19:48.424263207
-  -05:00
-build/assets/img/events/sponsors/the-mars-agency.png: 2020-09-20 13:19:48.425395466
-  -05:00
-build/assets/img/events/sponsors/simplecast.png: 2020-09-20 13:19:48.423929029 -05:00
-build/assets/img/events/sponsors/field-notes.png: 2020-09-20 13:19:48.420182527 -05:00
-build/assets/img/events/sponsors/wework.png: 2020-09-20 13:19:48.427354127 -05:00
-build/assets/img/events/sponsors/grand-studio.png: 2020-09-20 13:19:48.420595749 -05:00
-build/assets/img/events/sponsors/hope-for-the-day.png: 2020-09-20 13:19:48.420888071
-  -05:00
-build/assets/img/events/sponsors/webvisions.png: 2020-09-20 13:19:48.426972019 -05:00
-build/assets/img/events/sponsors/jockey.png: 2020-09-20 13:19:48.421280482 -05:00
-build/assets/img/events/sponsors/user-testing.png: 2020-09-20 13:19:48.426447737 -05:00
-build/assets/img/events/sponsors/indigo-studio.png: 2020-09-20 13:19:48.421099918
-  -05:00
-build/assets/img/events/sponsors/rosenfeld-media.png: 2020-09-20 13:19:48.423623393
-  -05:00
-build/assets/img/events/sponsors/8th-light.png: 2020-09-20 13:19:48.418957857 -05:00
-build/assets/img/events/sponsors/funsize.png: 2020-09-20 13:19:48.420473811 -05:00
-build/assets/img/events/sponsors/1-dollar-prototype.png: 2020-09-20 13:19:48.418836327
-  -05:00
-build/assets/img/events/sponsors/nerdery.png: 2020-09-20 13:19:48.422183357 -05:00
-build/assets/img/events/sponsors/bakery.png: 2020-09-20 13:19:48.419386281 -05:00
-build/assets/img/events/sponsors/moo.png: 2020-09-20 13:19:48.422067421 -05:00
-build/assets/img/events/sponsors/konrad-king.png: 2020-09-20 13:19:48.421451957 -05:00
-build/assets/img/events/sponsors/boxes-and-arrows.png: 2021-03-14 10:06:21.649030766
-  -05:00
-build/assets/img/events/sponsors/west-town-bakery.png: 2020-09-20 13:19:48.427184681
-  -05:00
-build/assets/img/events/sponsors/agents-of-experience.png: 2020-09-20 13:19:48.419059476
-  -05:00
-build/assets/img/events/sponsors/loop11.png: 2020-09-20 13:19:48.421702378 -05:00
-build/assets/img/events/sponsors/hotgloo.png: 2020-09-20 13:19:48.421002378 -05:00
-build/assets/img/events/sponsors/tesla-amazing.png: 2020-09-20 13:19:48.425232258
-  -05:00
-build/assets/img/events/sponsors/creative-dose.png: 2020-09-20 13:19:48.419854608
-  -05:00
-build/assets/img/events/sponsors/uie-aycl.png: 2020-09-20 13:19:48.425909283 -05:00
-build/assets/img/events/sponsors/terminus-threads.png: 2020-09-20 13:19:48.425079392
-  -05:00
-build/assets/img/events/sponsors/lead-honestly.png: 2020-09-20 13:20:18.468354674
-  -05:00
-build/assets/img/events/sponsors/ugroup.png: 2020-09-20 13:19:48.425724566 -05:00
-build/assets/img/events/sponsors/columbia-college.png: 2020-09-20 13:19:48.419760583
-  -05:00
-build/assets/img/events/sponsors/gravity-tank.png: 2020-09-20 13:19:48.420702709 -05:00
-build/assets/img/events/sponsors/uie.png: 2020-09-20 13:19:48.426158877 -05:00
-build/assets/img/events/sponsors/ux-plus.png: 2020-09-20 13:19:48.426628453 -05:00
-build/assets/img/events/sponsors/artisan.png: 2020-09-20 13:19:48.419147365 -05:00
-build/assets/img/events/sponsors/belly-up.png: 2020-09-20 13:19:48.419577042 -05:00
-build/assets/img/events/sponsors/oreilly.png: 2020-09-20 13:19:48.422642939 -05:00
-build/assets/img/events/sponsors/tcg.png: 2020-09-20 13:19:48.424923073 -05:00
-build/assets/img/events/sponsors/united-pixelworkers.png: 2020-09-20 13:19:48.426284899
-  -05:00
-build/assets/img/events/sponsors/stolen.png: 2020-09-20 13:19:48.424605104 -05:00
-build/assets/img/events/sponsors/jawhole.png: 2020-09-20 13:19:48.421194490 -05:00
-build/assets/img/events/sponsors/sapient-nitro.png: 2020-09-20 13:19:48.423759392
-  -05:00
-build/assets/img/events/sponsors/protoshare.png: 2020-09-20 13:19:48.423062405 -05:00
-build/assets/img/events/sponsors/uxpin.png: 2020-09-20 13:19:48.426794955 -05:00
-build/assets/img/events/sponsors/demio.png: 2020-09-20 13:19:48.419976387 -05:00
-build/assets/img/events/sponsors/protoio.png: 2020-09-20 13:19:48.422943833 -05:00
-build/assets/img/events/sponsors/synecore.png: 2020-09-20 13:19:48.424749741 -05:00
-build/assets/img/events/sponsors/op-taylor-brewing.png: 2020-09-20 13:19:48.422470066
-  -05:00
-build/assets/img/events/sponsors/sketch.png: 2020-09-20 13:19:48.424110917 -05:00
-build/assets/img/events/sponsors/sticker-mule.png: 2020-09-20 13:19:48.424440228 -05:00
-build/assets/img/events/sponsors/thoughtbot.png: 2020-09-20 13:19:48.425570029 -05:00
-build/assets/img/events/sponsors/prettyprettyponies.png: 2020-09-20 13:19:48.422850766
-  -05:00
-build/assets/img/events/sponsors/learning-ninjas.png: 2020-09-20 13:19:48.421615944
-  -05:00
-build/assets/img/events/sponsors/optimal-workshop.png: 2020-09-20 13:19:48.422557020
-  -05:00
-build/assets/img/events/sponsors/resource.png: 2020-09-20 13:19:48.423258411 -05:00
-build/assets/img/events/sponsors/diagram.png: 2020-09-20 13:19:48.420061027 -05:00
-build/assets/img/events/sponsors/balsamiq.png: 2020-09-20 13:19:48.419471560 -05:00
-build/assets/img/events/sponsors/axure.png: 2020-09-20 13:19:48.419289463 -05:00
-build/assets/img/events/sponsors/nerditees.png: 2020-09-20 13:19:48.422284905 -05:00
-build/assets/img/events/sponsors/foiled-cupcakes.png: 2020-09-20 13:19:48.420387512
-  -05:00
-build/assets/img/events/sponsors/binth.png: 2020-09-20 13:19:48.419661216 -05:00
-build/assets/img/events/mentors/rose-robinson.jpg: 2020-09-20 13:19:48.289945791 -05:00
-build/assets/img/events/mentors/j-cornelius.jpg: 2020-09-20 13:19:48.283893181 -05:00
-build/assets/img/events/mentors/kalpita-kothary.jpg: 2020-09-20 13:19:48.285626842
-  -05:00
-build/assets/img/events/mentors/marianne-sweeny.jpg: 2020-09-20 13:19:48.287793684
-  -05:00
-build/assets/img/events/mentors/nick-finck.jpg: 2020-09-20 13:19:48.288805708 -05:00
-build/assets/img/events/mentors/andy-hullinger.jpg: 2020-09-20 13:19:48.279870654
-  -05:00
-build/assets/img/events/mentors/dana-chisnell.jpg: 2020-09-20 13:19:48.282072078 -05:00
-build/assets/img/events/mentors/tim-frick.jpg: 2020-09-20 13:19:48.290535519 -05:00
-build/assets/img/events/mentors/dennis-schleicher.jpg: 2020-09-20 13:19:48.282841793
-  -05:00
-build/assets/img/events/mentors/christine-perfetti.jpg: 2020-09-20 13:19:48.281402136
-  -05:00
-build/assets/img/events/mentors/boon-sheridan.jpg: 2020-09-20 13:19:48.280190883 -05:00
-build/assets/img/events/mentors/kyle-soucy.jpg: 2020-09-20 13:19:48.285988685 -05:00
-build/assets/img/events/mentors/scott-berkun.jpg: 2020-09-20 13:19:48.290250922 -05:00
-build/assets/img/events/mentors/jon-hadden.jpg: 2020-09-20 13:19:48.285137002 -05:00
-build/assets/img/events/mentors/amanda-costello.jpg: 2020-09-20 13:19:48.278882859
-  -05:00
-build/assets/img/events/mentors/amy-ellis.jpg: 2020-09-20 13:19:48.279249558 -05:00
-build/assets/img/events/mentors/brad-nunnally.jpg: 2020-09-20 13:19:48.280529139 -05:00
-build/assets/img/events/mentors/jessica-cherok.jpg: 2020-09-20 13:19:48.284744367
-  -05:00
-build/assets/img/events/mentors/christian-manzella.jpg: 2020-09-20 13:19:48.281057637
-  -05:00
-build/assets/img/events/mentors/andy-crestodina.jpg: 2020-09-20 13:19:48.279570614
-  -05:00
-build/assets/img/events/mentors/tonia-bartz.jpg: 2020-09-20 13:19:48.290949861 -05:00
-build/assets/img/events/mentors/nishant-kothary.jpg: 2020-09-20 13:19:48.289339875
-  -05:00
-build/assets/img/events/mentors/dustin-ditommaso.jpg: 2020-09-20 13:19:48.283168293
-  -05:00
-build/assets/img/events/mentors/margot-bloomstein.jpg: 2020-09-20 13:19:48.287347823
-  -05:00
-build/assets/img/events/mentors/brad-weaver.jpg: 2020-09-20 13:19:48.280783652 -05:00
-build/assets/img/events/mentors/laura-creekmore.jpg: 2020-09-20 13:19:48.286400668
-  -05:00
-build/assets/img/events/mentors/misty-weaver.jpg: 2020-09-20 13:19:48.288293651 -05:00
-build/assets/img/events/mentors/dennis-kardys.jpg: 2020-09-20 13:19:48.282433496 -05:00
-build/assets/img/events/mentors/jenn-downs.jpg: 2020-09-20 13:19:48.284241319 -05:00
-build/assets/img/events/mentors/loren-norman.jpg: 2020-09-20 13:19:48.286851534 -05:00
-build/assets/img/events/mentors/gabby-hon.jpg: 2020-09-20 13:19:48.283523147 -05:00
-build/assets/img/events/mentors/clark-sell.jpg: 2020-09-20 13:19:48.281701485 -05:00
-build/assets/img/events/headers/real-world-responsive-design-workshop.jpg: 2020-09-20
-  13:19:48.242894635 -05:00
-build/assets/img/events/headers/axure-rp-7-workshop.jpg: 2020-09-20 13:19:48.222456483
-  -05:00
-build/assets/img/events/headers/prototypes-process-play-2015.jpg: 2020-09-20 13:19:48.230137711
-  -05:00
-build/assets/img/events/headers/prototypes-process-play-2017.jpg: 2020-09-20 13:19:48.236257933
-  -05:00
-build/assets/img/events/headers/ux-camp-spring.jpg: 2020-09-20 13:19:48.250844071
-  -05:00
-build/assets/img/events/headers/prototypes-process-play-2016.jpg: 2020-09-20 13:19:48.231118258
-  -05:00
-build/assets/img/events/headers/sketch-camp.jpg: 2020-09-20 13:19:48.244722522 -05:00
-build/assets/img/events/headers/leadership-by-design-home.jpg: 2020-09-20 13:19:48.225099289
-  -05:00
-build/assets/img/events/headers/speaker-camp.jpg: 2020-09-20 13:19:48.245941145 -05:00
-build/assets/img/events/headers/ux-camp-fall.jpg: 2020-09-20 13:19:48.247193603 -05:00
-build/assets/img/events/headers/workshop-workshop.jpg: 2020-09-20 13:19:48.252987193
-  -05:00
-build/assets/img/events/headers/prototyping-responsive-designs-axure-workshop.jpg: 2020-09-20
-  13:19:48.242396862 -05:00
-build/assets/img/events/headers/ux-camp-home.jpg: 2020-09-20 13:19:48.249271850 -05:00
-build/assets/img/events/headers/prototypes-process-play-2018.jpg: 2020-09-20 13:19:48.240864502
-  -05:00
-build/assets/img/events/headers/front-end-camp.jpg: 2020-09-20 13:19:48.224204845
-  -05:00
-build/assets/img/events/headers/ux-camp.jpg: 2020-09-20 13:19:48.252370296 -05:00
-build/assets/img/events/headers/prototype-camp.jpg: 2020-09-20 13:19:48.229066337
-  -05:00
-build/assets/img/events/headers/mobile-camp.jpg: 2020-09-20 13:19:48.227590117 -05:00
-build/assets/img/events/headers/leadership-by-design.jpg: 2020-09-20 13:19:48.225623429
-  -05:00
-build/assets/img/events/locations/harrington.jpg: 2020-09-20 13:19:48.261622745 -05:00
-build/assets/img/events/locations/big-nerd-ranch.jpg: 2020-09-20 13:19:48.260360993
-  -05:00
-build/assets/img/events/locations/moz.jpg: 2020-09-20 13:19:48.263040905 -05:00
-build/assets/img/events/locations/columbia-college.jpg: 2020-09-20 13:19:48.261138984
-  -05:00
-build/assets/img/events/locations/university-of-minnesota.jpg: 2020-09-20 13:19:48.263726131
+build/assets/img/events/headers/prototypes-process-play-2015.jpg: 2017-12-29 12:01:25.422294694
+  -06:00
+build/assets/img/events/headers/prototypes-process-play-2017.jpg: 2017-12-29 12:01:25.452421683
+  -06:00
+build/assets/img/events/headers/ux-camp-spring.jpg: 2020-01-19 07:57:00.528490399
+  -06:00
+build/assets/img/events/headers/prototypes-process-play-2016.jpg: 2017-12-29 12:01:25.423327919
+  -06:00
+build/assets/img/events/headers/sketch-camp.jpg: 2017-12-29 12:01:25.458596848 -06:00
+build/assets/img/events/headers/leadership-by-design-home.jpg: 2020-06-12 19:57:55.790196764
   -05:00
-build/assets/img/events/locations/madpow.jpg: 2020-09-20 13:19:48.262394788 -05:00
-build/assets/img/events/swag/lbd-2020-black.png: 2020-12-12 10:36:58.296345843 -06:00
-build/assets/img/events/swag/lbd-2020-blue.png: 2020-12-12 10:36:58.300094578 -06:00
-build/assets/img/events/swag/lbd-2020-pink.png: 2020-12-12 10:36:58.304766596 -06:00
-build/assets/img/events/swag/ux-camp-winter-2020.png: 2020-12-12 10:36:58.313674005
+build/assets/img/events/headers/speaker-camp.jpg: 2017-12-29 12:01:25.459927414 -06:00
+build/assets/img/events/headers/ux-camp-fall.jpg: 2020-01-19 07:57:00.524005911 -06:00
+build/assets/img/events/headers/workshop-workshop.jpg: 2017-12-29 12:01:25.462087632
+  -06:00
+build/assets/img/events/headers/prototyping-responsive-designs-axure-workshop.jpg: 2017-12-29
+  12:01:25.455548253 -06:00
+build/assets/img/events/headers/ux-camp-home.jpg: 2020-05-03 11:14:59.690205519 -05:00
+build/assets/img/events/headers/prototypes-process-play-2018.jpg: 2020-01-05 18:13:35.770605547
+  -06:00
+build/assets/img/events/headers/front-end-camp.jpg: 2017-12-29 12:01:25.417137686
+  -06:00
+build/assets/img/events/headers/ux-camp.jpg: 2017-12-29 12:01:25.461407428 -06:00
+build/assets/img/events/headers/prototype-camp.jpg: 2017-12-29 12:01:25.420941124
+  -06:00
+build/assets/img/events/headers/mobile-camp.jpg: 2017-12-29 12:01:25.419580603 -06:00
+build/assets/img/events/headers/leadership-by-design.jpg: 2020-01-05 18:13:35.759597056
+  -06:00
+build/assets/img/events/locations/harrington.jpg: 2017-12-29 12:01:25.464710949 -06:00
+build/assets/img/events/locations/big-nerd-ranch.jpg: 2017-12-29 12:01:25.462772198
+  -06:00
+build/assets/img/events/locations/moz.jpg: 2017-12-29 12:01:25.466419756 -06:00
+build/assets/img/events/locations/columbia-college.jpg: 2017-12-29 12:01:25.463919007
+  -06:00
+build/assets/img/events/locations/university-of-minnesota.jpg: 2017-12-29 12:01:25.468652728
+  -06:00
+build/assets/img/events/locations/madpow.jpg: 2017-12-29 12:01:25.465566975 -06:00
+build/assets/img/events/swag/lbd-2020-black.png: 2020-12-20 18:22:17.090440424 -06:00
+build/assets/img/events/swag/lbd-2020-blue.png: 2020-12-20 18:22:17.094481719 -06:00
+build/assets/img/events/swag/lbd-2020-pink.png: 2020-12-20 18:22:17.099373400 -06:00
+build/assets/img/events/swag/ux-camp-winter-2020.png: 2020-12-20 18:22:17.133827673
   -06:00
-build/assets/img/events/swag/ux-camp-fall-2020-gold.jpg: 2020-12-12 10:36:58.307903101
+build/assets/img/events/swag/ux-camp-fall-2020-gold.jpg: 2020-12-20 18:22:17.111045282
   -06:00
-build/assets/img/events/swag/ux-camp-spring-2020.png: 2020-12-12 10:36:58.310813286
+build/assets/img/events/swag/ux-camp-spring-2020.png: 2020-12-20 18:22:17.114340236
   -06:00
-build/assets/img/events/swag/ux-camp-fall-2020-blue.jpg: 2020-12-12 10:36:58.306435550
+build/assets/img/events/swag/ux-camp-fall-2020-blue.jpg: 2020-12-20 18:22:17.108631956
   -06:00
