@@ -8,8 +8,8 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 ---
 
 - sponsors = ["Boxes and Arrows", "Columbia College", "Demio", "Lead Honestly", "Nerditees"]
-- keynotes = ["Ashleigh Axios"]
-- speakers = ["Adam Polansky", "Ana Peralta", "Jess McPheron", "Jessi Shakarian", "Justin Dauer", "Kristen Lohman", "Natalie Kurz", "Yina Smith-Danenhower"]
+- keynotes = ["Ashleigh Axios", "Derek Featherstone"]
+- speakers = ["Adam Polansky", "Amy Jiménez Márquez", "Ana Peralta", "Jason Cranford Teague", "Jess McPheron", "Jessi Shakarian", "Justin Dauer", "Kristen Lohman", "Natalie Kurz", "Yina Smith-Danenhower"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -69,6 +69,12 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
       %h3 With the World on Fire
       
       %p Join Ashleigh Axios for an insightful and information-packed talk on the big and small lessons of a designer who works to make positive social change during times when the world seems to be perpetually set on fire. Learn about some of the biggest global issues of our day and the various ways creatives, and anyone with heart, can adapt their thinking and practices to help enable change.
+
+    - content_for :talk_derek_featherstone do
+
+      %h3 How We Do the Work Matters
+
+      %p We&8217;ve told ourselves and each other for years that we should be happy with small victories&mdash;we worked with our teams to make the world a little more accessible. And yes, knowing that we made a difference is both motivating and professionally satisfying. But what happens when that isn&8217;t enough? How can we measure our work? How do we know we are getting better at practicing our craft? The answer lies in how we actually do the work, because how we do the work actually matters.
 
     = partial "partials/events/speakers", locals: {speakers: keynotes}
 
@@ -247,6 +253,14 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 
       %p &hellip;it&#8217;ll be even better.
 
+    - content_for :talk_amy_jimenez_marquez do
+      
+      %h3 How to Make the Right Design Portfolio to Land Your Next Job
+
+      %p As a hiring manager at Amazon, I&#8217;ve seen a gazillion resumes and portfolios. I&8217;ve also been part of review panels for portfolio presentations from intern level to management roles. I&#8217;ve seen the patterns in what works, what doesn&#8217;t work, and what sets a candidate apart from the rest. In this talk, I&#8217;ll walk you through what you need to make a solid portfolio, no matter how much of your design work you&#8217;re allowed to show.
+
+      %p If you&#8217;ve ever applied for a design job, you&#8217;ve probably had to make a portfolio. From all levels&mdash;entry to senior leadership&mdash;hiring managers are asking to see portfolios. What if you have nothing you&#8217;re allowed to show because of IP restrictions? What if you&#8217;re a voice designer or information architect? Or, heaven forbid, a design manager being asked to present a portfolio? Relax, I can tell you exactly what you need to do. 
+
     - content_for :talk_ana_peralta do
       
       %h3 Running Design Sprint Kickoff Meetings Remotely with a Global Team
@@ -254,6 +268,25 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
       %p Do you work distributed/remotely? Does anyone on your team work distributed/remotely? Now, is your team spread out across different countries, continents and time zones? Welcome to my (career) life! In this talk, I will share tools, resources, methods and epic fail stories of ways I&#8217;ve attempted to run kick off design sprint meetings with multidisciplinary teams and how I manage to organize my work day in order to get it all done.
 
       %p With a set of prep work of templated documentation, team exercises and distribution of roles done in advance coupled with remote screen-sharing tools, anyone will able to keep the engagement, participation and morale levels high and efficient in their workshop running as if you were in all back in a meeting room.
+
+    - content_for :talk_jason_cranford_teague do
+      
+      %h3 How to Talk to Your Developers About Accessibility
+      
+      %p Although generally thought of as something only important to the &#8220;disabled&#8221;, considering accessibility for digital products improves everyones experience. This is true regardless of their particular abilities. Instead of treating accessibility as a checklist or afterthought, it&#8217;s important to build it into every decision being made in a technology project. Like many requirements that are commonly thought of as something included for a niche audience, accessibility is something that not only addresses the needs of the deaf or blind, it broadens the scope of how well all users interact with your product.
+
+      %p Accessibility is far more than just accommodating to a small audience of users with &#8220;special needs&#8221;. At its core, accessibility is about making sure that as wide an audience as possible can use the products you have worked so hard to create.
+
+      %p Although by no means the only myths that have built up around the limitations of making digital products accessible, these seven crop up most regularly. In this session, Jason will examine each myth individually, expose why they are not true, and talk about how to dispel them.
+
+      %ol.list-ol
+        %li Myth: Accessibility only helps the &#8220;disabled&#8221;
+        %li Myth: Accessibility is just about the visual and auditory
+        %li Myth: If we are 508 Compliant, we are accessible
+        %li Myth: Accessibility compliance is a checklist
+        %li Myth: Accessibility is the designer&#8217;s job
+        %li Myth: Accessibility takes too much time & costs more
+        %li Myth: Making a product accessible limits design possibilities
 
     - content_for :talk_jess_mcpheron do
       
@@ -307,7 +340,7 @@ summary: UX Camp Home Edition is a full day of UX Goodness&#8211;we&#8217;ll lea
 
       %p This talk is for UX designers, new or experienced, who are interested in the voice space. I&#8217;ll first introduce conversational design, how it is applied in many facets of daily life today including cars, home assistants, on phones, talking refrigerators and so on. I&#8217;ll go over the key differences between a visual and voice interface and the corresponding differences in usability testing and validation process. Then, I&#8217;ll identify any elements that the UX and Conversational design process share including user research, user flows, user stories, strategies and prototyping and testing, and how a UX designer can bring these skills into conversational design right away. 
 
-      %p We'll connect UX concepts to conversational design, so that you can articulate and relate your skills as an experienced UX designer. This information will help give you the background necessary to work with, for, or as a Conversational Designer if you haven&#8217;t done it before—and can also help you  when interviewing for a Conversational Design job. Resources and additional learning/courses in Conversational Design will also be shared.
+      %p We&#8217;ll connect UX concepts to conversational design, so that you can articulate and relate your skills as an experienced UX designer. This information will help give you the background necessary to work with, for, or as a Conversational Designer if you haven&#8217;t done it before—and can also help you  when interviewing for a Conversational Design job. Resources and additional learning/courses in Conversational Design will also be shared.
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
