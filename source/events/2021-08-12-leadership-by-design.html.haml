@@ -8,9 +8,9 @@ location: Online &mdash; Everywhere
 summary: Join us in Chicago to up your design leadership skills to drive products and organizations forward
 ---
 - sponsors = ["Boxes and Arrows", "Columbia College", "Demio", "Lead Honestly", "Nerditees"]
-- keynotes = ["Maggie Hsu"]
-- speakers = ["Alyssa Boehm", "Dani Nordin", "Helen Keighron", "Kara DeFrias", "Maria Pereda"]
-- lightning = []
+- keynotes = ["David Dylan Thomas", "Eva PenzeyMoog", "JR Miller", "Maggie Hsu", "Dr. Temple Grandin"]
+- speakers = ["Alyssa Boehm", "Carmen Bocanegra", "Carmen Medina", "Chris Avore", "Dani Nordin", "Helen Keighron", "Kara DeFrias", "Marc Rambeau", "Maria Pereda", "Meena Kothandaraman"]
+- lightning = ["Emily Haines Lloyd", "Megan Kellie", "Susan Salvi"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -384,15 +384,82 @@ summary: Join us in Chicago to up your design leadership skills to drive product
       %a.btn.btn-alt(href="https://chicagocamps.ticketspice.com/leadership-by-design-2021" rel="nofollow")
         Join Us for Only $20
 
+    -#
+      - content_for :talk_david_dylan_thomas do
+
+        %h3 Design for Cognitive Bias: Using Mental Shortcuts for Good Instead of Evil
+    
+    -#
+      - content_for :talk_eva_penzeymoog do
+
+        %h3 Justice, Safety, Compassion: Shifting the Ethical Tech Paradigm
+
+    - content_for :talk_jr_miller do
+
+      %h3 Meaningful Product Inclusion
+
+      %p This year Google Maps introduced a Black-owned business attribute. Learn more about how this project started, what it took to make it happen, and ways you can bring inclusive product development practices into your work.
+      
+    -#
+      - content_for :talk_maggie_hsu do
+
+        %h3 TBA
+      
+    -#
+      - content_for :talk_dr_temple_grandin do
+        %h3 The World Needs All Kinds of Minds
+
     %h3 Keynotes
     = partial "partials/events/speakers", locals: {speakers: keynotes}
+
+    -#
+      - content_for :talk_alyssa_boehm do
+      
+    - content_for :talk_carmen_bocanegra do
+
+      %h3 What Therapy Taught Me About Design &amp; Creating Healthy Teams
+
+      %p Maintaining a healthy self and extending that to our professional lives are journeys. The root cause of many of our inner and outer conflicts stem from the stories we tell ourselves. The beliefs that support those stories are deeply held and often unnamed. My therapy journey started on a cold, rainy day on a bus in Portland, OR. I knew I wanted to find peace, but what I gained was so much more. I learned to let go of beliefs that didn’t serve me personally or professionally. My goal is to share what I learned, how I reframed those beliefs in my own life, and what I learned about design in the process. 
+
+    -#
+      - content_for :talk_carmen_medina do
+
+        %h3 Redesigning Leadership
+
+    -#
+      - content_for :talk_chris_avore do
+      - content_for :talk_dani_nordin do
+      - content_for :talk_helen_keighron do
+      - content_for :talk_kara_defrias do
+      - content_for :talk_marc_rambeau do
+      - content_for :talk_maria_pereda do
+      
+    - content_for :talk_meena_kothandaraman do
+
+      %h3 The Cost of Not Conducting Qualitative Research in Organizations
+
+      %p When we fail to include the human story in the designs of our products and services, we fail humans. twig+fish has worked with global customers and we frequently hear the same challenges: no time, budget, or value to qualitative research output. Products suffer when they are not anchored in the human story, and the humans who create and use them struggle even more. Rather than talk about the ROI of conducting qualitative research, twig+fish began to study the cost of not doing it.
+
+      %p Meena Kothandaraman shares the results of this internal study that looks at the costs to organizations who have left their decision-making to sources other than the wisdom and insights gained from qualitative research.
 
     %h3 Sessions
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
     -#
-      %h3 Lightning
-      = partial "partials/events/speakers", locals: {speakers: lightning}
+      - content_for :talk_emily_haines_lloyd do
+
+        %h3 The Power of the Pep Talk
+      
+    - content_for :talk_susan_salvi do
+
+      %h5.lineup-subtitle.h-sm-caps-gray Megan &amp; Susan present:
+      
+      %h3 Someday A Bird Will Poop On You: A Book Reading of a Life Lesson
+
+      %p This is not a threat. It&#8217;s an informative reminder. Join us for a reading of the book by the author and illustrator, who will likely be wearing bird hats in spite of the fact that this is a grown up event. We&#8217;ll touch on the importance of resilience and the gift of being able to control our reactions to things we have no control over.
+
+    %h3 Lightning
+    = partial "partials/events/speakers", locals: {speakers: lightning}
 
 %section#location.main-content
   .container

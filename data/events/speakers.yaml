@@ -420,15 +420,24 @@ Carl Smith:
   bio: |
     <p>Carl Smith is an irreverent ditcher of the nine-to-five and mortal enemy of the overworked lifestyle. Owner and founder of nGen Works, Carl&#8217;s role is that of an advisor, to nGen and other companies, on how to create self-sustaining teams that perform at the highest levels. Carl has made a name for himself by creating a new framework for how we get things done, and by enabling us to realign our creative communities. When he&#8217;s not conducting business experiments with companies around the world, he&#8217;s busy sculpting a new face for the world of work&#8230; and play.</p>
 
+Carmen Bocanegra:
+  alias:   carmen-bocanegra
+  title:   "Senior UX Design Manager, Truss"
+  twitter: carmenboca
+  bio: |
+    <p>Since she first learned to talk, Carmen was encouraged to ask a lot of questions. It&#8217;s no wonder she gained a love of experimentation and a science degree, but she ended up at an advertising agency because it was different, so why not?</p>
+    <p>Over the past decade, Carmen has led teams through the process of research, strategy, and design. She took a brief stint to learn how to apply her design and research skills to physical spaces by earning a certification in interior design. Energized by ambiguity and forging a path forward when there is none, organizational design, Carmen seeks to understand how people are impacted by services, technology, and policy. A strong advocate for building trust between teams, clients, and the people they serve, she is focused on ensuring our language, code, and practices are inclusive and accessible to all.</p>
+    <p>After a couple cross-country moves, Carmen now lives in her home state of North Carolina and spends time AFK in the mountains with her spouse and her dog beside her.</p>
+
 Carmen Medina:
   alias:   carmen-medina
-  title:   "Heretic, Rebels at Work"
+  title:   "Owner, MedinAnalytics"
   twitter: milouness
   website: rebelsatwork.com
   bio: |
-    <p>Carmen, a retired Senior Federal Executive with 32 years&#8217; experience in the Intelligence Community, is a recognized national and international expert on intelligence analysis, strategic thinking, diversity of thought, and innovation and intrapreneurs in the public sector. She is the co-author of the new book: Rebels At Work: A Handbook for Leading Change from Within and of the landmark Deloitte University Press paper on Diversity&#8217;s New Fronter: Diversity of Thought and the Future of the Workplace. Her story as a heretic and change agent at CIA is featured in Wharton School professor Adam Grant&#8217;s new bestseller Originals: How Non-Conformists Move the World.</p>
-    <p>From 2005-2007 Carmen was part of the executive team that led the CIA&#8217;s Analysis Directorate; in her last assignment before retiring she oversaw the CIA&#8217;s Lessons Learned program and led the Agency&#8217;s first effort to address the challenges posed by social networks, digital ubiquity, and the emerging culture of collaboration. She was a leader on diversity issues at the CIA, serving on equity boards at all organizational levels and across Directorates. She was the first CIA executive to conceptualize many IT applications now used by analysts, including online production, collaborative tools, and Intellipedia, a project she personally green-lighted; as a senior executive, she began using in 2005 social networking and blogs to reach her diverse workforce. Upon her retirement from CIA, she received the Distinguished Career Intelligence Medal. From 2011—2015, Carmen was a member of Deloitte Federal Consulting where she served as senior advisor and mentor to Deloitte&#8217;s flagship innovation program, GovLab.</p>
-    <p>Carmen describes herself as Puerto Rican by birth and Texan by nationality. She likes to garden and cook things that she has grown.</p>
+    <p>Carmen is an organizational heretic and all-purpose troublemaker whose only real expertise is asking stupid questions and noticing odd, new things that might amount to something…or maybe not. Carmen spent 32 years at CIA but when you meet her you will hardly notice. The top five skills that people on LinkedIn endorse her for are government, national security, international relations, program management, and change management. But the people who think she&#8217;s a good program manager are sadly mistaken as Carmen describes herself as task-phobic. She is the co-author of the book: Rebels at Work: A Handbook for Leading Change from Within, which was informed by her career as a heretic at the CIA.</p>
+    <p>She likes to speak in public and will go just about anywhere if you pay her expenses. She is an in-demand expert on critical thinking, diversity of thought, and intrapreneurship, speaking to Fortune 500 companies, major non-profits, and governments. Some of her most recent presentations include speaking at South by Southwest 2019 and TEDxMidAtlantic on Surviving as a Change Agent, at SXSW2018 on avoiding the Mediocrity Trap, and on Critical Thinking at SXSW 2017. Recently she has spoken: to US Treasury officers on Diversity of Thought; to Canadian Federal senior executives about Diversity of Thought and Rebel Thinking, to the California STEM Education conference 2020, at the Business Innovation Factory 2017, and multiple times at GovLoop&#8217;s NextGen Leadership summit.</p>
+    <p>Carmen describes herself as Puerto Rican by birth and Texan by nationality. She likes to garden and cook things that she has grown. She has an extensive collection of Karaoke songs and you are always in danger of becoming the after-dinner entertainment.</p>
 
 Carolyn Chandler:
   alias:   carolyn-chandler
@@ -457,10 +466,10 @@ Cennydd Bowles:
 
 Chris Avore:
   alias:   chris-avore
-  title:   "Head of Design &amp; Customer Experience, Modus Create"
+  title:   "Product Design Manager, Facebook"
   twitter: erova
   bio: |
-    <p>Chris Avore is the Head of Design and Customer Experience at Modus Create, where he helps clients thrive by adopting customer-centric design and product development practices to grow and improve their business. Formerly, as a principal of InVision&#8217;s Design Transformation team, Chris advised the design teams of such world-class organizations as Netflix, frog, Morningstar, Boeing, Exxon Mobil, Verizon, AT&T,  increase their strategic influence, while helping the larger enterprise better understand the business value of design. Prior to joining InVision, Chris led the design and user experience organization at Nasdaq, where he scaled the practice from a solo contributor to a team of more than 30 researchers, visual designers, interaction designers, and data visualization experts originally serving one line of business to the entire enterprise.</p>
+    <p>Chris is a design manager who leads teams, drives product strategy, and helps executives understand the value of design. He has championed design, research, and content strategy to improve the services people use every day in organizations of all sizes and industries around the globe. He is the co-author of Liftoff! Practical Design Leadership to Elevate Your Team, Organization, and You! and regularly speaks at major conferences and local meetups regarding topics from design management, scaling design, and design operations.</p>
 
 Chris Courtney:
   alias:   chris-courtney
@@ -698,6 +707,14 @@ David Antognoli:
   bio: |
     <p>David Antognoli is a game developer and professor of game design at Columbia College Chicago. A game industry veteran with experience in both programming and game design roles, he has worked on projects with companies like Microsoft, Sega, 2K Games, and Nickelodeon. Now he finds creative refuge in independent game development and teaching others how to create amazing games.</p>
 
+David Dylan Thomas:
+  alias:   david-dylan-thomas
+  title:   "Author, speaker, filmmaker"
+  twitter: movie_pundit
+  website: daviddylanthomas.com
+  bio: |
+    <p>David Dylan Thomas, author of <em>Design for Cognitive Bias</em>, creator and host of The Cognitive Bias Podcast, and a twenty-year practitioner of content strategy and UX, has consulted major clients in entertainment, healthcare, publishing, finance, and retail. As the founder and CEO of David Dylan Thomas, LLC he offers workshops and presentations on inclusive design and the role of bias in making decisions. He has presented at TEDNYC, SXSW Interactive, Confab, An Event Apart, LavaCon, UX Copenhagen, Artifact, IA Conference, IxDA, Design and Content Conference, Emerging Technologies for the Enterprise, and the Wharton Web Conference on topics at the intersection of bias, design, and social justice.</p>
+
 David Farkas:
   alias:   david-farkas
   title:   "Sr. UX Designer, EPAM"
@@ -875,6 +892,15 @@ Emileigh Barnes:
     <p>Emileigh Barnes is a poet and design strategist. These days, she leads financial empowerment projects at Capital One, where she&#8217;s a member of the Bank Design Senior Leadership Team. Before that, she worked at 18F and in the Department of Justice.</p>
     <p>Emileigh is a lover of plain language and the Oxford comma, Emileigh led the content strategy for everykidinapark.gov and the Federal Election Commission&#8217;s digital transformation. She&#8217;s spoken about her work at conferences like UX Week, IA Summit, and Confab.</p>
 
+Emily Haines Lloyd:
+  alias:   emily-haines-lloyd
+  title:   "Writer &amp; Facilitator"
+  bio: |
+    <p>A copywriter, magazine contributor, and novelist&mdash;Emily Haines Lloyd has been telling stories her entire life.</p>
+    <p>Emily writes about creativity, transformation, living well, and occasionally frozen fish (we&#8217;ve all got bills to pay.) She&#8217;s published a book of inspiring, real-talk poems called <a href="https://www.amazon.com/Pep-Talk-Poetry-unmitigated-badass/dp/1073499839/" rel="nofollow">Pep Talk Poetry</a> and has contributed to a variety of publications including Medium, Elephant Journal, and Detroit News.</p>
+    <p>Emily also facilitates workplace training on the power of positivity, as well as breathing and meditation sessions. Because even if you don&#8217;t believe in harnessing your chi, we can all agree that a deep breath and some stretches never hurt anyone.</p>
+    <p>You can follow Emily at @WriterEm on Instagram, Facebook and Twitter for daily reminders that you&#8217;re an unmitigated badass. Or visit <a href="emilyhaineslloyd.com" rel="nofollow">emilyhaineslloyd.com</a> for more information.</p>
+
 Erin L. Thomas, PhD:
   alias:   erin-l-thomas
   title:   Diversity Manager, Grant Thornton
@@ -887,11 +913,11 @@ Erin L. Thomas, PhD:
 
 Eva PenzeyMoog:
   alias:   eva-penzeymoog
-  title:   Designer, 8th Light
+  title:   Principal Designer, 8th Light
   twitter: epenzeymoog
   website: evapenzeymoog.com
   bio: |
-    <p>Eva is a UX Designer and empathy enthusiast. She spends her time at work designing intuitive user experiences and leading diversity and inclusion initiatives. She spends her non-work time consuming as much zombie media as possible, creating cyanotype prints, and rubbing the bellies of her pitbulls, Hamlet and Horatio.</p>
+    <p>Eva PenzeyMoog is a Chicago-based UX designer who focuses on the emerging space of safety design. Before joining the tech field she worked in education non-profit and volunteered as a domestic violence educator and rape crisis counselor. Her safety design work brings together her expertise in domestic violence and technology, helping technologists understand how their creations facilitate interpersonal harm and how to prevent it through intentionally prioritizing the most vulnerable users. She is writing a book on the topic with publisher A Book Apart titled Designing for Safety, which will be available in September.</p>
 
 Fei Ren:
   alias:   fei-ren
@@ -1167,8 +1193,9 @@ Jessi Shakarian:
   alias:   jessi-shakarian
   title:   "Information Architect Apprentice, LA DIA"
   twitter: jessishakarian
+  website: jessishakarian.com
   bio: |
-    <p>Jessi Shakarian got her start in tech as a developer, but she loved everything that happened before it was time to build a website. She is currently a freelance content strategist and an information architect apprentice at LA DIA Design in Los Angeles. Her writings about chess have been featured on UXCollective and Chessable. She is currently writing a book about the UX of chess.</p>
+    <p>Jessi Shakarian got her start in tech as a developer, but she loved everything that happened before it was time to build a website. She is currently a UX consultant in the chess industry and an information architect apprentice at DIA Design Guild in Los Angeles. Her writings about chess have been featured on UXCollective and Chessable. She is currently writing a book about the design of chess and how it can inform design work.</p>
 
 Jessica Bertling:
   alias:   jessica-bertling
@@ -1235,6 +1262,14 @@ Jonathan Snook:
   website: snook.ca
   bio: |
     <p>Jonathan Snook writes about tips, tricks, and bookmarks on his blog at <a href="http://snook.ca/" rel="nofollow">Snook.ca</a>. He has also written for A List Apart, 24ways, and .net magazine, and has co-authored two books, The Art and Science of CSS and Accelerated DOM Scripting. He has recently written the book, Scalable and Modular Architecture for CSS, sharing his experience and best practices. Snook currently works on the design team at Shopify.</p>
+
+JR Miller:
+  alias:   jr-miller
+  title:   "UX Writing Lead &amp; Product Designer, Google"
+  twitter: heyimjrmiller
+  webdsite: heyimjr.com
+  bio: |
+    <p>JR Miller is a Caribbean-American writer, designer, and speaker in the Bay Area. He&#8217;s worked on design and brand initiatives for companies such as Google, cPanel, and Grooveshark. An advocate for human-centered design, JR believes in bringing inclusivity and accessibility to every stage of product development and brand storytelling. He&#8217;s a pragmatic idealist whose motto is: &#8220;complex ideas, simple sentences.&#8221; His latest article, Racism for Designers, shares his thoughts on how brands can do their part to design a reality that fits everyone.</p>
 
 Julia Beauchamp Kraft:
   alias:   julia-beauchamp-kraft
@@ -1478,6 +1513,15 @@ Maggie Hsu:
   bio: |
     <p>Maggie Hsu is a Co-Founder of Gold House, a nonprofit collective of pioneering Asian leaders dedicated to systematically accelerating the Asian diaspora&#8217;s societal impact while enhancing the community&#8217;s cultural legacy. She is also is the Alliance Manager for Blockchain at Amazon Web Services. Prior to that, she led business development for Fluidity, a platform for tokenizing securities based on the Ethereum blockchain. Maggie was previously Chief of Staff to Tony Hsieh, CEO of Zappos.com. Prior to that, Maggie was Director of Strategy at Hilton Worldwide and a consultant at McKinsey &amp; Company. She is a Co-Founder of Mochi Magazine, an online magazine for Asian Americans. Maggie holds undergraduate and MBA degrees from Harvard University.</p>
 
+Marc Rambeau:
+  alias:   marc-rambeau
+  title:   "Director of Content Strategy, U.Group"
+  twitter: marcrambeau
+  bio: |
+    <p>Marc leads content strategy, content design and copywriting at U.Group.</p>
+    <p>His team cuts through the cruft to drive action and simplify services. They help protect Americans from loan sharks, promote our national parks, fight child hunger and more. Their work has won MarCom, Webby, ADDY and Challenge.gov awards.</p>
+    <p>Marc has crafted content strategies for Fortune 500 companies, federal agencies and nonprofits. He has spoken about human-centered content at events like Drupal GovCon. He has also been a writer, an editor, a producer and a project manager. Before joining U.Group, he helped modernize a $37 million portfolio of public diplomacy platforms at the State Department.</p>
+
 Marcin Treder:
   alias:   marcin-treder
   title:   "Founder &amp; CEO, UXPin"
@@ -1592,10 +1636,11 @@ Max Temkin:
 Meena Kothandaraman:
   alias:   meena-kothandaraman
   title:   "Experience Strategist, twig+fish"
+  twitter: meena_ko
   bio: |
     <p>With 30 years of experience, Meena has consulted to emphasize the strategic value and positioning of qualitative research in the design of product, space and service. Meena is fascinated by the complexity of human behavior, and applies a credible, structured and transparent approach to integrating human stories and anecdotes into mainstream processes. This ensures that research activities provide the best service to the organization, and that learning objectives are addressed to maximize potential.</p>
-    <p>Meena is a founding member of twig+fish, a research and strategy practice based in Boston, MA, that espouses these research beliefs, while maintaining a utopic work-life balance. She is also a key Lecturer in the Bentley University Human Factors and Information Design (HFID) graduate program. Over her 20-year tenure, her capstone qualitative research course has guided now-leading practitioners to integrating meaningful and successful research practices.</p>
-    <p>She holds an M.S. in Information Resources Management from Syracuse University and a B.Com. in MIS from the University of Ottawa, Canada. Meena is always inspired in her work by her other passions, namely performing as a South-Indian Classical Violinist, pursuing culinary arts through a cooking show, and staying up to date with knowledge by her two children!</p>
+    <p>Meena is a founding member of <a href="http://www.twigandfish.com/" rel="nofollow">twig+fish</a>, a research and strategy practice based in Boston, MA, that espouses these research beliefs, while maintaining a utopic work-life balance. She is also a key Lecturer in the Bentley University Human Factors and Information Design (HFID) graduate program. Over her 20-year tenure, her capstone qualitative research course has guided now-leading practitioners to integrating meaningful and successful research practices.</p>
+    <p>She holds an M.S. in Information Resources Management from Syracuse University and a  B.Com . in MIS from the University of Ottawa, Canada. Meena is always inspired in her work by her other passions, namely performing as a South-Indian Classical Violinist, pursuing culinary arts through a cooking show, and staying up to date with her two teenager interests!</p>
 
 Meg Lewis:
   alias:   meg-lewis
@@ -1609,7 +1654,7 @@ Megan Kellie:
   alias:   megan-kellie
   title:   "Writer, Actor, Improviser, Illustrator"
   bio: |
-    <p>Megan Kellie is a writer, actor, improviser and illustrator. She lives in Chicago where she regularly repurposes cardboard and goes to Blick. She performs all around the city, and has just started showing her art things in places. You can find her <a href="https://twitter.com/flipflipflap">@flipflipflap</a> very sporadically on Twitter and less sporadically <a href="https://instagram.com/imdrawinghere">@imdrawinghere</a> on Instagram.</p>
+    <p>Megan Kellie is a writer, actor, improviser and illustrator. She lives in Chicago where she regularly repurposes cardboard and goes to Blick. She performs all around the city, and has just started showing her art things in places. You can find her <a href="https://twitter.com/flipflipflap" rel="nofollow">@flipflipflap</a> very sporadically on Twitter and less sporadically <a href="https://instagram.com/imdrawinghere" rel="nofollow">@imdrawinghere</a> on Instagram.</p>
 
 Megan Machamer:
   alias:   megan-machamer
@@ -2125,7 +2170,7 @@ Dr. Temple Grandin:
   twitter: drtemplegrandin
   website: templegrandin.com
   bio: |
-    <p>Temple Grandin is an American professor of animal science at Colorado State University, a best-selling author, an autistic activist, and a consultant to the livestock industry on animal behavior. She also invented the &#8220;hug box&#8221;, a device to calm those on the autism spectrum. The subject of an award-winning, 2010 biographical film, Temple Grandin, she also was listed in the Time 100 list of the one hundred most influential people in the world in the &#8220;Heroes&#8221; category.</p>
+    <p>Dr. Temple Grandin, a world-renowned autism spokesperson, scientist, and inventor, has served as an inspiration and role model to hundreds of thousands of families and persons with autism. In this unique presentation, Temple eloquently and candidly describes the challenges she has faced and offers glimpses into her own childhood, with ideas on how others dealing with autism can meet these obstacles and improve the quality of their lives. Backed by her personal experience and evidence-based research, Temple shares her valuable insights on all types of thinkers (i.e. pattern, visual, and audio thinkers), why they are important, what jobs they are best suited for and ways in which young people can continue to think about and understand what it means to be innovative.</p>
 
 Todd Zaki Warfel:
   alias:   todd-zaki-warfel
