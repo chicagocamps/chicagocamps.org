@@ -10,7 +10,7 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 - sponsors = ["Boxes and Arrows", "Columbia College", "Demio", "Lead Honestly", "Nerditees"]
 - keynotes = ["David Dylan Thomas", "Eva PenzeyMoog", "JR Miller", "Dr. Temple Grandin"]
 - speakers = ["Carmen Bocanegra", "Carmen Medina", "Chris Avore", "Lisa deBettencourt", "Marc Rambeau", "Meena Kothandaraman"]
-- interstitials = ["Emily Haines Lloyd", "Megan Kellie", "Susan Salvi"]
+- interstitials = ["Christine McGlade", "Emily Haines Lloyd", "Megan Kellie", "Susan Salvi"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -413,10 +413,13 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 
       %p Maintaining a healthy self and extending that to our professional lives are journeys. The root cause of many of our inner and outer conflicts stem from the stories we tell ourselves. The beliefs that support those stories are deeply held and often unnamed. My therapy journey started on a cold, rainy day on a bus in Portland, OR. I knew I wanted to find peace, but what I gained was so much more. I learned to let go of beliefs that didn&#8217;t serve me personally or professionally. My goal is to share what I learned, how I reframed those beliefs in my own life, and what I learned about design in the process. 
 
-    -#
-      - content_for :talk_carmen_medina do
+    - content_for :talk_carmen_medina do
 
-        %h3 Redesigning Leadership
+      %h3 Redesigning Leadership
+
+      %p After 45 years in the labor force, more than 30 of them in so-called leadership positions, I&#8217;ve learned that just about everything I was ever taught formally about leadership was wrong. My advice today for someone aspiring to be a leader would be quite different from what I was brainwashed to believe.
+
+      %p I&#8217;ve got six basic principles to share, and the seventh one is no matter how convincing I may sound, be your own person and become the leader you uniquely are meant to be.
 
     -#
       - content_for :talk_chris_avore do
@@ -440,17 +443,25 @@ summary: Join us in Chicago to up your design leadership skills to drive product
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
     -#
-      - content_for :talk_emily_haines_lloyd do
+      - content_for :talk_christine_mcglade do
+    
+    - content_for :talk_emily_haines_lloyd do
 
-        %h3 The Power of the Pep Talk
+      %h3 The Power of the Pep Talk
+
+      %p Think pep talks are just for overzealous sports coaches and kinda-culty motivational speakers? Think again. 
+
+      %p Life is tough, but so are we. And we&#8217;re even tougher when we&#8217;re in it together. Sometimes you just need a reminder that you&#8217;re an unmitigated badass. 
+
+      %p Author, Emily Haines Lloyd, will read from her book Pep Talk Poetry and talk about why pep talks are so important, why she wrote a book chock full of them, and how to cheer on anyone who is struggling, including yourself.
       
     - content_for :talk_susan_salvi do
 
       %h5.lineup-subtitle.h-sm-caps-gray Megan &amp; Susan present:
       
-      %h3 Someday A Bird Will Poop On You: A Book Reading of a Life Lesson
+      %h3 A Reading of &#8220;Someday a Bird Will Poop on You: A Life Lesson&#8221;
 
-      %p This is not a threat. It&#8217;s an informative reminder. Join us for a reading of the book by the author and illustrator, who will likely be wearing bird hats in spite of the fact that this is a grown up event. We&#8217;ll touch on the importance of resilience and the gift of being able to control our reactions to things we have no control over.
+      %p Megan Kellie and Sue Salvi read through their book, &#8220;Someday a Bird Will Poop on You: A Life Lesson,&#8221; which uses avian evacuation as a metaphor for those things in life we can&#8217;t control. Megan and Sue will also extrapolate and explore aspects of the book you never would have considered because you didn&#8217;t create it. If you did, please email us so we can clear this up.
 
     %h3 Interstitials
     = partial "partials/events/speakers", locals: {speakers: interstitials}
