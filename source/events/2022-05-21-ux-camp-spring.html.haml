@@ -8,8 +8,8 @@ summary: UX Camp Spring Home Edition is a full day of UX Goodness&#8211;we&#8217
 ---
 
 - sponsors = ["Demio", "Lead Honestly"]
-- keynotes = []
-- speakers = []
+- keynotes = ["Christian Crumlish"]
+- speakers = ["Casey Hald", "Emily Wachowiak", "Jessi Shakarian", "Julia Beauchamp Kraft"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -18,9 +18,9 @@ summary: UX Camp Spring Home Edition is a full day of UX Goodness&#8211;we&#8217
         %a(href="#top" rel="nofollow") UX Camp
       %li
         %a(href="#details" rel="nofollow") Details
+      %li
+        %a(href="#keynotes" rel="nofollow") Keynotes
       -#
-        %li
-          %a(href="#keynotes" rel="nofollow") Keynotes
         %li
           %a(href="#schedule" rel="nofollow") Schedule
       %li
@@ -59,15 +59,22 @@ summary: UX Camp Spring Home Edition is a full day of UX Goodness&#8211;we&#8217
 
     %p We&#8217;re actively looking for <a href="/contact/">sponsors</a> for UX Camp: Home Edition. If you&#8217;re interested, or if you know someone we should talk to, <a href="/contact/">please let us know!</a>
 
--#
-  %section#keynotes.main-content.main-bg-alt
-    .container
+%section#keynotes.main-content.main-bg-alt
+  .container
 
-      %h3.h-section Keynotes
+    %h3.h-section Keynotes
 
-      -# - content_for :talk_ashleigh_axios do
+    - content_for :talk_christian_crumlish do
 
-      = partial "partials/events/speakers", locals: {speakers: keynotes}
+      %h3 Product Management for UX People
+      
+      %p <strong>&#8220;Why is a product Manager telling me what to do?&#8221;</strong> &#8220;Plus, how is software even a product?&#8221; &#8220;What do product managers want and why are they so frustrating?&#8221; Have you ever asked yourself any of these questions? Meet product managers where they live. They make decisions all day long. They don&#8217;t get to say &#8220;it depends.&#8221; Most of the time they don&#8217;t actually make the decision&mdash;they just make sure it gets made right. They have to keep the build, measure, learn cycle. They have to cajole engineers. They have to persuade stakeholders to support a focused roadmap. Have some sympathy for the PM.
+
+      %p <strong>I feel your pain.</strong? It can be a struggle to influence product direction (before it&#8217;s too late). It&#8217;s not easy to coax requirements out of PM partners. Presenting design & research work can feel like speaking a different language. How product managers generally prioritize initiatives can be opaque. These pain points are widespread because UX and PM roles are still feeling out how to work well together. What can you do?
+
+      %p <strong>Use your UX superpowers:</strong> Bring your creative problem-solving superpower to the table through your command of art, craft, and communication. Overcome the challenged of synthesizing product research with your systems thinking. Lend your taxonomy wisdom, whether via IA or content strategy, to your product partner&#8217;s amorphous model. Contribute your contextual inquiry and qualitative research skills to get beyond the what of data to the why of understanding. Facilitate the prioritization and alignment needs of the product behind all those workshop hours with the stickies and the dot voting. But most of all, design a good friggin&#8217; user experience for the people trying to work with you.
+
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 -#
   %section#schedule.main-content.main-bg-highlight
@@ -230,7 +237,50 @@ summary: UX Camp Spring Home Edition is a full day of UX Goodness&#8211;we&#8217
       .event-cta
         %a.btn.btn-alt(href="/proposal/") Submit your talk
 
-    -# - content_for :talk_adam_polansky do
+    - content_for :talk_casey_hald do
+      
+      %h3 Introduction to UXE (UX Engineering)
+      
+      %p UX Engineers are there not only to help enforce design patterns, but to be creative with coded solutions that assist in speeding up user testing in environments that add security for both the participant and interviewer. I am going to show how code methodologies and current frameworks can help communicate design decisions and drive a cohesive bond with other teams inside your organization.
+
+      %p The one thing every designer can agree on is that design sometimes doesn&#8217;t translate perfectly into production environments. There can be glaring alignment issues, misuse of fonts, and all sorts of weird color interpretations development teams make, simply because they make too many assumptions and rush to make deadlines. Imagine not just delivering a design file to developers&mdash;but an entire coded framework with precise css code that guarantees design fidelity. A UX Engineer is a designer&#8217;s best friend.
+
+      %p As UX continues to grow and evolve, the more need there is to have prototypes available to share with clients, pitch for funding and resources, and iterate patterns with design teams. UX Engineers allow designers to see and test their work in real world applications outside of design software, and create a more cohesive bond with development teams.
+
+    - content_for :talk_emily_wachowiak do
+      
+      %h3 Don&#8217;t Fear the Spreadsheet: A Guide to Content Audits for Product Teams
+      
+      %p Audits are a go-to tool for cataloging and optimizing website content, and they can also be your product team&#8217;s secret weapon. Examining key features and flows of your product through a content lens will help you systematically identify gaps, inconsistencies, and usability improvements. How can you make sure that your audit leads to concrete, meaningful product changes&mdash;not just lines on a spreadsheet? There&#8217;s no one-size-fits-all template, but there are a few frameworks, tips, and strategies for getting results&mdash;and buy-in&mdash;without getting overwhelmed. 
+
+      %p Auditing a product is much different than auditing a website. Instead of scraping URLs, you&#8217;ll need to capture and track multiple screens and states, like errors and form fields. And you&#8217;ll need to translate your findings into a digestible story for product and engineering partners. From scoping and conducting your content audit to tracking and sizing your recommendations in an engineer-friendly format, this session will help you turn your audit findings into real product improvements.
+
+    - content_for :talk_jessi_shakarian do
+      
+      %h3 Taxonomizing Accessibility Through Games
+      
+      %p Ensuring accessibility implementation in our designs can be a daunting process. It can feel like trying to do a jigsaw puzzle without knowing what the final image looks like. How do we begin to think about these needs and requirements of such a wide variety of users—which is really all users? There is no one-size-fits-all answer, however, there are ways to make the process appear to be less of a challenge and more &#8220;how we work.&#8221;
+
+      %p Come explore different categories of disabilities and access types, select game examples that portray constraints and access in action, and the design principles that will help designers understand the agency users need to make digital experiences accessible and available to all.
+    
+    - content_for :talk_julia_beauchamp_kraft do
+      
+      %h3 Confident Communication: Overcome Public Speaking Fear &amp; Be Fully Expressed
+      
+      %p Being a confident communicator is not just the way you act, talk, and look. It&#8217;s a habitual way of thinking and reacting. 
+
+      %p In this talk, you will learn how to make small changes to your words, tone, and non-verbal communication to improve how you interact in high-stakes personal and professional communications.
+
+      %p This talk will help you develop the ability to:
+      
+      %ul.list-ul
+        %li Manage your nervous system when anxiety, fear and self-consciousness take over
+        %li Systematically develop rock-solid confidence you can rely on
+        %li Navigate the virtual speaking world and come across as a credible expert
+        %li Effectively communicate verbally and non-verbally for influence
+        %li Uncover what&#8217;s holding you back from being fully expressed
+      
+      %p Even though everything has gone virtual the world still needs your presence and message. Open up to more visibility, confidence and comfort in your skin on camera and in life!
 
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
