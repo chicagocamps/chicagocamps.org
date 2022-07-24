@@ -9,7 +9,7 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 ---
 - sponsors = ["Demio", "Lead Honestly"]
 - keynotes = []
-- speakers = []
+- speakers = ["Anne Hjortshoj", "Liya James", "Natalie M Dunbar"]
 - interstitials = []
 
 %nav.event-nav.group(data-js="event-nav")
@@ -338,12 +338,22 @@ summary: Join us in Chicago to up your design leadership skills to drive product
         %a.btn.btn-alt(href="https://chicagocamps.ticketspice.com/leadership-by-design-2021" rel="nofollow")
           Join Us for Only $20
 
+    - content_for :talk_anne_hjortshoj do
+
+      %h3 Stage Zero: What to Know When Starting a Design Team from Scratch
+
+      %p Congratulations! You&#8217;ve accepted a job where you&#8217;ll have the great privilege of leading design at a company the way you&#8217;d like to lead it, by building a team the way you&#8217;d like to build it&hellip; for a company that has never worked with designers. 
+
+      %p During this talk, I&#8217;ll share the lessons I&#8217;ve learned from my experience during the last decade of building three teams at three very different organizations. I&#8217;ll describe what to expect as far as ups and downs of the challenge you&#8217;ve just accepted, and will provide a playbook to help you and your team find success. Additionally, I&#8217;ll provide tips to help you select the right company to join in the first place.
+
+    -#
       %h3 Keynotes
       = partial "partials/events/speakers", locals: {speakers: keynotes}
 
-      %h3 Sessions
-      = partial "partials/events/speakers", locals: {speakers: speakers}
+    %h3 Sessions
+    = partial "partials/events/speakers", locals: {speakers: speakers}
 
+    -#
       %h3 Interstitials
       = partial "partials/events/speakers", locals: {speakers: interstitials}
 
