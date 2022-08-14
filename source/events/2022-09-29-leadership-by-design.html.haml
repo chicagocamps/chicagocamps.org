@@ -8,9 +8,9 @@ location: Online &mdash; Everywhere
 summary: Join us in Chicago to up your design leadership skills to drive products and organizations forward
 ---
 - sponsors = ["Demio", "Lead Honestly"]
-- keynotes = []
+- keynotes = ["Carol J. Smith", "Wil Reynolds"]
 - speakers = ["Anne Hjortshoj", "Liya James", "Natalie M Dunbar"]
-- interstitials = []
+- interstitials = ["Emily Haines Lloyd"]
 
 %nav.event-nav.group(data-js="event-nav")
   .container
@@ -27,10 +27,9 @@ summary: Join us in Chicago to up your design leadership skills to drive product
       %li
         %a(href="#location" rel="nofollow") Location
 
-    -#
-      %a.btn.btn-alt.event-nav-btn(href="https://chicagocamps.ticketspice.com/leadership-by-design-2021" rel="nofollow")
-        Join Us for
-        %strong Only $20
+    %a.btn.btn-alt.event-nav-btn(href="https://chicagocamps.ticketspice.com/leadership-by-design-2022" rel="nofollow")
+      Join Us for
+      %strong Only $15
 
 %section#overview.main-content
   .container
@@ -47,10 +46,9 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 
     %p Normally, we&#8217;d all be heading to downtown Chicago-including all of these wonderful speakers. We&#8217;re used to amazing views, great coffees, too many snacks, and a lot of local Chicago-area food goodness. Since we can&#8217;t do that we&#8217;re going to postpone our full sessions until 2023.
 
-    -#
-      .event-cta
-        %a.btn.btn-alt(href="https://chicagocamps.ticketspice.com/leadership-by-design-2021" rel="nofollow")
-          Join Us for Only $20
+    .event-cta
+      %a.btn.btn-alt(href="https://chicagocamps.ticketspice.com/leadership-by-design-2022" rel="nofollow")
+        Join Us for Only $15
 
     %h3 Meet Our Awesome Sponsors
     
@@ -69,10 +67,9 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 
       %p Hone your design leadership skills over two days. A carefully curated single-track approach ensures that you can attend every session and have a truly shared experience with other attendees and speakers.
 
-      -#
-        .event-cta
-          %a.btn.btn-alt(href="https://chicagocamps.ticketspice.com/leadership-by-design-2021" rel="nofollow")
-            Join Us for Only $20
+      .event-cta
+        %a.btn.btn-alt(href="https://chicagocamps.ticketspice.com/leadership-by-design-2022" rel="nofollow")
+          Join Us for Only $15
 
       %h3 Thursday, August 12th
 
@@ -333,10 +330,9 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 
     %p Great thinking on design leadership is found in many forms in many industries. We&#8217;ve curated an incredible lineup of design experts, mentors, and coaches from diverse fields to help you down your own leadership path. Our single-track format ensures you&#8217;ll get to learn from every one of them.
 
-    -#
-      .event-cta
-        %a.btn.btn-alt(href="https://chicagocamps.ticketspice.com/leadership-by-design-2021" rel="nofollow")
-          Join Us for Only $20
+    .event-cta
+      %a.btn.btn-alt(href="https://chicagocamps.ticketspice.com/leadership-by-design-2022" rel="nofollow")
+        Join Us for Only $15
 
     - content_for :talk_anne_hjortshoj do
 
@@ -346,16 +342,28 @@ summary: Join us in Chicago to up your design leadership skills to drive product
 
       %p During this talk, I&#8217;ll share the lessons I&#8217;ve learned from my experience during the last decade of building three teams at three very different organizations. I&#8217;ll describe what to expect as far as ups and downs of the challenge you&#8217;ve just accepted, and will provide a playbook to help you and your team find success. Additionally, I&#8217;ll provide tips to help you select the right company to join in the first place.
 
-    -#
-      %h3 Keynotes
-      = partial "partials/events/speakers", locals: {speakers: keynotes}
+    - content_for :talk_carol_j_smith do
+
+      %h3 Ethics &amp; Trust for Emerging Technologies
+
+      %p Emerging technologies such as automated vacuums and smart refrigerators are becoming more common in homes, and we all find ourselves conversing regularly with chatbots (whether we want to or not!). As these systems augment humans at work and at play, design teams are challenged with managing the complexity of the interactions, and need to ensure that humans are kept safe and in control. Unfortunately, ethical statements such as &#8220;do no harm&#8221; are simplistic and unhelpful when designing complex interactions. 
+
+      %p Carol will introduce practical approaches that integrate ethical design principles; engage teams in speculative work to proactively identify bias and harms; and help you and your team to focus on supporting users in gaining calibrated trust of these new systems. Strong leadership and facilitation skills are needed to guide teams through these often uncomfortable discussions. Be prepared to guide your team successfully through this important work.
+
+    - content_for :talk_cwil_reynolds do
+
+      %h3 Fireside Chat
+      
+      %p Wil has been helping Fortune 500 companies develop brand marketing strategies since 1999. Wil&#8217;s data-driven approach to consulting helps clients and their teams make better, more strategic, cross-channel decisions and hit the ground running with honest, actionable insights to start generating results and revenue. As Seer&#8217;s Vice President of Innovation, Wil develops strategies and innovations to help clients build traffic and make money. Over the past two decades, his methods have helped shape the search industry and he regularly speaks at marketing conferences worldwide.
+
+    %h3 Keynotes
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
     %h3 Sessions
     = partial "partials/events/speakers", locals: {speakers: speakers}
 
-    -#
-      %h3 Interstitials
-      = partial "partials/events/speakers", locals: {speakers: interstitials}
+    %h3 Interstitials
+    = partial "partials/events/speakers", locals: {speakers: interstitials}
 
 %section#location.main-content
   .container
