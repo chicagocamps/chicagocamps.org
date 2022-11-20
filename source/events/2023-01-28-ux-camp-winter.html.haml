@@ -8,7 +8,7 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 ---
 
 - sponsors = ["Boxes and Arrows", "Lead Honestly", "Nerditees"]
-- keynotes = []
+- keynotes = ["Dani Nordin", "Stephen P. Anderson"]
 - speakers = ["Kevin Klos"]
 
 %nav.event-nav.group(data-js="event-nav")
@@ -18,9 +18,9 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
         %a(href="#top" rel="nofollow") UX Camp
       %li
         %a(href="#details" rel="nofollow") Details
+      %li
+        %a(href="#keynotes" rel="nofollow") Keynotes
       -#
-        %li
-          %a(href="#keynotes" rel="nofollow") Keynotes
         %li
           %a(href="#schedule" rel="nofollow") Schedule
       %li
@@ -59,15 +59,42 @@ summary: UX Camp is a full day of UX Goodness&#8211;we&#8217;ll leave few topics
 
     %p We&#8217;re actively looking for <a href="/contact/">sponsors</a> for UX Camp: Home Edition. If you&#8217;re interested, or if you know someone we should talk to, <a href="/contact/">please let us know!</a>
 
--#
-  %section#keynotes.main-content.main-bg-alt
-    .container
 
-      %h3.h-section Keynotes
+%section#keynotes.main-content.main-bg-alt
+  .container
 
-      -# - content_for :talk_ashleigh_axios do
+    %h3.h-section Keynotes
 
-      = partial "partials/events/speakers", locals: {speakers: keynotes}
+    - content_for :talk_dani_nordin do
+    
+      %h3 Practical Design Strategy: Creating a Human Centered Roadmap for Ambulatory Surgical Centers
+
+      %p Ambulatory Surgery Centers (ASCs) are a rapidly growing segment of the US healthcare ecosystem, enabling providers to perform same-day outpatient procedures in a safe and cost-effective environment outside the hospital setting. In 2018, ~5700 ASCs performed 23 million outpatient procedures and generated $35 billion in revenue. However, Electronic Health Records (EHRs) are clunky and ill-suited to the needs of these centers, causing many ASCs to turn to paper charts scanned into the EHR.
+
+      %p In 2021, a Product Lead and UX Lead were tasked to define a purpose-built ASC solution that enabled our clients to document surgical cases within the ASC, seamlessly sharing information between the patient’s surgical chart and their clinic chart. Through collaborative site visits, service blueprinting, and interviews, we:
+
+      %ul.list-ul
+        %li Arrived at a clear human-centered vision and roadmap for the product
+        %li Coordinated across functions to align on strategy, scope, and resourcing
+        %li Prioritized and validated a list of near- and longer-term requirements
+        %li Built and socialized an investment case for resources
+      
+      %p In this presentation, we will share the process we went through to arrive at a successful, human-centered product vision and roadmap. We will also share lessons learned, such as:
+
+      %ul.list-ul
+        %li How do you build and maintain effective, impactful partnerships between UX and Product while crafting strategy?
+        %li How do you convey findings that engage an audience that ranges from C-level executives to sales professionals to scrum teams?
+        %li How do you maintain a human-centered lens while discussing product tradeoffs and prioritizing investment?
+        %li How do you stay in touch with the higher-level strategy while empowering the teams who have to take on the work to own the problem space?
+      
+      %p Expect to leave the presentation with a few new tricks up your sleeve, some interesting lessons on stakeholder management, and a bit more information about surgery coordination than you thought you’d ever need.
+
+    -#
+      - content_for :talk_stephen_p_anderson do
+
+        %h3 Make Believe: Using Fantasy to Change How We Think, Work, &amp; Connect with Pthers
+
+    = partial "partials/events/speakers", locals: {speakers: keynotes}
 
 -#
   %section#schedule.main-content.main-bg-highlight
